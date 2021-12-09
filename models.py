@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 
-from transformers import AutoTokenizer, AutoModel, AutoConfig
+from transformers import AutoTokenizer, AutoModel, AutoConfig, T5ForConditionalGeneration, BartForConditionalGeneration
 
 import logging
 
@@ -37,8 +37,10 @@ def bulid_or_load_gen_model(args):
         model = Seq2Seq(encoder=encoder, decoder=decoder,
                         config=config, beam_size=args.beam_size, max_length=args.max_target_length,
                         sos_id=tokenizer.cls_token_id, eos_id=tokenizer.sep_token_id)
-    else:
-        model = AutoModel.from_pretrained(checkpoint)
+    elif args.model_name in ['t5', 'codet5']:
+        model = T5ForConditionalGeneration.from_pretrained(checkpoint)
+    elif args.model_name in ['bart', 'plbart']:
+        model = BartForConditionalGeneration.from_pretrained(checkpoint)
 
     logger.info("Finish loading model [%s] parameters from %s", get_model_size(
         model), args.model_name)

@@ -113,4 +113,4 @@ def set_hyperparas(args):
         if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
             args.batch_size = 48
         elif args.model_name in ['t5', 'codet5']:
-            args.batch_size = 16
+            args.batch_size = 32
