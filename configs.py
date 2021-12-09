@@ -51,6 +51,20 @@ def add_args(parser):
     parser.add_argument("--start_epoch", default=0, type=int)
     parser.add_argument("--num_train_epochs", default=100, type=int)
     parser.add_argument("--patience", default=5, type=int)
+    parser.add_argument('--gradient_accumulation_steps', type=int, default=1,
+                        help="Number of updates steps to accumulate before performing a backward/update pass.")
+    parser.add_argument("--lr", default=5e-5, type=float,
+                        help="The initial learning rate for Adam.")
+    parser.add_argument("--beam_size", default=10, type=int,
+                        help="beam size for beam search")
+    parser.add_argument("--weight_decay", default=0.0, type=float,
+                        help="Weight deay if we apply some.")
+    parser.add_argument("--adam_epsilon", default=1e-8, type=float,
+                        help="Epsilon for Adam optimizer.")
+    parser.add_argument("--max_grad_norm", default=1.0, type=float,
+                        help="Max gradient norm.")
+    parser.add_argument("--warmup_steps", default=100, type=int,
+                        help="Linear warmup over warmup_steps.")
     args = parser.parse_args()
     return args
 
@@ -84,31 +98,19 @@ def set_seed(args):
 
 
 def set_hyperparas(args):
-    # the hyperparameters are same to original setting in open-source codes
-    if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
-        if args.task == 'summarize':
-            args.lr = 5e-5
-            args.adam_epsilon = 1e-8
-            args.gradient_accumulation_steps = 1
-            args.weight_decay = 0.0
-            args.batch_size = 48
-            args.beam_size = 10
-            args.max_source_length = 256
-            args.max_target_length = 128
-            args.warmup_steps = 0
-            args.patience = 5
-            if args.sub_task == 'ruby':
-                args.train_steps = 20000
-            elif args.sub_task == 'javascript':
-                args.train_steps = 30000
-            else:
-                args.train_steps = 50000
+    if args.task == 'summarize':
+        args.adam_epsilon = 1e-8
+        args.beam_size = 10
+        args.gradient_accumulation_steps = 1
+        args.lr = 5e-5
+        args.max_source_length = 256
+        args.max_target_length = 128
+        args.num_train_epochs = 15
+        args.patience = 2
+        args.weight_decay = 0.0
+        args.warmup_steps = 1000
 
-    if args.model_name in ['t5', 'codet5']:
-        if args.task == 'summarize':
+        if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
+            args.batch_size = 48
+        elif args.model_name in ['t5', 'codet5']:
             args.batch_size = 16
-            args.max_source_length = 256
-            args.max_target_length = 128
-            args.warmup_steps = 1000
-            args.patience = 2
-            args.epoch = 15

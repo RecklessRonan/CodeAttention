@@ -204,13 +204,8 @@ def main():
         ]
         optimizer = AdamW(optimizer_grouped_parameters,
                           lr=args.lr, eps=args.adam_epsilon)
-        if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
-            num_train_optimization_steps = args.train_steps
-            args.num_train_epochs = int(
-                num_train_optimization_steps/len(train_dataloader)) + 1
-        else:
-            num_train_optimization_steps = args.num_train_epochs * \
-                len(train_dataloader)
+        num_train_optimization_steps = args.num_train_epochs * \
+            len(train_dataloader)
         scheduler = get_linear_schedule_with_warmup(optimizer,
                                                     num_warmup_steps=args.warmup_steps,
                                                     num_training_steps=num_train_optimization_steps)
