@@ -1,0 +1,67 @@
+12/07/2021 01:45:48 - WARNING - configs -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, cpu count: 48
+12/07/2021 01:45:48 - INFO - __main__ -   Namespace(adam_epsilon=1e-08, add_lang_ids=False, add_task_prefix=False, always_save_model=True, batch_size=48, beam_size=10, cache_path='save_models/summarize/java/codebert/cache_data', cpu_count=48, data_dir='/data/code/pretrain-attention/CodeAttention/data', data_num=-1, device=device(type='cuda'), do_eval=True, do_eval_bleu=True, do_test=True, do_train=True, eval_steps=1000, gpu=0, gradient_accumulation_steps=1, local_rank=-1, lr=5e-05, max_source_length=256, max_target_length=128, model_dir='saved_models', model_name='codebert', n_gpu=1, no_cuda=False, num_train_epochs=100, output_dir='save_models/summarize/java/codebert', res_dir='/prediction', res_fn='/prediction/summarize/java/codebert.txt', save_last_checkpoints=True, seed=1234, start_epoch=0, sub_task='java', summary_dir='tensorboard', task='summarize', train_steps=50000, warmup_steps=0, weight_decay=0.0)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fd7af32b048>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/microsoft/codebert-base (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd7af32b048>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/code/pretrain-attention/CodeAttention/main.py", line 424, in <module>
+    main()
+  File "/data/code/pretrain-attention/CodeAttention/main.py", line 173, in main
+    config, model, tokenizer = bulid_or_load_gen_model(args)
+  File "/data/code/pretrain-attention/CodeAttention/models.py", line 31, in bulid_or_load_gen_model
+    tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/models/auto/tokenization_auto.py", line 568, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/tokenization_utils_base.py", line 1648, in from_pretrained
+    pretrained_model_name_or_path, revision=revision, use_auth_token=use_auth_token
+  File "/usr/local/lib/python3.6/dist-packages/transformers/tokenization_utils_base.py", line 3408, in get_fast_tokenizer_file
+    all_files = get_list_of_files(path_or_repo, revision=revision, use_auth_token=use_auth_token)
+  File "/usr/local/lib/python3.6/dist-packages/transformers/file_utils.py", line 1687, in get_list_of_files
+    path_or_repo, revision=revision, token=token
+  File "/usr/local/lib/python3.6/dist-packages/huggingface_hub/hf_api.py", line 247, in model_info
+    r = requests.get(path, headers=headers)
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/microsoft/codebert-base (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd7af32b048>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
