@@ -96,16 +96,12 @@ def set_hyperparas(args):
             args.max_source_length = 256
             args.max_target_length = 128
             args.warmup_steps = 0
-            args.patience = 2
-            args.epoch = 15
+            args.patience = 5
             if args.sub_task == 'ruby':
-                args.eval_steps = 400
                 args.train_steps = 20000
             elif args.sub_task == 'javascript':
-                args.eval_steps = 600
                 args.train_steps = 30000
             else:
-                args.eval_steps = 1000
                 args.train_steps = 50000
 
     if args.model_name in ['t5', 'codet5']:
@@ -113,6 +109,6 @@ def set_hyperparas(args):
             args.batch_size = 16
             args.max_source_length = 256
             args.max_target_length = 128
-            args.warmup_steps = 0
+            args.warmup_steps = 1000
             args.patience = 2
             args.epoch = 15
