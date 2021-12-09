@@ -86,17 +86,18 @@ def set_seed(args):
 def set_hyperparas(args):
     # the hyperparameters are same to original setting in open-source codes
     if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
-        args.lr = 5e-5
-        args.adam_epsilon = 1e-8
-        args.gradient_accumulation_steps = 1
-        args.weight_decay = 0.0
-        args.batch_size = 48
-        args.beam_size = 10
-        args.max_source_length = 256
-        args.max_target_length = 128
-        args.warmup_steps = 0
-
         if args.task == 'summarize':
+            args.lr = 5e-5
+            args.adam_epsilon = 1e-8
+            args.gradient_accumulation_steps = 1
+            args.weight_decay = 0.0
+            args.batch_size = 48
+            args.beam_size = 10
+            args.max_source_length = 256
+            args.max_target_length = 128
+            args.warmup_steps = 0
+            args.patience = 2
+            args.epoch = 15
             if args.sub_task == 'ruby':
                 args.eval_steps = 400
                 args.train_steps = 20000
@@ -106,3 +107,12 @@ def set_hyperparas(args):
             else:
                 args.eval_steps = 1000
                 args.train_steps = 50000
+
+    if args.model_name in ['t5', 'codet5']:
+        if args.task == 'summarize':
+            args.batch_size = 16
+            args.max_source_length = 256
+            args.max_target_length = 128
+            args.warmup_steps = 0
+            args.patience = 2
+            args.epoch = 15

@@ -32,3 +32,24 @@ Finish and take 0m[0] Best ppl changed into 108.8113
 [13] Best bleu+em changed into 13.22 (bleu: 13.22, em: 0.43)
 [19] Early stop as not_bleu_em_inc_cnt=6, and not_loss_dec_cnt=14
 [best-bleu] bleu-4: 11.98, em: 0.2379, codebleu: 0.0000
+[0] Best ppl changed into 108.8113
+[0] Best bleu+em changed into 8.64 (bleu: 8.64, em: 0.00)
+[1] Best ppl changed into 81.4340
+[1] Best bleu+em changed into 9.72 (bleu: 9.72, em: 0.07)
+[2] Best ppl changed into 69.9443
+[2] Best bleu+em changed into 10.08 (bleu: 10.08, em: 0.07)
+[3] Best ppl changed into 65.2113
+[3] Best bleu+em changed into 10.97 (bleu: 10.97, em: 0.14)
+[4] Best ppl changed into 63.8790
+[4] Best bleu+em changed into 11.45 (bleu: 11.45, em: 0.14)
+[5] Best ppl changed into 63.2738
+[5] Best bleu+em changed into 12.01 (bleu: 12.01, em: 0.14)
+[6] Best bleu+em changed into 12.57 (bleu: 12.57, em: 0.07)
+[7] Best bleu+em changed into 12.73 (bleu: 12.73, em: 0.07)
+[8] Best bleu+em changed into 12.99 (bleu: 12.99, em: 0.07)
+[11] Best bleu+em changed into 13.05 (bleu: 13.05, em: 0.43)
+[13] Best bleu+em changed into 13.22 (bleu: 13.22, em: 0.43)
+[19] Early stop as not_bleu_em_inc_cnt=6, and not_loss_dec_cnt=14
+[best-bleu] bleu-4: 11.98, em: 0.2379, codebleu: 0.0000
+[best-ppl] bleu-4: 11.23, em: 0.0793, codebleu: 0.0000
+Finish and take 4h13m
