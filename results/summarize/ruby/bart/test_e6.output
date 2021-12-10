@@ -1,0 +1,1400 @@
+881	Dump all scraped objects from a task .
+661	Processes request data and closes connection
+147	Writes the object to the given path or writer .
+806	Write data to memory .
+1376	Get the height of an image .
+51	Removes blank values from a hash .
+345	Send data to Rack
+1153	Checks if a storable can hold a child
+1004	Declare a queue for the specified exchange .
+43	Check if version has a service
+195	Create a new instance of SyncFolderItems .
+478	Iterates over all records in the model .
+1107	Creates a controlled value .
+1053	Processes an object .
+360	Creates a new ActiveAdmin settings page .
+634	Apply a colour to the given fore and back .
+506	Get the scheduled Mash item .
+1072	Log in to the room
+622	Creates a new paragraph .
+362	Write a func declaration
+1309	Creates a new HTTP connection .
+27	Validates that the given argument is valid .
+1335	Write a Hash to Redis
+321	Returns the bot config file .
+168	Returns a simple formatted version of the text .
+58	Determines if the given method is missing .
+1132	Loads the user s preferences .
+697	Uploads a file to an OpenSSL server .
+602	Writes all permissions to the cache .
+379	Loads a captured image .
+1079	Adds a child type to the current CaTissue .
+1097	Renders an OPML document .
+390	Create a new RedisMock instance .
+642	Set the right border width to the specified width .
+613	Adds a font to this object .
+1299	Finds an excluded server .
+210	Get Server Time Zones
+1119	Get the fan of a user
+693	Authenticate to the cloud .
+315	Check for direct messages for this user .
+216	Resolve contact names
+70	Determine if log payload should be logged at the given level
+540	Returns user tips for a user
+966	Validates that the given field matches the specified setting .
+1092	Set the role id of the given value .
+1307	Parses an object from the parser .
+656	Add a colour to this object .
+600	Delete a Parse
+722	Iterate over each row in the table .
+923	Generate migration body .
+94	Normalizes an output field .
+21	Checks if there are any extra fields .
+843	Loads a configuration file .
+286	Gets a URI from the API .
+639	Convert the text to an RTF string .
+368	Tries to fit the given xs and ys together .
+251	Creates a new call .
+270	Visit a page with the given url .
+820	Dump all points to the given cur_path
+1258	Returns an array of common arrays .
+739	Process media for a part .
+703	Edit a VM network .
+125	Initialize a new wallet with the given ID .
+1140	Logs the start and end time of the machine .
+172	Get a user configuration
+1327	Checks if a script exists .
+768	Set the log level .
+1208	Calculates the date range for the given col and start_date
+998	Executes JavaScript code on the response .
+343	Register an extention
+760	Creates a new middleware .
+852	Sets the sales restriction type .
+872	Returns the exact path to the given + double_star +
+617	Inserts the given text at the given offset .
+949	Toggle the status of an outlet .
+333	Returns the class name for the given classname .
+1312	Obfuscated link to a given path
+802	Returns the open description of a USB device .
+264	Returns the path to the given URL .
+339	Finds the central directory .
+585	Format a value
+1355	Pick a card based on its preference .
+1023	Trigger the given command .
+812	Convert to g polygon api2 .
+718	Creates a new Rack instance .
+174	Returns the correct item shape for the given item .
+1006	Returns the path to the user s home .
+970	Creates a new Mech instance .
+201	Validates that the item was created .
+229	Returns an array of incoming entries .
+507	Get a list of all draftable items .
+590	Returns the payload of the request .
+439	adds three methods - one to retrieve tab information and another to check tab s existence .
+691	Creates an internal network node .
+1379	Draws a line of pixels .
+1164	Place a stick at the given top and left angle .
+332	Resets all registered keys .
+1042	Returns the output of the file .
+346	Builds a feedback edge set .
+750	Get a transfer with the given type .
+254	Returns true if the user is currently active .
+1300	Send a SMS confirmation message .
+1306	Returns an INJECTED object .
+342	Creates a new Datatable instance .
+1213	Format an awesome string .
+355	Returns the fixed attributes of the model .
+946	Returns true if the given method is a file .
+508	Returns an array of all the lists for the given item .
+570	Search for venues by tip
+945	Returns the input for the given method .
+218	Create an item
+631	Apply the given style to the given node .
+857	Set a measurement for a given type and value .
+34	Loads a configuration file .
+975	Returns nil if no body exists .
+794	Checks if the given argument matches the given block .
+32	Obfuscate the parent of the given data type .
+591	Send a message to the client .
+302	Exclude a string from a list of strings .
+45	require the given version and service
+66	Logs the given action and response .
+792	Initialize a new AsyncRunner .
+1076	Searches for the current song in a room .
+1086	Returns a hash of all Enums .
+1069	Processes a line of data .
+903	Checks if the given block is in a listable chain .
+559	Add a checkin to the request .
+1202	Evaluate a value .
+859	Sets the price for a given type .
+1305	Validate the given condition and adjuster .
+189	Dispatchs an item with the given ID .
+325	Returns a list of all replies received since the last reply .
+250	Apply an array of operations to the builder .
+1145	Publish a message to an http server .
+1170	Decrement the derived quantity for the given child .
+745	Returns msg_tmp_dir
+557	Check a checkin
+487	Creates a new directory in the given directory .
+648	Convert an array to an integer .
+119	Submits a transaction to the Bitcoin wallet .
+1340	Returns the last member of the redis index .
+1336	Updates the columns for the given attrs .
+1091	Logs a message to the Logger .
+124	Returns the max number of txns .
+665	Get a device by its ID and serial number .
+684	clone a VApp
+511	Get suppression list
+528	Parses a hash of keys into a new hash .
+242	Set ext_params
+1234	Initializes the sum_scheme
+247	Returns the format for the destination .
+178	Returns the folder id for the given fid
+934	Extracts the version of the given value .
+1147	Add defaults local
+688	Merge network configuration with parent network configuration
+986	Convert a hash to a query
+241	Convenience method for coercing a value into a configuration .
+130	Returns a hash of all thread variables .
+973	Binds the model to the model .
+1216	Initializes a collection with a column filter .
+567	Searches for special items .
+737	Returns the subject of the mail .
+551	Add a tip
+258	Parses the document and returns it .
+1257	Filestring a file .
+1015	Executes the given block of code .
+465	Creates a single use pipeline .
+492	Get a list of active subscribers .
+754	Saves a photo to an assets library .
+300	Returns the blocklist of the given list of strings .
+482	SUGADD to a record .
+606	Parses a result and returns it .
+1033	Returns the summary of the given entry .
+988	Create a clone from the given version
+1082	Loads the Treetop file .
+653	Creates a new header .
+502	Returns a paged result based on the active date .
+1254	Returns random data url
+544	Returns a list of all mayorships for a user
+445	Puts a file to disk .
+545	Get a list of all users for a user .
+1037	Sets the latitude and longitude at the given zoom level .
+549	Search for tips
+1298	Removes all non reporting servers .
+1001	Respect the query limit .
+548	Retrieve a tip by its ID .
+879	Export a file to a file .
+1224	Calls the columncollect method and returns the result .
+558	Get the most recent checkins .
+1281	Creates a new POST object .
+1384	Send an HTTP request to an Oj server .
+1262	Unregister an observer
+306	Set the access token for the given token .
+1245	Matches two characteristics together .
+1160	Parse an argv
+746	Returns true if the given filename matches the given part .
+307	Flatten a list of strings .
+1003	Declare an exchange
+397	Sends a pubsubscribe command to the server .
+112	Returns the class for the given path .
+1077	Add a song to the playlist .
+204	Search by subject
+781	Update a user
+67	Format the headers .
+1196	Write the contents of the file to disk .
+587	Create a twin object .
+1263	Creates a new observer queue .
+159	Destroys the record .
+463	Creates a multi - use Pipeline .
+14	Creates a new instance action module .
+1175	Copy an existing template proxy owner to a template .
+1243	Set the CoordinateRegion .
+576	Returns a list of all venues with the given venue id .
+1282	Creates a new Draft object .
+1277	Creates a new queue .
+1365	Set pagination information .
+710	Acquire a ticket for a VM
+9	Follow redirection
+341	Initializes a new instance of this instance .
+711	Gets the OpenVdcNetwork for the specified networkId .
+1014	Initialize a new CaTissue instance
+30	Returns the prefix key with the given namespace .
+922	Create an audit
+1195	Runebooks for summoners
+1156	Initializes the sum_scheme
+1238	Returns a list of all messages sent to the server .
+513	Returns an array of templates for the given item
+1056	Add a container to the existing container .
+664	Enumerate a HIDAPI device
+1332	Reads a hash with the given name .
+402	Creates a new Enumerator .
+912	Shift the list .
+473	Returns the redi search schema .
+123	Returns the current age of the txns .
+1378	Finds the longest term color for a pixel .
+146	Returns the worksheet with the given idx
+1048	Generate the output directory .
+955	Evaluate the given query string .
+1292	Send a message to the terminal .
+1380	Returns the tree of the repository
+54	Validates that the given options are valid .
+721	Iterates over the progress of a message .
+1083	Parse data from an io
+213	Updates a folder .
+227	Push unsubscribe folder to all folders
+1128	Runs the block .
+1030	Return a breadcrumbs list .
+413	Complete an execution target .
+33	Convert time to XML hash
+214	Empty a folder
+1223	Creates a new SpreadSheet .
+81	Checks for errors in response .
+40	Extracts all XML operations from the WSDL . xml file .
+645	Returns the widths of all border entries .
+609	Login to the client .
+224	Convert input to camel case
+904	Iterates over all items and yields them to the block .
+1063	Creates a new meta tag with the given name .
+1008	returns the weekdays int
+1106	Deletes the given cv .
+139	Create a new password with the given password .
+1065	Adds an annotation to the record entry
+1225	Renames a row .
+1321	Runs the migration .
+1344	Loads a key from a map .
+1395	Find a resource by its scope .
+135	Iterate over the remote nodes .
+91	Extract header data from response
+114	Checks if a file exists .
+853	Returns a composite of the current supply .
+52	Returns an array of all the values in the StatementBuilder .
+430	Defines a button with the given name and locator .
+105	Validates a service request .
+361	Execute the given block with the given value .
+120	Add a transaction to the Wallet .
+866	Returns the default app directories
+211	Copy a folder to another folder .
+1212	Joins a series with another series .
+394	subscribe to a channel
+790	Loads a RACK environment .
+744	Add a file to a file
+1230	Converts a value into a string .
+359	Attempts to obtain the identity of a record .
+984	Returns a list of labelable values for the given var
+1149	Copies files to the remote server .
+997	Perform a HTTP request .
+1162	Returns a list of all leagues for a summoner .
+289	Signs a transaction .
+630	Applies the given style to the given character .
+985	Updates the value of the given attribute .
+1240	Boot a room
+807	Reads a chunk of data from the memory .
+1067	Import an annotation
+12	Initializes the callback phase .
+1249	Initialize translations
+1287	Create a daemonizing process .
+1187	Loads a playlist .
+187	Returns the contacts view for a given con view .
+1326	Parse Foreman configuration file
+263	Returns cookies for the given host .
+1339	Returns the nethash of the block .
+1302	Validates the given value .
+422	Finds a file within the specified path .
+1239	Sends a fan request to this room .
+849	Set the subtitle of the composite .
+930	Creates a Selenium driver .
+918	Iterates over each item in the list .
+682	Compose a vapp from a VM
+635	Creates a new table with the given rows and columns .
+860	Creates a new TextSet with the given type and value .
+1362	Executes the optional arguments block .
+318	Returns the max id from the given array .
+578	Updates a setting .
+1375	Post a message with a signature .
+1049	Resets the current state of the server .
+983	Change a column
+767	Assigns the tp_ins to the cache .
+1029	Renders a tree .
+525	Update an existing email address .
+73	Downloads a report as a stream .
+237	Returns a list of all fields with the given locale .
+1236	Returns the original pivot sequence heading
+929	Creates a watir browser .
+156	Creates many jobs
+534	Returns a list of all venues for a given page id .
+592	Returns an array of distinct objects for a given field .
+69	Checks if the logger has a log summary .
+901	Returns the value of an option .
+1084	Returns a list of all imports that have been parsed .
+386	Beautify an XML document .
+890	Resolve foreign keys
+593	Fetch a ParseQuery object from the table .
+671	Reads data from the device .
+537	Get a list of all user requests
+782	Finds a user by email
+1028	Wait for the Turntabler API to be called .
+455	Creates a new Scanner .
+960	Creates a ne comparator .
+471	Save the result to the database .
+100	Checks if an array collapse occurs .
+675	Determine the delta between this audit and another audit .
+981	Execute a SQL query .
+566	Returns an error or body for a special
+588	Saves the file to the client .
+358	Returns a hash of the IDs of all records .
+829	Verifies that the given key is required .
+317	Get the API key from Twitter
+437	Creates a new instance of the tree view .
+39	Get the results of a batch job .
+885	Loads a scraped object .
+344	Get the requested method from the request .
+448	Get a file from the given path .
+846	Iterates over each element of the product .
+1214	Sets the meta attribute for the given value .
+74	Get the stream helper for a report query .
+363	Get the range of items for a given start and limit .
+681	Create a vapp from a template
+1313	Returns the required helper for a given field .
+732	Loads the formatter files .
+1252	Downloads the specified files from STATUS .
+249	Handle destination if it exists
+1311	Creates crud links
+1197	Collects an event from the given opts .
+1255	Creates a cachier instance .
+874	Set the coordinates of a color .
+1295	Generate a string .
+795	Lookup a check
+276	Yields every XML doc for the given page
+1203	Checks if the given block is equal to the given type .
+1177	Write the header to a file .
+632	Applies the given font to the given node .
+166	Renders the given path or options .
+824	Validates the IPv6 address .
+1141	Execute the given operation .
+305	Set access token secret
+837	Set the value of the given key .
+844	Returns a list of all keywords for the given limit .
+1356	Removes all cards matching the given preference .
+1024	Resets the status of the user at the given interval .
+932	Extracts a list of values from a browser string .
+1377	Creates a color string .
+352	Assign full_row_version_attr to attributes
+3	Returns a string representation of the headers .
+605	Returns a hash of all the responses from the batch response .
+162	Apply to the given ticket .
+1066	Loads local annotations .
+584	Retrieve a list of notifications .
+713	Get a list of all tasks with the given id .
+569	Returns a list of trending days for a given ll
+831	Returns a Response object .
+104	Saves the OAuth2 token .
+1237	Processes an object .
+990	Update a policy
+365	Fetches the logarithmic properties of xs and ys .
+1011	Returns the weekdays field for the given attribute .
+290	Signs a batch of transactions .
+969	Get a list of all submissions
+861	Sets the website of the specified type .
+1038	Returns the zoom level of the map .
+35	Process the keys of a hash .
+811	Creates a new polyline api2 .
+113	Serialize to JSON
+1012	Calculate the audit for a given param .
+408	Returns a string representation of the date .
+1101	Creates an AnnotationService .
+1204	Returns a range of values .
+660	Convert a StringIO to a RDF string .
+633	Applies the given colour to the foreground of the character .
+926	Changes the tables of the database .
+726	Parse response body
+720	Initialize a new matcher .
+891	Resolve foreign objects
+1370	Returns the first person to ever follow .
+662	Logs an exception .
+309	Retrieve the home timeline of a user .
+1345	Get the number of logical processors in the target OS .
+676	Render the audits of an audited model .
+1064	Initializes a new column filter .
+356	Returns a list of all the fixed dependency attributes .
+627	Applies an italic style to this node .
+869	Set a Color at the given index .
+1250	Loads the given configuration file .
+472	Destroys the result set .
+646	Get the file type
+992	Convert a value to a dictionary .
+906	Checks if authentication is valid .
+707	Retrieves a virtual machine .
+779	Returns a hash of options .
+372	Require dependencies .
+1201	Creates a filter with the given values .
+610	Logout to the client
+56	Creates a new Date instance .
+677	Returns the output paths for a given file .
+956	Gets a comparator for the given query string .
+1002	Inserts schemas into an object .
+982	Get the primary keys for the given table .
+1087	Pulls the document to start .
+709	Power off a VM
+734	Convert this object to a hash .
+804	Set the baudrate of the tx .
+184	Define time zone definition!
+554	Get a campaign
+886	Determines which objects are losers and which are not .
+1134	Returns a list of all teams for a summoner
+1367	Returns true if this model is a follower of another model .
+281	Redirects to the specified location .
+1264	Returns a JSON representation of the session .
+451	Connect to the SMB server
+1178	Convert a value to a number .
+1158	Resolve dependencies
+235	Build resource from response
+154	Saves the associations .
+572	Returns a list of all URLs for a given venue .
+940	Updates self and all descendants of this node .
+283	Yields each url to the given block .
+367	Tries to fit exponential values of xs and ys
+462	Edit token pipelining
+185	Creates a new instance of the Restriction class .
+863	Create a new friendship .
+623	Returns a list of all items of the given kind .
+788	Returns the privacy for the given id .
+553	Get an event for an event
+292	Sets the basic authentication for the client .
+83	Convert a report definition to XML
+479	Returns the ft_del record for this index .
+1123	Update a user s profile .
+845	The next tempfile to open .
+110	Initializes the library configuration .
+568	List a list
+421	Find all files for reload
+169	Call an experiment with the given name .
+753	Creates a new PhotoOutput object .
+1124	Update a computer with the given name
+60	Get the XML for a SOAP request .
+1044	Disable the user account control attribute .
+369	Returns the fit at the given input type .
+420	Handle exceptions .
+1057	Add a new container to the given storable .
+1026	Sets the session to end .
+1192	Get a summoner by name
+207	Unsubscribe from an EWS subscription .
+770	Returns a list of paths for the given name .
+1172	Update a user s address .
+1113	Reads a filename from a file .
+474	Count the number of ft searches for a given args .
+1364	Select a list of fields .
+1279	Creates a new channel .
+1150	Writes a string to the IO object .
+1043	Get the most recent match by summoner
+476	Add a record to the index .
+41	Sanitize an array of results .
+426	Get the current user
+1316	Creates a tag for a label with inline help .
+38	Creates a new batch job .
+1373	Send an announcement to the specified key and port .
+316	Get OAuth verifier
+663	Get all gazelles ready
+401	Builds a batch search request .
+18	Runs the given block with a temporary flag .
+167	Creates a new ProxyEmpty object .
+993	Wraps the given number of lines into a string .
+243	Processes XML for cartridge . xml
+994	Consumes an API key and returns it .
+1227	Returns an array of rows from params .
+907	Runs the Rsync command .
+1127	Returns a weighted selection based on the weights of the given type .
+1385	Returns an array of jquids that are included in the JQUI .
+1054	Adds a new container to the existing container .
+953	Convert a query string to a regexp .
+354	Returns an array of the attributes filtered by the attributes whitelist .
+350	Assign attributes to the resource .
+225	Convert an iso8601 duration to seconds .
+320	Returns the global configuration file .
+1360	Set the timer for the given block .
+668	Open a device by path
+1368	Follows all models .
+182	Start time zone!
+927	Changes a table statement .
+967	Set auto date field
+822	Returns an array of Exchange Rate objects .
+171	Runs the runner .
+1393	Convert this object to a hash .
+351	Assign only the newest version of the partial row .
+628	Apply the given style to the given node .
+690	Creates a fake network node .
+1333	Writes an attribute to the Redis database .
+962	Makes a link to a Stellar course .
+415	Returns a list of all classes with the given delimiter .
+597	Perform a POST request .
+248	Creates a new tempfile .
+31	Get the full signature of a given type .
+774	Derive a value from a data array .
+911	Generate the option parser .
+268	Get a page from a URL
+15	Sets the soap header handler .
+1151	Reads the contents of a file .
+116	Push the given ID to the given body .
+1179	Prepare the sum row for the given pattern .
+96	Normalizes a hash field .
+76	Retrieves a response from a report query .
+758	Returns the full feature of a feature .
+815	Creates a new google map api3 .
+954	Returns an array of all items in the collection .
+425	URL for authorization code
+761	Returns the attribute lookup for the given assoc .
+1346	Get the physical processor count for the target OS .
+683	Add virtual machine to vapp
+498	Update a custom field .
+1115	Pings a host to the server .
+1323	Extracts search text from an array of attributes .
+785	List all available roles
+1331	Reads a list from Redis .
+5	Creates a new instance of this class .
+486	Runs the command .
+1176	Create table data
+1117	Updates a laptop .
+581	Returns a list of all photos for a givenvenue
+400	Sends a command to the server and returns nil if no response is received .
+948	Checks if the object is aBoolean object .
+640	Set the border width .
+409	Verifies that the digest is valid for the given reference .
+892	Runs the command .
+370	Export an array of symbols .
+868	Set the LED color of the channel .
+308	Retrieve the user s favorite tweet
+2	Processes url params .
+941	Destroys all descendants of this model .
+388	Acquire a lock
+816	Creates a new google map api3 .
+800	Perform HTTP request
+583	Add an item to the collection .
+959	Creates a new LTE object .
+873	Set the coordinates of the image .
+287	Sends a POST request to the server .
+382	Creates a new instance of the search engine .
+1099	Converts a string to a date .
+772	Creates an association with the given value .
+491	Get the history of a subscriber .
+37	Initializes the batch job url
+799	Instantiate a new HTTP client .
+692	Generate the network section for a vApp .
+1369	Unfollow all models .
+1337	Filter authorized! methods .
+453	Checks if all keys are valid .
+279	Initializes the filters .
+864	unfriend a friend
+1382	Processes the given timeout .
+1218	require aether
+177	Determine whether a folder is distinguished by its ID .
+870	Returns a Color with the given index .
+314	Creates a direct message to the user .
+1269	Get the nr api
+1110	Returns the user as specified by the log .
+1211	Creates an annotation for the given hook .
+842	Parse options
+773	Checks if the given parameter is a local variable .
+433	Defines a label method .
+1389	Convert a date to a string .
+931	Returns a list of browser caps for a given browser .
+1284	Calculate terminal size .
+1085	Returns a list of all classes in the tree .
+1229	Returns true if two columns are the same size .
+143	Returns a formatted copy of the document .
+896	Delete a Package from the transaction .
+1157	Returns an array of attributes with the given block .
+236	Resolve a link
+217	Convert an ID to a Mailbox .
+599	Deletes a URI .
+1268	Resolve links based on the given text
+136	Mark a user as unread .
+851	Set the imprint of the given string .
+49	Yields an array of objects to the given offset .
+86	Generate the headers for a given URL and cid .
+1013	Returns the result of the readlines .
+1165	Find the feed for the given request .
+127	Creates a new Verbose thread .
+148	Loads all resources associated with the given name .
+297	Creates a new network with the given subprefix .
+1078	Move a playlist to the given index
+865	Handles the timecop offset .
+164	Returns the version of the request .
+446	Writes the given content to the given path .
+53	Generate a value object
+374	Record a split class .
+796	Renders statuses and elapsed_time .
+618	Convert the string to a UTF - 16LE string .
+181	Get Server Time Zones
+299	Run the bot
+1353	Renders an erb template .
+296	Creates a new supernet with the given prefix .
+44	Returns the WDSL endpoint for the given version
+48	Processes an array of objects .
+348	Parse Dependecies
+161	Update many jobs
+828	Deletes an attribute from the cache
+128	Kill all threads that are alive .
+1005	Disconnect all connections .
+209	Get a folder
+323	Retrieves a tweet by its id .
+495	Returns the administrators for this Mash .
+443	Update an existing PinPayment customer
+275	Yields every html doc for every page
+920	Register a DuckPuncher .
+762	Transforms an association into an attribute map .
+1248	Save translations to the given file .
+1103	Set the name of the given value .
+1200	Iterate over each column and yield it to the given operation .
+313	Send a reply to a tweet
+16	Creates a ReportUtils instance .
+1173	Add the given position to the specimen template
+467	Get an account activity for a given start date and end date
+131	Add legacy to a non - empty patch
+1280	Publish a message to an exchange .
+334	Close the buffer .
+1266	Do a move
+529	Log in to the API .
+1291	Creates a new post with the given name .
+1168	Default collection event
+1235	Initialize key columns
+483	Creates a new FileFugget instance .
+616	Returns the next node of this node .
+604	no_write! will_change!
+1094	Returns a controlled value for the given value .
+373	Records a dependency with the given files .
+991	List all cloudlets of a given type
+889	Build DependencyGraph
+893	Add a group result to the result .
+198	Copy an item to a new folder
+629	Apply the given style to the given node .
+411	Verifies that the response and assertion matches the given signature .
+449	Reads the contents of a file from the cache .
+787	Renames a Drop .
+273	Checks if the url is visited .
+659	Serialize this information to a string .
+458	Checks if the given state has a transition .
+253	Returns a hash of cookie parameters .
+496	Set the primary contact
+1374	Returns the logical operator for the delegated object .
+92	Extracts the exception data for a given exception .
+741	Transforms the text of a given type and text .
+75	Get a response to a report .
+571	Returns a list of all categories for a given venue .
+384	Configures virtual attributes
+542	Get a list of all user photos .
+696	Sends a request to Nokogiri
+428	Update the attributes of the resource .
+1133	Execute the given block .
+410	Returns the referenced node with the given id .
+725	Creates a new format object .
+1297	Returns a list of specs missing from a file .
+776	Returns an array of matrices .
+145	Returns the format for the given idx .
+700	Set VM disk info .
+183	End time zone!
+1020	Get a user by name
+396	Unsubscribe proc from a channel
+256	Kill the session .
+895	Prints the artifacts to disk .
+418	Create a RewindableInputStream .
+438	Creates a new Spinner instance .
+573	Add avenue to the marketplace
+518	Sends a preview to all recipients .
+366	Fetches the power of the given xs and ys .
+1068	Creates a new viewable .
+562	Get avenue group for a specific group .
+395	unsubscribe from a channel
+1139	Log configuration information
+1210	Calculates the number range for a given col and start_number .
+221	Get all room lists
+65	Runs a user - provided block .
+524	Returns an array of bounces for the given date .
+884	Loads all scraped objects from the store .
+1080	Copy child types from other .
+7	Creates and parses a cookie .
+160	Deletes many jobs .
+1189	Get all active playlists
+589	Runs the query where the constraints are nil .
+470	Submit a request to AmazonFlexPay
+755	Saves an image to a photo library .
+1242	Returns the default derived characteristics .
+783	Sign out a user .
+1098	Execute the given block .
+72	Downloads a report as a file .
+1270	adds an alert entity to the server
+520	Returns an array of opens .
+23	Rename an item to its original name .
+493	Update a template
+284	Converts a URL to absolute .
+431	Defines a combo box with the given name and locator .
+996	Convert a given value to another value .
+271	Prepare HTTP request headers
+679	Gets a VApp by name .
+232	Format contentful user agent header
+535	Returns a list of all managed pages .
+364	Measure execution time
+95	Normalizes an array field .
+1000	Convert the first unit to the second unit .
+1163	Returns a list of League entries for a summoner .
+432	adds three methods - one to set the radio and another to check the radio s existence .
+823	Validates the IPv4 address .
+1070	Initialize a Turntabler client
+749	Execute a command and auto confirm it .
+712	Returns a list of all available orgs .
+1019	Sets an event handler .
+777	Fetches a movie by its title .
+304	Set consumer key outside of config file
+353	Uniq keys candidates
+1074	Skip the current song
+547	Sets friendship pins for a user .
+1155	Writes the result to the file .
+484	Creates a new instance of the + ft_sugdel + class .
+724	Get all requester requests
+336	Parses each entry in the archive .
+157	Creates or updates a resource .
+186	Calculate the calendar view for a given cal_view
+85	Adds a report definition hash order to the node .
+1129	Returns true if all conditions match
+1169	Returns the default receiver for the collection
+141	Updates a row .
+1055	Finds a container with the specified name .
+1159	Place a stone on the board .
+1317	Press a key on a set of keys .
+1059	Set the attributes of this object .
+850	Returns a list of all bic subjects
+854	Returns the discount code for proprietry disc
+947	Arrayorize a value .
+1007	Parse Paths
+980	Validates the metadata .
+517	Transfer credits to another credit
+11	Executes an options call .
+924	Generate migration body
+620	Creates a new TextNode .
+674	Reads a string at the given index .
+1260	Register observer class
+933	Extracts a browser from a value .
+917	Gets the X - Ray image of a x - Ray tile .
+324	Runs the handler .
+527	Converts a hash of keys to strings .
+132	Saves a transaction to the given file .
+1135	Get the doctype for the given path .
+841	Convert to a hash
+1351	Waits for the current thread to finish .
+387	Creates a SidekiqReporter .
+552	Mark a tip as done .
+894	Adds a count to the options hash .
+188	Returns the attachment IDs for each of the specified aids .
+1034	Normalizes a scope .
+950	Get an HTTP request from a given path .
+699	Get the disk info for a VM .
+838	Checks if the given date is a valid holidays
+505	Returns a Hash with all campaigns
+733	Parse Doc object
+862	Create a new friend
+206	Subscribes to EWS .
+1148	Pings the TCPSocket .
+504	Update an existing email address .
+1	Convert the result to a string .
+272	Prepare a request
+561	Add a checkin reply
+1108	Executes a block with the given hash .
+694	Get a task
+729	Adds a keyword to the query .
+190	Dispatchs an update type .
+560	Add a checkin comment
+763	Add an attribute to the attribute map .
+752	Capture the output of the capture process .
+55	Convert a query to a statement
+521	Get a list of clicks for a given date .
+809	Read pins from memory
+1016	Retrieve all methods from a script .
+150	Fetches resources from the database .
+223	Builds an impersonation email .
+337	Add an entry to the archive .
+298	Sets the prefix for the given oth .
+1386	Creates a new instance of the + method + .
+531	Returns an array of images .
+728	Creates a new Query object based on the given order .
+197	Move an item to a new folder
+1191	Adds a collection of specimens to the protocol .
+510	Get a list of people in this Mash .
+1144	Publish a message to a socket .
+1022	Search for a song
+1021	Get the avatars of the user .
+429	adds three methods - one to retrieve the text from a text object another to return the text object and another to check the text s existence .
+619	Write the node to disk .
+1322	Returns the parents of the given page .
+260	Returns true if the given value is a content type
+282	Iterates over each link in the doc .
+1396	Create a new MingleResource instance .
+1122	Returns a list of all available blocks .
+1081	Generate a CodeGenerator .
+423	Returns the mtime of the given file .
+577	Returns a list of all timeseries for a givenvenue .
+1392	Raise an exception .
+475	Adds all records to the model .
+121	Check if the txn includes negative values .
+909	Finds the schedule for the current backup .
+539	Returns a list of all users associated with a user .
+180	Create a new Mailbox instance .
+847	Returns the title of the composite .
+803	Returns the index of the USB open descriptor .
+158	Create or update many jobs
+1027	Reconnects from the connection .
+29	Adds an attribute to the node .
+1181	Creates a new header row .
+1142	Creates an array of operands .
+550	Returns a list of tips for a given Venue
+680	Power off a VApp
+556	Returns the error or body of the response .
+419	Convert a request to a Rack request .
+961	Creates a new chord with the given inversion amount .
+563	Add avenue group
+1289	Ensure that we are in a jekyll directory
+464	Returns the recipient ipeline for the recipient .
+778	Finds a movie by its id .
+819	Checks if the given regexp matches the given word
+36	Finds a value by path .
+80	Logs HTTP headers .
+380	Make HTTP request to twoCaptcha
+1350	Returns true if the user has ever been followed by another user .
+717	Get a provider by id
+1315	Sort a link
+877	Validates that the schema is valid .
+245	Creates a new SeedFu instance .
+1040	Set the Specimen to be moved to an empty location
+192	Dispatch a field item .
+101	Process attributes
+594	Decode a list of Parse objects
+1194	Runs a summoner .
+887	Buildlosers to winners map
+740	Process a part
+964	Validates the presence of the given field .
+1217	Logs out to Logger .
+1349	Is this model a followee of this model?
+226	Subscribes to the specified subscription .
+102	Create a new service with the given name .
+90	Get the extra user agents
+295	Splits the network into two subnets .
+257	Sanitize a URL
+93	Normalizes an array of fields
+575	Provide a list of completion dates for the user .
+695	Waits for the completion of a task
+1058	Returns the path to the given storable .
+731	Checks if the user has valid credentials .
+1301	Send a voice confirmation to TwilioContactable
+140	Format a column
+625	Applies the given style to the CommandNode .
+416	Returns the coverage of a given class .
+1325	Returns the manager wss uri
+1111	Executes a sh command .
+111	Symbolizes a configuration value .
+742	Transforms the text of a part .
+42	Determines if the next page of the page has the next landscape point .
+231	Get os info
+262	Returns true if the request came from a page
+461	Assigns a hash to the given hash .
+1308	Returns the class with the given name .
+979	Modifies the metadata .
+1314	Returns a select tag for a filter
+222	Validates that the operation is compatible with the specified exchange version
+1100	Add a user to the LDAP .
+134	Creates a new Futex object .
+519	Get email client usage
+1120	Get fans for a user
+727	Find a file with the given name .
+22	Checks if the required argument is present .
+919	reverse each item in the list .
+457	Feeds the input to the server .
+657	Convert the colour table to a string .
+636	Creates a new ListLevelNode with the given kind .
+155	Reloads the client .
+735	Parse result
+459	Convert an attribute to a hash .
+277	Yields every rss doc for the given page .
+1018	Execute a command on the connection .
+601	Reads all permissions .
+252	Creates a new Builder instance .
+1354	Runs the given entry .
+898	Finds all objects matching the given params .
+1174	Ensures that the primary annotation has a hook
+937	Extracts the number from the string .
+714	Get the VDC ID by name
+1328	synchronize host table
+163	Creates a new instance of LRUCache .
+468	Refunds a transaction .
+826	Checks if the given key exists locally .
+1329	Initializes the database .
+63	Handle errors in response
+1285	Prepare the current state of the machine .
+751	Peek at the history of the input .
+444	Runs the ls command .
+1114	Write a string to a host .
+489	Validates the given access token .
+936	Extracts a device from the given value .
+1247	Exports the given translations to the given locale .
+1320	Add a file to the given path .
+878	Convert this object to a hash .
+220	Get all rooms in a roomDistributionList .
+1199	Checks if the given string matches the boolean filter .
+122	Checks if the txn includes a positive integer .
+1303	Creates a new session .
+915	Get the status of the user .
+497	Creates a custom field .
+719	Creates a new instance of the ClassContext .
+331	Log in to OAuth
+0	Parses an unparsed preparse .
+817	Convert a string to a Georss string .
+1207	Returns the date for the given col and comparator .
+383	Checks if encryption is successful .
+977	Returns the filtered results .
+391	Configures the given URI .
+8	Follow a get redirect
+200	Send a create_item request .
+564	Update avenue group .
+246	Creates a new tempfile .
+1324	Set the query attributes .
+798	Checks if the given method responds to the provided method .
+1261	Register an observer
+1259	Runs bind_queues and returns the client .
+666	Open a device
+328	Resets the time since the given id .
+47	Get the WSDL for a given version .
+775	Returns an array of intervals .
+649	Reads a source file and yields it to the block .
+839	Extracts arguments from an array of arguments .
+586	Get all the results of the query .
+650	Get the dimensions of a file .
+644	Set the left border width .
+1398	Start a WebSocket client
+330	Returns the screen name of the user .
+789	Loads a DateTime object .
+1371	Pop an item from the queue .
+1228	Evaluate the rows .
+142	Merge cells
+1138	Builds the configuration information for the given subscription .
+515	Sets the payg billing option .
+1359	Creates a new lock with the given block . If no block is given the lock will be locked .
+706	Sets the guest customization section for a VM .
+179	Adds additional properties to the build .
+280	Yields each meta redirect to the given block .
+638	Calculates the shading colour for the given colour .
+791	Loads all api files .
+830	Transforms a value to a new value .
+1232	Processes the number of lines in a given infile .
+494	Get all clients
+1357	Play cards .
+514	Sets the basic information about a company .
+1109	Call this method on all hosts .
+1152	Execute a sh command .
+1276	Binds a queue to an exchange .
+381	Validates the response .
+1330	Execute a hook action .
+452	Creates a new DocumentRelation object .
+995	Treat data as a hash
+327	Checks if a user is on a blocklist .
+1267	Move the given options to the given type .
+303	Set consumer secret
+1061	Sets the user s avatar .
+987	returns a list of existing rules
+57	Creates a new AdManagerDate object
+1361	Waits for the test to complete .
+538	Returns a list of all user checkins
+414	Creates a new report .
+880	Export the image to a string
+170	Checks if the given template path is valid .
+1182	rewrap an array with the given result .
+780	Create a user
+274	Checks if the given data matches the accepted rule .
+958	Gets a gte from a query string .
+516	Sets the monthly billing for a single invoice .
+582	Forward a method to another delegate .
+512	Suppress emails .
+1233	Writes the result to the file .
+698	Get a catalog
+79	Save the data to a file
+454	Feeds the given input to the stream .
+1256	Writes a JSON object to a file .
+848	Set the title of the composite .
+199	Get an item
+1112	Creates a new cp object .
+137	Finds a record by id or record
+882	Imports an import report .
+1045	Enable or disable a user account control attribute
+897	Creates a new CallbackData instance .
+738	Determine if a given media type should be ignored .
+687	Get vApp port forwarding rules
+916	Gets a single tile at a given zoom .
+611	Creates a new Parse instance .
+808	Reads data from the memory .
+723	Waits for the given callable to exit .
+377	Upload an image to twoCaptcha .
+151	Determines if the given method is missing from the collection .
+1226	Serialize the data to a CSV file .
+1304	Get all fields given a field name and value
+743	Returns the temp file for the given part .
+902	Creates a new instance of this class .
+672	Sends a feature report .
+1372	Sends a lookup request to the cache .
+349	Finds all items in a batch .
+685	Sets the vapp network configuration section .
+1050	Execute the given block .
+1088	Pull text until end
+294	Perform a POST request to a resource .
+1186	Finds a room based on a query .
+913	Compact the results of the given items .
+921	Deregister all targets .
+424	Finds a resource by its id .
+46	Returns the module name for the given version .
+509	Returns a list of lists for an email .
+748	Returns true if we prefetch the primary key for the table .
+708	Gets a vm by name .
+704	Adds a virtual network to the VM .
+133	Create a new Futex wallet .
+974	Handles whether or not a keyboard will hide a notification .
+129	Serialize this Hash to JSON
+255	Creates a new Session object .
+202	Returns a list of items that have been received since the given date .
+1352	Validates the given timeout .
+503	Returns a Hash of webhooks
+899	Returns the next LFsr25 seed .
+1288	Runs the daemon .
+106	Creates an OAuth2 authentication handler .
+579	Returns a photo with the given photo id
+928	Creates a table statement .
+608	Signup a user .
+215	Create an attachment
+267	Enqueue a URL .
+244	Convert XML to XML
+385	Determine if the request is complete .
+1319	Parse options
+28	Validates that the given argument is a valid time .
+13	Makes a mock request to OmniAuth .
+71	Downloads a report as a file .
+1154	Process the aggregation file .
+371	Expose the module to the given class .
+78	Get the report request headers .
+705	Deletes a VM network .
+1090	Processes an object .
+686	Set the vapp port forwarding rules .
+821	Generate the foreign key that belongs to a foreign key
+716	Adds a new provider to the container .
+598	Send a PUT request .
+871	Format the path to the given entry .
+441	Returns a list of all refunds for a given credit card .
+61	Executes an action .
+329	Generate the authorization URL for the request
+1193	Generate a list of names for a player .
+701	Sets the virtual hardware section of a virtual machine .
+1278	Subscribe to an Isimud delivery
+810	Convert to GMarker api2 .
+910	Set HTTPI debug level
+747	Returns the type from the specified filename .
+301	Returns the safelist of the given list of strings .
+771	Returns a hash of unique paths for the given name .
+234	Runs a request .
+1271	Delete an alert
+1215	Creates a new File .
+523	Returns spam results for the given date .
+1241	Report user to room
+858	Get price information for a given type .
+905	Iterates over all items and yields them to the block .
+6	Returns a hash of all cookies in the request .
+322	Loads the bot s configuration .
+1388	Calculates the jd for the given date .
+536	Search users by tip
+968	Set whether or not a column belongs to an attribute .
+764	Store associations on an object
+1219	Creates a lookup table .
+1167	Creates default consent_tier statistics .
+1296	Configures a configuration file .
+1246	Returns the default user for the collection
+1293	Sends an osx notification message .
+1206	Convert a value to a regular expression .
+673	Gets a feature report .
+1244	Returns the collection site for this collection .
+818	Converts a quantity to a price .
+1010	Adds schema hashes to the object .
+442	Update an existing PinPayment recipient .
+756	Updates the video orientation of a video .
+265	Set the credentials for the given URL .
+278	Yields every atom doc for every page
+501	Returns an array of segments
+261	Creates a new cookie object .
+833	Adds a new property to the collection .
+208	Get all events for a subscription .
+389	Unlocks the lock .
+565	List avenue group
+883	Dump a scraped object .
+1071	Set the attributes of the current song .
+1383	Finds or creates an authorization by a note .
+647	Creates a string representation of this image .
+107	Prepare a wrapper for the given version .
+1348	Reloads an event .
+522	Returns unsubscribes by date
+1146	Sends a message to the server .
+1009	Applies the given action once .
+138	Is the moderation state visible to all users?
+621	Returns a string representation of this URI .
+173	Get the folder shape for a given folder shape .
+115	Checks if a transaction exists .
+603	no_read! will_change!
+1137	Convert a span to a Vector .
+1390	Add a date to the calendar .
+651	Set the header for this URI .
+228	Converts a value into a DateTime object .
+19	Validates arguments .
+230	Returns an entry with the specified id .
+436	Defines a method for the given name and locator .
+319	Slip a file into a YAML file .
+434	Creates a link with the given name and locator .
+626	Creates a new character with the given style .
+1310	Wake the deadline at the specified start time and timeout .
+971	Gets the Nokogiri for the given path .
+875	Set the rotation of the image .
+759	Create a new StackMiddleware instance .
+477	Creates a new ADDHASH instance .
+643	Set the bottom border width .
+403	Generate advanced search request
+84	Checks if the report definition hash contains at least one field
+1221	Creates a new Joiner .
+757	Select levels based on the given data and backtrack
+1062	Returns a list of all champions for this tournament .
+399	subscribe to a proc
+98	Determine the choice for a given field .
+340	Dump the local file record .
+1041	Returns the input file .
+900	Parse options
+456	Transitions the current state of memory to the next state .
+1274	Get all servers with labels .
+1198	Determines whether or not the given argument is a boolean row .
+87	Get a list of all credentials associated with this application .
+1290	Get the layout for a given layout path .
+447	Delivers a file to the given path .
+942	Add a word to the list of categories .
+24	Handles the namespace override .
+10	Creates a new instance of OmniAuth .
+88	Set the credentials of a new credential .
+152	Loads a sideload from one or more sideloads .
+499	Updates the custom field options .
+766	Mounts the application to the given path .
+1318	Open a file dialog
+1047	Saves a transfer event to the given storage container .
+1283	Publish a file to the given draftpath .
+175	Returns an indexed page item view .
+427	Creates a new RestClient instance .
+1036	Sets the coordinates of the given coordinates .
+1185	Returns a Room with all its friends .
+417	Returns the total coverage of the given report path .
+976	Create a new instance of the application .
+149	Adds an item to the collection .
+1334	Write a list to Redis .
+1183	Adds a dependency to an object .
+68	Format an error message .
+1035	Builds a playlist with the given attrs
+1046	Enables the user lockout attribute .
+233	Get the headers for the request .
+689	Add a virtual network to the vapp .
+376	Decode twoCaptcha messages .
+801	Open a USB device .
+972	Returns the field at the given index
+99	Normalizes an item .
+856	Add a subject to the product
+614	Serialize the text to a string .
+144	Set the color of a palette .
+1294	Analyze a string
+1342	Find records in batches .
+196	Get the user availability of a user .
+1104	Finds a record matching a public id or alias .
+658	Creates a new document .
+500	Get the custom fields for the given item .
+440	Display flash messages
+59	Creates a Savon client .
+238	Reloads the client .
+1205	Get the range type of a given type .
+596	Perform a GET request .
+326	Determines if the given text should be skipped .
+530	Returns a list of all attachments that have been sent .
+62	Handles a soap request .
+834	Validates that the given value is valid .
+793	Creates a new instance of the application .
+435	Defines a menu item with the given name and locator .
+814	Creates a new Geos instance .
+827	Writes an attribute to the cache .
+612	Saves all conditions to the given expression .
+784	List all users
+835	Validates the given object .
+655	Returns a string representation of the given character set .
+4	Convert ext to MIME .
+867	Collect directories from a glob pattern .
+118	Balance txns .
+1125	Updates the status of the visitor .
+1180	Add a value to the header row .
+117	Initialize a new txn .
+466	Creates a new instance of AmazonFlexPay .
+840	Convert the given argument to a string .
+291	Set the client to use no authentication
+1338	Returns true if the given method can be used .
+1275	Sends an event to the client .
+765	Setup a form for the given group and type .
+375	Gets the queue for the given value .
+1161	Execute the given command .
+607	Link auth data for a service
+1190	Adds a new attribute to the model .
+813	Convert a string to a BBox object .
+652	Set the footer for this node .
+1209	Generate a number for the given col and comparator .
+1136	Execute the given block .
+1394	Creates a new resource .
+469	Verifies the signature of the request .
+526	Flush the results of the given block .
+769	Returns an array of dirs for the given name .
+1343	Loads a keymap .
+312	Creates a new tweet .
+1222	Add defaults local
+555	Creates a Faraday connection .
+805	Write data chunksize to memory
+404	Processes a request .
+205	synchronize all items
+50	Evaluate the object .
+1143	Publish a message to the server .
+103	Creates an OAuth2 token .
+786	Creates a bookmark .
+1075	Get a vote for a room
+963	Returns the error messages for the given field .
+293	Set the bearer token for the client .
+832	Returns an array of currencies for the given table .
+533	Guess the duration of the peek .
+405	Refresh the tokens .
+89	Generate the user agent
+1358	Sleep until the given timeout is reached .
+347	Detects a cycle between two nodes .
+730	Add the given terms to the query .
+667	Get a USB device by path
+1116	Yields once to the given key .
+1093	Get the content of a single post .
+1272	Gets the server id for a given server .
+285	Perform a POST request .
+989	Activate a virtual machine .
+1031	Returns true if the attributes of this resource match the values of another .
+407	Returns true if the message is a snorter .
+951	Encodes an object with the given coder .
+26	Validates an array argument .
+82	Checks for an XML error .
+1220	Calculate the positions of all cols .
+939	set default left and right fields
+153	Saves the connection to the server .
+490	Updates a subscriber .
+1060	Returns true if the user is available .
+736	Get a document from the given URL .
+1347	Checks if the input is valid .
+194	synchronize folder hierarchy
+240	Yields each page to the block .
+357	Returns the dependency attributes for each of the given inventory collections .
+378	Creates a captcha with the given captcha id .
+1171	Updates a previously collected dependent .
+191	Dispatch a field URI .
+1286	Extracts a set of subjects from the request .
+392	Reconnects the connection with the given URI .
+1399	fix the ownership of the process
+888	Returns true if the dependency graph should be used
+1381	Perform a search .
+1231	Processes an operator .
+17	Creates a batch jobutils .
+574	Mark avenue todo
+1096	Append a file to the destination .
+1366	Creates a new instance of EchoUploads .
+219	Get user availability
+259	Returns a hash of all content charset values .
+1073	Set the number of sticker placements for a user .
+108	Creates a default logger .
+239	Returns the field for the specified field ID .
+193	Update an item .
+957	Compares an item with a comparator .
+925	Creates a new table .
+670	Open the device .
+338	Extracts files from an archive .
+311	Search for tweets since the given ID .
+702	Set the virtual hardware section of a virtual machine .
+1025	Sets the status of the session missing .
+624	Creates a footnote for the given text .
+203	Returns an array of items between start_date and end_date
+1341	Finds an item by its ID .
+797	Initializes a new connection .
+266	Runs the given block .
+999	Calculate the width and height of the text .
+532	Get a hash of all job data for all tubes .
+1089	Returns the dom classes of the comparison .
+580	Adds a photo to the collection .
+109	Loads the provided configuration .
+488	Validates the given access token .
+876	Checks if the coordinates are within the permitted range .
+165	Track arguments
+637	Returns the colour of the column at the given index .
+20	Validates that the choice argument is valid .
+1105	Creates a controlled value .
+1039	Set the location from the given location .
+654	Returns the footer for this node .
+935	Extracts a sauce platform from a value .
+944	Creates a new Formula object .
+855	Returns the discount code for a proprietry disc .
+269	Create a new page .
+1032	Parses and creates an article .
+480	Initialize a new instance of the Redis Engine .
+1130	Adds a new location to the given storable .
+1118	Get all the buddies for a user .
+678	Returns the output filename for the given file .
+1363	Extracts the RDDoc from a file .
+615	Returns the previous node of this node .
+481	Sugadd all attributes of the model .
+64	Returns the exception for a SOAP exception
+1052	Returns true if the statement matches the other .
+176	Returns the folder IDs for all folders
+412	Decode options for a given definition and options .
+1188	Updates the given attributes .
+641	Set the top border width .
+1017	Close the session .
+1131	Copies the given container type to a new container type .
+1121	Get all stickers that have been Purchased .
+1397	Runs the daemon .
+1102	Returns the name of the given middle name .
+669	Returns the USB code for the current locale .
+1095	Default defaults
+398	subscribe to a given pattern
+450	Execute the given cmd .
+1265	Creates a new action .
+825	Convert to a hash .
+1166	Set the collection status .
+335	Convert the time to a local time .
+1126	Convert the given input to a string .
+1391	Returns a numeric value of + n + .
+1253	Downloads a file to a file .
+1387	Converts a day to a date
+310	Checks if the user is on safelist .
+715	Get a VDC by its name .
+943	Creates a new button .
+1184	Resolve the dependency of a given node
+288	Iterates over each item in the query .
+595	Compile a Query .
+393	Configures the inactivity check for the given trigger_secs and response_timeout .
+938	Extracts multiple numbers from a string .
+1273	Gets the server name of the specified server .
+1251	Parse download files
+952	Order the collection based on the given field name .
+485	Creates a new + ft_suglen + instance .
+908	Execute SSH commands .
+460	Format a value .
+965	Validates the length of a field .
+543	Get uservenue history
+546	Make a user friend request
+914	Returns a list of all pet stats for a given species
+541	Get user todos for a user
+97	Determines a choice type override .
+212	Move a folder to another folder
+978	Performs a filter with the given key .
+77	Make an adhoc request .
+1051	Creates a header for the given columns .
+126	Execute the given command .
+406	Returns the fixtures class if defined .
+25	Validates the given argument .
+836	Set the property name to the given schema .
