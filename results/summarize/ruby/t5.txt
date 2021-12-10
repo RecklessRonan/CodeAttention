@@ -1,0 +1,4 @@
+[Time: 3h8m] save_models/summarize/ruby/t5/checkpoint-best-bleu/pytorch_model.bin
+[best-bleu] bleu-4: 13.69, em: 0.2379, codebleu: 0.0000
+[Time: 3h9m] save_models/summarize/ruby/t5/checkpoint-best-ppl/pytorch_model.bin
+[best-ppl] bleu-4: 13.64, em: 0.2379, codebleu: 0.0000
