@@ -1,1400 +1,1400 @@
-1288	Runs the command .
-674	Creates a new instance of the given string .
-1193	Get a list of all available tags .
-1345	Get the number of bytes for this machine .
-1008	returns a new instance of the given string
-1289	Determine whether the given block has been processed .
-560	Called by the user s email address .
-697	Initializes a new Client object .
-1229	Returns the width of the given block
-950	Send a request to the server
-8	This method is called when a dependency
-802	Convenience method for creating a new object .
-903	Return a new Pattern with the given name
-125	Initialize a new Client instance .
+1288	Initialize a new Client instance
+674	Retrieve the value of the given block .
+1193	Returns a list of all players that match the specified name .
+1345	Returns the number of bytes for this machine .
+1008	Returns an array of days for the given day
+1289	Check if the given directory exists
+560	Add a single comment to the server
+697	Creates a new Client instance .
+1229	Returns true if the row is empty
+950	Create a new Client instance .
+8	This method will be called when a block is given .
+802	Creates a new container instance .
+903	Returns true if the chain exists
+125	Creates a new Client instance .
 574	Creates a new Client instance .
-1092	Get the value of a specific role .
-570	Returns a list of all available topics in the given query .
-297	Creates a new instance of the given class .
-858	Retrieve the value of a given object .
-1332	Initialize a new Client object
-250	Create a new instance of this class .
-1339	Create a new instance of the given block .
-581	Returns an array of all possible copies of a given site .
-448	Get the contents of a file
-942	Create a new instance .
+1092	Sets the value of the given block .
+570	Creates a new Filter
+297	Creates a new instance of the given network .
+858	Returns the value of the given type .
+1332	Builds a hash from the given hash .
+250	Creates a new Client instance .
+1339	Returns a hash of the given block .
+581	Retrieve the list of photos for a given site .
+448	Retrieve the contents of a given file .
+942	Add a category to the list of categories .
 514	Create a new Client instance
-798	Checks if the given method is available
-167	Determine whether or not the given block is available .
-481	Extracts all the attributes from the given hash .
-492	Returns a new instance of the target .
-129	Returns a hash containing all the keys of this object .
-745	Creates a new instance of the given command .
-38	Create a new instance of the Bundler
-367	Determines the given value of the given block .
-1210	Returns the number of occurrences of a given block .
-1083	Parse a single file and return it as a Hash .
-832	Returns a hash containing all the keys of this account .
-582	Provides access to the given object .
-1299	Finds all associated with the given address .
-168	Generates a string representation of the given color .
-457	Create a new instance of the given block
-224	Convert the given string to a hash
-309	Returns a new instance of the given block
-626	Create a new instance of the given block
-698	Retrieves a single document from the manifest .
-158	Create a new instance
-1134	Returns a hash of the current manager .
-1276	Create a new Client instance
-509	Returns a hash of the email address .
-831	Create a new instance of the Client
-965	Ensure the given argument is a valid Wavefront value .
-1202	Returns a new instance of the given block .
+798	Checks whether the given method is enabled .
+167	Create a new Client object .
+481	Creates a new Client instance .
+492	Returns a list of all subscribers in the specified subscription .
+129	Returns a new Tuple with the specified parameters
+745	Generates the contents of a file .
+38	Creates a new Client instance .
+367	Convert the given coordinates to the given index .
+1210	Returns the number of elements in the given range .
+1083	Initialize a new Client object
+832	Returns the list of values for the given table
+582	Creates a new Client instance .
+1299	Returns an array containing the names of the given label .
+168	Returns a string representation of the given text .
+457	Create a new Client instance .
+224	Returns a string containing all the keys of the given string .
+309	Returns a new user s status
+626	Returns a string representing the given block .
+698	Retrieves a single document from the given hash .
+158	Create or update a single record
+1134	Returns a list of all possible teams in the given team .
+1276	Create a new Client instance .
+509	Returns a list of email addresses .
+831	Create a new Client object .
+965	Returns the value of the given string
+1202	Returns the value of the given block .
 662	Returns a new instance of the given block .
-848	Calls the given block once and returns the result .
-76	Returns a new instance of the Repository for the given service .
-500	Returns a hash of all the keys of the application .
-238	Get the current state of the given block
-1314	Create a new instance for the given model class
-414	Builds a new ClearLog object .
-228	Retrieve the value for the given attribute
-440	Returns a hash with all the keys of this message .
-899	Returns a new instance of the given string .
-152	Loads a single document from the given hash .
-689	Create a new Client object
-501	Get a list of all available segments
-598	Send a request to the server
-196	Returns a new instance of the application .
-1070	Creates a new Client instance .
+848	Returns a new Tuple with the specified name .
+76	Create a new Client instance .
+500	Returns the list of values for the given subject .
+238	Returns a new Client instance .
+1314	Creates a new filter
+414	Returns a new Tuple with the given options .
+228	Convert a single argument to a single target .
+440	Returns a hash containing all the keys of the given type .
+899	Returns the next value of the given block .
+152	Get the contents of a given block
+689	Creates a new Client instance .
+501	Returns a list of all segments of the given account
+598	Creates a new Client instance .
+196	Returns the availability of the given address
+1070	Loads the given tag .
 1211	Create a new instance
-1197	Returns a new instance of this Study .
-754	Create a new instance of this Plan .
-747	Extracts the name from a file .
-324	Runs the given block with the given options .
-66	Initialize a new Client instance
-712	Get the list of organizations in this hub .
-1075	Initialize a new Client object .
-432	Create a new instance of the source class .
+1197	Return a new Tuple with the given name .
+754	Creates a new Client instance .
+747	Returns the given filename of the given type .
+324	Creates a new Controller instance .
+66	Creates a new Client instance .
+712	Retrieve the list of organizations from the server
+1075	Creates a new Client object .
+432	Generates a radio button .
 1203	Returns a new instance of the given block .
-981	Execute a given block with the given name .
-887	Returns a hash of the current object representing the current state of the given object .
-655	Returns a new instance of Model class
-508	Returns a list of all available items
-1165	Finds the given argument with the given name .
-193	Helper method for creating a new item .
-1107	Retrieve the value for a given block .
-744	Create a new instance of the file
-515	Returns a new instance of this Plan .
+981	Creates a new Client instance .
+887	Builds an array of hashes from the given hash .
+655	Returns a string representation of this object .
+508	Returns a list of all the items associated with the given name .
+1165	Retrieve the first url for a given channel .
+193	Creates a new Client instance .
+1107	Creates a new Client instance .
+744	Adds a single file to the specified mode .
+515	Creates a new Client instance .
 287	Create a new Client object .
-648	Initialize a new instance .
-149	Initialize a new instance .
-117	Initialize a new Client instance .
-1162	Returns a list of all possible versions of the given block
-1161	Initialize a new Client instance
-52	Get the value of the given block .
-1208	Determine if a given string is present .
-665	Retrieve the value for a specific entity
-1321	Returns a new instance of Model class
-1180	Adds a single column to the model .
-266	Runs the given block .
-671	Initialize a new Client object .
-735	Parse a single line object
-877	Return a new instance of the class
-405	Creates a new instance of Watcher
-716	Helper method for creating a new container
-319	Create a new instance of this class .
-290	Create a new Client object .
-90	Returns a new instance of the given block .
-510	Returns a hash of all the items associated with this account .
-1010	Returns a hash of all the keys of the given object .
-473	Finds a single document matching the given name .
-355	Returns a hash of all the attributes defined for this document .
-529	Initializes a new Client instance .
-806	Creates a new instance of the given string .
-338	Retrieve the contents of a file .
-295	Returns a new instance of the given block
-734	Create a new instance of this class .
-334	Execute the given block .
-711	Constructs a new Client object .
-782	Creates a new Client object .
-374	Initialize a new instance of the given file .
-675	Returns a hash of all the keys in this repository
-635	Create a new TableWrapper object
+648	Converts the given string into a hash .
+149	Create a new instance .
+117	Create a new Client instance .
+1162	Returns a list of all clubs
+1161	Creates a new Client instance .
+52	Retrieve a list of values for the given type .
+1208	Returns an array of dates in the given range .
+665	Retrieve the value associated with the given name .
+1321	Initialize a new Client instance .
+1180	Creates a new Tuple with the given parameters
+266	Creates a new Client instance .
+671	Retrieve the current value of the given block .
+735	Parses the given argument .
+877	Create a new instance of this class .
+405	Creates a new Client instance .
+716	Create a new container
+319	Creates a new Tuple instance .
+290	Creates a new transaction
+90	Gets the details of the client .
+510	Get all the items in the collection
+1010	Creates a new Tuple instance .
+473	Returns a new instance of the specified query .
+355	Creates a new Client object .
+529	Creates a new Client instance .
+806	Returns the number of bytes of the given block .
+338	Extracts the contents of a given file .
+295	Creates a new SharedGroup instance .
+734	Creates a new Client instance .
+334	This method is called when the process is closed .
+711	Creates a new network instance .
+782	Finds the user with the given name .
+374	Creates a new Client instance .
+675	This method is called when a transaction is committed .
+635	Create a new TableWrapper object .
 1047	Retrieve the current value for the given object .
-625	Apply the given block to the console
-1135	Get the contents of a file or directory
-1004	Initialize a new Client instance
-164	Create a new instance .
-421	Finds all possible files in the given directory
-105	Validates the given query .
-160	Create a new instance .
-1137	Return the width of the given block
-1050	Create a new instance of the source file
-645	Calculates the width of the given block .
+625	Creates a new instance of the given block .
+1135	Return a new Tuple with the given name
+1004	Create a new Client instance .
+164	Returns a new version of the given block .
+421	Returns the contents of the given file .
+105	Checks if the given service is valid .
+160	Create a new instance of the given block .
+1137	Convert the given string to a span
+1050	Creates a new Client instance .
+645	Returns the width of the given block .
 1278	Initialize a new Client instance
-301	Returns a new instance of the given block .
-601	Get all the contents of a file .
-1022	Creates a new Client instance .
-762	Creates a new instance of Model class
-1381	Returns a string representation of the query .
-519	Returns a hash of the given email address .
-3	Returns a hash containing all the keys of the given string .
-586	Returns a new instance with the given options .
-1358	Returns true if the given block has been consumed .
-169	Returns a new instance of the given model
+301	Returns a string representation of the given block .
+601	Calls the given block once for the user has been set .
+1022	Creates a new SongManager instance .
+762	Creates a new instance of the given string .
+1381	Returns a hash of the given parameters
+519	Returns the status of a client
+3	Returns a hash containing all the keys of the given block .
+586	Returns a Hash containing all records matching the given block .
+1358	Return a new Tuple with the specified parameters
+169	Returns the name of the machine
 714	Gets the details of a specific group .
-736	Get a single document from the given hash .
-363	Returns a new instance of the given block .
-1352	Returns true if the given block is valid .
-999	Returns the width of the given block
-755	This method is called to create a new Video object
-653	Create a new HMAC instance
-578	Create a new instance .
-494	Returns a list of all available clients
-542	Get a list of all uploaded files
-386	Return a string representation of this document .
-415	Create a new instance of the given block .
-377	Initialize a new Client object .
+736	Returns the contents of a given URL
+363	Finds the given range of items within the given range .
+1352	Converts the given argument to a single target .
+999	Returns the width of the given block .
+755	Creates a new copy of the given avatar .
+653	Creates a new Header object .
+578	Create a new Client
+494	Returns a hash of all the clients
+542	Get a list of all the user s photos
+386	Returns the contents of the current document .
+415	Returns a new instance of the specified file .
+377	Creates a new Client instance .
 486	Generates a new Tuple with the given parameters .
-855	Returns the value of the equation .
-633	Create a new instance of the given block
+855	Returns the value of the specified type .
+633	Create a new Color object
 394	Creates a new Client instance .
-1257	Create a new instance of the given file
-166	Returns a string representation of the given path .
-920	Constructor .
-940	Helper method for updating the current branch
-955	Creates a new instance of the given class .
-943	Creates a new Page object .
-915	Return a boolean
-286	Initializes a new Client instance .
-153	Create a new instance of the client .
-62	Create a new Client instance
-1383	Creates a new Client object
-1363	Extracts the first argument from a string .
-1228	Returns a new instance of the given row .
-1009	Execute the given block with the given name .
-1034	Helper method for creating a new instance .
-1303	Initialize a new Client instance
-634	Returns a new instance of the given block .
-108	Create a new logger instance
-291	Create a new instance of this Client object .
-996	Convert the given value to a string .
-1171	This method is called when a component has been acquired .
-752	Create a new instance of this Plan .
-577	Returns a list of all available topics
-830	Transforms the given value to the given block .
-619	Store the given block in memory
-579	Get the list of photos for a given photo .
-723	Execute the given block
-489	Initialize a new instance .
-709	Applies the given role to the server
-708	Returns a new instance of the application .
-25	Creates a new instance of the given block .
-1138	Builds the list of files from the server .
-930	Creates a new instance of the given block .
-58	Returns a new instance of the given block .
-1199	Returns true if the value of the given block matches the given string .
-1346	Get the number of bytes for this machine
+1257	Returns the contents of the specified file .
+166	Renders the given path to the given hash .
+920	Creates a new instance .
+940	Retrieve the current level of the given block
+955	Returns true if the given block matches the given string .
+943	Create a new container instance .
+915	Returns the status of the current state
+286	Create a new Client object .
+153	Creates a new Client instance .
+62	Create a new Client instance .
+1383	Creates or updates a single document .
+1363	Extracts the first line from the given hash .
+1228	Returns a new TableWrapper object with the given parameters .
+1009	Creates a new Client instance .
+1034	Parse the given scope .
+1303	Creates a new Client instance .
+634	Apply the given color to a block
+108	Creates a new logger instance .
+291	This method should be called when a user has been set .
+996	Converts the given input values to a hash .
+1171	This method is called when a component is completed .
+752	Calls the given block and returns the result as a string .
+577	Returns an array of Time objects for a given site .
+830	Creates a new instance of the given block .
+619	Create a new Client object .
+579	Retrieve a single photo
+723	Returns a new instance of the given block .
+489	Create a new instance of the client
+709	Calls the given block on the server .
+708	Gets the name of the virtual machine .
+25	Returns true if the given block matches the given value .
+1138	Creates a new Client instance .
+930	Creates a new Client instance .
+58	Gets the value of the given block .
+1199	Returns true if the given string matches the given value .
+1346	Returns the number of bytes for this machine .
 1018	Creates a new Client instance .
-247	Returns the path to the destination file
-724	Returns a new instance of the Repo server
-1068	Create a new instance .
-1393	Builds a hash from the given index
-1365	Create a new instance of Page .
-563	Create a new Client instance .
-876	Ensure the given argument is a valid point .
-905	Return a new instance of the given block .
-1215	Create a new instance of this class .
-1144	Send a message to the server
-978	Retrieve the value associated with the given key .
-1250	Returns a hash of the current object with the given name .
-1065	Create a new instance
-1283	Create a new instance of file
-1046	Retrieve the lock for a given lock
-1040	Finds the given object by its name .
-944	Create a new instance of the given block .
-1173	Creates a new instance of the given class
-1091	Helper method for creating a new logger .
-36	Finds a single element in the given path .
+247	Returns the contents of the specified file .
+724	Returns a list of all requests that have been processed
+1068	Creates a new Client instance .
+1393	Returns a hash with the given parameters
+1365	Extracts the details of a particular page .
+563	Creates a new PaymentGroup .
+876	Checks if the given coordinates of a given string .
+905	Return a new Tuple with the given parameters
+1215	Creates a new Tuple .
+1144	Creates a new Client instance .
+978	Retrieve the value of the given block .
+1250	Returns a hash of all the specified parameters .
+1065	Creates an instance of the specified attribute .
+1283	Creates a new Registry instance .
+1046	This method is called when a user has been locked .
+1040	Creates a new Table instance .
+944	Creates a new instance of the given block .
+1173	Creates a new instance of the given element .
+1091	Creates a new Logger instance .
+36	Finds the given value at the given path .
 824	Ensure the given argument is a valid Wavefront value .
-1271	Create a new Alert object .
-82	Returns a new instance of the given block
-650	Extracts the height from the given hash .
-694	Get the status of a specific task
-1221	Returns the number of times in the jwk
-928	Create a new instance
-1281	Create a new instance of the post .
-1005	Calls the given block .
-919	Returns a new instance of the given block .
-556	Returns a new instance of this Response object .
-281	Finds the given block with the given options .
-568	Returns a list of all the objects associated with this account .
-1096	Appends the given string to the current page .
-148	Loads the given block .
-1355	Returns a hash of the selected elements .
-1038	Determine whether the given block is within a particular location .
-316	Gets the status of a user .
-11	Initialize a new Client
-192	Returns a new instance of the JSS
-1331	Initialize a new Client instance .
-1292	Send a message to the server
-639	Return a new Tuple with the given parameters
-1140	Create a new instance of the given block
-1216	Create a new instance of the Collection
-1239	returns a new instance of the user
-267	Execute the given block
-451	Initializes a new Client instance .
-739	Creates a new instance of the given block .
-1224	Finds the first element with the given name .
-1214	Helper method to create a new instance
-983	Helper method to update a single column
-1340	Get the value of the current object at the given index .
-359	Returns a new instance of ActiveRecord object .
-447	Execute the given block .
-511	Returns a new instance of the Contour .
-1086	Create a new Dictionary object .
-260	Checks if the given argument is a valid option .
-561	Internal method to send a message to the server
-487	Creates a new instance of the given block
-803	Returns a new instance of the given object .
-839	Returns an array of all possible arguments
-70	Ensure the given argument is a valid logger .
-174	Create a new instance .
-880	Returns a string representation of this object .
-995	Create a new instance of this class .
-57	Returns a hash representation of this object .
-528	Returns a new instance of the given block .
-580	Create a new instance .
-15	Returns a new instance of the given block
-1351	Execute the given block with the given options .
-984	Returns a string representation of the given block .
-1136	Create a new instance from the given hash .
-306	Constructs a new Client object .
-72	Generates a new PDF file .
-652	Returns the value of the given block
-498	Create a new instance of ActiveRecord model .
-790	Loads the configuration from the given hash .
-1170	Returns a new instance of the given unit .
-16	Returns a new instance of the account
-468	Returns a new instance of the account
-537	Get a list of all auth messages in the server
-80	Returns a new instance of the given block
-292	Initialize a new Client instance
+1271	Create a new Incident object
+82	This method is called when a transaction is found .
+650	Creates a new DICOM object .
+694	Get the status of a given task
+1221	Creates a new Tuple .
+928	Create a new table
+1281	Create a new instance of the given feature
+1005	Disconnects from the server .
+919	Return a new Tuple with the given parameters .
+556	Returns a hash containing the given response data .
+281	Returns true if the given block is valid .
+568	Returns a list of all the objects associated with the given name .
+1096	Create a new Client object .
+148	Loads the given attributes from the given hash .
+1355	Creates a new card with the given name .
+1038	Creates a new instance of the given region .
+316	Creates a new Watcher
+11	Creates a new Client instance .
+192	Creates a new Client instance .
+1331	Create a new List with the given name .
+1292	Creates a new Client instance .
+639	Returns a string representation of the current page .
+1140	Creates a new Client instance .
+1216	Creates a new filter object .
+1239	returns a new watcher
+267	Creates a new instance of the given block .
+451	Creates a new Client instance .
+739	Creates a new Tuple with the given parameters .
+1224	Returns a new Column with the given parameters
+1214	Returns the value of a specific attribute .
+983	Creates a new Tuple .
+1340	Returns the first element with the given name .
+359	Returns a new instance of the given object .
+447	Calls the given block if it exists .
+511	Retrieve the list of email addresses .
+1086	Creates a new Client object .
+260	Returns true if the given content type is specified .
+561	Add a message to the server
+487	Returns the contents of the given block
+803	Creates an instance of the given category .
+839	Creates a new Tuple with the given arguments .
+70	Ensure the given argument is a valid logger
+174	Creates a new Particle instance .
+880	Creates a new DICOM object .
+995	Builds a hash from the given hash .
+57	Returns a hash representation of the current event .
+528	Returns a hash containing all the keys of the given block .
+580	Creates a new Photo
+15	Creates a new Client instance .
+1351	Return a new Tuple with the specified parameters .
+984	Returns the list of values for a given string .
+1136	Executes the given block .
+306	Creates a new Client instance .
+72	Creates a new Client instance .
+652	Returns a new Tuple with the specified name .
+498	This method is used to update a specific field .
+790	Loads the given config file .
+1170	Returns the minimum value for this domain .
+16	Constructs a new version of the supplied plugins .
+468	Refunds a transaction .
+537	Get a list of all users for a given resource .
+80	Constructs a new Client instance
+292	Creates a new Client instance .
 860	Creates a new instance of the given text .
-1056	Helper method for creating a new container
-1120	Returns a list of all available user s friends
-1190	Creates a new instance of the given block .
-190	Finds the first occurrence of a given type .
-976	Initialize a new Client instance .
-1112	Get the contents of a file .
-993	Returns a new instance of the given block .
-610	This method is called when a user is logged in
-417	Initialize a new Client instance
-843	Loads the configuration from the given hash .
-863	Create a new instance .
-325	Returns a new instance of the given block .
-1263	Create a new Client object .
-865	Copies the current location of this machine
-952	Creates a new instance of the given block .
-1246	Returns a new instance of the site
-1121	Returns a hash of all the images associated with this repository .
-1306	This method should be used inside the interface .
-864	Create a new instance .
-120	Adds a new instance of this Plan .
-323	Displays a single target .
-1368	Returns a new instance of Model
-403	Create a new Client instance
-731	Returns true if the object has not been processed .
-725	Returns a string representation of the application .
-872	Returns the full path to the given directory
-233	Create a new Client instance
-1099	Returns the value for the given string .
-664	Returns a new instance of this Vagrant
+1056	Creates a new container instance .
+1120	Get the list of users
+1190	Create a new instance with the given attributes .
+190	This function return a new Wavefront object .
+976	Initializes a new Client instance .
+1112	Creates a new server with the given name .
+993	Returns a new Tuple with the given arguments .
+610	This method is used for logging in the session .
+417	This method will return a hash with the given options .
+843	Initialize a new Client instance
+863	Create a new client
+325	Returns a list of messages in the given timeline .
+1263	Creates a new Client instance .
+865	Creates a new Client instance .
+952	Creates a new Order instance .
+1246	Creates a new Client instance .
+1121	Returns the list of stickers for this container .
+1306	Assigns the given argument to the current model .
+864	returns a new client
+120	Creates a new transaction .
+323	Returns a new instance of this user .
+1368	Retrieve a single model
+403	Extracts a single query from the provided options hash .
+731	Returns true if the given resource exists
+725	Returns a new Tuple with the given options .
+872	Returns the full path to the given hash
+233	Creates a new Client instance .
+1099	Returns a string representation of the given date
+664	Returns a hash containing all the keys of the given block .
 244	Creates a new Client instance .
-551	Adds a new Pollster .
-1057	Helper method for creating a new container
-513	Returns a Hash of all the templates for this template .
-931	Returns a new instance of the given block .
-1391	Get the value of a given object .
+551	Add a comment to the provided list
+1057	Creates a new container
+513	Get the list of templates
+931	Returns an array with the given options .
+1391	Returns a new Tuple with the specified value .
 425	Creates a new Client instance .
-707	Returns a new instance of this VM
-1114	Creates a new Client object .
-132	Create a new instance of this Plan .
-1059	Returns a hash of all the values of the given object .
-1013	Returns the number of bytes for this machine
-1338	Checks if the given object is allowed .
-114	Returns true if the resource exists
-1251	Initialize a new Client object .
+707	Get the details of a particular virtual machine
+1114	Creates a new instance of the given string .
+132	Create a new Client object .
+1059	Sets the attributes of the given hash .
+1013	Returns the result of the given block
+1338	Returns true if the given user has been set .
+114	Returns true if the given file exists
+1251	Parses the contents of the specified file .
 1372	Returns a new instance of the given block .
-977	Returns a hash of the current object .
-209	Get the contents of a file .
-769	Determine if a given file has been processed .
-989	Create a new instance
-909	Get the duration of a given block
-1354	Creates a new instance of the Mach - O .
-1168	Returns a new instance of ActiveRecord model
-593	Builds a single document from the supplied hash .
-1014	Initialize a new Client object .
-388	Retrieve the contents of a lock
-1308	Returns a new instance of the given class .
-1295	Generates a string representation of the given object .
-100	Recursively flattens the given input field .
-78	Create a new instance of the Client
-1268	Receives a string representation of the current document .
-202	Finds the first occurrence of a given string .
-1172	Create a new instance .
-400	Create a new Client instance .
-669	Returns a string representation of the current connection .
-861	Create a new instance of the site
-1284	Returns the width of a given column
-530	Returns a string representation of this attachment .
-42	Returns a new instance of the given block
-974	This method allows you to send a message to the server .
-418	Returns a new instance of the application .
-780	Initialize a new Client object
-268	Create a new Client instance
-35	Returns a hash of all the keys in the cache
-541	Get a list of all the user s friends
-1349	Returns true if the model is valid
-1141	Execute the given block and return the result as a string .
-1209	Returns a new Struct object with the given name .
-1147	Instantiate a new Client object
-1169	Returns a new instance of the target
-1036	Creates a new Contour instance .
-349	Finds a single document in the collection .
-313	Creates a new Message .
-1185	Create a new Client object .
-1323	Extracts the given text from the given hash .
-621	Takes a string and converts it into a hash .
-369	Returns a new instance of the target
-478	Finds the first argument with the default value .
-126	Executes the given block on the server .
-1164	Create a new Client object .
-256	Execute the given block .
-1060	Returns a new instance of the target
-1051	Create a new instance of the source file
-526	Runs the given block with the given options .
-951	Create a new instance of this class .
-945	Creates a new instance of Watcher
-1342	Finds a single document matching the given string .
-75	Create a new instance .
-558	Returns a list of all possible updates for the given account .
-449	Get the contents of a file
-771	Finds a single document matching the given options .
-207	Returns a new instance of the target
-1116	Execute the given block on the server .
-979	Extracts the value from the given hash .
-817	Return a new Struct representation of the application .
-676	Returns a hash of the current document .
-482	Finds the first occurrence of a given string .
-585	Returns a hash of the current value for the given key .
-822	Create a new instance of the client .
-131	Create a new instance of this clock .
-426	Initializes a new Client instance .
-1371	Retrieve the contents of the lock .
-792	Get the status of the given block .
-794	Returns a new instance of the given block .
-1230	Returns the value of the given block .
-555	Initialize a new Client instance
-382	Runs the given block with the given options .
-539	Get the current user s friends
-840	Returns a new instance of the given block .
-1367	Returns true if the model is valid
+977	Returns an array with the given parameters
+209	Returns the contents of the specified file .
+769	Returns the contents of the specified file .
+989	Create a new Client instance .
+909	Returns a string representing the current schedule .
+1354	Runs the given block on the server .
+1168	Returns the default value for the given table
+593	Creates a new TableWrapper object .
+1014	Create a new Client object .
+388	Retrieve a single lock
+1308	Return a single class name
+1295	Creates a new instance of the given string .
+100	Returns true if the given value is a hash
+78	This method will return a list of files that have been processed .
+1268	Recursively converts the given hash into HTML tags .
+202	Returns the correct date of the given date
+1172	Returns the address of the given address .
+400	Creates a new Client instance .
+669	Returns the number of bytes for this machine .
+861	Creates a new instance of the given site .
+1284	Returns the width of a file .
+530	Returns the list of files that have been processed .
+42	Returns the next page with the given name
+974	Internal handler for GUILD_ROLETE
+418	Returns a new Tuple with the given options .
+780	Creates a new Client instance .
+268	Create a new Client instance .
+35	Returns a hash containing all keys in the given hash
+541	Returns a list of users for a given user .
+1349	Returns true if the model matches the given model .
+1141	Creates a new Client instance .
+1209	Returns an array with the given parameters
+1147	This method should be used for creating a new table
+1169	Returns the default value associated with the given name .
+1036	Create a new instance of this class .
+349	Finds the contents of a given resource .
+313	Creates a new Link
+1185	returns a list of files
+1323	Returns the contents of the given text .
+621	Returns a new Tuple with the given options .
+369	Returns a new Tuple with the given parameters .
+478	Tries to find all the keys of the current model .
+126	Initialize a new Client instance
+1164	Creates a new Client object .
+256	Creates a new Client instance .
+1060	Returns true if the given option is available
+1051	Creates a new TableWrapper object .
+526	Creates a new Client instance .
+951	Creates a new DICOM object .
+945	Creates a new filter object .
+1342	Returns a hash containing the given options .
+75	Creates a new Client instance .
+558	Returns the number of events that have been logged in
+449	Retrieve the contents of a file .
+771	Returns true if the given path is empty
+207	Unsubscribe from the given hash
+1116	Creates a new instance of the given block .
+979	Creates a new Client instance .
+817	returns a list of files in the given array
+676	Create a new Client instance .
+482	Creates a new Bibagger instance .
+585	Returns a new Tuple with the given parameters
+822	Perform an HTTP POST request .
+131	Creates a new Client instance .
+426	Get a single user s profile
+1371	Retrieve the contents of the given block .
+792	Returns the status of the given block .
+794	Create a new Filter instance .
+1230	Returns an array with the given value .
+555	Creates a new Client instance .
+382	Creates a new Client instance .
+539	Returns the list of users associated with the given name .
+840	Returns a new instance of the given string .
+1367	Returns true if the given model is a follower
 904	Returns a new instance of the given block .
-1272	Finds a server by its name .
-862	Create a new instance .
-189	Return a new instance of the given block
-546	Create a new Client instance
-1370	This method is called when a user is found
-946	Create a new instance of the Client class
-296	Create a new instance of this class .
-642	Calculates the width of the given block
-702	Create a new instance of this VM
-1398	Initialize a new Client instance
-1264	Returns a hash containing all the keys of this document .
-350	Assigns a new instance of the given block .
-738	Determine whether or not the given file is available .
-969	Returns a list of all available topics
-60	Create a new Client instance
-968	Create a new instance of this class .
-242	Extracts the options from the supplied hash .
-1252	Get the contents of a file
-1061	Create a new instance of this Client
+1272	Gets the details of a server .
+862	Create a new Client
+189	Returns a new instance of the given block .
+546	returns a single user with a given name
+1370	Returns an array of all occurrences of the given text .
+946	Returns true if the given file exists
+296	Return a new Tuple with the given parameters
+642	Returns a string representing the current page .
+702	Creates a new Client instance .
+1398	Initializes a new Client instance .
+1264	Create a new instance of the given parameters
+350	Creates a new instance of the given block .
+738	Returns true if the given object matches the given string .
+969	Retrieve the list of pages from the repository
+60	Returns a new Client instance .
+968	Creates an instance of the given attribute
+242	Creates a new Client instance .
+1252	Returns the contents of the specified file .
+1061	Set the user s attributes
 1006	Returns a new instance of the given user .
-1023	Create a new instance of the Client
-882	Builds an object from the database .
-856	Creates a new Client object
-871	Convert the given input string into a hash .
-466	Parse the given input parameters
-758	Return a new instance of the feature
-1063	Returns a Hash containing all the keys of the given type .
-411	Verifies that the given input is valid for this document .
-1156	Create a new instance of this matrix .
-10	Initialize a new Client instance .
-1030	Builds a list of breadcrumb
-143	Create a new instance of this class
-967	Returns a hash of the current message .
-801	Convenience method for creating a new object .
-1212	Returns a new instance of this section
-1196	Constructor .
-1153	Determines whether the current object is a child .
+1023	Create a new Client instance .
+882	Reloads a new database .
+856	Create a new Client object
+871	Returns the full path to the server .
+466	Convert a single parameter to a hash
+758	Returns a new instance of the given feature
+1063	Returns a new instance of the specified tag .
+411	Checks if the given argument is a valid signature .
+1156	Create a new instance from the given hash
+10	Create a new Client instance .
+1030	Returns the contents of the given block
+143	Returns an array containing the contents of the given type .
+967	Set the name of the supplied field
+801	Creates a new container .
+1212	Returns a new Tuple with the given name .
+1196	Creates a new DICOM object .
+1153	Returns true if the given object is a child
 255	Creates a new Client instance .
-911	Initialize a new Client instance
-878	Returns a hash representation of the current object .
-1089	Converts the given argument into a hash .
-198	Replace the contents of a file .
-326	Returns true if any of the target is present
-423	returns a new instance of the file
-302	Returns a new instance of the given block .
-588	Create a new Client object .
-557	This method is called when an event occurs .
-820	Returns a list of all possible points in this graph .
-29	Create a new instance of the given attribute .
-1333	Create a new instance of the given block .
-188	Builds an object with the given options .
-18	Execute a block of code on the server
-299	Creates a new bot .
-20	Initialize a new instance of Model .
-997	Helper method for creating a new instance .
-1110	Initialize a new Client instance
+911	Returns a new OptionParser object with the given name .
+878	Creates a new instance of the given hash .
+1089	This method should be called when the class has changed .
+198	Create a new instance .
+326	Returns true if the given string should be ignored .
+423	Get the status of a file
+302	Returns the contents of the given block .
+588	Create or update a file
+557	Returns a single link to the server
+820	Returns an array of all points in the given path
+29	Adds a single option to the list of attributes .
+1333	Create a new Client object .
+188	Builds an object
+18	Creates a new instance of the given block .
+299	Creates a new Client instance .
+20	Creates a new instance of the given argument .
+997	Create a new Client instance .
+1110	Returns a new instance of the given block .
 902	Creates a new Client instance .
-289	Initialize a new Client instance
-339	Finds the first occurrence of a given path .
-543	Get the current user s history
-368	Convert the given array of coordinates to a single pixel .
+289	Create a new Client object
+339	Finds the first element with the given name .
+543	Retrieve a single user s history
+368	Retrieve the given coordinates of a given window .
 1294	Creates a new instance of the given string .
-701	Creates a new Virtual Machine
-446	Create a new instance of the given file
-1087	Create a new instance of the current document .
-1373	Builds a new widget .
-826	Returns true if the repository exists .
-766	Builds a new Client object .
-686	Sets the default value for the given block .
-111	Returns a hash containing all the keys of the given type .
-545	Returns a list of all available users
-146	Finds the worksheet by its name
-646	Retrieve the value of a file .
-413	Execute the given block and return the result as a string .
-452	Builds a new Document object
-775	Returns a new instance of the given block
-217	Create a new instance from the given hash
-340	Create a new instance of the given file
-280	Replaces the contents of a given block with another .
-335	Returns the number of times for a given timestamp .
-1300	Send a message to the server
-567	Returns a list of all available clients
-807	Get the number of bytes of a given block
-827	Creates a new instance of Fetcher .
-1081	Create a new instance .
+701	Retrieve the current value of a VM
+446	Creates a new Client instance .
+1087	Creates a new Tuple .
+1373	Creates a new Client instance .
+826	Returns true if the given value exists .
+766	Creates a new Client instance .
+686	Sets up the current adapter .
+111	Creates a new instance of the given config .
+545	Get a list of all users for a given user .
+146	returns an array of worksheet objects
+646	Create a new instance of the given type .
+413	Execute the given block with the given name .
+452	Returns the contents of this document .
+775	Returns the first element of the given string .
+217	Constructs a new Client object .
+340	Create a new instance from the given hash .
+280	Returns true if the given block matches the given value .
+335	Returns an array of Time objects for the given date .
+1300	Returns a new Session object
+567	Returns a list of all items that match the given block .
+807	Reads a single file from the given block .
+827	Creates a new Client instance .
+1081	Create a new Client object
 516	Create a new Client instance
-1207	Returns a new instance of the given block .
-672	This method is used to send a report .
-251	Execute the given block .
-760	Applies the given block to the middleware .
-1282	Constructor .
-740	Creates a new Particle
-728	Returns a new instance of the given query .
-185	Constructor .
-122	Returns a new instance of the given block .
-212	Create a new Client instance .
-1222	Returns the default value of the current page
-522	Create a new instance of the Client object .
-240	Create a new instance of the given block
-385	Creates a new instance of the given block
-700	Get the contents of a specific task
-1377	Creates a new Drawing object .
-607	Returns a new instance of the given Response object .
-1098	Extracts the header from the given hash
-958	Retrieve the value for the given model .
-1176	Convenience method for creating a new table row .
-365	Calculates the sum of the given block
-1213	Returns a string representation of this object .
-1255	Returns a new instance of the given block
-719	Create a new instance of the class
-1366	Create a new instance of the Client instance .
-336	Create a new Archive object .
-284	Returns a new instance of the given string
-420	Return a new instance of the given block
-603	Returns true if all the contents of the given block returns true .
-480	Returns the full path to the server .
-182	Create a new instance .
-1119	Returns a new instance of the user
-21	Returns a new instance of the given block .
-565	Returns a list of all available topics in the marketplace .
+1207	Returns a Hash with the given parameters
+672	Creates a new Client instance .
+251	Create a new Client instance .
+760	Adds a new instance to the stack .
+1282	Create a new instance with the given options .
+740	Creates a new Particle object .
+728	Returns an array with the given parameters .
+185	Constructs a new instance .
+122	Returns true if the given block is valid .
+212	Creates a new container .
+1222	This method is used to create a new post
+522	Create a new Client object .
+240	Create a new instance of the given block .
+385	Returns true if the given data is completed .
+700	Create a new Client object .
+1377	Creates a new DICOM object .
+607	Creates a new Client instance .
+1098	Creates a new Tuple .
+958	Returns a string representing the current query .
+1176	Creates a new TableWrapper object .
+365	Calculates the sum of the given offset
+1213	Creates a new instance of the given string .
+1255	Returns a new instance of the given block .
+719	Returns a new instance of the given block .
+1366	Creates a new instance of the given hash .
+336	Create a new instance .
+284	Convert the given URL to a relative path
+420	Returns a new instance of the given block .
+603	Calls the given block once if the user has been set .
+480	Returns the contents of a specific element
+182	Creates a new DateTime object .
+1119	Create a new user
+21	Returns a hash containing the given options .
+565	Returns an array of all supported groups .
 1380	Returns the full path to the current directory
-273	Checks if the given argument is a valid URL
-1053	Processes the given object from the given string .
-670	Create a new instance .
-471	Sets the default value for the given object .
-1359	Execute the given block .
-1327	Checks if a file exists in an existing context
-1117	This method should be called with a given name .
-684	Creates a new instance of Vault .
-553	Returns a new instance of the account
-1378	Returns the nearest value of the given object .
-571	Returns a list of all available categories
-1261	Create a new instance of the client .
-263	Create a new instance of the given block .
-922	Returns a new Archive object for the given request .
-644	Returns the width of the given block
-1181	Create a new instance .
-1204	Returns a new instance of the given block .
-1243	Create a new instance .
-428	Initialize a new Client object .
-4	Extracts the current value of the given type .
-679	Returns a new instance of the application .
-246	Create a new instance of the given Model class
-381	Validates the given response .
-1187	Create a new Queue object .
-1021	Create a new instance of this class .
-898	Finds the first occurrence of a given object .
-19	Create a new instance of the given block .
-1218	Define a new instance of the given gem
-892	Runs the given block with the given options .
-1234	Create a new instance of this Plan .
-520	Initialize a new Client object .
-346	Returns a hash of the current task .
-1241	Initialize a new Client instance .
-116	Initialize a new Client object
-337	Creates a new Entry object .
-705	Create a new instance of this VM
-1184	Calls the given block and returns the result as a string .
-631	Creates a new instance of the given block .
-531	Returns a string representation of this object .
-854	Returns the value of the envelope .
-0	Creates a new instance of Fetcher .
-703	Create a new instance of this class
-378	Retrieves information about the given block .
-345	Create a new instance of the given file
-191	Returns a new instance of the Mach - O .
-445	Builds a new Client object .
-110	Initialize a new Client instance
-597	Create a new instance of the given block .
-1301	Creates a new Client object for the given voice message .
-1258	Returns a new instance of the given block .
-742	Creates a new filter object .
-1376	Returns the width of this image .
-617	Inserts the given text .
-1242	Returns a new instance of the given model class
-232	Create a new instance of the Client
+273	Returns true if the given URL is present .
+1053	Processes a single document .
+670	Creates a new Client object .
+471	Sets up the current object .
+1359	Creates a new Client instance .
+1327	Check if a file exists
+1117	Updates the given user s attributes
+684	Creates a new Client instance .
+553	Returns an instance of the given event
+1378	Finds the last colour of the given colour in the given range .
+571	Returns a list of all supported categories .
+1261	Creates a new observer instance .
+263	Returns a hash with the given parameters
+922	Creates a new Client instance .
+644	Returns a string representing the current position .
+1181	Create a new instance of the given row
+1204	Return the first element in the specified range .
+1243	Create a new instance
+428	Updates the given block with the given parameters .
+4	Return a new Tuple with the given options .
+679	Gets the list of virtual machine associated with the given name .
+246	Creates a new Client instance .
+381	Creates a new Response object
+1187	Get a list of playback parameters
+1021	Creates a new instance of the user .
+898	Finds the given object by its name .
+19	Ensure the given argument is a valid hash
+1218	This method will return a hash with all of the given attributes .
+892	Creates a new Client instance .
+1234	Create a new instance of the given parameters
+520	Creates a new Client instance .
+346	Calls the given block once for each graph edge
+1241	This method is called when a user has been saved .
+116	Initialize a new Client object .
+337	Create a new instance
+705	Creates a new Client instance .
+1184	This method is called when a dependency is found .
+631	Create a new instance .
+531	Returns an array of Link objects that are attached to the given block .
+854	Returns the price associated with the given type .
+0	Creates a new DICOM object .
+703	Creates a new Client instance .
+378	Retrieves a single captcha tag .
+345	Creates a new Client instance .
+191	Retrieve the value associated with the given name .
+445	Creates a new file from the given URL .
+110	Initialize a new Client object
+597	Create a new Client instance .
+1301	Create a new Session object
+1258	Returns a Hash containing the given number of elements .
+742	Creates a new Particle .
+1376	Returns the width of the given block
+617	Inserts the given text to the current page .
+1242	Retrieve the list of attributes from the given hash .
+232	Creates a new Client instance .
 265	Creates a new Client instance .
-907	Create a new Client instance
-692	Create a new instance
-317	Create a new instance .
-154	Create a new instance of ActiveRecord .
-1094	Returns the value for a given unit .
-249	Returns a new instance of the target
-156	Create a new instance
+907	Create a new Client instance .
+692	Creates a new network instance .
+317	Creates a new Client instance .
+154	Saves the current model .
+1094	Returns the value of the specified value .
+249	Recursively creates a new destination file .
+156	Create a new instance with the given options .
 395	Creates a new Client instance .
-163	Create a new instance of the Contour .
-1033	Creates a new Entry object .
-649	Initialize a new Client object
-375	Initialize a new Client instance
-1157	Create a new instance of the given block .
+163	Create a new Client instance .
+1033	Returns the summary of the given text .
+649	Creates a new Scan object .
+375	Returns the value of the queue .
+1157	Creates a new instance of the given block .
 314	Creates a new Client instance .
-458	Returns true if the object should be changed
-205	Loads the contents of a specific item .
-932	Returns a new instance of the given block .
-813	Returns a string representation of the current object .
-92	Create a new instance of an exception .
-91	Extracts the header from a given hash .
-113	Convert the given string into a hash .
-1267	Initialize a new Client instance
-1254	Returns a new instance of the given block
-277	Return a new instance of the given block
-483	Get the value of a specific element
-895	Creates a new Archive object
-1336	Create a new instance of this class .
-67	Returns a formatted string representation of this header .
-216	Sets the name of the query .
-40	Extracts the contents of a single document .
-215	Helper method for creating new object
-1102	Returns the first element with the given name .
-1286	Extracts the result from the given hash
-913	Return a new Tuple with the given options
-199	Returns a new instance of the application .
-1071	Get the list of available user s attributes
-17	Returns a hash of the application .
-507	Returns a list of all possible revisions to the current object .
-559	Called by the user s email address .
-1231	Takes a string and converts it into a LUIS operation .
-1159	Return a new matrix with the given name
-243	Converts the given input into a hash .
-947	Returns a new instance of the given block .
-954	Create a new instance of this class
-22	Determine whether the given input is present .
-220	Get a list of all available rooms
-81	Returns a new instance of the given block .
-1287	Create a new Client instance .
-564	Returns a new instance of the given site .
-699	Get the contents of a file
-970	Returns a new instance of the Mach - O .
-371	Create a new instance of this class .
-274	Returns a new instance of this Study .
-229	Returns a new instance of the given object .
-691	Create a new instance of the network interface .
-596	Fetch a single document from the given hash .
+458	Returns true if the current state has changed
+205	Creates a new Client object .
+932	Extracts the given string from the given hash .
+813	Returns the length of the given block
+92	Extracts the details of a given hash .
+91	Extracts the response from the given hash .
+113	Returns a new Tuple with the specified parameters
+1267	Creates a new Tuple .
+1254	Returns the number of bytes for a given string .
+277	Return the next page with the given arguments .
+483	Retrieve the value of the given attribute .
+895	Generate the contents of a file
+1336	Retrieve the list of values for a given object .
+67	Returns a hash with the given options .
+216	Returns true if the user has been set .
+40	Extracts the details of the given block .
+215	Creates a new Client object .
+1102	Finds the first name and returns the same name as a string .
+1286	Returns the contents of the given block
+913	Return a new Tuple with the given arguments
+199	Returns a new Client instance .
+1071	Creates a new Client instance .
+17	Create a new Client instance
+507	Returns the draft
+559	Creates a new Client instance .
+1231	Creates a new scanner .
+1159	Called by the given location
+243	Create a new Client instance
+947	Converts the given options to a hash .
+954	Return a new Tuple with the given parameters
+22	Returns true if the given field is empty .
+220	Get the list of available rooms
+81	Returns the status of the given block
+1287	Creates a new Client instance .
+564	Updates a single group .
+699	Gets the list of virtual machine with the given name .
+970	Creates a new Client instance .
+371	Create a new instance of the given class .
+274	Check if the given data is valid
+229	Returns an array of links to the current page .
+691	Creates a new network instance .
+596	Create a new Client instance .
 1104	Retrieve the value associated with the given name .
 262	Create a new instance of the given block
-261	Returns a new instance of the given block .
-1108	Returns a Hash containing all the keys of the given block .
-1291	Create a new instance .
-231	Extracts information from the server .
-866	Returns the contents of the application .
-203	Finds the first occurrence of a given date .
-12	Create a new instance of this class .
-434	Creates a new instance of the given method .
-602	Calls the given block until it returns true .
-1105	Creates a new instance of Watcher
-50	Creates a new instance of the given object .
-170	Returns true if the given path is valid
-1330	Executes the given block with the given name .
-1226	Returns a string representation of this image .
-1007	Parses the given list of files and directories .
-870	Returns the value of the current model .
+261	Creates a new instance of the given block .
+1108	Creates a new instance of the given block .
+1291	Create a new Client instance .
+231	Get the correct info from the server
+866	Returns the contents of the given application .
+203	Returns the date of the given date .
+12	Create a new Client instance .
+434	Generates a link to the current page .
+602	Creates a new Particle .
+1105	Create a new Client instance .
+50	Creates a new instance of the given block .
+170	Returns the contents of the specified file .
+1330	This method is called when the database is completed .
+1226	Returns a string representation of the document
+1007	Parses the given path .
+870	Gets the color of the given index .
 171	Runs the given block with the given options .
-833	Defines a new filter object .
-1143	Initializes a new Client instance .
-253	Return a hash of all the parameters in the request .
-998	Returns a new instance of the application .
-225	Converts the given input into a hash .
-767	Creates a new Tuple with the given options .
-623	Return a new List with the given name .
-929	Initializes a new Client instance .
-1188	Create a new instance of the given object .
-534	Returns the number of pages for a given cell .
-145	Create a new instance of Format object .
-1296	Create a new instance with the given options .
-165	Finds the first occurrence of a given tag .
-343	Create a new instance of the given block
-227	Helper method for creating a new container
-1125	Get the status of a user .
-79	Creates a new Client instance .
-1037	Create a new Map instance .
-30	Returns a new instance of the given namespace
-1020	Finds a user by name
-187	Create a new Client instance .
-908	Sends a command to the server .
-176	Returns an array of all the files in this container .
-65	Initialize a new Client instance .
-779	Set the default values
-333	Helper method for creating a class
-254	Returns a Hash containing the current request parameters
-321	Get the configuration for this machine .
-1233	Create a new instance of the given block
-121	Returns a new instance of the given block .
-1045	Enables the given block .
-687	Returns a new instance of the application .
-373	Determine if a file has been processed .
-961	Returns a new Threshold object for the given amount .
-1123	This method is used for creating a new post .
-659	Returns a string representation of this document .
-475	Builds a new HMAC object
-427	Creates a new instance of Watcher
+833	Adds a new instance to the server .
+1143	Creates a new Client instance .
+253	Returns a hash of all the keys of the given block .
+998	Create a new Client instance .
+225	Convert the given string to an integer .
+767	Creates a new Client instance .
+623	Creates a new List with the given arguments .
+929	Creates a new Client instance .
+1188	Update a single document
+534	Returns a list of all available connections
+145	Returns a new instance of the specified format
+1296	Initialize a new Client object
+165	Returns a hash of the given parameters
+343	Creates a new instance of the given block .
+227	Creates a new Client object .
+1125	Returns the status of this machine .
+79	Saves the given data to the specified path .
+1037	Creates a new Map instance .
+30	Returns a Hash with the given name .
+1020	Returns the user with the given name .
+187	Retrieve the list of contacts
+908	Creates a new Client instance .
+176	Returns the list of files that belong to this container .
+65	Creates a new instance of the given block .
+779	Returns a hash with the given options
+333	Return a string representation of the given name .
+254	Returns true if the given value exists .
+321	Creates a new Client instance .
+1233	Generates a single line for the given text .
+121	Returns true if the given block is valid .
+1045	Create a new Client object
+687	Gets a list of virtual machines .
+373	Extracts a list of files from the given block .
+961	Sets the current version of the given string .
+1123	Updates the given profile
+659	Returns a string representation of this image .
+475	Constructs a new Client object .
+427	Creates a new Client instance .
 923	Generates a new TableWrapper object .
-518	Create a new Client instance .
-194	Get the contents of a particular folder
-329	Initialize a new Client instance
-1192	Returns a new instance of Watcher
-282	Execute the given block with the given options
-874	Set the color of the image
-236	Create a new Client object .
-348	Determine whether or not the given block is in
-948	Ensure the given argument is a valid hash .
-730	Adds a collection to the collection .
-1194	Initializes a new instance
-810	Returns a string representation of this object .
-1055	Creates a new container
-845	Returns a new instance of the given file .
-298	Returns a new instance of the Object .
-608	Create a new instance of this class .
-778	Returns a new instance of the given block .
-141	Create a new instance of this class .
-1078	Determine whether or not the given file has been uploaded .
-890	Sets the default value for the given key .
-370	Returns a hash containing all the keys of the machine .
-1232	Processes a single file .
-123	Add the given string to the stack .
+518	Initializes a new Client instance .
+194	Create a new folder with the given parameters
+329	Create a new instance
+1192	Creates a new Client instance .
+282	Calls the given block once for each document .
+874	Set the color of the given x y coordinates .
+236	Create a new Client instance
+348	Finds the first occurrence of a given node .
+948	Returns true if the given object is empty .
+730	Create a new Client instance
+1194	Runs the given block
+810	Returns a string representation of the given block .
+1055	Creates a new container .
+845	Create a new Tempfile .
+298	Returns the prefix with the given value
+608	Creates a new Client instance .
+778	Finds a single document by id .
+141	Creates a new TableWrapper instance .
+1078	Move the given URL to the current page .
+890	Returns a hash with the given keys .
+370	Returns the contents of the given string .
+1232	Returns the number of elements of the given file .
+123	Get the current state of the given date .
 980	Returns a new instance of the given block .
-1127	Returns a new instance of the selector .
-470	Initialize a new Client
-554	Returns a new instance of the given block .
+1127	Sets the value of a given type .
+470	Initialize a new Client instance
+554	Retrieve a list of campaigns for a given resource .
 1132	Initialize a new Client instance
-197	Determine whether or not a file is available .
-465	Initializes a new Client object .
-964	Get the value for the given field .
-1256	Constructor .
-688	Creates a new configuration object .
-591	Initialize a new Client instance .
-575	Returns the status of the given block .
-300	Returns a new instance of the given block .
+197	Move the given file .
+465	Creates a new Client
+964	Returns true if the given value is valid .
+1256	Create a new instance of the given object .
+688	Create a new configuration object .
+591	Creates a new Client instance .
+575	Converts the given options to the specified location .
+300	Creates a new Client instance .
 900	Parse the command line options
-988	Create a new instance .
-99	Finds the first occurrence of a given string .
-584	Generates a new List with the given name .
-87	Returns a new instance of the application
-1304	Returns a hash of all the keys in the query .
-994	Perform a given block
-706	Create a new instance of this class
-1069	Extracts a single line from the header .
-808	Return a new instance of the given block .
-308	Returns a new instance of the given user .
-14	Create a new instance of this class .
-1275	Internal handler for CHANNEL_DELETE
-499	Returns a new instance of the application .
-1028	Execute the given block with the given options
-910	Runs the given block on the server .
-1035	Builds a new Map object
-477	Finds the given attribute with the given name .
-1150	Write the given string to a file .
-1067	Create a new instance
+988	Create a new instance
+99	Create a new instance of the given string
+584	Returns a new List with the given parameters
+87	Returns the contents of the given block .
+1304	Get all the values of a specific query .
+994	Get a list of bytes from the given channel .
+706	Creates a new Client instance .
+1069	Creates a new Tuple with the given parameters .
+808	Returns the number of bytes of the given block .
+308	Determine if the user is present .
+14	Creates a new Client instance .
+1275	Returns a new Client instance .
+499	Create a new Client object .
+1028	Calls the given block once for the given window .
+910	Returns the status of the given block .
+1035	Builds an existing playlist
+477	Adds a Hash to the server .
+1150	Creates a new Client object .
+1067	Parse the given attribute name
 235	Initialize a new Client instance
-540	Returns a hash of all the keys of the account
-136	This method is called when a user has been uploaded .
-1305	Returns a new instance of the given object .
+540	Returns a list of users that have been uploaded .
+136	This method is used to write a new post .
+1305	Validates the specified condition .
 173	Create a new instance of this class
-433	Creates a new instance .
-1374	Returns a new instance of the given block
-1048	Create a new instance of the source file
-270	Initialize a new instance of Page
-84	Create a new instance of the report definition
-178	Returns a new instance of ActiveRecord model
-393	Finds the first occurrence of a given block .
-47	Gets the value of a specific version .
-939	Finds the first occurrence of a given cell .
-733	Parses a single document .
-43	Returns the version of the given service .
+433	Creates a new method .
+1374	Creates a new instance of the given block .
+1048	Create a new YAML file .
+270	Returns a new instance of the given block
+84	Create a new instance of the given file .
+178	Return a new Tuple with the specified id .
+393	This method should be called before a specific timeout
+47	This function return the list of versions of the given block .
+939	Internal method to set the default values
+733	Parses the given string .
+43	Returns true if the given value is a valid version of the given service .
 938	Extracts the given string from the given hash .
-351	Creates a new instance of the given object .
-127	Create a new Queue object
-587	Creates a new instance of the given object .
-450	Execute the given block
-95	This method returns a hash containing all the keys of the given field .
-462	Initialize a new Client object .
-957	Returns a new instance of the given class .
-93	Returns a hash containing all the data associated with the given key .
-749	Execute the given block inside the stack .
-1029	Finds the first element with the given name .
-1178	Returns the number of bytes for this machine .
-1244	Return a new Archive object for the given site .
-1186	Initialize a new Client object
-380	Create a new Client instance .
-1066	Returns an array of all the objects that have been loaded .
-379	Initialize a new Client instance .
-147	Create a new instance of the source file
-1279	Returns a new instance of the application .
-836	Create a new instance .
+351	Creates a new instance of the given feature .
+127	Creates a new Client instance .
+587	Create a new instance of this class
+450	Initializes a new Client instance .
+95	Returns a hash containing all the keys of the given type .
+462	Creates a new Client object .
+957	Returns a string representing the given query .
+93	Builds a Hash with the given parameters .
+749	Convenience method to make sure that the user has been processed .
+1029	Returns the full path for the given element .
+1178	Converts the given number to a numeric value .
+1244	Returns true if the site has been processed .
+1186	Returns a new Room instance
+380	Creates a new Client instance .
+1066	This method is used to generate a single document .
+379	Create a new Client instance
+147	Creates a new Path .
+1279	Create a new Client instance .
+836	Create a new schema with the given name .
 118	Returns the balance of the given block .
-74	Calls the given block and returns the result as a Hash .
-772	Create a new instance
-1217	Logs out of the given block .
-966	Validates the given string and returns it .
-1115	Send a single message to the server
-443	Returns a new instance of the account
-435	Create a new instance of the given class .
-1353	Create a new instance of Renderer .
-107	Create a new instance with the given name .
-45	Create a new Client instance .
-138	Returns true if the user should be changed .
-384	Create a new instance
-1154	Processes a single file and returns the result of the given block .
-851	Initialize a new Client object
-484	Extracts all the attributes from the given hash .
-245	Creates a new instance of Watcher
-797	Initialize a new Client instance .
-390	Builds a new Queue object
-383	Execute the given block
-490	Create a new Client object .
-834	Validates the given options hash
-1	Returns a string representation of this machine .
+74	Creates a new Client instance .
+772	Creates a new instance of the given association .
+1217	Creates a new Logger instance
+966	Validates the specified value .
+1115	Creates a new Client instance .
+443	Creates a new card
+435	Creates an item from the given menu .
+1353	Replace the contents of a given block .
+107	Create a new instance with the given parameters
+45	Create a new Client instance
+138	Returns true if the user has been enabled .
+384	Creates a new virtual machine
+1154	Returns a hash containing all the keys of the current page .
+851	Creates a new instance of the given string
+484	Gets all the attributes of the given block .
+245	Creates a new Client instance .
+797	Create a new Client instance .
+390	Create a new Client instance .
+383	Returns true if the given block is encrypted
+490	Creates a new Client instance .
+834	Create a new Client object .
+1	Returns a string representation of this object .
 134	Creates a new Client instance .
-1322	Create a new instance of Page
-397	Returns a new instance of Watcher .
-294	Create a new Client object .
-1113	Initialize a new Client object .
-1375	Initialize a new Client instance
-1073	Returns an array of all possible copies of the given object .
-320	Get the contents of a file
-419	Create a new Client instance .
-941	Calls the given block for each member of this class .
-721	Creates a new instance of the given block .
-1015	Execute the given block
-356	Returns a hash of all the keys of the given object .
-211	Get the contents of a file .
-412	Returns a hash containing all the keys of this document .
-726	Create a new instance of the Client .
-683	Create a new instance .
-219	Returns the list of available user s credentials
-161	Builds a single document from the supplied hash .
-891	Sets the default value for the given object .
-924	Create a new instance of this machine
-959	Returns a new instance of the Contour .
-1344	Returns a hash containing all the keys of this map
-1043	Returns a new Historics query
-1382	Processes the given block .
-1182	Renders the given text .
-467	Returns the number of events for this account .
-1399	Replaces the contents of a file .
-366	Return the width of this cell .
-812	Builds a string representation of the given object .
-605	Returns a hash of the current task .
-757	Returns the value of the given block
-927	Create a new instance of this class .
-1041	Returns the output of the application .
+1322	Create a new instance of the given file .
+397	Creates a new Client instance .
+294	Returns a string representation of the current resource
+1113	Creates a new Logger instance .
+1375	Creates a new Client instance .
+1073	Creates a new Particle
+320	Returns the list of config files in the given directory .
+419	Creates a new Client instance .
+941	This method is called when a class is found .
+721	Creates a new Worker instance .
+1015	Returns the list of scripts for this machine .
+356	Creates a new Client instance .
+211	Create a new Client instance .
+412	Create a new instance from the given hash .
+726	Parses the given string and returns the response body .
+683	Creates a new Client instance .
+219	Returns a hash of the current user s status
+161	Creates a new Client instance .
+891	Create a new Client object .
+924	Creates a new TableWrapper object .
+959	Returns a string representing the given query string .
+1344	Creates a new Map instance .
+1043	Returns a specific game
+1382	Processes the given argument .
+1182	Returns a new instance of the given string .
+467	Returns an array of the current account
+1399	returns a new version of the given block
+366	Convert the given coordinate to a given angle
+812	Convert user to a hash
+605	Returns a hash with the given arguments
+757	Returns a new Tuple with the given parameters
+927	Initialize a new Client
+1041	Returns the user s language .
 573	Creates a new Client instance .
-1145	Initializes a new Client instance .
-809	Reads and returns an array of pins
-332	Returns true if all the keys in the stack
-743	Create a new instance of the given file
-788	Create a new instance .
-438	Creates a new instance of the given block .
-429	Creates a new instance of the given text .
-737	Returns a new instance of the subject
-770	Finds all the configurations in the given path .
-213	Get the contents of a file .
-1315	Creates a new filter object .
-1219	Helper method for creating new Model objects
-1343	Create a new instance of Domain .
-638	Returns a new instance of the given block
-1024	Returns the correct number of times for this machine .
-502	Create a new instance of ActiveRecord object .
-31	Get the value of a given block .
-1198	Returns a new instance of the given block .
-1016	Returns the list of available methods that match the given block .
+1145	Creates a new Client instance .
+809	Reads and returns the number of pins
+332	Resets the keys of the given block .
+743	Returns true if the file exists
+788	Create a new Client object .
+438	Creates a new instance .
+429	Creates a new Client object .
+737	returns a new Person object
+770	Finds all the files that match the given name .
+213	Creates a new Client instance .
+1315	Creates a new filter with the given name .
+1219	Builds a single row
+1343	Create a new instance from the given hash
+638	Returns a new instance of the given block .
+1024	Creates a new Client instance .
+502	Returns a hash of the specified element .
+31	Returns the first part of the given block .
+1198	Returns an array of occurrences of a given string .
+1016	Returns the list of methods that match the given object .
 630	Create a new instance of the given block
-1335	Creates a new Persist object .
+1335	Creates a new Client instance .
 1064	Creates a new filter object .
-372	Create a new Cache with the given name .
-956	Returns a string representing the current task .
+372	Creates a new instance of the given block .
+956	Returns a string representing the given query .
 1269	Creates a new Client instance .
-276	Returns an array of all the documents in the query .
-310	Checks if the user is enabled
-896	Performs a package .
-614	Returns a string representation of the current model .
-1090	Processes the given object .
-1361	Execute the given block with the given options
-624	Return a new Drawing object .
-179	Extracts the configuration from the given hash .
-527	Returns a hash containing all the keys of the given object .
-469	Initialize a new Client object
-1126	Return a new Tuple with the given name .
-258	Return a new Document object with the given name .
-815	Creates a new instance of Watcher .
-852	Returns a new instance of the application .
-275	Calls the given block once for each document is returned .
-493	Initialize a new Client instance
-1129	Returns true if the given block matches the given data .
-544	Gets the list of users for a given host .
-1195	Runs the given block with the given name .
-538	Get a list of all registered users in this room .
-1103	Finds the first element with the given name .
-620	Finds the next page in the given format .
-1054	Return a new instance of the given block
-234	Initialize a new Client instance
-305	Returns a new instance of the lock .
-408	Returns a string representation of this schema .
-829	Get the contents of a file .
-618	Creates a new instance of Watcher
-640	Returns a new instance of the given block
-485	Retrieve the value for the given attribute .
-524	Create a new instance of the given object .
-925	Create a new Dictionary
-28	Create a new instance of the given block
-24	Create a new instance of the given block .
-1128	Create a new instance of the given block .
-841	Create a new instance of this class .
-595	Create a new instance of this class .
-641	Returns the width of the given block
-576	Finds a single document by its name .
-1240	Create a new instance of this machine
-1320	Create a new instance of the Bundler
-318	Returns a new instance of the given block
-1174	Checks if the given argument is a symbol
-1175	Creates a new instance of the given object .
-643	Returns the width of the given block
-399	Instantiates a new object .
-180	Returns a new instance of this mailbox .
-201	Creates a new instance of the given object .
-85	Create a new instance
-796	Create a new instance of the Client
-55	Generates a string representation of the given object .
-853	Returns a new instance of ActiveRecord model
-1201	Create a new filter object .
-422	Get the contents of a file at the given path .
+276	Returns the next page of the given block .
+310	Returns true if the given user has been changed .
+896	Deletes the given package .
+614	Returns a string representation of the current element .
+1090	Processes the given string and returns an array of identifiers .
+1361	Creates a new Tuple .
+624	Creates a new Structure instance .
+179	Creates a new Client instance .
+527	Returns a hash containing all the keys of the given string .
+469	Create a new Request object .
+1126	Creates a new Tuple instance .
+258	Returns a new Document object with the given name .
+815	Returns a hash containing the given parameters .
+852	Create a new Client instance
+275	Calls the given block once for each document .
+493	Create a new Client object
+1129	Returns true if the given value matches the given key .
+544	Get the list of users for this room .
+1195	Runs the given block
+538	Returns a list of all users for a given user .
+1103	Sets the name of the given block .
+620	Finds the first element with the given text .
+1054	Creates a new container .
+234	Creates a new Client instance .
+305	Create a new Client object .
+408	Returns a Hash representing the given string .
+829	Returns the contents of the current request .
+618	Returns a string representation of the document .
+640	Returns the width of the given file .
+485	Retrieve the value of a specific attribute
+524	Create a new Client object .
+925	Creates a new table
+28	Returns true if the given value is valid
+24	Create a new instance from the given hash .
+1128	Runs the given block with the given options .
+841	Returns a Hash representing the given block .
+595	Creates a new Tuple instance .
+641	Returns the width of the file
+576	Returns the number of events for a given site .
+1240	This method is called when a user has been set .
+1320	Create a new instance of the given file
+318	Return a new Tuple with the given id .
+1174	Returns true if the given object has the given name .
+1175	This method is called when the user has been uploaded .
+643	Returns the number of elements of the given block .
+399	Creates a new Client object .
+180	Returns the address of the bot .
+201	Create a new Client instance .
+85	Creates a new Manta instance .
+796	Create a new Client instance .
+55	Convert the given string into a hash
+853	Returns a new instance of this machine
+1201	Create a new Filter instance
+422	Returns true if the given file exists .
 1225	Create a new instance .
-1151	Execute a block of code on the server
-77	Create a new instance of the Client .
-272	Create a new Client instance
-285	Create a new instance of the Client
-975	Sets the status of the message .
-1280	Initializes a new Client instance .
-962	Create a new instance of this class .
-654	Get the contents of a file
-873	Create a new instance of the given block
-1395	Finds the first occurrence of a given resource .
-68	Returns the number of bytes for this document .
-407	Returns true if the object is not valid .
-214	Create a new instance of the package .
-71	Generates a new PDF file .
-1334	Creates a new instance of the given block .
-1155	This method is used for creating a new report .
-226	Send a request to the server
+1151	Execute the given block in the cache .
+77	Create a new Client instance .
+272	Create a new Client instance .
+285	Creates a new Client instance .
+975	Returns the status of the given block .
+1280	Creates a new Client instance .
+962	Create a new instance
+654	Returns a new Tuple with the specified value .
+873	Set the color of the given address
+1395	Finds the given resource .
+68	Returns a string representation of the current message .
+407	Returns true if the given value is a hash
+214	Returns the contents of the given file .
+71	Returns the contents of the specified file .
+1334	Creates a new List instance .
+1155	This method is used to generate a new CSV file .
+226	Creates a new Client instance .
 59	Create a new Client instance
-474	Finds the first argument with the given name .
-437	Creates a new instance of the given object .
-816	Creates a new Path object
-150	Returns a hash of the current resource
-867	Finds all the patterns in the given directory .
-1080	Creates a new instance of the given class .
-879	Determine if a file has been uploaded
-1387	Returns a new instance of the given date .
-894	Adds a single option to the collection .
-264	Returns a new instance of the application .
+474	Takes a list of fields and returns the result as a string .
+437	Creates a new TableWrapper object .
+816	Converts the given options to a hash .
+150	Returns true if the resource exists .
+867	Finds all the files in the specified directory .
+1080	Extracts the children of the given type .
+879	Returns the contents of the specified file .
+1387	Generates a list of all the given values for the given date .
+894	Add a number to the stack .
+264	Creates a new Client instance .
 935	Extracts the value from the given hash .
-139	Create a new instance of this class .
-547	Create a new Client object .
-63	Returns a hash of all the errors received .
-27	Creates a new instance of the given argument .
-673	Get the details of a particular screen .
-521	Create a new instance of Page .
-821	Returns a new instance of the given block
-1348	Get the contents of a file
-667	Returns the path to the given object or nil if it exists .
-476	Adds the given index to the target .
-69	Return a new instance of the given block .
-49	Create a new instance of the given block .
-1313	Helper method for creating a new element .
-512	Create a new Client instance .
-1262	Disconnects to the given object .
-1302	Validates the given string .
-97	Replace each option in the form of the selected fields .
-759	Adds a new instance to the stack .
-172	Get the configuration for a given model
-838	Initialize a new instance
-884	Gets all the contents of the given block .
-1245	Returns a string representation of this image .
-1369	Return a new instance of Model
-133	Returns a new instance of the given block
-463	Execute the given block with the given options
-746	Determine if a given file is present
-252	Helper method for creating a new branch
-102	Returns a new instance of the service
-6	Create a new Client instance
-1017	Execute the given block on the server
-307	Returns a string containing all the keys of the given block .
-590	Returns a hash of the current message .
-1297	Get a list of all the files in the given directory .
-271	Create a new Client instance
-241	Creates a new instance .
-106	Create a new instance of Client
-1350	This method is called when a user is found
-1095	Returns a hash of the current configuration object .
-1160	Initialize a new Client instance
-789	Create a new instance of Domain
-1058	Determine the given path to the given block
-104	Returns a new instance of the application .
-218	Helper method for creating a new item .
-765	Create a new instance with the given name .
-1206	Retrieve the value for a given column
-1002	Create a new instance of the given block .
-583	Initialize a new Client object .
-341	Initialize a new instance .
-1072	Create a new instance .
-768	Runs the given block .
-1146	Creates a new Client instance .
+139	Create a new Client object .
+547	Returns a list of users for a given user .
+63	Handles the given block and returns an array of Response objects .
+27	Validates that the given hash is valid .
+673	Get the details of a particular feature
+521	Returns an array of links to the given block .
+821	Create a new instance of the given name
+1348	Reloads the specified file .
+667	Returns a hash of the specified device .
+476	Adds a new record to the server .
+69	Ensure the given argument is a valid logger
+49	Creates a new instance of the given block .
+1313	Returns true if the given block is valid .
+512	Create a new Client object .
+1262	Unregister a single observer
+1302	Validates the specified value .
+97	Returns the value of the given field .
+759	Create a new Stack instance .
+172	Create a new Client object
+838	Returns true if the given date is valid
+884	Retrieve the contents of the given block .
+1245	Returns the contents of the given target .
+1369	Removes a single model
+133	Retrieve the list of files for this machine .
+463	Creates a new Client instance .
+746	Returns true if the given string is a valid name
+252	Creates a new Branch instance .
+102	Create a new Client instance .
+6	Create a new Client instance .
+1017	Execute the given block with the given options .
+307	Returns a hash containing all the keys of the given string .
+590	Returns the contents of the current request .
+1297	Returns a hash with the given name .
+271	Creates a new Client instance .
+241	Create a new instance with the given options .
+106	Creates a new Client instance .
+1350	Returns an array of all occurrences of the given text .
+1095	Set the default values for the given hash
+1160	Parse the command line options
+789	Create a new DateTime object
+1058	Returns true if the given path is a valid category .
+104	Creates a new Client instance .
+218	Creates a new Client instance .
+765	Creates a new Client instance .
+1206	Retrieve the value of a given column
+1002	Creates a new Tuple with the given parameters .
+583	Add a collection to the stack .
+341	Create a new instance .
+1072	Returns a new instance of this room
+768	Creates a new Stream instance .
+1146	Create a new Client instance .
 73	Creates a new Client instance .
-933	Returns a new instance of the given block .
-358	Returns an array of all possible copies of the current model
-819	Returns true if the given object matches the given name .
-1133	Extracts a single document from the given string .
-885	Determine whether the given object should be loaded .
-785	Returns a list of all available roles
-589	Returns a hash with the given options
-1003	Create a new instance of the given account
-1039	Returns a new instance of the given object .
-416	Initialize a new Client instance .
-44	Returns a new instance of the application .
-1238	Returns a hash of the current task .
-550	Returns a new instance of the marketplace
-200	Creates a new Client object .
-48	Processes the given block .
-523	Returns a string representation of the current page .
-875	Get the current value of the given block .
-455	Create a new instance .
-89	Create a new Client instance
-1082	Initialize a new Client instance
-535	Returns a new instance of Watcher
-431	Creates a new instance of the given block .
-26	Create a new instance of the given class
-1000	Convert the given argument to a string
-1341	Finds a single document by its id .
-906	Returns true if the object is valid
-1293	Constructor .
-94	Builds a hash of all the data associated with the given key .
-1388	Returns a new instance of the Packager .
-552	Validate the given attribute .
+933	Extracts the given value from the server .
+358	Returns the list of identifiers for the given object .
+819	Returns a Hash with the given name .
+1133	Creates a new Tuple .
+885	Retrieve the contents of the given block .
+785	List all roles
+589	Returns a Hash with the given arguments
+1003	Create a new Client instance .
+1039	Defines a new location from the server .
+416	Create a new instance of the given block .
+44	Creates a new Client instance .
+1238	Retrieve the list of messages from the given hash
+550	Returns a list of pitches for a given request .
+200	Creates a new Client instance .
+48	Returns a new instance of the given block .
+523	Returns a new instance of the site .
+875	Creates a new Client instance .
+455	Creates a new scanner .
+89	Create a new Client instance .
+1082	Creates a new Rakefile .
+535	Gets a list of files for a given channel .
+431	Creates a new adapter .
+26	Returns true if the given argument is a valid Wavefront value .
+1000	Converts the given input to the given hash .
+1341	Finds a single document by id .
+906	Returns true if the resource is valid
+1293	Retrieve the status of a notification .
+94	Returns a Hash containing the values of the given block .
+1388	Creates a new DICOM object .
+552	Creates a new Client instance .
 269	Create a new Client instance
-497	Create a new Client instance .
-1097	Generates a new XML document .
-1191	Constructor .
-814	Returns a new Historics query object .
-1100	Create a new Client object .
-488	Initialize a new instance with the given name .
-2	Extracts the name from the supplied hash
-849	Creates a new Slice object .
-1079	Create a new instance of the given type
-239	Returns a new instance of the application .
-1328	Create a new Client object .
-592	Get the value for a given field .
+497	Creates a new Client instance .
+1097	Create a new Client object
+1191	Creates a new Tuple .
+814	Returns an array of coordinates for the given address .
+1100	Adds a new user to the server .
+488	Create a new Client instance .
+2	Perform an HTTP request
+849	Creates a new Client instance .
+1079	Creates a new Type object .
+239	Returns a new instance of the specified field .
+1328	Create a new Client object
+592	Returns a new instance of the specified field .
 1319	Parse the command line options
-444	Helper method for creating a new container
-594	Returns a string representation of this object .
-1317	returns a string containing the current key
-1326	Parse the config file
-1285	Create a new instance of the given block
-850	Returns a new instance of the application .
-678	Create a new instance of the given file
-846	Create a new instance of this class .
-517	Initialize a new Client
-912	Return a new Tuple with the same name
-98	Create a new instance with the given options .
-1163	Returns a new instance of the given class .
-661	Returns a new instance of the application .
-303	Create a new instance of the Client .
-660	Returns a string representation of the current page .
-328	Create a new instance of the given object .
-1253	Create a new instance of the given file
-387	Create a new instance of the Client .
-756	Creates a new Video object .
-401	Get the list of files in the given query .
-406	Create a new instance of ActiveRecord class .
-936	Extracts the given value from the given hash .
-504	Create a new Client instance .
-456	Finds the current state of this machine .
-33	Converts the given time to a hash .
-718	Create a new instance of the middleware .
-1012	Get a list of all possible modifications for this object .
-715	Gets the details of a specific segment .
-37	Create a new instance of the Bundler
-1149	Execute a given block with the given options .
-971	Get the contents of a file
-883	Determine whether or not this object should be removed .
-1329	Initialize a new Client object .
-627	Create a new instance of the given block
-1077	Create a new Client object .
-1324	Creates a new Client instance .
-615	Initialize a new Archive object .
-357	Returns a Hash containing all the attributes of the given block .
-109	Get the configuration for a given file
-454	Create a new instance .
-248	Create a new instance of the given file
-1076	Retrieve a single line by its name
-391	Get the configuration for this URI .
-39	Returns a hash of the current job
-548	Returns a hash of the current object with the given name .
-720	Create a new instance with the given name .
-1019	Create a new instance of this class .
-1152	Execute a command on the server .
+444	Creates a new Client instance .
+594	Returns a hash containing all the keys of the given object .
+1317	Returns a new Tuple with the given keys
+1326	Returns a hash with the given name
+1285	Creates a new DICOM object .
+850	Return a new Tuple with the given id
+678	Returns the full path to the given block .
+846	Creates a new Client instance .
+517	This method should be called from the server
+912	Return a new Tuple with the given list of elements .
+98	Get the value for a given cell .
+1163	Returns an array with the given name
+661	Create a new Client instance .
+303	Returns a new Client instance .
+660	Returns a string representation of the current document .
+328	Returns a new Histor .
+1253	Returns the contents of a given file .
+387	Initialize a new Client instance
+756	Returns true if the camera has been set .
+401	Creates a new Client instance .
+406	Creates a new Client instance .
+936	Returns the value of the given block .
+504	Creates a new Client instance .
+456	Write the current state to this object .
+33	Converts the given time to a hash
+718	Create a new Client instance .
+1012	Returns a new Tuple with the given parameters
+715	Gets the details of a specific group .
+37	Create a new Client instance .
+1149	Creates a new Client object .
+971	Get the contents of a given file .
+883	Returns a new instance of the given object .
+1329	Creates a new Client instance .
+627	Adds a single style to this block .
+1077	Add a new playlist to the playlist .
+1324	Set the attributes of a query .
+615	Return the next node with the given name .
+357	Returns the contents of a given hash
+109	Create a new Client instance .
+454	Calls the given block and returns a hash .
+248	Create a new Tempfile .
+1076	Returns true if the given user is allowed .
+391	Sets the URI component for this URI .
+39	Returns a hash of the user s results
+548	Retrieve a single comment
+720	Runs the given block with the given name .
+1019	Create a new Client instance .
+1152	Creates a new Client instance .
 787	Create a new instance .
-992	Convert the given string to a numeric value .
-112	Returns the class for the given path
-61	Create a new instance of the Client
-159	Creates a new Client instance .
-793	Initialize a new Client instance .
-1360	Create a new timer .
-1042	Get the output of the given file
-184	Get the value for a specific time zone .
-680	Applies the given block .
-402	Returns an array containing all possible arguments for the given block .
-1248	Create a new instance of ActiveRecord object .
-1093	Calls the given block once and returns the result as a string .
-496	Creates a new Client object .
-622	Creates a new Drawing object .
-1386	Determine if a component is available
-1139	Get the configuration for the given model .
-1027	Return a new instance of the given block
-1148	Execute the given block
-1062	Get the current state of the given block
-704	Create a new instance of this class
-651	Create a new Client instance
-776	Returns a new matrix with the given parameters
-987	Create a new Archive object
-86	Create a new instance of the Client
-361	Get the value for a given block .
-223	Builds a new HMAC request .
-1236	Finds the next element in the current context
-751	Return a new Historics query .
-1085	Returns a new instance of the Class
-1220	Returns the number of occurrences of a given column
-1290	Get the contents of a file .
-495	Returns a hash of the current task .
-472	Create a new instance of the given object .
-773	Determines whether or not the given block is a symbol .
-479	Retrieve the value of a file .
-1277	Initialize a new Client instance
-304	Convenience method for creating a new consumer .
-717	Finds the first occurrence of a given block
-1026	This method is called when the connection is completed
-130	Returns a string representation of this thread .
-897	Executes the given block with the given options .
-811	Extracts a hash with optional parameters
-982	Returns a new instance of the given block
+992	Convert the given value to a specific unit
+112	Returns the full path for the given class .
+61	Returns a new instance of the given block .
+159	Creates a new connection .
+793	Creates a new instance of the given block .
+1360	Creates a new instance of the given block .
+1042	Gets the output of the given block .
+184	Creates a new Zone instance .
+680	Calls the given block once for the server .
+402	Creates a new Client instance .
+1248	Creates a new instance of the given file .
+1093	Returns the contents of the given block .
+496	Creates a new Client instance .
+622	Creates a new instance of the given block .
+1386	Creates a new Client instance .
+1139	Create a new Logger instance .
+1027	Retrieve a single line from the server
+1148	Creates a new Client instance .
+1062	Returns an array of all champions for the given master .
+704	Creates a new Client instance .
+651	Internal method to set the header
+776	Constructs a new TableWrapper object .
+987	Returns the list of available rules
+86	Create a new Client object
+361	Creates a new instance of the given block .
+223	Creates a new Client instance .
+1236	Creates a new Tuple with the given name .
+751	Get a list of all entries in this room .
+1085	Returns a hash containing all the keys of the given block .
+1220	Returns an array of elements from the given string .
+1290	Returns the contents of the specified file .
+495	Returns a list of all containers
+472	Creates a new instance of the given object .
+773	Returns true if the given block is valid
+479	Returns the status of a record .
+1277	Create a new Client instance .
+304	Returns a hash of the given keychain .
+717	Returns an array with the given name .
+1026	Creates a new Client instance .
+130	Returns a new Tuple with the specified parameters .
+897	Initialize a new Client instance
+811	Converts the given options to a hash .
+982	Returns a hash of the specified keys .
 525	Create a new Client object .
-748	Returns a new TableWrapper object with the given name .
-986	Returns a hash containing all the keys of this query .
-677	Returns the full path to the output directory
-330	Get the contents of a particular screen .
-1390	Add a new Date object to the given string .
-1227	Returns a hash containing all the keys of the given object .
-1270	Finds an existing CDN object
-404	Initialize a new Client instance
-566	Returns a new instance of the account
-690	Create a new instance of this class
-331	Initialize a new Client object .
-464	Returns a new instance of the given block
-881	Takes a list of all the objects of the given block .
-629	Creates a new instance of the given block .
-353	returns an array of hashes containing all the keys in the given array
-774	Finds the first element with the given name .
-1049	Configure the default values for this object
-985	Returns a new instance of Model class
-844	Returns a new instance of the given block .
-764	Create a new instance of the given object .
-96	Returns a hash containing all the keys of the given field .
-949	Closes the current span
-1130	Create a new instance of this class
-46	Get the name of a service
-960	Returns a new instance of the given block .
-230	Create a new instance .
-616	Return the next element of this node .
-119	Creates a new Client instance .
-682	Create a new instance of this VM
-1158	Builds a list of all known deployments for this repository
-1318	Create a new instance .
-53	Retrieve the value for a given object
-1379	Creates a new Chunker object
-837	Returns the value of the given block .
-157	Create a new instance .
-914	Get the number of times for a given asset type
+748	Returns true if the given value is a valid table .
+986	Returns a hash of the given query .
+677	Returns the contents of the specified file .
+330	Get the name of the screen .
+1390	Add a new date to the given date .
+1227	Returns a hash containing all the keys in the given path
+1270	Create a new Client object
+404	Creates a new Client instance .
+566	Returns a new Client instance .
+690	Creates a new virtual network
+331	Creates a new Client instance .
+464	Creates a new Client instance .
+881	Return a list of files that have been loaded .
+629	Creates a new element with the given name .
+353	Returns an array containing the keys of the given block .
+774	Returns the value of the specified type .
+1049	Defines a new configuration object
+985	Returns a new Tuple with the given parameters
+844	Returns an array of strings that match the specified keyword .
+764	Sets the attributes of the given object .
+96	Builds a hash from the given hash .
+949	Dispatches the given options .
+1130	Creates a new Particle instance .
+46	Returns the name of the given module
+960	Return a new Tuple with the given parameters
+230	Returns a new instance of the specified file .
+616	Return the next node .
+119	Creates a new transaction .
+682	Creates a new Client instance .
+1158	Retrieve the list of dependencies for this repository
+1318	Create a new Client object .
+53	Create a new instance of the given type
+1379	Parses a single line of the specified pixel .
+837	Creates a new instance of the given string .
+157	Creates or updates an object .
+914	Returns a new instance of this class .
 799	Initialize a new Client instance
 453	Returns true if the process is valid
-506	Returns a new instance of the schedule
-51	Returns a new instance of the given block .
-410	Returns a new instance of the given block .
-741	Converts the given input into a specific format .
-818	Converts the given input into a hash .
-144	Sets the default value for the given element .
-1309	Initialize a new Client instance
-781	Initialize a new Client object
+506	Gets the scheduled date of the given block .
+51	Returns true if the given value is empty .
+410	Returns a new instance of the specified element .
+741	Creates a new Tuple instance .
+818	Converts the given argument into a hash .
+144	Set the color of the given color
+1309	Constructs a new Client instance .
+781	Update a single user
 647	Returns a string representation of this image .
-442	Returns a new instance of the account
-963	Returns a hash containing all the keys associated with this message .
-342	Returns a new instance of the document .
-436	Creates a new instance of the given object .
-103	Initialize a new Client object
-777	Returns a new instance of the given block
-1259	Create a new Client instance
-1247	Gets the default value of the given hash .
+442	Creates a new Client object .
+963	Returns an array of messages for the given key
+342	Creates a new Client instance .
+436	Creates a new TableWrapper object .
+103	Creates a new Client instance .
+777	Get a single movie by id
+1259	Creates a new Client instance .
+1247	Adds a translation to the current directory
 347	Finds the first occurrence of a given block
-1032	Create a new instance .
-162	Create a new instance of Client
-1237	Finds the first element with the given name .
-1362	Returns a new instance of the given block .
-32	Finds the first occurrence of a given block .
-732	Get the contents of a file
-1074	Determine whether a user has been uploaded .
-868	Finds the first occurrence of the given color .
-1011	Returns a hash of the current task .
-1396	Creates a new instance of the given resource .
-23	Recursively creates a new instance .
-1347	Runs the given block and returns true if necessary .
-1052	Checks if the given argument is a valid position .
-599	Performs an HTTP request .
-354	Returns a Hash containing all the attributes of the given block .
-360	Create a new instance of ActiveRecord object .
+1032	Create a new instance from the given hash .
+162	Calls the given block if it exists .
+1237	Creates a new filter object .
+1362	Create a new instance of the given block .
+32	Creates a new DICOM object .
+732	Returns the contents of the given file .
+1074	Get the next room .
+868	Sets the label of the given color .
+1011	Returns the default value for a given field
+1396	Creates a new Client instance .
+23	Recursively creates a new instance of the given name .
+1347	Returns true if the given block is valid .
+1052	Check if the message is equal to the same word .
+599	Create a new Client instance .
+354	Returns true if the given attribute has been processed .
+360	Create a new Client instance .
 424	Finds a resource by id
-204	Returns a new instance of the subject
-491	Returns a hash of the current account
-750	Get the contents of a file
-1312	Create a new instance of the supplied block
-503	Return a new instance of the webhook
-1044	Disables the given block .
-763	Returns a new instance of ActiveRecord object .
-937	Extracts the number of bytes from the given string .
-9	Redirects to the given block .
-600	Create a new instance of the given block .
+204	Creates a new Client instance .
+491	Get a list of all subscribers for this room .
+750	Returns a new Tuple with the given options .
+1312	Returns the full link to the given block .
+503	Get all the webhooks
+1044	This method is called when a user is disabled .
+763	Creates a new instance of the given attribute .
+937	Extracts the number from the given string .
+9	Create a new instance of the given block
+600	Removes a single document from the pool .
 1394	Creates a new Client instance .
-441	Get a list of all pending charges on the server .
-613	Add the given argument to the stack
-1389	Gets the value of the given block
-668	Creates a new Port object .
-1337	Returns a new instance of the given block .
-1183	Adds a new instance of the given block .
-1124	Applies the given name to the server
-278	Return a new Historics query .
-532	Returns a hash of all the data in the chart
-695	Get the status of a specific task .
-389	Retrieve the lock by its name
-1274	Get the list of available brokers
-893	Creates a new instance of the Contour .
-685	Create a new instance of this class
-637	Returns a new instance of the given column
-1356	Returns a new instance of the cart .
-186	Create a new instance of this class .
-1166	Retrieve the current value for the given object .
-1265	Creates a new instance .
-1031	Returns true if the resource matches the given value .
-288	Returns a new instance of the given block
-1200	Parses the given column .
-1205	Returns a new instance of the given block .
-175	Finds the first element of the current page .
-257	Returns a new instance of the given block
-761	Returns a Hash containing all the attributes of the given type .
-1384	Initialize a new Client instance .
-1311	Returns a new instance of the given block
-1118	Returns a list of all available clients
-888	Checks whether the given object is a separate method .
-315	Creates a new Client instance .
-795	Helper method for creating a new instance
-1392	Constructor .
-990	Create a new instance .
-533	Gets the value of the given block .
-142	Merge two cells
-609	Creates a new instance of Watcher .
-857	Returns the value of the given block
-791	Execute the given block with the given name .
-693	Initialize a new Client instance
-536	Finds a single document matching the given options .
-1111	Runs the command on the server .
-663	Create a new instance of the Client
-1106	Execute the given block with the given name .
-823	Returns a new instance of the given block .
-430	Create a new instance of this class .
-1101	Create a new instance .
-439	Creates a new filter object .
-140	Create a new instance with the given name .
-1235	Generates a list of all possible keys of the given block .
-918	Iterate over each item in the stack .
-656	Add the given string to the given color .
-221	Get a list of all available rooms
-177	Returns a new instance of the given account
-1357	Returns a new instance of the given block .
-1260	Create a new instance of this class .
-783	Returns a new instance of the Watcher .
-991	Get the list of available types for this machine .
-312	Create a new instance .
-1167	Sets the default value for the given subject .
-283	Execute the given block
-1001	Attempts to determine whether or not the given block is given .
-56	Create a new instance of the Client
-88	Return a new Tuple with the given parameters
+441	Retrieve a list of all payments for this account .
+613	Create a new instance
+1389	Creates a new DICOM object .
+668	Creates a new Client object .
+1337	Returns true if the user has been set .
+1183	Adds a new Tuple with the given keys
+1124	Updates the given name
+278	Return the first element with the given name .
+532	Retrieve the results of a given chart
+695	Returns the status of a given task
+389	Unlocks the given block .
+1274	Returns a list of available labels .
+893	Creates a new Client object .
+685	Creates a new Client instance .
+637	Set the color of the given color
+1356	Removes the given value from the list .
+186	Create a new instance of the given view
+1166	Returns the status of the current collection .
+1265	Create a new instance
+1031	Returns true if the given value matches the specified attribute .
+288	Return a new Tuple with the given parameters .
+1200	Perform a single column with the given name .
+1205	Return a new Tuple with the given options .
+175	Returns the contents of the given index .
+257	Extracts a string from the given URL .
+761	Converts the given attribute to a hash .
+1384	Creates a new Client instance .
+1311	Create a new link
+1118	returns a list of users
+888	Returns true if the object has been processed .
+315	Determine if the user has received .
+795	Returns true if the given name is empty
+1392	Returns a new instance with the given arguments
+990	Create a new instance
+533	Returns true if the given value is empty .
+142	Returns a new Tuple with the given arguments
+609	Creates a new Client instance .
+857	Returns the value of the specified unit .
+791	This method is called when the user has been loaded .
+693	Creates a new Client instance .
+536	Returns a hash of the given comment
+1111	Creates a new Client instance .
+663	Creates a new Client instance .
+1106	Creates a new instance of the given block .
+823	Validate the specified IP address .
+430	Creates a new scanner object .
+1101	Create a new instance
+439	Creates a new scanner object .
+140	Returns an array with the given parameters
+1235	Creates a new table with the given name .
+918	Returns an Array containing all the keys of the given block .
+656	Create a new instance
+221	Get the list of available rooms
+177	Return a new Tuple with the given name .
+1357	Builds a single message from the list of players .
+1260	Register a new observer
+783	Sign in a user .
+991	Get a list of all possible types of the given type .
+312	Creates a new Client
+1167	Creates a new Client instance
+283	Creates a new instance of the given block .
+1001	Performs a single query .
+56	Create a new Date object
+88	Creates a new Client instance .
 83	Create a new instance .
-311	Returns a new instance of Watcher
-722	Creates a new TableWrapper object .
-1122	Returns a new instance of the block
-753	Create a new instance of Model class
-825	Returns a Hash containing all the keys of the given block .
-1131	Creates a new instance of the given package .
-1397	Initialize a new Client instance
-604	Calls the given block and returns true if it exists .
-784	Get a list of all the user s credentials
-222	Ensure the given argument is a valid version .
-124	Returns a new instance of the given block .
-572	Returns a list of all available connections
-1325	Create a new Client instance
-183	Create a new Time object
-1385	Returns a new instance of the given block
-1364	Returns a hash containing all the keys of the given type .
-612	Create a new instance of this class .
+311	Returns an array of tweets that match the given parameters .
+722	Create a new TableWrapper object .
+1122	Return a list of all authenticated users
+753	Calls the given block and returns the result as a string .
+825	Returns a hash containing all the keys of the given object .
+1131	Check if the contents of the given file exists .
+1397	Connect to the server
+604	Creates a new Tuple with the given options .
+784	Get the list of users for a given user .
+222	Validate the current version number
+124	Returns true if the given block is valid .
+572	Returns an array of links to the specified location .
+1325	Create a new Client instance .
+183	Creates a new DICOM object .
+1385	Creates a new JSS
+1364	Returns a hash containing all the keys of the given block .
+612	Creates a new TableWrapper object .
 237	Returns a hash containing all the keys of the given block .
-115	Returns true if the repository exists .
+115	Returns true if the repository exists
 137	Finds a record by id
-293	Returns a new instance of the Watcher .
+293	Creates a new Client instance .
 934	Extracts the value from the given hash .
-805	Creates a new instance of the given block
-101	Extracts the value for the given attribute .
-549	Returns a hash of all the keys of the account
-460	Converts the given input into a hash .
-322	Loads the configuration from the server .
-1307	Parse the given object .
-181	Returns the correct number of times on the server
-628	Create a new Archive object
-973	Create a new instance .
-376	Convert a single argument to a single target .
-1177	Create a new instance of the given file .
-259	Gets the content of the given block .
+805	Creates a new instance of the given block .
+101	Create a new Client object
+549	Returns a list of vulnerabilities matching the given options .
+460	Returns a string representation of the given type .
+322	Creates a new Client instance .
+1307	Creates a new Parser instance .
+181	Returns the list of times for this machine .
+628	Apply the given block to this node
+973	Creates a new instance of the given model .
+376	Decodes a single message
+1177	Create a new instance of the specified file .
+259	Creates a new Tuple with the given parameters .
 842	Parse the command line options
-1298	Create a new Client instance .
-34	Create a new YAML file
-1316	Returns a new instance of the given block .
-710	Retrieve the value of a particular screen .
-396	returns a new instance of the target
-1273	Finds a server by its name .
-847	Returns a new instance of the title
-611	Create a new instance of the given Model class
-1179	Returns a Hash containing all the occurrences of a given pattern .
-392	Return a new instance of the given block
-409	Initialize a new Archive object
-1266	Create a new instance of the Client
-54	Initialize a new Client object
-1189	Get a list of all current user s attributes .
-327	Returns a new instance of the given block
-206	Returns a new instance of the target
-344	Constructs a new Client object .
-398	Returns a new instance of Watcher
-729	Get the contents of a query .
-7	Initialize a new Client instance
-713	Get the list of available tasks
-155	Create a new instance of the Client
-917	Retrieve the contents of a particular cell
-1223	Create a new instance from the given string .
-953	Returns a string representing the current condition .
-352	Creates a new instance of the given class .
-364	Returns the number of times for the given block
-696	Create a new Client instance
-1084	Get a list of all the objects in the collection .
-972	Get the value for a specific element .
-1109	Instantiate a new Client object .
-208	Returns a new instance of the Watcher
-606	Return a new instance of this Vagrant
-828	Create a new instance of the given object .
-5	Returns a new instance of the given block .
-151	Determine whether the given block is a valid method .
-869	Sets the value of the cell .
-210	Returns the number of times for a given device .
-835	Validate the given object .
-658	Create a new instance .
-800	Initialize a new Client instance .
-636	Creates a new List with the given attributes
+1298	Removes the given list of servers
+34	Create a new Client instance .
+1316	Creates a new page with the given name .
+710	Retrieves a single flag on the server .
+396	Executes the given block on the server .
+1273	Returns the given name of the server .
+847	Returns a new Tuple with the given name .
+611	Creates a new instance of the given resource .
+1179	Creates a new Client instance .
+392	Creates a new Client instance .
+409	Returns the contents of the given block .
+1266	Creates a new Client instance .
+54	Validates the given block .
+1189	Returns true if the user exists
+327	Returns true if the given block is allowed .
+206	Creates a new Client instance .
+344	returns a single parameter
+398	Creates a new Client instance .
+729	Returns a new TableWrapper object .
+7	Create a new Client instance
+713	Get a list of all the given parameters
+155	Returns a new instance of the given block .
+917	Creates a new Tilt object
+1223	Create a new TableWrapper instance
+953	Returns the contents of the given block .
+352	Create a new instance with the given name .
+364	Returns a new Tuple with the given arguments .
+696	Creates a new Client instance .
+1084	Returns the list of elements of the given block .
+972	Returns the value of the specified field .
+1109	Create a new Client instance .
+208	Returns the list of events for this room .
+606	This method takes a hash and returns the results hash
+828	Create a new instance from the given hash .
+5	Creates a new instance of the given block .
+151	Returns the contents of the given block .
+869	Sets the colour of the given index .
+210	Gets the list of zones for this machine .
+835	Create a new instance with the given parameters
+658	Create a new DateTime object
+800	Creates a new Client instance .
+636	Create a new List instance
 135	Initialize a new Client instance
-681	Create a new instance
-505	Returns a list of all the items in the collection
-562	Returns a new instance of the given site .
+681	Creates a new Client instance .
+505	Returns a list of all campaigns that have been processed .
+562	Retrieve a list of all hosts
 632	Returns a hash with the given name .
-859	Create a new instance of this class .
-1249	Returns the contents of the given block
-1142	Create a new instance of the given engine .
-64	Returns a new instance of the Mach - O .
-459	Create a new instance of this class
-279	Initialize a new Client instance
-569	Returns the list of available topics
-128	Determine if a thread is available
-727	Returns the name of the application .
-666	Create a new instance
-13	Create a new instance of the Client instance .
-786	Create a new instance
-916	Return a new Tilt object with the given name .
-804	Returns a new instance of the application .
-926	Generate the name of the table
-921	Deletes the given target .
-889	Builds a string representation of the given object .
-461	Creates a new instance of the given block .
+859	Creates a new Client instance .
+1249	Initializes the Client instance .
+1142	Create a new instance of the given block .
+64	This method is called when an exception is found .
+459	Returns a hash containing all the keys of the given object .
+279	Create a new Client instance .
+569	Returns a list of trending trends
+128	Creates a new Tuple .
+727	Returns a string representation of the given name .
+666	Returns a new instance of the specified device .
+13	Create a new instance of the client
+786	Creates a new link
+916	Creates a new Map from the given hash .
+804	Adjusts the given string to the console
+926	Creates a new table .
+921	Deletes the specified theme .
+889	Builds a single document from the given hash .
+461	Creates a new Tuple instance .
 1088	Closes the given text .
-657	Returns a string representation of this color .
-886	Returns a hash containing all the keys of the given object .
+657	Returns a string representation of this object .
+886	Sets up the given object .
 1310	Initialize a new Client
-1025	This method is called when a user has been deleted .
-41	Returns a hash containing all the keys of the given object .
-195	Get the contents of a file .
-362	Create a new instance of this class .
-901	Creates a new Tuple with the given options .
+1025	This method is called when a user has been logged .
+41	Returns a Hash containing the keys of the given block .
+195	Create a new Client object .
+362	Creates a new DICOM object .
+901	Returns an array with the given options .

@@ -1,0 +1,5000 @@
+5899	Retrieves the mdrun from the mdrun d .
+3138	Retrieve a specific app .
+7286	Returns True if the user has delete permissions .
+8154	Create a database
+2380	Load a rule file .
+8859	Return a list of calltips .
+11080	Get user object by username .
+6628	Unpublishes a repository
+9071	r Initializes the covariance matrix
+534	Get a collection of regions .
+8052	Parse an xml .
+3088	Delete entity .
+8070	Replace unicode characters in a string .
+2731	Create a new domain .
+10689	Creates a chemical material
+9496	Parse a module .
+2394	Calculate the average of a list .
+3604	Authenticate with the server .
+431	Save an image .
+7238	Generate windows .
+5256	Disassembles the given bytecode .
+12237	Doublewell .
+8183	Returns the edge with the given id2 .
+929	Get the name and parameters for the given function .
+3178	Gets a single field .
+3146	Return the full path for this endpoint .
+1411	Filter out spout information .
+11541	Write a pin .
+1593	Prepare the target for execution .
+9613	Set the value of a child element .
+3718	Estimate the chemical potentials and Cigs .
+5386	Format a task name .
+13449	Perform an authed POST .
+9732	Get a list of 6d components .
+6878	Validate SQLitecurves filters .
+6551	Create a function from a list of configurations .
+7693	Checks the validity of the given properties
+7698	Returns the XML as XML .
+13811	Retrieves the top level containing the specified type .
+9867	Remove this subscription .
+458	Calculate the alpha values of a shape .
+2215	Join a list of itemstrs .
+12613	Return True if the table is unique False otherwise .
+9986	Get the description .
+8005	Create a delay from the given XML node .
+444	Implementation of roi pooling .
+13686	A context manager for creating embeddings .
+13802	Handle authentication .
+10727	Handle arrays .
+4977	Check if a course exists .
+7691	Validate jams . json files
+13728	Calculate the balance for an address .
+3606	Make an asynchronous GET request .
+1125	Define a grammar rule .
+9585	Write a variable array .
+9435	Read a packet .
+2675	Builds a source .
+9078	Return a function that will download data from a data URL .
+7015	Concatenate light curves for the given objectid .
+6346	Choose a language by name .
+5515	Temporarily set locale .
+180	Return a bounding box for this region .
+10817	Return whether or not the user can view the given member .
+5175	Gets facts for a certificate .
+8144	Flip the image .
+3662	r Calculates the integral of the spline .
+4816	Create n - gram dataframe
+4940	Create a user if it doesn t exist .
+798	Delete all rows from the models table
+10018	Check if an application exists .
+2379	Returns a list of rules for this class
+4439	Plays the currently playing track .
+8006	Handle incoming connections .
+2655	Check if path is a directory .
+10225	Get a broken correlation graph .
+5829	Check for rate limiting .
+11917	Render a Jinja template .
+6203	Calculate rates from E_DA and E_DA_T .
+577	Recursively update a dict .
+1780	Calculate AAD
+6979	Filter lcdict .
+4969	Get catalog options
+7430	Resolve a set of values from a subseq .
+11302	Find provider for given URL
+3928	Replace all words in a string .
+8124	Draws the flatU using lineto .
+10932	Gets the statistics for the termination .
+3115	Get flow for a given token .
+10797	Creates a user for the invenio domain .
+2801	Map MXNet s reduce_sum to target values .
+6222	Updates yaw and pitch with pitch .
+1043	Generic visitor function .
+380	Generate the principal components of the Zca image .
+8536	Pop the next nbytes from the buffer .
+11708	Print the parents .
+8512	Creates a kernel for this kernel
+1424	Validate the state locations .
+4965	Return a JSON - ready representation of the notification .
+12206	Raise exception based on response code .
+953	Compute the number of closeness scores for each group .
+3356	Extend the contents of an iterable .
+2759	Get all load balancers
+5451	Convert a string to label chars .
+4452	Execute an AggregateRequest and return the result .
+3696	Watson Watson Watson
+13080	Register the blueprint .
+9838	Get the grid positions
+13426	Updates a message .
+3352	Query the object with the given attribute .
+8656	Fetch threads .
+6221	Set vector position
+1058	Removes an extension from the registry .
+9571	Return the view that matches the given message .
+6594	Run multiple events .
+3942	Send a long poll request .
+6815	Enable all local mods .
+7337	Predict the subset of the given peptide sequence .
+9548	Add a check to the model .
+4728	Generate libvirt_to_dev .
+662	Check whether the input matches the prediction .
+4294	Check if the Django CMS version is supported by Django CMS .
+657	Calculate the average on the given vectors .
+2270	Symlink a symbolic link .
+5364	Return the stderr of the stream .
+9682	Set the fan power .
+720	Returns the hyperparameter for this hyperparameter
+11442	Format a warning message .
+12858	Create a business date object from a date .
+13540	Calculate the chisq measure .
+10342	Overlay data with label .
+7519	Write SNPs map to a file .
+8780	Delete the lock holders on the given addresses .
+10702	Get a list of modes .
+12947	Save this object to an external storage
+13368	Returns True if path is a git repository .
+1267	fly a board
+6833	Get vagrant version .
+13463	Add an event .
+1817	Set the number of bytes written to dest .
+4489	Decorator to ensure user needs to access the user .
+8684	Load the contents of a stash .
+4108	r Calculate chirp chirp .
+1585	Send buffered messages .
+6382	Simulate a Hamming object .
+4878	Validate that the data is well - formed .
+7770	Generate the base handlers .
+3692	r Compute the alpha and derivatives of the input T .
+3494	Calculate the total yield of the output flux .
+5851	Get all files in a dataset .
+13342	Concatenate multiple arrays .
+7109	Download a file from a URL .
+7926	Shuffle a list of rv records .
+7030	Calculate LSP value for a given time series .
+6393	Distribution function .
+2624	Get the state of the instance .
+12962	Check if a key exists .
+569	Extract a report item from a list of results .
+9634	Return a numeric field .
+10209	Try to open the given file .
+6904	Convert hours to decimal degrees .
+8295	Return all cliques in a graph .
+8322	Sanitize the value .
+10764	Generate a random token .
+4700	Returns the size of the descriptor table .
+6248	Gets a TextureTexture
+416	Try to find a top dataset .
+11522	Adds a CondorJob to a batch .
+4407	Listen for messages from Lavalink .
+1046	Add notes to the context
+4930	Translate Courserun title .
+5852	Get a specific dataset file .
+8274	Generate a list of colors .
+6258	Update the perspective of a matrix .
+9387	Get URLs from seed .
+4909	HTTP DELETE operation .
+10301	Count the number of values in a dict of lists .
+3166	Cancel a campaign .
+8913	Save a service to the registry .
+6777	Yields the differences between two dicts .
+7787	Try to get a backup item .
+13795	Handle reduce functions .
+8451	Determines if the project is a templated project .
+11236	Create a decorator that can be used as a decorator .
+1358	Get the component of the component
+12501	Smooth the data array .
+9931	Return a pretty - printed representation of an object .
+1889	Minimize X .
+7260	Get the data location of a catalog .
+1210	Return a table with the given header and body .
+7809	Create a certificate infromation object from an SSL socket .
+8832	Returns the first element of the list if any .
+9695	Find all available dates .
+7451	returns an iterator that yields chunks of tups
+3130	Check if the given URL is valid .
+13876	Copies files from a given file mapping .
+10789	Try to guess the inverse of st .
+6722	List VM Instances .
+12671	Generic aggregation function .
+12774	Initiate the inverse kinematics of the skeleton .
+6578	Return the base representation of this object .
+1183	Push a new MatchContext onto the stack .
+438	Reads and decodes a TFRecord .
+3324	Create a lock string .
+10734	Define a new fork .
+7740	Decorator to hold an exception .
+9164	Include the authentication policies .
+9169	Parse an archive URI .
+9349	Gets a date from the past .
+6711	Display disk usage .
+744	Decorator to require an anomaly .
+11079	Stop the timer .
+8856	Update the current tab widget
+7562	Run the qmc tool .
+7115	Configure a set of sources based on configs .
+1352	Makes a success response .
+533	Set a parameter .
+13536	Removes all targets from the list
+10132	Parse grid metadata .
+3268	Retrieve dynamic values from a node .
+372	Shift a matrix by a new position .
+11166	Return a list of unused options .
+4884	Check if the user has an administrator and if the user is inactive .
+10700	Paginate link tag .
+8054	Handler for shell commands
+2716	Extracts resources from a list of droplets
+7613	Get the badge image associated with the badge .
+9759	Get the status for a job .
+9384	Parse the JTL XML file .
+6638	Get the script .
+8841	Convert a list of tests to jsonLogic .
+2019	Compute the SMOD operator .
+7258	Search for a given address .
+1113	Split a line of text .
+8853	Open file dialog
+10994	Randomize the parameters .
+5463	Delete a set of tasks .
+11021	Generates a ring .
+8839	Return a list of variables that are not found in data .
+1569	Invokes bolt - fail on the failed task hooks .
+10144	Convert a schema node into an instance .
+13471	Apply changesets to the given directory .
+3652	Run the worker .
+2940	Deserialize a condition from a workflow .
+5442	Parse the file provider of a file .
+5735	Get or create a subscription .
+6496	Get the mappings for a given index .
+6718	Check if a virtualenv exists .
+3820	Creates a new conversation .
+11161	Write all the files in the project to a file .
+5614	Segment a shapely geometry .
+2542	Set the file s contents .
+12451	Replace references in swagger file .
+9459	Send a list of digits .
+5150	Parses a native string .
+11603	Parse a header range from the headers .
+9271	Given a list of tags return a filtered list of strings .
+11272	Registers default types .
+13622	Decorator to coerce a function to a sequence of items .
+9170	Add routes to the config .
+2123	Disassociate a failure node .
+8649	Deletes a milestone request .
+7163	display the answer
+13790	Return a decoder for MessageSetItem .
+6985	Run time binning on a list of files .
+3784	r Returns the dependent property .
+4018	Returns a list of libs volumes
+6010	Loads a poisson noise map .
+3650	Convert a number to a hex string .
+6554	Flips a variable by flipping its configuration .
+1669	Flag C ++14 features .
+2104	Create a new job template .
+4835	Fetch Paginated Catalog courses .
+12154	Return a human - readable time string .
+13542	Update this task .
+321	Calculate the maximum drawdown under the dam .
+6341	Return the sum of a tar .
+6073	Returns the fraction of mass within a specified radius .
+430	Read images from a file .
+3131	Merge two dictionaries .
+351	Download a file from Google Drive .
+1408	Check if we have continue to work
+5371	Open a file .
+9907	Send confirmation email .
+5976	Calculate the total regular pixels of a mask .
+7769	Called when a stream is disconnected .
+6137	Add a file to a model .
+3055	Create a PrivateKey object from a string .
+4114	Calculate the RAR coefficient .
+6032	Create a grid stack from a subgrid shape .
+5849	List files in a dataset .
+10279	Compute neurommsig topology
+369	Crop multiple x into a single array .
+7212	Return a list of layers .
+6721	Returns the combined requirements .
+13569	Decorator that marks a function as an exercise .
+3010	Get the scopes for this request .
+2047	Checks if the given address has a storage value .
+5030	Gets data records for learner
+13820	Converts a list value into a Message .
+10524	Login to Google .
+10447	Activates a window .
+8010	Decorator for webhook handlers .
+6745	Iterate over sites .
+3323	Set the last modified time .
+2966	Start chaos execution .
+11366	Unzip a zip file .
+85	Construct a contrast layer .
+2280	Create a graph from data .
+11925	Parses the document .
+4081	Get language tool directory .
+8668	Locks a given key .
+808	Handle log output .
+6500	Perform a search .
+11597	Returns the number of keys in the current database
+8369	Function to create canvas .
+12498	Convert atlas to functional .
+8659	Filter all zips in a list
+6865	Extract time flux errs from the AMES light curve .
+9128	Populate a resource .
+10375	Calculate Concordance score .
+222	Check if the request has not been modified .
+12622	Check if two arrays have the same shape .
+4486	Remove this object .
+8849	Setup the actions .
+11453	Convert a list of records into a table .
+1387	Set the execution state .
+5343	Composembox metadata .
+13034	Write triples to a file .
+2262	Find duplicates in a list .
+3243	Extract security rules from a security group .
+12776	Context manager for forward and forward motion .
+4496	Authenticate with the server .
+13556	Get all comments
+12791	Perform a DELETE request .
+10384	Removes edges from a graph .
+10238	Count the citations in a BEL graph .
+2452	Set the package home page .
+3126	Get a specific template .
+5815	Receive data from a connection .
+5857	Get the available columns .
+9240	Fetch events for the given issues and pr .
+11852	Parse a list of words
+8231	The current simulation speed .
+2762	Get all certificates
+13552	POST a resource
+1600	Run a command in a subprocess .
+604	Add a subplot to the figure .
+7175	Run pyi .
+4026	Get the IP address for the given host .
+1485	Run the topology .
+354	Load and assign a numpy . nz file .
+7920	Prepare a local part .
+221	Verify that the static files exists .
+391	Flip a keypoint by flipping each point in the image .
+1322	Moves the window to the specified location .
+2369	Iterate over keywords .
+1105	Set seq2 .
+387	Resize the image .
+4444	Get suggestions .
+7247	Get the current status of a workflow .
+7421	Fetch clustering .
+13789	Run marv .
+12525	Execute a condor command
+9479	Return the node s node .
+29	Get the current session .
+6573	Formats the audio .
+13723	Log the contents of a file .
+11804	Assign var and keep track of conflicts .
+4767	Assert that self is not identical .
+527	Returns the neighborhood of a center column .
+11372	Get a temporary file .
+4049	Fetch a full text item .
+3932	Perform an OAuth 2 token using an authorization code .
+806	Set the tap file for the specified file .
+12814	Start the consumer .
+10002	Add path to node .
+3496	Calculate reaction weight .
+1863	Write STOS to dest .
+4777	Check if the value is empty .
+10866	Update the specified values .
+12651	Find the index of the first occurrence of a list of strings .
+1951	Marks a function as deprecated .
+8647	Accept a milestone request .
+12715	Return a list of positions in the ODE
+13249	Extracts the URL from an entry .
+10454	Check if a window is enabled .
+7713	Handle a roster push from the server .
+4759	Set SSH environment variables .
+11967	Convert a BYTES table to its bits .
+5853	Get a PIF .
+7287	Set the form fields .
+13332	Localize a module .
+263	Plot cumulative returns by factor attribution .
+8392	Returns a usable class name for node .
+13359	Validate the environment .
+8285	Get the length of each segment
+6377	Simulate a typing problem .
+11497	Create a new community .
+12169	Dispatch an event .
+9473	Get the prefix for this node
+7107	Fit the SGD classifier .
+13632	Handle render result .
+9010	Returns the index of the first produced mesh in the row .
+7979	Try to authenticate to the server .
+11539	Set the pin type .
+12183	Check if a method exists .
+3640	Get status of a trade .
+2649	Monitor the status of a process .
+4517	Fill the screen with the given color .
+5379	Build a pipeline .
+7891	Set the stream .
+10244	Return a list of all citations in a BEL graph .
+6731	Create a new module .
+7160	Return the next question .
+1116	Convert a list of strings to a list of strings .
+12804	Get a User object by id .
+9326	Refresh the resource from the server
+5823	Return a dict representation of this Key .
+981	Initialize bucket map .
+6347	Redefine language .
+2366	Iterate over the robots .
+8610	Gets a single resource .
+5816	Read remaining bytes from socket .
+8448	Return True if branch exists False otherwise .
+31	Adjust the shape of the input data to match the shape of the placeholder .
+11916	Render a template to a file .
+13001	Generate an hr diagram from data .
+7606	Returns a fully qualified clan object .
+10381	Returns a list of target symbols for the given drug .
+9616	Validate that the provided target is visible .
+1206	Create an environment from a spec .
+6612	Add multiple packages to the dropbox .
+12082	Rename a file .
+2880	Get event definition .
+4901	Get course enrollments
+6149	Fits a firwin signal using firwin .
+13376	Recursively walk through subdirectories .
+11334	Return a formatted table
+3763	r Solve vapor pressure and vice versa .
+2032	Reads an integer from the specified address .
+1313	Create a control object from a point .
+6310	Load the image .
+5308	Convert hexadecimal color to RGB .
+13852	Age the round .
+2828	Convert selu layer .
+40	Add the next priority .
+1509	Stop a cluster .
+6319	Initialize the directory if it doesn t exist .
+12749	Load as an ASF file .
+5344	Compose gerrit projects .
+10553	Create a HelpMaterial
+1123	Returns a kwargs for the given kind .
+262	Plot cumulative returns .
+617	Parse a datetime string .
+2320	Get CUDA devices .
+2260	r Group items into groups
+6674	Returns the owner of the given path
+8042	Parse the given file .
+6830	Get the log between two commits
+4253	Search org by name
+471	Read analogy questions from a file .
+13132	Parse a single user entry .
+6414	Calculate the mean of nums .
+10008	Add dynamic base to the space .
+347	Load IMDB dataset .
+5640	Removes all trips that lie outside the buffer .
+7834	Make submit form .
+9260	Filter issues by number .
+9621	Get the gamepad .
+8403	Squish ints .
+11237	Send a value to the generator
+3859	Update a conversation .
+1205	Return the target optimizer arguments .
+10918	Find the best step in err_vals .
+1249	Check if action is available
+11963	Convert ip address to dot format .
+13850	wrap a function that returns a dir making it
+3656	Adds a file to the CTI list .
+6387	Return the R1 and R2 for the given term .
+172	Draw a set of points heatmap .
+7226	Return a snippet of the SVG .
+10525	Load a google playlist .
+869	Clear the dynamic configuration file .
+4201	Modified covariance matrix .
+9624	Auto - discover INSTALLED_APPS modules .
+10258	Count the number of top centrality elements in the graph .
+4897	Get course duration .
+9576	Read header from file .
+12491	Convert X to a float array .
+9161	Delete an ACL request .
+9881	Convert a value_domain to a list of value counts .
+5583	Gets the path of a tile
+2413	Log an error .
+10952	Compute the functions of the optimization .
+9707	Overwrites the default value from a dictionary .
+5615	Read a vector window .
+10515	Verifies that a bar is not 0 .
+7407	Populates the given list of publications .
+11333	Prints a banner .
+6783	Locks the deployment .
+11736	Validate an object .
+1081	Timezone name .
+9154	Draws a bezier curve .
+3093	Creates the flow for this request .
+3853	Get the name of a conv .
+4207	r Calculate the arcovariance matrix .
+7705	Remove an item from the list .
+4869	Returns a representation of the enterprise customer catalog
+4646	Check if the table exists .
+5871	Fetch organizations for course
+10016	Swaps the C names in the environment .
+4334	Add a norm to the effect .
+6104	Returns the luminosity of each galaxies within a set of dimensions .
+12492	Return a list of the items in iterables .
+9518	Count the number of sequences in a file .
+6708	Calculate the SHA256 hash of a file .
+13829	Remove a collection .
+4552	Fill a triangle .
+1786	Writes data to CMP8 registry .
+12218	Bind the given arguments to the given arguments .
+4903	Convert a link to a modal link .
+12207	Truncates text to the end of a string .
+8697	Clears the output buffers .
+9038	Calculate the bounding box of the bounding box .
+8623	Retrieve the user id associated with this user .
+9545	Add a value predicate function to the prediction .
+13021	Process the columns .
+12327	Update the global configuration .
+1693	Map a map function to a map .
+1928	Load config overrides .
+4684	Return a list of public keys .
+7621	r Compute the hierarchy of a reference .
+10726	Handle the variant .
+3842	Synchronize recent conversations .
+36	Returns the local rank .
+10728	Handle a struct .
+13859	Read text from file .
+11162	Returns the size of the dataset .
+9874	Convert a list of radix objects into a radix tree .
+1255	Setup scaffold .
+9782	Delete a build job
+3170	Sends a campaign .
+1833	Programs the CPU .
+11013	Run flake8 .
+13818	Convert a protobuf Message .
+13727	Sets the delegate for the given address .
+9171	Add routes to the config .
+2756	Get all the tags .
+12957	Return a unique key for the given field .
+7502	Fill a boot with the given loci .
+3269	Process a JDBC virtual table .
+13792	Get a function by name .
+11461	Add a control number to the record .
+2795	Create a new image .
+13583	Generate a link to an object .
+11046	Initialize logging .
+10266	Collapse any edges that are consistent with the given graph .
+4180	Calculate the coefficient of a polynomial .
+2279	Retrieve adjacency matrix .
+5140	Add a non - comment block .
+8612	List the volumes in the specified datacenter .
+8577	Retrieve information about a server .
+4197	Solve Hermitian matrix .
+1557	Returns the proto_stream_id for the given stream_name .
+8908	Fetch a service by name .
+2007	Deserialize an unsigned integer .
+7721	Get history parameters .
+8728	Returns a strftime .
+12271	Extract the schema from a file .
+4280	Adds a watermark to the image .
+9868	True if subscription is currently running .
+260	Creates the summary statistics for a given asset .
+203	Convert to heatmaps .
+12784	Return the xdg_CONFIG_DIRS .
+2156	Launches the ad - hoc command .
+1080	Returns the cosine of the year
+9863	Return all homes in this group .
+12308	Get a list of files to commit .
+6616	Receive a list of pkgidx results .
+10442	Get a list of objects for a window .
+10150	Generate Swagger file .
+11984	Copy a storage object to a bucket .
+3423	Decorate a function to be resettable .
+12547	Determine if the image is an image .
+3891	Return HTML string .
+8784	Create a port .
+9940	Set options .
+13183	Convert observation data to a dictionary .
+3506	Iterate over fluxless fluxes .
+12695	Test if set1 contains all elements in set2 .
+11131	Stop the observer
+13793	Handle add function .
+9222	Given a list of strings return a copy of it .
+4882	Create switch .
+9721	Start the device .
+7444	Run a step2 step .
+1295	Import a demo experiment
+2258	Returns indices sorted by indexable .
+2251	r Colorize text .
+952	Train a TM on a sequence .
+13882	Get the contents of a file .
+12262	Add an operator to this operation .
+8797	Applies security group rules for a device .
+12037	Return the values of a given matrix .
+4357	Remove a namespace .
+10341	Script entry point .
+878	Generates a new position for each particle in the database .
+4333	Add noise to the effect .
+2227	Calculate the digest of a hasher .
+13801	Remove a token from the data store .
+3214	Calculate the access stats .
+12513	Crop a nifti image .
+9589	Initialize a new session .
+5659	Validate Dangler warnings .
+871	Edit a custom configuration file .
+13241	Yields daily periods for the given date range .
+6362	Return a string encoding the given word .
+4415	Add a new track to the queue .
+10763	Get a random token .
+5	Temporarily remove PMI environment variables .
+2287	Evaluate the parallel graph .
+13174	Return the next child of this tag .
+3295	Set share path
+1516	Create a tar file .
+8511	Load dataset .
+8435	Apply a function to x .
+12095	index images in folder
+10433	Selects the last row of the specified object .
+6898	Serialize a set of periodic features into a single file .
+581	Set random encoder resolution
+12303	Check if a given URL is valid .
+8109	Search images .
+9718	Stop streaming frames .
+3528	Get the required setting .
+7674	Slice a JAM file .
+10892	Return a copy of this tile .
+11660	Fit k - means clustering .
+11341	Sets the target temperature .
+10880	Convert an array into a list .
+10131	Unescape a string .
+2496	Create a BNode for a package .
+9521	Return the mean length of a file .
+5509	Get permissions for path .
+7704	Add an item to the roster .
+7146	Convert a number to an atomic amount .
+6516	Execute all available tools .
+9847	Load CCP4 .
+5555	Get element at zoom level .
+1450	Returns a list of all file state managers .
+11367	Find all files matching pattern .
+667	Returns the log probability of the given distribution .
+7783	Deactivates the cache .
+9004	Returns the SVG representation of this instruction .
+11056	Ensures that the backrefs are present in obj .
+1592	Add a target to a stream .
+6604	Return the relative path to the final result file
+1059	Update a wrapped wrapper .
+9633	Render the message as HTML .
+8857	Show the current run
+13372	Returns a expanded version of path .
+13291	Get a list of variables by attribute names .
+5492	Write the config file .
+1385	Set physical plan
+11906	Convert a list of matches to a permutation matrix .
+11899	Get the source from the given image .
+7023	Convert a base64 string to a file .
+7506	Dump the qmc output to a file .
+831	Return a dict of fields and their order .
+5384	Return the operation status message .
+9251	Generates log for the issue .
+181	Converts self to a polygon .
+4946	Send course enrollment statement .
+5021	Get the enterprise customer catalog from the catalog id .
+1675	Expands all files in a list .
+7700	Verify the roster set .
+4657	Clear the cache
+420	Save the validation log .
+2090	Disassociate this object with another
+12111	Save metadata to a file .
+12112	Generate a temporary path .
+3753	Returns the ceiling of the given CASN .
+2100	Read the actor .
+7559	Set kernel thread limit .
+8033	Find duplicates in paths .
+782	Reactivate running jobs .
+12235	Generate json data for versionwarning .
+5870	Fetch the organization courses for the given organization .
+6422	Remove punctuation from a word .
+10185	Return the configuration of the enabled events .
+2534	Validate str fields .
+1085	Return the time part with same tzinfo .
+3407	Evaluate the given expression .
+9820	Create a project .
+9436	Strip IP from packet
+13185	Returns the default tag for the app .
+2797	Transfer the image to a new region .
+9037	Generator yielding all connected connections .
+7777	Creates a VCard string .
+2771	Get a load balancer object
+382	Drop a dataset .
+13455	Parse command line arguments .
+10043	Create the blueprint .
+12071	Update the contents of a series of Tids .
+12587	Convert HDF5 group to nifti1 images
+1493	Get the next timeout interval .
+8509	Fit the model .
+6437	Compute the absolute distance between the source and tar .
+4718	Enter a tsuite .
+3664	r Calculates the CP of the slab .
+9575	Read multiple elements .
+2835	Write data to the MOSI pin .
+7243	Create a geotiff .
+2710	Create a sentence from the given text .
+2385	Creates a decorator from a specification resolver .
+11641	Reads a YAML file .
+4092	Add searchers to the MIBs .
+3701	r Calculates the solubility for a given liquid surface .
+839	Get the closest category from the inputPattern .
+3406	Convert an Expression to a string .
+6695	Upgrade dist - upgrade .
+10852	Compute the Otsu threshold
+4396	Write a name to a device .
+535	Writes the proto to proto .
+1317	Retrieves the child controls .
+6394	Simulate a Levenshtein object .
+9824	Update a project .
+11328	Select one or more options .
+176	Extract a bounding box from an image .
+8609	Returns a list of all available resources .
+5117	Returns the data for each agent .
+3414	Converts a model to an OrderedDict .
+2061	Declare a variable
+4196	Convert to EPEITZ .
+8871	Match subsetLines against a subset of a subset .
+7	Create a placeholder for an observation .
+7570	Create a fastq merge for fastq files .
+5010	Make a POST request to the API
+12916	Return a new filetree with the given regex .
+9987	Convert the DataFrame to a pandas . DataFrame .
+2672	Uploads a package to S3 .
+8929	Main entry point for pylint .
+8059	list the bot s vars
+2300	Predict unirected graph .
+10382	Wrapper for epicom .
+7043	Calculate the light curve moments for a set of fmags .
+633	Create a new synapse
+9515	Makes a Fastq object from a sequence of qual scores .
+9030	Expand the consumed mesh .
+12738	Creates the bones in the world
+4006	Fork a pty
+7994	Write stanza to stanza .
+5998	Plots a grid in 3d .
+1009	Compute the top up input .
+13146	Remove all direct link triples from the test set .
+10571	Return a filepath for a given template .
+12864	Returns the number of days in a year
+4360	Receiver loop .
+4178	r Compute window lanczos .
+848	Convert non numeric values from spatial output to temporalData
+3502	Evaluate the products of a model .
+1031	Decode a base32 digit string .
+10876	Calculate the interpolation PSF for a linecan .
+3435	Optimize the optimization .
+12406	Serialize the response .
+6921	Auto - correlation function .
+5562	Compute the bounds for this step .
+2946	Return a list of tasks that are ready to be ready .
+1664	Checks that the make pair is direct or not .
+2844	Enable FTDI driver .
+4921	List the courses .
+1026	Encode a file .
+13472	Validate the event form .
+1132	Return a new SplitResult object replacing specified fields with new values
+1548	Initialize the root logger .
+5079	Strips HTML tags from text .
+11217	Pop claims from the payload .
+3508	Compute the null space of A .
+8103	Loads profiles from the manager .
+13719	Create a tree of all the given endpoints .
+4971	Validate the identity provider .
+7611	Returns a list of top clustering models for a given location .
+1829	Attempt to read a target .
+928	Return the end time of the year .
+8242	Draws a path .
+6523	Return the number of issues in this issue .
+13746	Create an item .
+11938	Add a message to a list of users .
+3997	Copy a file from one container to another .
+7907	Process an error message .
+1118	Make a Benchmark .
+9985	Reload the module .
+8069	returns a random child element
+1325	Calculate the priority of an image .
+5683	Determine if a trip is placed on a given day .
+12304	POST data to repository
+6318	Find the last occurrence of a given path .
+5086	Returns True if user has implicit access to user .
+11639	Write json data to file .
+3934	Get session cookies .
+7091	Factor - based key worker .
+6617	Expand a path config dictionary .
+8401	Rescale the values in x to a specified range .
+9112	Return the list of replies .
+9393	Check if the given metric is important .
+10188	Publish events to the queue .
+7467	Return a summary of the results of each sample .
+8725	Create a new command at a given time .
+3118	Create file if needed .
+12174	Generate an index file .
+13345	Check if two matrices are valid .
+8798	Get security groups state from Redis .
+10344	Load differential gene expression .
+2322	Read causal pairs from a file .
+266	Takes a asset and returns it .
+207	Draw a heatmap .
+10678	Returns the Hessian of the transition matrix .
+4117	Convert a polynomial to a polynomial .
+4082	Change the directory to use .
+9694	Return a new date with the given date .
+13233	Load a module .
+7412	Run the tree inference algorithm
+13201	Format the short title .
+5731	Advance past string characters with gdb escape sequences .
+8300	Handle incoming data .
+6670	Decorator to define a task .
+4924	Get the query params .
+5464	get action by id
+6417	Stem a word .
+10534	Delete project
+1041	Return a list of source lines .
+2986	Returns a dictionary containing the cORS options .
+229	Compute the style factor exposure .
+12137	Load expanded files .
+7189	r Fix line numbers .
+896	Read a proto from the given proto .
+6704	Add a list of groups to a user
+8051	Return the darkest rgb value .
+5863	Add an organization course .
+2596	Import a mapping .
+6757	Reboot this instance .
+12213	Update a field from a proxy .
+4626	Decrypt a WIF
+13538	Get a specific location .
+12895	Get a list of supported modes .
+12162	Try to catch a coro event .
+9744	Prints out all markers
+2278	Parse a config .
+2042	Return a list of all human - readable transactions .
+11411	Remove a subfield .
+4604	Returns the history of this account
+11903	Decorator for static functions .
+9775	Get job logs .
+6326	r Import a corpus into a corpus .
+2277	Generates generator values from config .
+5100	convert a dict to a dict
+10913	Finds all particles in a given tile .
+729	Pretty print the given bits .
+10613	Set transition matrix .
+12821	Convert a string to a path .
+12052	Get the notes for the given file .
+1470	Fetch the stm_registrations summary .
+1936	A dictionary with the constructor id .
+2515	Add a file contributor .
+4900	Send xapi configuration .
+10	Save policy to file .
+5149	Add a tar file .
+13240	Returns True if the date is included in the query .
+7822	Create a HttpResponse .
+9755	Delete an experiment .
+9462	Sends a conference Hangup request .
+13265	Get an instance of a plugin class .
+13077	Retrieve main collections
+10060	Return a dict of the jsonschema .
+12212	Returns a field for a proxy
+13644	Append the available arguments to the class .
+134	Extract area from an image .
+4135	Check if md5sum has changed
+7047	BLS worker .
+7039	Get object info .
+5519	Append new throttling data to the end .
+12969	Fetch a Redis .
+8807	Creates a job dict for the given job .
+11450	Gets the date from the given filename .
+9187	Include a cookie factory .
+5162	Remove an interface from an interface
+12171	Return the number of events in an event .
+9767	Set a job .
+6241	Combine shader buffers .
+4981	Set final prices for course
+4224	Load a keyring class .
+5121	Reset all vertex colors .
+8738	Get the number of ports in the tenant .
+13762	Check if the cursor is next .
+10049	Create error handlers for blueprint .
+1562	Return a list of all the tasks in a component .
+12429	Create a new virtualenv
+5668	Given a route type and a route type return a list of Stop objects .
+649	Generate a simple coinc matrix .
+9965	Convert to attrs .
+8263	Draw a set of points on the screen .
+5861	Convert keys to camel case .
+6262	Resize the window .
+35	Setup MPI_VISIBLE_VISIBLE_DEVICES .
+2307	Reset the parameters .
+13736	Extract parameter values from a request .
+4327	Downsample effects by factor .
+2087	Convert pagination .
+13002	Filters the cluster data based on the properties of the cluster
+7322	Add multiple attachments to a message .
+9935	Searches for given path .
+7604	Fetches a list of guests for a given tag .
+1188	Calculate the rounded fraction of a string .
+3525	Generate a user voice node .
+603	Adds a 2D array to the plot .
+11954	Upload a gif
+13212	Builds the jsonld for this object
+7445	Perform Step 4 step estimation of samples .
+7164	Add an intent .
+12426	Expand a list of targets .
+11840	The total score for the words found according to the rules .
+4622	Generate a new master password
+490	Acquire a connection .
+8267	Return a copy of this color range .
+13809	Extract version from path .
+13362	Prompt user for input .
+12210	Cache the result of a function .
+11525	Create a big thumbnail .
+12253	Remove a key from the database .
+9890	Return the current boottime .
+4566	Euclidean distance between two sequences .
+7283	Trim fields from a document .
+12507	Convert voxspace image to mmspace
+1422	Loads an object from a string .
+9209	Extract the code from a byte string .
+3109	Put an object into the cache .
+2022	Signs an unsigned integer value .
+621	Parse a string .
+5411	Builds a machine
+8197	Calculate the Bezier curve .
+5867	Activates an organization .
+6630	Get a configuration value .
+4668	Encrypt a private key .
+7088	Convert a Julian day to a Julian day .
+8158	Execute a SELECT statement
+245	Takes a list of transactions and returns a sorted list of transactions .
+9830	Write components to a file .
+5915	Process a range .
+9168	Post processing .
+2807	Convert a GLM .
+1939	Returns the return types for the given bytes .
+2962	Given a list of Blockade partitions return a list of Blockade partitions .
+6547	Wait for input field to be unlocked .
+376	Resize an array .
+9237	Open the environment .
+9376	Extracts the differences from a config file .
+1225	Sets up the components and tf functions .
+1597	Create a prefix for a file .
+10545	Delete a task
+9054	r Return the posterior covariance of the covariance matrix .
+4010	Returns a docker client .
+4476	Slice a sample from a file .
+11832	Return a new individual crossing self and other .
+11655	Apply transforms to X .
+7995	Re uplink stanza .
+6091	Decorator to cache a function .
+13842	Convert ark timestamp to unix timestamp
+5834	Create ML configuration .
+659	Compute the population stability .
+8235	Splits the complementary color list into two lists .
+10977	View members of a group .
+8651	Gets a list of jobs .
+571	Run a model with the given parameters .
+11940	Mark a message as read .
+8064	Parse the prompt .
+6615	Receive all dropboxes from the dropbox .
+7305	Process a document form .
+13653	Extract text from request .
+5353	Removes identities from SortingHat .
+9645	Get value for variable attribute .
+11277	Run program .
+4395	Read by name and port number .
+7443	Run step1 step .
+10968	Add passthroughs .
+8090	Returns the text height of a given text .
+4454	Add a group to the query
+7910	Determine if a presence stanza is available .
+7460	Create json2 file .
+1784	Compute CMP flags .
+12408	Merge one or more base attributes .
+12032	Average interpolation between two points .
+6967	Perform a Gaussian smoothing smoother .
+7561	Calculate the samples that have been sampled
+6315	Add resource descriptors to pool .
+8901	Authenticates the user with the provided credentials .
+5470	Prepare summary table .
+4761	Assert that val is not soft .
+2490	Create RDF file node .
+1806	Write output to dest .
+7489	Import a VCF file .
+9009	Return the next instruction in the row .
+4687	Decrypt the memoized message
+8313	Draw a table .
+8561	Get a specific load balancer .
+11295	Make request data for zipcode
+3061	Decorator for positional arguments .
+4856	Deletes the items from ContentMetadataItems .
+3954	Removes all the containers from the docker containers
+9254	Generates line for issue .
+12733	Finds the next offset in the world .
+82	Generate a Salt and pepper .
+5748	Returns a list of dates for the given IP address .
+11604	Check if ranges are valid .
+1177	Search for a string .
+9532	Create a TimestampSigner .
+3208	Reformat the given policy .
+12421	Dump an object to a file .
+6074	Calculate the mass within an ellipse .
+397	Calculate the cross entropy .
+8983	Get instruction id .
+12463	Print an error message .
+758	Generate random input
+4151	r Compute the power of this distribution .
+4650	Append a signer to the account .
+10467	Return the application with the given ID .
+723	Returns a list of callbacks for the given termination function .
+3717	Get economic status for a CAS .
+9372	Read a schema from a stream .
+108	Draw a grid of images .
+2730	Get an instance of an object .
+10899	Update the progress bar .
+11203	Given a month and a month return the day of the week .
+9498	Parse a lzzip file .
+6785	Fake the manifest
+10586	Creates a new Ledger account .
+11499	Get a community by id .
+12810	Called when a connection is made .
+9606	Check that keyword arguments are not used .
+8639	Accept a project .
+2006	Serialize an integer .
+13349	Launches the environment .
+580	Generates a Spec for the specified fields .
+6880	Parse CSV header .
+392	Resize a keypoint .
+5649	Write a GTFS table to a file .
+2190	Calculate the hash of a product file .
+6770	Install a yum
+508	Returns True if the record matches the filter .
+3518	Paste the selected elements .
+2197	Log a part .
+10346	Merge a list of namespaces .
+2203	Start a file .
+12269	Evaluate the given spec against the spec
+9395	Compute the anomaly scores for each time series .
+12554	Reads and parses an rpy file and converts it to a Pandas RDD .
+11009	Subscribes a given bet_ids .
+2722	Perform a single action .
+5219	Return a file name for a ticker .
+2903	Return a reference to a method .
+9076	Start the connection .
+12159	Return a list of files in a folder .
+11137	Decorator for methods that require a path .
+1321	Maximize the window .
+2644	Push a file to the destination .
+9883	Inspect the information of the trancdf .
+7709	Handle an authorized_jid .
+4186	Compute the Taylor coefficient .
+8733	Parse a string into a datetime object .
+560	Returns True if any of the goodprints are active .
+6396	Simulate a Minkowski .
+365	Given a transform_matrix and a list of transform points return a list of keypoints .
+2377	Lists all known rules .
+3062	Split a string into a list of scopes .
+4185	r Calculates a window flattop .
+9418	Decorator to annotate a view function .
+6742	Render a Jinja2 template to a string .
+5360	Execute a batch of tasks .
+11313	Update the cnum field .
+6527	Load all available tools .
+6148	Find the unique roots of each node .
+12903	Parse the genotype field .
+2954	Initialize the container .
+874	Initialize the state of the particle from the result database .
+10243	Count citations in a BEL graph .
+3285	End a write request .
+12143	Wrapper for _push .
+13444	Return the reverse of x .
+8715	Print a file .
+12735	Perform one step of the next frame .
+11003	Calculate PSF PSF PSF PSF PSF .
+10276	Returns a dict of neurommsig scores .
+5444	Parse a URI .
+127	The area of the polygon .
+977	Checks if a new representative is OK
+12732	Create a joint .
+12042	converts the given xml to a python object
+12456	Install a package .
+3800	r Calculates Bahadori gas
+4941	Unlink the user from the enterprise customer .
+7531	Plot a gist .
+4721	Exit the trun .
+9489	Generate a bytecode - encodable bytecode - encodable byte - encodable value .
+1391	Convert a dict of protobuf values into a dictionary .
+10886	The corners of the mesh .
+11830	Fig . 3 . 10 . 10
+10484	Return True if obj matches the other .
+6828	Fetch a file from a remote repository .
+7538	Get assembly .
+10347	Run RRCR rr .
+9308	Return a list of canonical headers .
+4698	Format the given VM .
+5807	Parse server session info .
+11509	Delete an item
+10210	Checks if the current user is a root .
+3315	Find a single resource by url
+3044	Generate the refresh request body .
+4182	r Computes a window blackman of a window of diameter N .
+2885	Returns the number of subscribers .
+3555	Power on the adapter .
+3921	Returns the menu for the given close callback .
+9769	Delete a job .
+7976	Reset stream .
+4733	Generate steady RT pic
+4675	Removes an account from the system .
+4556	Return an iterator over the named colors .
+436	Draw weight matrix .
+13844	Processes macros .
+6174	Unlock the celery task .
+11985	Uploads a folder .
+1606	Run containers on the cluster .
+8029	Returns the file size .
+8195	Load a node .
+3240	Get a specific policy document .
+13791	Get application name .
+9541	Validate a datetime object against a given format .
+5143	Search for a specific comment .
+5419	Validate a list of arguments .
+12937	Decorator for deprecation warnings .
+5888	Crawl crawler .
+5397	Delocalizes the outputs of the task .
+8637	Add an award to a project .
+5459	Find the task descriptor for a task .
+5929	Get logging level name .
+8243	Try to guess the name of a color .
+3930	Get authorization code .
+2857	read from the FTDI chip
+8972	Connect to another mesh
+7748	Process an IO response stanza .
+170	Draw a mask on the image .
+2462	Set file spdx ID .
+5695	Import data into the database .
+3539	Template tag for HubSpot .
+9635	Initialize the command line parser .
+5545	Convert raster to pyramid .
+7323	Sends an e - mail server
+11939	Broadcasts a message for all users of a given level .
+9348	Returns the year
+3901	Handle an exception .
+2036	Set the storage value .
+9714	Establish a connection .
+2943	Validate the task specs .
+5673	Create a GTFS database from a directory .
+5055	Get available idp choices .
+10772	Create a contour for a contour
+4046	Returns the number of tags in the library .
+613	Generate extra metric specifications .
+5840	Get the status of a prediction .
+2802	Concatenate concat .
+11855	Add to chart any rules for B that may extend this edge .
+5762	Write Groovy script and configs .
+9212	Get the image of a channel .
+5218	Create a histogram file .
+2157	Extract the help text from the API .
+121	Return the next batch .
+12660	Copy a folder .
+13869	Retrieves the native EOL style .
+844	Builds the partition map for the given partitionIdList .
+7173	Calculate the intent for a given query .
+128	Project one line to another .
+804	Advance the next job with a new one .
+7573	Print a progress bar .
+8441	Parse link headers .
+5535	Read a tile .
+11293	Retrieve the oembed schema for a given request .
+13657	Returns the router for the given object .
+5593	Generate tiles from a geometry .
+12582	Extracts a 4D element from a 4D file .
+12217	Print file information .
+7504	Parses the file names .
+6200	Simulate timestamps .
+10367	Checks if a complex activity is increasing .
+9948	Create a new space from an Excel sheet .
+12105	Run a qsub command .
+13451	Returns the maximum value of the largest image .
+664	Create a clone of the given columns .
+4230	Argument parser
+3461	Perform a single gene deletion .
+5571	run raster
+8226	Create an instance of clazz .
+238	Create a full tear sheet .
+6581	Play a single song .
+1494	trigger all timer tasks
+11726	Format the duration in seconds .
+3390	Validate the model .
+6179	Merge overlapping time series .
+3249	Get the details of a managed policy .
+7852	Return a list of identities .
+867	Clears the configuration .
+12402	Require a given requirement .
+10494	Click on a mouse button right .
+9583	Write variable header to file .
+4254	Get the timezone for a country and region
+10372	Return True if node has namespace .
+5878	Create a Video instance .
+3175	Create a feedback message .
+12628	Get all files in a folder .
+12998	Takes a cluster and returns a list of templosity
+10747	Download a file .
+13847	Custom version of splitext that does not perform splitext on directories
+11536	Set a persistent pin mapping .
+12711	Add a force to the ode
+13257	Save an entry .
+2572	Start database manager .
+9369	Generate a random legal OGRN .
+10554	Get a list of HelpMaterial objects
+460	Compute accuracy .
+11301	Populates the registered providers .
+6648	Load the configuration for this application .
+10106	Sort tabs .
+10887	Format a vector
+9424	Opens a RAR archive .
+6408	r Return the L - mean of a list of nums .
+13661	Creates a temporary file .
+9478	Parse a string
+9607	Overrides vformat .
+10884	Return a slice of the array .
+12719	Return the axes of the ODE
+7938	Connect to a dst
+2822	Convert a Relu activation layer .
+378	Sample a normalization over an array .
+814	Pick a distribution by distribution .
+7653	Serialize an object to a list .
+2955	Update the given containers .
+12401	Checks if a given requirement is satisfied .
+9530	Encrypt a base field .
+7775	Encode an rfc2425 token .
+5135	Minimal random graph .
+4483	Create a new file .
+1359	Get the argument instance .
+11942	Return a dict of stored messages .
+12859	Convert to date
+3174	Create or update a product
+8020	Accept a websocket .
+553	Read the current state from the database .
+466	Generate batch of skips .
+2017	Return the DIV instruction .
+7726	Initialize a status code .
+7408	Worker function
+2021	Calculate gas
+500	Removes the range from the kNN .
+10642	Calculate Reynolds number
+10473	Add a key to the queue .
+10665	Calculate the stoichiometry coefficient .
+7746	Return stanza .
+10704	Get a specific device .
+10950	Create a sample from a field .
+13123	Creates a parser for the argparser .
+12704	Makes a quaternion .
+9747	Send the discovery packet .
+11105	Decorator that ensures that the repository is consistent .
+8171	Calculate the angle between two vectors .
+13458	Downloads a file from S3
+11213	Decode a secret .
+8710	Write a single chunk .
+1783	Add src to dest .
+7973	Start the event dispatcher .
+9160	Delete role requests .
+1497	Parse a query string .
+6342	r Returns all words in the corpus .
+2740	Add tags to a firewalls .
+7464	Parse MCMC results .
+7493	Choose n random values .
+160	Height of the rectangle
+4485	Download the content of a file .
+3486	Check that the value is a required attribute .
+1679	Checks the next section .
+8123	Draws a text
+1756	Emulate target until target is reached .
+860	Returns the temporal delay for the inference element .
+13356	Run global hook .
+11077	Send a Slack message .
+6739	Check the differences between two settings .
+5989	Convert a stack of deflections to a stack .
+1323	Sets the currently active window .
+5156	Get the install context .
+523	Updates the boost factors for the local columns
+8717	Compile a node .
+12122	Filter the Gaussian distribution .
+4680	Gets account names from a public key .
+7488	Create VCF file .
+8534	Read data from the transport .
+1971	Advances the clock with the current timers .
+2037	Set the JUMPI value .
+7375	Decorator to register a function as an exception .
+5581	Get the contour values for a given interval .
+415	Save a single dataset .
+8297	Dump a hexadecimal string .
+10471	Add an event to the queue .
+6737	Get component settings .
+11489	Download folder recursively .
+3380	Add lexicographic constraints to a model .
+5944	Check if an object is stream .
+3521	Convert a template to a performable node .
+1343	Onehot - like op .
+6791	Loads data from a site .
+10808	Delete this group .
+5539	Read the tiles from the input tilebuffer .
+5168	Extract HTTmode from radio information .
+13020	Execute a query .
+10105	Return a list of the tabs for this group .
+9270	Returns a temporary tag for the repository .
+12332	Get the diffs from the given history
+13813	Convert message to JSON .
+4451	Search for a given query .
+5023	Return a generator of the integrated channels .
+13325	Activates given paths .
+10677	Cropic adjustment factor
+8959	Build a package .
+13220	Return a list of settings .
+11311	Get the record .
+6678	Return a list of lines that are uncommented .
+9286	Send a line to the server .
+7951	Wait until connection can be read .
+6456	Simulate the similarity function .
+9720	Release the control command .
+12764	Attach a reference to a beam .
+9017	Create a new pattern with the given base .
+1663	Updates include state .
+864	Make directory from absolute path .
+4929	Transform the content_metadata_item to enable launch_points .
+4709	Press power button .
+8630	Get a list of projects .
+13204	Parse the document class .
+10752	Download all bands .
+2141	Parse a variable string .
+5860	Convert an object into a dictionary .
+7456	split files into chunks
+4030	Load a cookie jar
+7404	Move the order below the reference
+12125	Set positional arguments .
+9885	Loads all variables into memory .
+5304	Sanitize a color palette .
+5028	Send learner data to user .
+9091	Creates and returns a new Namespace object .
+9704	Check the serial number .
+6020	Simulate a gaussian with a gaussian .
+7198	Describe images .
+13400	Creates a new logbook
+9018	Return a new pattern .
+4066	Get item fields .
+3646	Send to a watch list .
+8928	Prepare setup . py file .
+12238	Creates a rosenbrock object with the given parameters
+6194	Extract a datafile from a hash .
+13283	r Parse a whitespace - delimited argument .
+12013	Generate a panel of the flux .
+10967	Synchronizes the model parameters .
+5789	Handle an error .
+12686	Returns the first occurrence of this node .
+6884	Find the start and end time groups of a time series .
+11794	Maintain arc consistency .
+5666	Run the spreader .
+12448	Parse a cookie_string from a string .
+585	Removes the range from the kNN .
+2183	Return all available data files .
+3801	r Calculates the chemical potential .
+8924	Validate and set the value
+3469	Return a shallow copy of the reaction .
+2492	Creates a BNode for the given review .
+9597	Save screenshot to file .
+2864	Reads an 8 - bit value from the specified register .
+1299	Reset the console color .
+12949	Create a copy of a model .
+10835	Fetch all users
+6713	Install setuptools .
+6587	Iterate over a playlist .
+11697	Count changeset .
+13639	Bind settings to a module .
+6751	Unregisters the manifest .
+6841	Return a list of supported locales .
+512	Updates the minDutyCycles based on the maximum number of active tasks .
+2956	Load the blockade state .
+11753	Create the grammar for the grammar .
+1717	Generate a replacement template
+5613	Reproject a geometry .
+6932	Create a cplag diagram from a list of colors .
+6458	Returns the degree of the stemmed sentence .
+3732	Return a mixture from a list of IDs .
+10520	Increment the scrollbar by one or more iterations .
+11553	Disable analog reporting .
+2470	Set file notice .
+10745	Validate a list of arguments .
+12688	Sends a notification to users .
+8778	Compare two existing ranges .
+13616	Create new scaffold .
+10674	Load a data file .
+3215	Get flow logs for a given VPC .
+10928	Run the final update step .
+11929	Watch for changes in the server .
+6659	Calculate bias correction .
+2934	Merge an option with the given name .
+12367	Create a record .
+8861	Return a list of the names in the ji file .
+11425	Find subfields matching the given record .
+5699	Write stats to a CSV file .
+7877	Handle a success response .
+8892	Return the default value for this field .
+11846	Add a Thing to the Thing .
+7893	Leave the MUC .
+4427	Seek to a track .
+5138	Process a file .
+4419	Play a previous track .
+9134	Returns a module config class .
+11927	Run the server .
+13908	Create subparsers for the given parser .
+7480	Build clustering .
+1657	Checks if the first line is an initializer list .
+7944	Called when the stream is connected .
+10833	Query by an admin
+8606	List users in a group .
+11206	Get zoneinfo file .
+1944	Syscall .
+12197	Returns a list of task options .
+6528	Return a dict of TIDY reports .
+1283	Autolink link .
+12548	Convert an image to zscore .
+4810	Train a model on the given path .
+1734	Remove objects from code .
+3988	Yields a parallel task queue .
+3468	Update self . metabolites based on self . metabolites .
+8075	Draw a rectangle
+4996	Default content filter .
+3694	r Returns the Tm for a given CASN .
+124	Converts the dataset into a Batch object .
+7171	Train a subprocess .
+13776	Return absolute path relative to root_dir .
+5374	Check if a prefix exists in a GCS .
+6625	Return a list of tags for this component .
+10325	Polynomial PMF .
+10607	Run the simulation .
+4660	Add an ops to the transaction .
+1038	End of the range .
+4470	Returns a list of parameter names .
+9526	Convert input file to fastg format .
+5333	Configure logging .
+9893	Return the uptime time in seconds .
+13469	Set the error code .
+3989	Returns the location specification for the given port spec .
+2355	Find the elements that match the given strategy .
+6570	Decorator for the last argument of a function .
+4490	Initialize the of configuration
+2837	Transfer data to the MOSI .
+8393	Parse pylint output .
+8361	Create a new rContext
+12928	Parse info field .
+5277	Query the Oracle to find out whether the i and j should be linked .
+8201	Set settings .
+10083	Edit a record .
+7682	Display an annotation .
+5803	Extract a set of certificates from the server .
+5332	Get the panels
+6329	Import words from a text file .
+7021	Generate a list of textlcs for each object in the database .
+7849	Check if a variable has a feature .
+12988	Returns the remote Jupyter proxy URL .
+8238	Return a list of colors representing the same color .
+11674	Return a copy of the features .
+3148	Retrieves all subscribers of a workflow .
+12447	Render the object as a string .
+6679	Get the modification time of a file .
+4879	Get paginated response .
+875	Copies the state of each variable in varName to the current state .
+930	Creates an aggregate record for each parameter .
+12550	Write the meta_dict to a file
+11890	Set the brightness .
+7667	Search for annotations .
+1556	Returns the set of streams that are out of this stream .
+11400	Update the collaboration field .
+7424	Check insert size .
+6228	Initialize the scene
+5796	Handle an SSL error .
+4836	Returns paginated catalogs
+1082	Return a new time with new values .
+4441	Find tracks .
+4058	Processes bib files .
+10699	Set the value for the given key .
+1375	Parse a set of config overrides .
+8596	Update a group .
+11154	Returns a list of possible choices for the current directory .
+7815	Loads the roster from the server .
+13012	Pretty - print a DataFrame .
+11243	Add newlines to a file .
+6856	Run a mysql query .
+5570	Get profile .
+12809	Called when a message is received .
+3713	r Calculates the ideal gas .
+3744	r Round an integer to a round .
+13071	Redirect to the first passage of the object
+6448	Distribution function .
+2611	Serialize an object into a dictionary .
+9736	Returns the 3D marker positions
+9570	Get the response from the message .
+11780	2 inputs are chosen uniformly from 0 ; output is xor of ints .
+2323	Calculate the forward mean of a target .
+8978	Write binary file to file .
+6843	Set permissions on local renderer
+2977	Kill containers .
+6973	Calculate the ephemeris time series .
+7087	Return an array of epochs given a certain period and period .
+7447	Run clustering on samples .
+12374	Takes a snapshot of a droplet
+7214	Preview an image .
+4027	Create a local copy of a cookie file .
+8830	Find a segment allocation .
+2210	Parse the requirements . txt file .
+5479	Cancel a batch operation .
+8735	Generate start and stop dates
+3265	Build a URL from a segment .
+7454	Estimate the optimal step counts for the sample .
+1812	Set the number of bytes allocated to dest .
+6196	Return the compact name for this object .
+2154	Read configuration file .
+5706	Validate the form .
+6042	Return the unmasked sparse segmented pixels in a sparse grid .
+6524	Get a sorted list of issues .
+5067	Generate a cache key .
+10493	Click on a mouse button left .
+722	Return the next n values .
+9494	Compile a python code .
+7996	Log a stream error .
+8252	write an image to rgb
+10092	Parse the response .
+3591	Convert a byte array into an integer .
+6283	Set the default viewport
+7100	called on marker
+10330	Rank the edges in the graph .
+4748	Import a set of parameters .
+13370	Returns True if path is redirecting otherwise False .
+8645	Get a track by id .
+6391	Return a hash value for the given word .
+2585	Execute all tasks in the internal queue .
+7428	Draw a random sample from the maparr .
+11689	Get the metadata for a changeset
+3355	Merge elements of an iterable .
+13478	Return an abbreviated string for the citation .
+3171	Create a customer .
+12523	Run a command and return its output .
+8323	Return True if l is a list .
+11460	Add a system number to record .
+3622	Callback when a record is saved .
+1134	Update a cached filename if it exists .
+12514	Crop an image .
+6354	Applies the rule if one of the languages is compatible .
+10881	Validate a and return a tuple .
+9350	Check the digit of a number .
+4229	Create a formatter for a given format .
+7851	Remove a feature .
+6304	Find an effect class by its name .
+2443	Adds an annotation type to a document .
+11419	Move a subfield to a new record .
+2594	Decorator to register a function as interactive
+8139	Resaturate the image .
+11487	Search folder for item or folder
+10443	Returns a dictionary containing information about the requested window .
+4672	Creates a new wallet .
+7110	Train the model .
+9501	Disassemble this instruction .
+1474	Get Tmaster processes
+1017	Adapt a segment based on existing synapses .
+6778	Given a list of component names return a sorted list of component names .
+3372	Choose the solver to use .
+8450	Verify that environment variables are set .
+12589	A generator that yields all elements of an iterable .
+10495	Click on a mouse button with the specified modifiers .
+4052	Dump an item to a file .
+7798	Decorator for SASL methods .
+1192	Translate a string .
+2506	Get the license name .
+1237	Create a network from a spec .
+11595	Rename key src to dst if dst doesn t exist .
+4847	Load data from a resource .
+2691	Yields all files in path .
+12984	Decorator for keywords .
+9389	Check the sla against the sla
+1551	Get the bolt for this topology .
+11563	Set the pin latching .
+10067	Serialize a list of objects .
+2456	Sets the package license .
+12993	Parses the given text .
+7513	Perform clustering on a dataset .
+7466	Loads the existing results from the workdir .
+5557	Resolve zoom level .
+11196	Compress an object .
+6632	Returns True if the generator is last .
+293	Plot the gross leverage .
+265	Returns the cumulative returns less than the given returns .
+8306	Close stdout and stderr
+1197	A context manager that yields nested statements .
+12103	Print a summary of this class .
+12976	Convert all indexed indexes into a dictionary .
+1910	Run manticore .
+1014	Returns the segment with the largest active synapses .
+12861	Returns a new business date .
+7862	Handle a connected event .
+8181	Removes a node from the graph .
+254	Add closing transactions to a list of positions .
+13785	Generate a random string .
+12641	Get the value of a config variable
+10071	Get the persistent identifier .
+5651	Calculate footpaths for a given stop .
+10391	Aggregate the heat diffusion workflow .
+4033	Parse a string .
+618	Convert a string to a boolean value .
+4149	Yields each row of self .
+526	Inhibit active columns in the network .
+3572	Called when a service is discovered .
+1862	Writes memory to dest
+10410	Finalize canonical_averages .
+3135	Create a line
+1446	Poll the buffer .
+8002	Convert a Jabberi - register XML node into a Jabbernet instance .
+11304	Embed url into oEmbed object
+7181	Fix the comments of the given type .
+11658	Transform X to nearest neighbours .
+13767	Add a bundle .
+7795	Unregisters the fetcher for the given object class .
+13805	Merge two ordered sets .
+10622	Returns the mass of an element .
+10412	Summarize the number of nodes passed in .
+190	Return a copy of this LineStrings .
+8094	Returns a list of all the edges in s .
+680	get all records
+574	Return a copy of an object .
+9581	Return the end of a file .
+3966	Rename a file to destination .
+9968	Return a copy of this cell .
+6012	Load an exposure time map .
+7900	Callback run when the configuration has changed .
+12580	Save the image to a file .
+13647	Gets the latest fuel prices .
+5835	Convert a JSON response to a configuration dictionary .
+13029	Perform an exploit on the given ip .
+4527	Calls the given function with the given arguments .
+9239	Parse a datetime string to a datetime object .
+1260	Restores a component
+11681	Send a command .
+1735	Ensures that the source is a regexp .
+13016	Decorator to mark a hook .
+6649	Returns True if target_name is an ancestor of target_name .
+10978	Leave a group .
+5648	Write stop to file .
+9654	Take the shas of all files in the graph .
+9172	Add pyramid configuration .
+9247	Generates a log for the given issue .
+11667	r Compute a linear product .
+11176	Parse a single argument .
+1774	Invalidates memory for a given address .
+9629	Split a value into a docstring .
+6859	Create a new MySQL database .
+6019	Creates a NoiseMap from a pixel_map .
+8771	Add TZ_TZ_TZ to the context .
+13768	Collect all the files in the bundle .
+8550	Update a firewall rule .
+5315	Set color palette .
+11307	Map an attribute on an object .
+5906	Create a new topology .
+297	Plot the number of returns quantiles for the specified returns .
+440	Print all layers .
+12691	Writes a table potential potential problem .
+1684	Start a new function .
+11679	Connect to the host
+10007	Get the object s name .
+6420	Read a file .
+8289	Determine whether the system is an executable
+10801	Compute the distance matrix between two points .
+4629	Generate a public key from a public key .
+13696	parse an integer
+9378	Check if a file exists .
+1250	Perform a random action .
+9145	Clear all modules .
+7945	Continue the connection
+12536	Creates a DICOM file for reading .
+475	Convert a sentence into token ids .
+2319	Uses CUDA_VISIBLE_DEVICES to set CUDA_DEVICES .
+6930	Match external catalogs
+2339	Calculate weighted mean and standard deviation .
+9140	Find the best label for a given type .
+5302	Parse a rgb file .
+10511	Callback invoked when a window is created .
+1184	Match the current context .
+573	r Apply a function to a dictionary .
+11251	Calculate percentage of values .
+9005	Add a new pattern .
+162	Return the pointwise inside the image .
+660	Calculates the percentage of outputs for each time step .
+12309	Add files to the given repo
+7029	Generalized LSP value .
+10413	Build an inclusion filter for the given nodes .
+11040	Write a file .
+5074	Track an enrollment event .
+10793	Separates a list of particles into separate particles .
+3563	Find a descriptor by uuid .
+12372	Chop list into n chunks . Returns a list .
+7628	Return a namespace with the given namespace key .
+12938	Clear the connection parameters for this connection .
+10197	Handle a request .
+7923	Return the locale as a unicode string .
+3743	Viswanath 2 .
+5155	Cast the given item to the correct type
+7736	Map each character in the map .
+12879	Add separator to separator .
+13329	Remove a virtual environment .
+3918	Handle focus event .
+12605	Convert a list of values to a string .
+8691	Put a key .
+9138	Drops all items from the store .
+10128	Updates the velocity
+12415	Send the message .
+8576	Get a single request
+3401	Find an external compartment .
+803	Retrieves the result and status for a list of models .
+3620	Unregisters an Algolia engine
+11892	Update the bulbs .
+9748	Chooses the available QTM instances .
+13485	Open sphinx documentation
+3698	Calculate the Hsub of the Hsub .
+2661	Bind a worker to a worker
+4244	Get a single record .
+2501	Log a value error .
+5551	Takes a list of bounds and returns it .
+499	Removes records from kNN .
+1571	Launch a tar archive .
+1074	Return a list of phrases .
+55	Make a copy of the dataset .
+9661	Finds the standard Sakefile .
+12925	Given a genome file and a genome file find the corresponding genome alignment .
+9625	Register a preview .
+5461	Get the job and task params
+13337	Returns the module for the specified path .
+13281	Parse a source .
+12904	Returns the index of the given value .
+2276	Runs a directory on Windows .
+1647	Perform a check on a file .
+8819	Get the number of networks in the tenant .
+7794	Register a fetcher .
+7542	Store a list of alleles
+4596	Context manager for creating a temporary pid .
+9788	Add a bookmark .
+9523	Convert a FASTA file into a list of contigs .
+728	Returns a mapping of numbers to numbers .
+11055	Removes back references from obj
+10157	Decorator that adds a transition to a transition set .
+1199	Returns a sorted list of variables .
+3123	Verify that the audience is correct .
+10286	Return a list of nodes that are downstream of a subgraph .
+12204	Automatically set auto - constraints .
+10310	Safely add an edge to the graph .
+92	Normalize a Quokka extract .
+11663	Cast an argument to an integer type .
+2522	Set the checksum for a file .
+1981	Transmit bytes to a symbolic buffer .
+12006	Read version from data .
+6637	Unpublishes this registry .
+3001	Returns a dataframe of crypto data .
+6839	distrib release
+3781	r Calculates the value of the property
+8065	Draw a gaussian .
+1635	Checks for spacing for a function call .
+4696	Set SSH environment variables .
+5084	Unlink all students in the SAPSF customer .
+4595	Factory function for creating an object .
+3777	r Calculates the integral between two transitions .
+11801	Undo a supposition and all inferences from it .
+957	Generate logging file path .
+13433	Show a figure .
+12223	Executes an expression .
+4937	Transform the full description to full_description
+5093	Refresh map of robots .
+1463	Builds the topology .
+2098	Relaunch an existing deployment .
+2147	Set the configuration of a notification .
+5429	r Returns the name of a given command .
+8116	Find the intersection of two line segments .
+7597	Get a list of conflicts for the given country .
+13423	Split a line into a list of strings .
+8236	Calculate the complementary colors .
+7651	Remove a prefix from a query .
+6165	Implements square regression .
+9809	Get version of cli .
+4080	Get the available languages
+13186	Download all observations from an observer .
+13108	Return dict representation of Jackal .
+4862	Creates an enrollment for a course
+6504	Add match_string to match_string .
+4190	r Compute the Jacobian of a window .
+10012	Parse the given option settings .
+6425	Calculate the coefficient of a tar .
+1830	Execute a CPU .
+13863	Returns a datetime . time .
+13104	Start a new scan
+8071	Check if url is not found
+11703	Set the gender .
+1723	Translate a python file .
+4109	r Compute Ixican pressure for a given volume .
+8680	List a list of matches .
+10273	Removes unweighted sources from the graph .
+7298	Returns the form class for a given model field .
+7732	Get join info .
+11052	Perform synchronization .
+904	Read anomaly values from proto .
+8082	Move the cursor to the specified location .
+4670	Set public keys from wallet keys
+677	Get the description as a dict .
+4522	Run a subprocess .
+1702	Wrapper for the outer right join .
+5101	Convert an adjacency matrix to a graph .
+642	Reads a configuration file .
+12766	All distances between labels and labels .
+3385	Attempt to reproproject a potential point .
+11865	Multiply two factors combining their variables .
+6961	Test if two values are equal .
+11675	Make a Features object with no metadata ; points to the same features .
+6278	Draw the timeline .
+7350	Predict the given sequences .
+3851	Lookup entities by id .
+9327	Check if content type is valid .
+7946	Write data to the socket .
+9699	Given a list of events return a dictionary containing the choices for each event .
+3771	r Returns the logarithmic of the given properties .
+2206	Compress a user home directory .
+10123	Rotate the actor .
+10812	Query groups by user .
+8768	Add a job to the context .
+10800	Call the given rvecs .
+9333	Create an empty array .
+8293	Return a list of unique values .
+4961	Paginated list of objects .
+1869	Moves a ZEXT instruction .
+3399	Add switch and objective .
+6397	r Compute the similarity of a tar .
+13626	Returns a copy of the given value .
+10582	Set the parent path .
+9068	Returns the logarithm of the covariance matrix
+10063	Return the minter value
+2427	Set the document comment .
+2451	Set the package down location .
+6317	Convert an image to bytes .
+6631	Set a config value .
+2736	Create a new droplet
+601	Adds a graph to the plot .
+10867	Rotation matrix of theta
+10215	Rank a subgraph by node predicates .
+9305	Called when a request date is missing .
+12455	Decorator to handle errors .
+5598	run raster
+519	Initializes a symbolic connection .
+7965	Start the stream .
+7716	Remove an item from the roster .
+3580	Disconnect connected devices .
+7765	Disconnect the stream .
+13539	Get all available locations .
+5568	Return the bounds at zoom level .
+7462	Encode an object .
+13371	Redirects the given file path to the given path .
+11275	Check the status of a process .
+1549	Configure logging level .
+6511	Eat a name line .
+8675	Import all keys from a key file
+10963	Set self . shape .
+868	Reset all custom configuration properties .
+9647	Returns True if variable is valid in template .
+8732	Divide a float into a timedelta .
+1987	Save the current state .
+13858	Request a url and return the result .
+4798	Check if path exists .
+2218	Rectify count_or_bool .
+3430	Add reactions to the model .
+10572	Recursively walk a directory tree .
+2466	Set the license for a package .
+9676	Calculate period .
+8130	Create a layer .
+5936	Parse color specification .
+10129	Helper function to map timezones .
+12883	Run the supervisor .
+8795	Serialize the security rules into a JSON string .
+10709	Perform an authentication request .
+6965	Get the current project
+12710	Return the world offset in world coordinates .
+6392	Extract QGrams from a tar archive .
+2304	Run gene annotations .
+6098	Calculate the luminosity within an ellipse .
+12750	Set PID parameters for the joint .
+7330	Perform a HTTP request .
+3874	Add a new conversation .
+9200	Decorator for extract_cycles
+9323	Refresh the information for this object .
+9601	Wait for an element to have an element .
+3856	Return unread events .
+9862	Get information about the current user .
+6642	Recursively satisfies a dependency .
+8758	Get a subnet .
+987	Pretty print sequence cell representation .
+13672	Initialize the asset .
+4319	Parse stat output .
+678	Generate multiple records
+5924	Create the configuration file .
+9189	Return a list of API keys .
+6750	Register the manifest .
+4335	Add an ops to the effect .
+7118	Merge two dicts .
+4217	Delete a user s password .
+6054	Convert regular mappings to sparse matrix .
+7537	Extract the assembly section of the assembly .
+8988	Return the last unmapped meshes .
+1822	Set the operation op .
+10671	Finalise the result .
+4014	Register a consumer .
+13840	Consumes a Bool .
+6081	Returns the potential potential of galaxies in a grid .
+10654	Prepare components to run .
+5885	Get canonical link for article .
+12146	Analyze a single file .
+5173	Get install requirements . txt .
+13130	Parse a single computer .
+8084	Scale the canvas .
+2436	Add a reviewer to a document .
+5193	Send a command_set command_set to the master .
+7955	Get the SSL certificate .
+13568	Decorator that marks a function as selected
+6108	A tuple containing the ticks of the grid .
+4458	Sort by field
+8943	Search for a file up to a relative path .
+8809	Delete a MAC address range .
+6591	Return the results of the runidx .
+8456	Check if the template is up to date .
+12670	Creates a client app .
+13060	Get the reffs for this object
+3659	Add coefficients to the coefficients
+8984	Returns the SVG representation of the instruction .
+11089	Sort by key .
+3731	Check if CAS is valid .
+1719	Emit a statement .
+6597	Receive all results .
+13447	Authorize the user .
+7641	Parse arguments .
+11160	Write a space to a file .
+4519	Set the value of the project
+5341	Return a list of menu entries .
+6384	Calculate the mean similarity of a collection .
+712	Launch num_workers workers .
+961	Initialize the logger .
+1618	Check if line is a C ++ string .
+8848	Overrides mousePressEvent to emit the left button .
+3387	Returns True if matrix is unstundant .
+9447	Hook for hangingup calls .
+10885	Find the slicer for a tile
+1379	Print build info .
+672	Returns the prediction results for the given classifier region .
+4749	Retrieves a path for a package .
+3850	Fetch a raw URL .
+840	Find the closest training pattern to a category .
+9716	Wait for an event .
+3491	Store sbase annotations .
+8373	Event handler for widget changes
+155	Returns the previous key for the given key .
+7778	Create a VCard from the given XML data .
+12165	Add a listener to the event .
+762	Return a modified version of the input space .
+4206	Perform the levup
+2816	Convert a pooling layer .
+5842	Get the design run status .
+3424	Returns a solution for the solver .
+12549	Get spatial map .
+5916	Translate the residue to a protein residue .
+7505	Run the qmc tool .
+3070	Perform a HTTP request .
+2403	Generate bag reactions .
+6668	Populates the stack with the given name .
+7364	Set the timezone .
+6887	Compute the light curve format .
+6167	Convert data to binary format .
+13250	Extract author name from an entry .
+2548	Validate the input text .
+10435	Get the index of a tablerow .
+695	Loads a description file .
+5258	Parse an operand .
+3034	Parse OAuth2 web server flow parameters .
+8683	Export the contents of the store .
+5846	Load a yaml file .
+9355	Generate a random money .
+9174	Bake a recipe .
+4173	Plot a window visu .
+5351	Autorefresh studies for the specified sections study .
+9976	Alters variables in a function .
+4355	Remove ack callback .
+11073	Set a nested value .
+4535	Fill a color in this region .
+1678	Returns True if the last line is an alphabetical order .
+3517	Template tag parser .
+9884	Reads all z_variable_names .
+3272	Initialize the database .
+13065	Return a dict of descendants of the given member .
+9427	Returns the info for the given name .
+10751	Validate the Prefix .
+13196	Ensures that the input document is correct .
+3002	Start the nbext extension .
+2875	Add BPMN files to the XML file .
+3032	Gets OAuth2 credentials from code .
+10181	Executor for globus event processing
+1316	Gets all the pixel colors of this region .
+11786	Return a copy of example with non - input attributes replaced by None .
+5011	Wrapper for POST requests .
+7097	Create a new fragment .
+2602	Absolute path to the engine file .
+7333	Close all tasks .
+9937	Yields the paths of the given storages .
+12288	Returns True if datapackage exists .
+594	Cache the sequence data type .
+4832	Creates a course discovery API client .
+9896	Return the uptime of the machine .
+11974	Convert nm to nm .
+11833	Make a digraph into an undirected graph by adding symmetric edges .
+12370	Retrieve a domain .
+10282	Get the predecessors of a subgraph .
+12461	r Import a pip command .
+11533	Setup the Arduino
+1460	Resolve the taxon module for the given path .
+2288	Compute the noise .
+6940	Gaussian distribution function .
+3495	Return the elements of a reaction .
+8443	Search for a GitHub user .
+3393	Trim the genes present in the model .
+4851	Perform transmission updates on the given channel .
+8023	Retry decorator .
+8194	The density of the graph .
+11212	Hash a secret .
+12436	Traverse the resource .
+4926	Given a content metadata item translate it into its title .
+1367	Start the TCP connection
+456	Perform a ternary operation .
+4933	Get the content id for a given content .
+7250	Launches a new batch workflow .
+5508	Decorator to create a connection .
+11733	Check if a class is valid .
+4893	Collect the data for the Certificates .
+1298	Sets the text for the given text .
+9660	Merge from_store and in_mem_shas .
+10147	Generate a reference for a parameter
+8542	Get username .
+12465	Read a config file .
+11392	Fetch a URL using OEmbed .
+13072	Retrieve passage .
+9774	Gets a resource for the specified job .
+11848	Return all things within radius of location .
+5136	Returns a generator of the names of the lines of a class .
+4409	Establish a connection .
+2165	Format the commands .
+4219	Get the preferred collection .
+11717	Create a template .
+11838	Place the next queen at the given row .
+1404	Load configs from the configs
+5938	Print help for the command .
+12855	Yield the subtree of the given events .
+11064	Return True if the given message should be ignored .
+9346	Adapt a template from a packarray .
+5394	Builds the localization command for the given task .
+7432	Write nlocus matrix to file
+6705	Create a new user
+11798	Start accumulating inferences from assuming var = value .
+5727	Get all the responses from the gdb .
+2684	Download a cached file .
+9846	Resample a factor .
+12003	Add a header to the message .
+5697	Returns median lat of stops
+10667	Add components to a material package .
+11384	The module for this module .
+2134	Get the schema for a workflow job .
+4706	Read a file .
+1089	Return the first index of b in a .
+12775	Perform inverse dynamics on the ode .
+5889	Returns a Unicode string .
+7259	Perform a search on a location .
+11184	Wrap the given state into a dictionary .
+65	Clips out of the image .
+9895	Get the current uptime .
+344	Train and validate validation metrics .
+2846	Close the file .
+12874	Checks if a predicate is satisfied .
+4962	Validate email or username .
+5787	Encrypt a block of data .
+931	Return the next occurrence of the given record .
+2487	Creates a ConjunctiveLicense node for the given conjunction .
+768	Get the details of a metric .
+13258	Returns the file path for the given uid .
+3353	Replace this item with the given id .
+4860	Prepare a fresh session for retrieval .
+12398	Generate method names .
+8318	Connect a table to a table
+4493	List the given projects .
+7329	Make a request .
+1727	Parse identifier string .
+1405	Validate an extra link .
+5869	Initiate an organization relationship .
+9969	Get the value of the field .
+3583	Print this object as a tree .
+13335	Resolve a path to a resolver .
+3301	Return the element content as a string .
+13262	Define a task .
+1612	Processes global error suppression .
+3845	Create a ParticipantId for a user .
+2145	Make a request to the API .
+13276	Merge rib_seq_path with rib_seq_path .
+7431	Count the number of pis in seqs .
+13456	Open an S3 bucket .
+7728	Add an item to the MUC .
+12291	Add metadata data for all files in a task .
+13798	Process a line of commands .
+4827	Get course enrollment details .
+3132	Create a new list
+216	Set the value of a key .
+8088	The current font size .
+3195	Deletes a member .
+1195	Return a set of transitive dependencies .
+2809	Convert a constant .
+3981	Extract active specs .
+8655	Search for messages .
+6355	Extract language index from a language code .
+8835	Checks if a is less or equal .
+5196	Configure the astropy stack .
+1602	Parse the topology location .
+2873	Trash a file .
+517	Bump weak columns that are not present in the posterior .
+12734	Set the state of all states
+7006	Plot the training results .
+7556	Return a random combination of sets .
+1808	Writes the given output to dest .
+5560	The bounds of this pyramid .
+711	Iterate over models .
+7589	Run fastq dump on the given srr .
+13646	Convert a string to an underscore name .
+7961	Disconnect from the transport .
+10860	get parameter particle
+11362	Convert HTML sub - scripts to latex .
+1215	Wait for a state to be executed .
+8309	Create a PangoCairo context .
+4821	Given a list of course IDs return a redirect URL .
+7138	Get information about the given object .
+7806	Verify that the jid matches the given jid_name
+8845	Returns True if the given line is at the beginning of the line .
+12517	Extract datasets from hdf5 file .
+11088	Wake the given channel .
+516	Calculate the average connected span for a given column .
+4443	Delete a string .
+4760	Wait for SSH to exit .
+1276	Initialize the line search .
+51	Return a copy of this Keypoint .
+2129	Configures the display
+4625	Change the user s password
+12506	Ensure the session has been signed .
+13697	Try to read a file .
+8636	Get a single milestone .
+13398	Check if docstring is valid .
+13392	Paginate the next update .
+6062	Calculate the mass within a circle .
+11749	Attach a bundle to this bundle .
+6364	Convert to a tuple .
+5529	Get zoom level .
+11273	Get a dictionary representation of the current page .
+830	Print the description .
+529	Factory function to create an Array .
+6728	Restore an instance .
+13677	Collect all the files and prepare them .
+4858	Decorator to ignore warnings .
+7219	Update a task .
+10549	Get results for a project
+2717	Add one or more droplets to the droplet
+6102	Returns the intensities from the grid_radii .
+12953	Add an ID to a set of keys .
+1709	Send str to stdin .
+4442	Add suggestions .
+4857	Decorator for deprecated functions .
+5352	Execute all studies for the backend
+6250	Create projection matrix .
+4758	Script entry point .
+4676	Get the owner key for an account .
+11562	Sets the pin latching .
+225	Sends a message .
+4968	Validate a program .
+11086	Display a user .
+3953	Read last result from device .
+1755	Read the specified register .
+9437	Strip Ethernet packet .
+5753	Returns the url for this page .
+7803	Return a human - readable name for the dataset .
+2438	Add a review comment to the document .
+5367	Returns a comma - separated interval string .
+2168	Return a list of all the misc commands .
+1047	Format a list of extracted files .
+6302	Add a package to the effect_map .
+11600	Add photos to the gallery .
+11180	Exchange an access token
+8525	Decorator to log a callback .
+10576	Return a list of elements from the molecule set .
+5980	Bins a 2D mask up by bin_factor .
+12789	Get an etag .
+5588	Calculate slope aspect .
+474	Save vocabulary to file .
+12509	Get the header of an image .
+6802	Generate loadable data .
+4440	Play a queue at the given index .
+10557	Authenticate using OAuth .
+12266	A decorator that converts a function to a docstring .
+8041	True if this is public .
+3688	r Solve the transition matrix .
+10135	Dump a list of grids to a string .
+6579	Send a command .
+5611	Create a memory file .
+4484	Copy a file - like object to a file - like object .
+3587	Removes the given cbobject .
+11585	Return the node name where the name would land to
+9127	Create all instances of the registry .
+7048	Calculate statistics for a single period
+7764	Connect to the server
+13878	Deletes the specified file .
+5119	Initialize the queue .
+7655	Update all registered attributes .
+1588	Returns the topology configuration as a dictionary .
+9762	Un - bookmark the experiment .
+4282	Get the size of a video .
+9404	Get the pointer to the function .
+7991	Send stream start info .
+6173	Decorator to make a single celery task .
+11844	Run the Environment for given number of time steps .
+10748	Validate bands .
+3368	Check if atoms are valid .
+3181	Deletes the specified webhook .
+12012	Perform photometry analysis
+10974	Create a new group .
+5128	Creates a transition matrix .
+10487	Find all the items in this collection .
+2335	calculate Euclidean distance matrix
+6291	Add a directory to the texture dir .
+10757	Return True if path is writable .
+8788	Get the value for a given model .
+6623	Retrieve a tarball from a URL .
+5872	Serialize an organization .
+5075	Check if a course run is enrolable .
+11234	Translate an array .
+1110	Dump a tag .
+8108	Perform a Google search .
+12259	Compute the simplex .
+8338	Finds parents of this group .
+1932	Get description .
+2567	Checks if the current environment is tracking .
+10255	Get all the nodes of the causal source graph .
+72	Return a deep copy of the bounding boxes .
+8416	Return the precision of an array .
+7414	Plot pairwise distance .
+7458	Compute the counts matrix for a list of tuples .
+3912	Shows a message .
+6481	Returns the size of the XML file .
+3933	Make a token request .
+13306	Return the Pearson correlation coefficient .
+2211	Injects a method into this object .
+6845	Check if the current branch is ok
+9725	Set Qtm event .
+7396	Renders a list of publications .
+13197	Converts an OpenTok archive to a Python value .
+7461	Save result to json .
+7883	Create a prefixed prefix .
+2217	Return a sorted list of item strings .
+12317	Remove a repository
+2131	Get a single role record .
+7393	Return the media type for this article .
+11619	Sets up global variables for parsing .
+10489	Returns the bundle ID associated with this application .
+7202	Marks a module as deprecated .
+5778	Perform a BCryptEncrypt using the provided data .
+10006	Clear an obj
+6290	Add a directory to the program .
+9513	Extract ORF values
+836	Removes rows from the table .
+3129	Generate a hash for a member .
+1382	Register a callback for a watch .
+7782	Update the current state .
+7294	Create a list dict from a document .
+1977	Deallocate a memory address .
+8993	Search for all files in folder .
+6063	Calculate the mass within an ellipse .
+6077	Calculate the hyper noise based on contributions .
+425	Delete many tasks from the database .
+1318	Sets the current window text .
+6435	Simulate an Eudex object .
+3206	Get a single batch .
+5321	Get device data .
+6423	Distribute a tar .
+123	Terminate all the workers .
+9750	Finds a doublefann library
+11157	Print a big directory and its contents .
+11075	Set user information
+3119	Prepare value for JSON encoding .
+8178	Return whether the node can reach the given node .
+11893	Retrieve a single document .
+8722	Log a list of files
+12696	Returns the XML representation of the MARC model .
+2682	Uploads Lambda function to S3
+2879	Serialize a list of values .
+9180	Validate the role metadata .
+3025	Save a private file .
+9094	Add a BEL namespace to BEL graph .
+5654	Create a directory if it doesn t exist .
+12537	Scrape all DICOM files .
+10041	create a deposit provider
+12031	Get the protocol sequence .
+8734	Divide two timedelta objects .
+11936	Display the group .
+7486	Run cutadapt on input files .
+6155	Empirical glide correction .
+2738	Assign a droplet to a droplet
+11978	Returns the wildcard identifier .
+1019	Generate a set of random patterns .
+3358	Find an element by id .
+6470	Parses a line of text
+2892	Connect the outgoing flow with the given sequencespec .
+12669	Loads a niftil . mask file .
+11169	Add a positional argument .
+13126	Get all domains .
+8748	Update the scaling IP .
+13039	Summarize the credentials .
+3228	Gets a list of items from the GCE server .
+8312	Draw a list of strings .
+7587	Return the taxon table as a pandas DataFrame .
+5822	Create a new vcl .
+907	Replace the iterationCycle with the given phaseSpecs .
+5009	Creates a completion
+10590	Writes the results to a file .
+5806	Parse an alert message .
+1259	Save a component .
+5784	Select a write .
+13321	Add a module to the active modules .
+2551	Unescape characters .
+1064	Check if a line is a header .
+12149	Runs analysis on the given IDs .
+2110	Sends a transfer .
+3367	Compute linear coefficients for a set of reactions .
+3242	Return a cached connection object for a boto3 service .
+4	Parse unknown arguments .
+6605	Return the full path of the result .
+5293	Add context data to the context .
+3397	Extend a universal model .
+12951	Return a new connection .
+13498	Creates a new revision with the given label .
+13834	Prints a message .
+6689	Uninstall a group .
+7075	Run periodfinding on a file .
+13284	Create a list from a FEU document .
+3471	Add metabolites to this reaction .
+8805	Builds a list of all IPs that have a given period .
+3292	Set property value
+8481	Extract environment variables from environment variables .
+12251	Overrides get_keys
+5875	Given a list of images find the best match .
+10042	Factory for creating admin permissions .
+1158	Release this lock .
+5257	Convert a block to a list of forks .
+8785	Update a port .
+1191	Return True if name matches pattern .
+13551	put a resource
+13520	Configure the server .
+2244	Return a flag for the given key .
+6916	Add variables to fakelcs collection .
+7591	Run the vdb server .
+2617	Reads state from the local state file
+7966	End the stream .
+2161	Get a click command .
+1501	Add master hcl files .
+8844	Handle indentation between parent and parent .
+4429	Queues a playlist .
+138	Returns a Shapely Line string .
+7386	Find the group membership of a node
+6905	Calculate great circle distance .
+10645	Create a PolynomialModelT
+4506	Find all serial devices .
+2399	Initialize the vocabulary .
+1232	Import the execution of the experiment .
+1947	Syncs the contents of memory to the Manticore .
+2442	Add an annotation comment to the document .
+3592	Encrypts a password .
+7000	Run a single task .
+6495	Log an indexing error .
+7669	Slice an annotation array .
+1998	visit a node by returning a fresh instance of it
+3722	r Calculates the epsilon of a tabular data .
+10192	Get geolite data for a given ip
+8333	Finds the previous document .
+2126	Return the endpoint for a data object .
+2898	Get a task by id .
+1503	Configure yaml for uploader .
+3478	Build a reaction from a string .
+10996	gets the schedules
+4631	Calculate and return a decrypted point .
+329	Compute model alpha beta and beta .
+1190	Return a list of files that match a pattern .
+7399	Swap an ordering .
+5243	Convert from tz to tz .
+2550	Run a system command .
+6122	Return a copy of the region
+10792	Compute the overlap between two tiles .
+4820	Decorator to refresh expired token .
+8934	Try to auto - detect if the working directory is not found .
+11618	Try to detect a scheme .
+2255	Return unique flags for given items .
+10431	Select rows that match a given row .
+9957	Setup the IPython shell
+11598	Prepare and return a dictionary of attributes .
+1345	Compute predictions for an image .
+8970	Wrap a message with another key .
+9829	The edges of the curve .
+2039	Set the value of a CALLCODE .
+5940	Builds the argument list
+3141	Get a specific workflow .
+11438	Creates a record lxml .
+8264	Randomly swarm .
+12417	Creates a temporary directory .
+8976	Get the file contents .
+7257	Get the coordinates of a given address .
+8573	Deletes a nic .
+2806	Convert an elementwise sub .
+7731	Make a join request .
+13503	Create a new challenge .
+2641	Shutdown the worker thread .
+1309	Create input structure .
+2008	Deserialize integer .
+13651	Get reference data .
+12043	Algo exp function
+8702	Prepare transfer for transfer .
+4455	Apply projection on all projections .
+9611	Perform a HTTP request .
+4518	fill a triangle
+13421	Map a set of IDs using the given IDs .
+4658	Return a copy of this asset .
+9869	Clean up any properties that are not None
+2274	Recursively rename a path .
+2457	Set package license .
+6908	Convert galactic coordinates to equatorial coordinates .
+3885	Returns a User instance based on user_id .
+8903	Add Syncable models to Morntry .
+4283	Generate a video from a source .
+4865	Validate the username .
+12236	Define an objective function .
+5426	Group tasks by job id .
+13013	Remove pre - processed labels from a text file .
+11530	Get a revision for a key .
+32	Wrap deepmind environment .
+5574	Return the available output formats .
+10935	Check if J has updated J
+12846	Generate a random dataset .
+6171	Compute the frequency response .
+3065	Add a query parameter to a URL .
+9413	Setup logging .
+7252	Order a list of images .
+13662	Writes a temporary file to a temporary file .
+3529	Get user from context .
+1815	Sets the value of cpu .
+10824	Query membership by group
+5421	Generate metadata for a job .
+4315	Validate input filepaths .
+7132	Prepare the document set .
+11204	Convert a Windows Registry key to a dictionary .
+3077	Check if credentials have expired .
+3831	Searches for entities .
+13129	Initialize the settings .
+7370	Checks if a given command is valid .
+2869	Setup GPIO pin .
+2038	Swap two operands .
+13225	Process a list of product Resources .
+9096	Create a BEL namespace .
+9756	Update an experiment .
+10965	Return a list of all the fields in this Compound
+3742	r Calculates the friction factor for a Stiel Polar system .
+5493	Validate a config key .
+11215	Compare two signatures .
+3915	Update typing status .
+10655	Run all components in the simulation .
+13733	Convert a value to a log level .
+2648	Creates a new run directory .
+10321	r Compute the microcanonical ensemble of runs .
+6379	Calculate phonon distance .
+4580	Toggle color .
+698	Return information about a single particle .
+7369	Get the docstring of a function .
+1137	Given a list of pathnames returns the longest common leading component
+1045	Pack an integer into a float .
+8593	Remove a snapshot .
+12141	Load a pandas dataframe
+7312	Return True if the given IP address is a local IP address .
+7857	Handle an error .
+11221	Get a file .
+3054	Create a PublicKey object from a PEM string .
+6220	Create a new component .
+2010	Gets memory fee for given address .
+10156	Merge two dicts .
+1161	Acquire the lock .
+749	Removes occurrences of likelihoods from a likelihood dictionary .
+9025	Creates a svg file for rendering .
+2263	r Take values from a dictionary .
+9120	Upload a file to dropbox
+9944	Link a file .
+5252	Binary bar request .
+3492	Return an error string .
+8662	Migrate a file from one location to another .
+6431	Distribute a tar .
+6503	Returns a list of words that match the given string .
+359	r Loads a list of filenames
+8620	Get the state of a VM .
+7610	Get a specific location .
+11455	Get a config item .
+6980	Evaluate the ECDD function .
+9822	List projects .
+13884	Returns a list of all files in a directory .
+11445	Takes a path_to_xml and parses it .
+3631	Return a md5 string of a table .
+11325	Extract URLs from given text .
+1791	Implementation of cpu .
+2031	Add an offset to the account .
+12893	Returns the current power .
+7037	Perform an xmatch search .
+11745	Return a closure for the given rules .
+3757	r Determine LFL .
+3679	r Returns the economic status of the CAS .
+12646	Set the metadata for an AAD resource .
+8657	Validate a zipcode .
+185	Compare whether two points are almost equal .
+2865	Returns a Device object for the given address .
+4889	Update course details .
+8858	Go to a line in the doc .
+1010	Trim segments in a cell in a segmentList .
+5201	Starts the operation .
+9780	Build a project .
+11403	Helper function to create a log record .
+4750	Start the daemon
+661	Compute the saturation levels for each region .
+2723	Takes a snapshot
+9849	Load a PLT .
+10838	gets the interactions
+10872	Returns the kprefactor for a given parameter
+6643	Return list of extraIncludes .
+8131	Merge multiple layers into one .
+1916	Get the current state
+12581	Setup logging .
+1905	Compare two strings .
+5767	Extract an RSA key from a blob .
+13898	Generates an iterator over the specified hash .
+1598	Read a chunk from a file .
+7530	Build DAG from samples .
+2969	Stops the chaos .
+4325	Add a shift to the effect .
+1160	Notify a lock
+6868	Given a list of time intervals find the number of times that overlap between the specified time intervals .
+9973	Get the name range from a sheet .
+8836	Returns the minus value .
+2992	Returns a DataFrame containing the mutualFundSymbols for the given token version .
+3943	Process a chunk of data .
+2790	Get all snapshots for this volume .
+3576	Initialize the queue manager .
+8188	Calculate the betweenness centrality between each node .
+7602	Get a list of known tournaments .
+9497	Parse a collection .
+8399	Transforms an iterable into a Pandas Timestamp .
+1677	Reset the section .
+13470	Copy src to dst .
+11305	Autodiscover providers
+309	Plots the cone of the given bounds .
+12231	Create a module for proxy settings .
+11897	Create index files .
+6915	Creates a fakelc job .
+12892	Handle a long integer .
+150	Returns a deep copy of the current polygon .
+1242	Samples the given item with the given priority .
+4786	Check if val ends with val .
+10579	Add components to a material package .
+4559	Return a new segment with the given length .
+122	A worker for augmenting images .
+5984	Convert image PSF shape to image shape string .
+9252	Generate an unleased section .
+9626	Get a preview of a module .
+2475	Set the license name .
+10112	Rewrite a file .
+1044	Unpack a float .
+7690	Create a Sonify annotation .
+8408	Expand the lower and upper bounds .
+2381	Parse arguments and process them .
+8163	Set the center transform .
+10186	Return the configuration for the entry point
+5365	Format log message .
+8821	Create a case2 .
+9763	Upload a project .
+3667	r Calculates HeatCapacityGases .
+48	Draw image on the image .
+5290	Returns a list of inline formsets .
+9338	Apply a function over a sequence .
+7568	Convert a sequence of characters into a regular expression .
+9490	Extract information from const_index .
+10426	Enrich all unqualified edges in a subgraph .
+11179	Returns the authorization url for the current user .
+7873	Return a list of all the payloads .
+4910	Create requests session .
+12014	Calculate the center of each target .
+7625	r Compute the pattern .
+13742	Get a connection object
+84	Produce a canned pearser .
+4714	Write a trun to a file .
+2043	Get the current human transaction .
+10127	Draw all vertices .
+8290	Get description .
+1968	Wait for the given readfds to complete .
+12018	Disassemble a file descriptor .
+13747	Get an item from DynamoDB .
+7457	Load stats from a file .
+462	Exit tensorflow and nvidia - process .
+3945	Decode field .
+6502	Return all strings in a dictionary .
+7785	Called when an error occurs .
+8736	Constructs a datetime object from the given arguments .
+1760	Read bytes .
+3832	Send a chat message .
+4849	Serialize a list of items to JSON .
+1531	Fetch a PhysicalPlan from the topology
+10057	Delete a record
+4366	Process an event .
+8358	Generate a skeletonot example .
+314	Calculate rolling beta .
+12124	Helper function to convet an Args object to a HoloViews table
+10776	Finalize the test database .
+10000	Clear all nodes of an object .
+6526	Parses a pytoml content
+2699	Write graph to file .
+10359	Shuffle edges in the graph .
+1098	Given a word return a list of close matches .
+12681	Copy attributes from source to destination .
+8462	Decorator to set the command environment variable .
+3405	Sample chain chain .
+3403	Find boundary reactions .
+989	Add a new column to the writer .
+13279	Handle child begining .
+360	Return a list of all folders in path .
+9529	Returns an EncryptedField .
+13645	Parse command line arguments .
+10249	Highlights given nodes .
+10891	Return the intersection of multiple tiles .
+679	get a single record
+7101	Called when a marker is clicked .
+8377	Get the value of an attribute .
+10591	Creates a new transaction .
+4305	Entry point for the SOXI command .
+8638	Revoke a project .
+1315	Deletes the log file .
+6038	Returns a list of tuples containing the ticks of the axis .
+10247	Enrich all PubMed citations in a BEL graph .
+7839	Sets the action for this node .
+9603	Create a session object from an object .
+3852	Returns a lookupSpec for the given identifier .
+8508	Get a dataset .
+11904	Blend the given shape with the given shape .
+4358	Send a packet to the client .
+8341	Cheap function to invert a hash .
+4144	Cholesky decomposition .
+10663	Return all elements in a list .
+10940	Calculates the Jacobian of the model
+3477	Remove a gene from the chain .
+12457	Recursively iterate over items .
+1563	Register a task hook .
+10603	Calculate the temperature
+8414	Round x to accuracy .
+4765	Assert that the value is not equal to other .
+11106	Returns a dictionary containing pickling errors .
+10564	Returns a list of supported filepaths .
+817	Calculate the distribution of pos .
+10241	Return a dict of authors by annotation .
+1229	Get the optimizer arguments .
+10496	Make the left mouse drag .
+8206	Check if two points overlap .
+13713	Run the consumer .
+12943	Compare the difference between two objects
+12698	Parse control fields .
+12190	Format a message .
+10245	Create a timeline from a year .
+9568	Get the id of a chat message
+509	Removes columns that are not learned
+12381	Delete this resource .
+12730	The axes of the ODE
+1275	Retrieve indices from indices .
+12703	Set the values of the target .
+231	Compute account exposures .
+10766	Get a poll .
+3068	Wrap http for http requests .
+3125	Verify a signed JWT .
+11975	Return the sum of self and other .
+11773	Number of bits to represent the probability distribution in values .
+7810	Creates a Certificate object from the given DER data .
+10535	Get a list of all categories
+3201	Update a campaign .
+5680	Get the number of trips per day .
+10791	Save wisdom file .
+3075	Generate a callback for the current request .
+12473	Add an extension if it doesn t exist .
+8396	Create a new Transformer .
+11555	Enables analog reporting .
+10768	Convert a list of vertices into a numpy array .
+10629	Set HHV .
+1272	Creates the distributed distributions .
+10990	Finish the given state .
+4647	Create the database .
+5992	Plot an array .
+9854	Detect the byte order of a CCP4 file .
+5537	Get the output of a tile .
+12135	Create a directory from a directory .
+1305	Returns the console original title .
+5125	Simulate the main loop .
+11391	Add EmbeddedField to the model .
+10104	Executes the Batch API .
+3637	Returns a list of staff members
+4510	Get the value of a project .
+11650	Fit the smoothing function .
+11495	Return a list of users
+10616	Clears the composition .
+3128	Deletes a template .
+3310	Runs the extension on the wsgigi server .
+7814	Reads from a PEM file .
+8142	Scale the image .
+8230	Set the size of the canvas .
+12356	Wait for the action to complete .
+6047	Map 1d array to keep only the same shape .
+1840	Perform a JNG operation .
+7980	Timeout for the authentication method .
+7598	Get a list of popular clusters .
+4963	Validate the course
+9069	The weighted derivative of the data .
+12380	Update an object .
+4034	Check if a file has been patched .
+3349	Compute geometric flux variance .
+41	Updates the priority values for the given indices .
+12852	Scan an XML .
+9872	Start a HTTP response .
+9429	Extract a member from the archive .
+6553	Fix a variable by value .
+3712	r Calculates the potential pressure .
+12316	Initialize a git repository .
+6469	Consume an IST stream .
+4740	Print informative error message .
+1198	Compute the L2 loss .
+4028	Create a cookie jar .
+9900	Write JSON data to file .
+6706	Set a user s password .
+3568	Stops the scan .
+13739	Keep thread alive .
+6546	Connect to a host
+7747	Process stanza result .
+4654	Constructs the transaction object .
+2867	Read an 8 - bit value from the specified register .
+5844	Gets a DataView by its id
+10227	Get all the triangles of a DiGraph .
+13769	Returns the minifier .
+11638	Write JSON data to file .
+9087	Request state from server .
+5536	Write a process tile .
+7208	Retrieve the task IDs associated with this workflow .
+6478	Return a list of numpy points .
+8804	Builds the event payload .
+10832	Delete a group from the database .
+10955	Get the TileIO tiles for update .
+5069	Extract text from a string .
+4997	Assign an enterprise learner role
+94	Extract a quokka image .
+550	Check if the job is canceled .
+9701	Send a message .
+12379	Create a new item
+4513	Draw a circle
+1131	Unpack a URL .
+2085	Format the fields .
+5423	Wait for jobs to complete .
+3158	HTTP POST wrapper .
+4187	r Return the window size of a window .
+13678	Handle filenumber .
+13260	Main entry point .
+8080	Move the cursor to the specified location .
+10914	Separate particles into groups .
+3625	Encode a geohash string .
+8831	Send data to the socket .
+11961	Returns True if nm is a wildcard .
+159	Creates a grayscale .
+8889	Return a reference to a related field .
+7355	Convert an iterable into a string .
+10191	Generate anonymization salt .
+1355	Get the role of the parameter
+11096	Select a file by filename .
+3740	r Determines the omega of a CAS .
+1961	sync a file
+2191	Check if product has expired .
+12428	Creates uWSGI config files .
+8187	Remove nodes from the graph .
+1844	Joins a CPU .
+5579	Write output metadata .
+1666	Checks if a function is redundant .
+4475	Sample the indices of a sampler .
+2283	Check if R package is installed
+2656	Create target directory .
+9153	Get the EXIF attributes .
+1506	Generate the hcl for Heron tools .
+11214	Compare two signatures .
+11671	The dictionary of arguments to give to FLANN .
+4747	Parse the parameters of the pore .
+12123	Validate the activatable models .
+1540	Set the topology configuration .
+554	Returns a dictionary of field contributions for each model .
+5843	Gets the design run results for a particular run .
+1596	Format mtime into a human readable string .
+623	Compute the index from a list of dimensions .
+12665	Apply mask to image .
+3398	Update the cost of the objective .
+897	Generates a sequence from a sequence of numbers .
+4699	Get the metadata for a given offset .
+7141	Transfer multiple destinations .
+3860	Wrap a TopicEvent .
+10530	Get project by id
+6198	Print the size of the particle .
+13256	Returns the Entry as a dictionary .
+506	Get the labels for the record .
+13441	Initialize local push to cloud .
+441	Count the number of parameters .
+10399	Run the BEL graph on the graph .
+9945	Copies a file to a new location .
+3330	Acquire a write lock .
+13692	Broadcast a block of tx .
+9646	Return a list of attributes for a given variable .
+13217	Return a connection string .
+4245	Get a host by name
+10486	Generates findr for this tree .
+10851	Finds the best image in a local image .
+12798	Perform a HTTP request .
+1258	Returns a set of all components that have Savable components .
+6132	Return a dict representation of the Compound .
+4474	Serialize a jam .
+6144	Callback when DSP is started .
+6888	Perform parallel processing of the light curve .
+9242	Returns a list of closed dates .
+6271	Generate a sphere
+7289	Check if a string has a digit .
+11260	Match pattern .
+602	Draw a histogram .
+5584	Prepare the path for a tile .
+710	Backup a file .
+9265	Fetch and filter tags .
+9826	List all experiments .
+6561	Convert a binary quadratic model to a binary quadratic model .
+8842	Indent tab .
+3687	r Compute the posterior and derivative of A .
+11992	Set signature passphrase passes .
+6939	Run checkplot on a pickle file .
+11094	Return the number of selected directories .
+9989	Import functions from a module .
+9814	Start a notebook .
+899	Pretty print a sequence .
+2408	Extract the features and generate a model .
+1848	Executes the given CPU .
+4780	Assert that self is less than other
+4530	Add a logging level to the logging module .
+7066	Delete a cluster from a spot fleet .
+694	Load a description script from a directory .
+699	Returns information about the particle states in the swarm .
+3824	Gets a specific entity by ID .
+9817	Install this deployment .
+10606	Prepare entities to run
+3908	Add a coroutine to the queue .
+1331	Given a set of images return a batch of predictions .
+11999	Decrypt the given data .
+13194	Remove all comments from a string .
+6266	Return the stop time .
+2976	Print the status of a blockade
+13459	Create an ICal object
+7232	Get a specific vector .
+11554	Disable digital reporting .
+4683	Returns all accounts associated with this key
+9275	Filter tags based on exclude_tags .
+542	Returns the optimized metric label .
+1291	Sets up the components and tf .
+11727	Pretty print a dictionary .
+6497	Index a document .
+13623	Returns a unicode string .
+13783	Creates a descriptor for a field .
+4861	Validate username .
+7229	Render a heatmap snippet
+6955	Extract quantity from fit parameters
+12946	Make a shallow copy of this object .
+12832	Validate an XML name .
+7137	Pretty - print an object .
+11361	Fix the case of a title .
+1854	Write to dest .
+8709	Write a list of lines .
+12788	Load the config from disk .
+7217	Get the definition of a task .
+917	Log an info message
+4590	Slice x y onto axis
+8115	Compute Euclidean distance between two points .
+11531	Generate a hash for the specified method
+9553	Generate header checks .
+9901	Updates the type of the object
+9321	Validate the API root
+5714	Validate the data package .
+12989	Setup notebook if debug mode is enabled .
+2798	Rename an image .
+7223	Save a new recipe
+3345	Parse the HTTP IF header .
+522	Update boost factors based on self . boost_factor .
+38	Gather data from MPI
+11470	Returns the file size in bytes .
+2735	Loads the floating IP
+5705	Time the execution of a method .
+11414	Get the subfields for a given record .
+13680	Get translation dictionary .
+6166	Compute the PSD .
+13209	Prepare a latex snippet for use in the pipeline .
+11822	Check if value is compatible with the setting model .
+780	Insert a job .
+7167	Load an intent from a file .
+4701	Get SSH environment variables .
+10848	Context manager to temporarily change the format .
+12339	Compress the given images .
+3854	Add a color to a scheme .
+12073	Print a summary of the trace .
+2538	Sets the package verification code .
+12001	Remove signature data from the data .
+13032	Start the server forever .
+7183	Parse a type comment .
+3472	Subtract metabolites from self . metabolites .
+13326	Create a new subenvironment .
+562	Add a new encoder .
+903	Calculate the skip records .
+3154	Gets a segment .
+934	Write to a checkpoint file .
+5469	Get the last update time for an op .
+7881	Split the name of the qname element .
+58	Returns a new bounding box that extends the current bounding box .
+10021	Get all environments .
+5728	Get a list of responses .
+7533	Concatenate multiple samples .
+1868	Compute the PSRLDQ output .
+8626	Remove jobs from the current user .
+2586	Handle the command server .
+12627	Recursive finder .
+1174	Lock a function .
+4382	Checks if user is allowed for the given role
+8916	Retrieve a certificate .
+10170	Set the scheduled state .
+10297	Return a set of undefined names in a BEL graph .
+4350	Calculate the volume .
+6233	Generate a set of points randomly sampled from a set of points .
+12896	Gets the volume steps for this API .
+3579	Clear cached devices .
+484	Enables the maxconcurrency checks for the given maxconcurrency .
+13741	Decorator to mark a view as exempt .
+13033	Write translation to a translation file .
+496	Classify the given state .
+3402	Check if a reaction is boundary type .
+7327	Parse a comma - separated list of integers .
+4612	Get the timestamp of a block .
+3370	Convert an interface to a string .
+525	Inhibit the columns of overlaps .
+11579	Reset the device .
+5338	Upload dashboard title .
+7062	Upload an item to a queue
+5855	Update a dataset .
+6421	Encode a word .
+2375	Report an object .
+4133	Convert a codestr to a rst directive .
+2495	Handle optional fields .
+5385	Extract values from an operation input file .
+8083	Change the canvas mode .
+8549	Create a firewall rule .
+8348	Convert a codepoint name to an integer .
+9981	Return True if the function definition is a function definition .
+3439	Escape a string id string .
+1701	Helper function to join a given streamlet .
+7072	Computes the Jacobian coefficients of a non - linear solution .
+8216	Hides the variables window
+5839	Submit a prediction request .
+9684	Returns a string with the current status of the device .
+9866	Get the current consumption unit .
+885	Activates a predicted column .
+12648	Return a list of items with the given fieldname .
+6714	Install from scratch .
+1201	Reset the state of the observation .
+6926	Get a cursor for the given handle .
+13638	Creates a settings object .
+530	Returns the names of all input names .
+12433	Sanitize a string .
+7131	Setup documentation for a source .
+9554	Generate the length checks for the given field .
+8013	Create upstream applications to run upstream applications .
+8726	Localize a naive datetime .
+1576	Generate a shell for a given instance .
+4067	Update an item
+3335	Create a byte string .
+9995	Delete attribute by name .
+11327	Auto - discover oembed providers
+10082	Prepare an edit record
+9123	Generates BELNodes for a given keyword .
+4723	Set up trun .
+9745	Called when connection is made
+8458	Run a shell command .
+5097	Calculate distance between two points .
+5911	Returns the gmx_resid for the given resid
+10316	Return True if the relation has conflicts .
+111	Issue a deprecation warning .
+449	Batch normalization .
+13494	Write configuration file .
+3599	Get a delivery of a package .
+12189	Create an API user from an API token .
+1891	Get the solver version .
+7659	Append columns to the table .
+1615	Replace all occurrences with a regex pattern .
+11498	Get a community by name .
+8208	Returns the angle between two points .
+2142	Process extra_vars .
+7256	Retrieve strip catalog metadata .
+177	Concatenate this LineString into a new LineString .
+6359	r Returns the sum of the given tar .
+3299	Convert an XML element to bytes .
+5628	Decorator to register a hook .
+2392	Compute the edit distance between two strings .
+10988	Translate particles .
+6807	Creates a new remote vagrant box
+1418	Creates a new execution state .
+4787	Check whether the value matches the pattern .
+5152	Merge two lists into one .
+7077	Recover a period finding in a directory structure .
+7905	Removes a user from a room
+13004	Modify the input data .
+687	Return a list of encodings .
+10207	Builds a file download event .
+3857	Returns True if the conversation is quiet .
+4359	Spawn a sub - socket job .
+4260	Load exif cache .
+3087	Get entity by name
+11970	Convert a wildcard identifier to a Dec .
+10415	Build a function inclusion filter .
+310	Variance of normal distribution .
+6879	Return a smartcast cast .
+2409	Dump a model to a file .
+8887	Fit the molecule .
+3733	The charge of this formula .
+8510	Predict on theano .
+6485	Perform a search .
+9850	Export a file .
+6608	Wait for all clusterprocids to finish .
+10984	Create a new feature from the given position .
+8357	Try to detect encoding of xml_data .
+6891	Helper function to get starfeatures
+12225	Convert a PyGrib file to a tiff file .
+704	Check if hyperseach is ready .
+559	Set the state of a swarm to a new state .
+4834	Get a catalog .
+1572	Sets up the file spout .
+5039	Check if a user is enrolled in a course
+1027	Convert a hex string to its bits .
+11282	Append next element to self .
+12908	Load data from a yaml file .
+10322	Compute the spanning tree for a spanning chain .
+4863	Serialize the queryset to a JSON response .
+2003	Build a function call .
+7779	Extracts data from an RFC 242426 header .
+5732	Parse GDBMI response .
+1923	Check if a binary is installed .
+11723	Initialize the application .
+7050	Reform the light curve format
+5025	Get the channel classes .
+1013	Returns the cell that matches the given c .
+8952	Return the project root .
+8528	Get an IP packet from a client .
+1170	Format the given text .
+3375	Add a constraint to a model .
+7685	Return the clicks of an annotation .
+3548	Called when a descriptor has changed .
+4503	Creates an instance of a connected device .
+4791	Check if val is upper case .
+1141	Remove indentation from a string .
+4523	Calculate the scale of a color .
+10409	Returns a dictionary with the dtype for each canonical variable .
+1231	Import the execution of the memory .
+12739	Create joint joints .
+10680	calculate the c_mag and t_mag
+6281	Handle keyboard events .
+5327	Get the sha file for a repository .
+8199	Translates from one local distribution to another .
+5910	Delete all frames
+1257	Creates atomic observation operations .
+5920	Fit the model .
+11700	Creates a child donor for the given generations .
+5040	Get users by email .
+125	Creates a positive sign .
+5954	Generate a Gromacs Command .
+7511	Select samples from a list of samples .
+13683	Perform a GET request .
+12782	Set the topic for this room .
+11547	Get the url of the driver
+800	Get the fields for a given job .
+1582	Reads the packet .
+11933	Load widgets from the template context
+2535	Set the document comment .
+3553	Starts a new scan .
+9502	Return the intersection of two lists .
+12891	Handle an integer .
+10834	Query admins by group_ids
+4174	r Raises an exception if window is larger than beta .
+834	Compute the SDR
+13510	Configure packages .
+11493	Get a list of user folders .
+1218	Save the model to a file .
+12208	Add entries to the database .
+13700	Initialize the Flask application .
+3018	Generate a JWT .
+1439	Updates the sent packet size .
+7829	Add an option to the list .
+6323	Calculate the arithmetic representation of a list of probabilities .
+13506	Get a specific position .
+845	Calculate the distance between the given inputPattern .
+8308	Returns a pycairo context .
+11115	Save the current state of the repository .
+11510	Get metadata for an item
+6147	Calculate the frequency of the signal .
+3251	Save an object to Geoserver catalog .
+1725	Evaluate an expression .
+4550	Fill a rounded rectangle .
+6541	Parse a python file .
+6666	Recursively merge two dicts .
+8251	Draw a square image .
+4462	Transpose a note .
+2028	Add a DATALAD to the buffer .
+6667	Check if version is available .
+390	Randomly crop an image .
+7161	Go to the next item .
+12476	Returns the length of the given file .
+12224	Convert a Shapefile to an ExtP file .
+555	Get all swarmIdx
+5369	Retry an access token refresh .
+646	Generate random vectors .
+12389	Parse ranges .
+12273	Validate an ISO reference character .
+12028	save a header file
+13105	Returns the data store URI corresponding to the given base URI .
+9870	Build the environ for a given sock .
+11632	Retrieve codepoints in a file .
+4074	Get the value of a config option .
+5922	Create a logger .
+12222	Decorator to dispatch the first function .
+2587	Start the worker threads .
+2650	Send a message
+7771	Lookup the payload class for an element .
+1616	Search for a pattern .
+8056	Disable escape_nl .
+13270	Iterate over all subclasses of cls .
+2247	Generate a hashable signature key .
+8957	Return the list of paths in the given path .
+7637	Create a directory if it doesn t exist .
+3389	Generate a batch of samples .
+13656	Decorator for routes .
+6099	Return the integral of the luminosity .
+1809	Set E to dest .
+10163	Load the contents of the file .
+6336	Distribute a tar archive .
+6008	Load the noise map .
+2275	Check if file is hardlinked .
+10723	Return a list of keys and values from a string .
+4805	Print an error message .
+5202	Creates a connection .
+6900	Perform a series of periodic features in a directory .
+11069	Fork a mongo daemon
+9991	Get dynamic base .
+3923	Sets the current conversation title .
+13050	Scan for services .
+3882	Update the user s name .
+107	Maximum pooling op .
+2027	Returns the SHA3 of the file .
+3708	r Compute COSTALD mixing ratio .
+1864	Write to dest .
+12542	Get a tuple of attributes .
+1839	Perform a CPU instruction .
+13607	Pickle an object to a pickle file .
+6285	Toggle pause .
+11083	Displays help for the bot .
+4681	Returns the account associated with a public key .
+11386	Run the callback .
+7135	Return a dict with only the keys that are not in exclude
+12181	Create an API subclass .
+2779	Get data from the endpoint
+7242	Get the bounding box of the image .
+8492	Entry point for pyconfig .
+902	Updates an anomaly with the given parameters .
+12434	Redirect to the current POST request .
+8314	Parse markup data .
+2732	Returns a list of records for this domain .
+12033	Average sweep values .
+3866	Rename a conversation .
+9214	r Check if t is open .
+7055	Register a lcformat .
+11100	Filter files by time .
+6	Covariance residuals
+8001	Replace source stanza with stanza .
+11566	Sets the stepper step .
+8275	Combine two colors .
+5960	Return a |Time| object that contains the time series .
+11149	Renames an attribute .
+9334	Create a full dataset .
+10558	Download a list of songs .
+7348	Get an access token .
+11647	Fit X to X .
+9492	Compile a list of byte operands .
+8851	Opens a tab file .
+7838	Sets the given node
+628	Return random seed for a given coordinate .
+9560	Iterate through assert methods .
+11440	Get all children of node .
+9276	Filter the exclude tags .
+12020	Write a fasta dict to a file
+13642	Check if confirmations are sent .
+11820	Converts the queryset into a dictionary .
+11889	Get bulbs .
+8454	Check if cookiecutter configs have changed
+8105	Callback function to handle incoming messages .
+3684	Solve the potential problem .
+10379	Calculates the concordance for a given annotation .
+3651	Get logger instance .
+3160	Update a campaign .
+12069	Save an image .
+740	Returns the coordinate for this point .
+9011	Returns the index of the first consumed mesh in the row .
+12539	Find all dicoms in root_path
+4059	Process the citations .
+11920	Fetch the object
+13493	Read configuration file .
+11008	Get project slug .
+11485	Upload an item to a folder .
+6911	Generate an ELB light curve
+9199	Returns a generator that reverses the given series .
+7522	Concatenate multiple VCFs into a single file .
+3889	Fires all registered observers .
+7280	Quit the player .
+8521	Creates a 2D plot of the mean test scores .
+10370	Build an edge predicate for the given annotations .
+2080	Process a callback .
+10035	Add command line arguments to the parser .
+5950	Checks that the given file exists .
+7616	Mark a function as typecasted .
+13274	Default encoder .
+3248	Get the base group
+4372	Get a socket from the config .
+7882	Return a prefix for the declared_prefixes .
+11382	Reverse URL scheme .
+8092	Draw a node .
+9844	Refill the token buffer .
+10288	Add composite components to a BEL graph .
+4079	Get version from language tool .
+6488	Returns a filter field for a given field .
+13227	Return a decorator for a function .
+2978	Partition a blockade .
+3366	Process flux dataframe .
+5817	Perform a write callback .
+5399	Return a sorted list of normalized events .
+8482	Return environment variable key .
+6450	Return Pydoc style color .
+10550	Fetch results for a project
+5512	Establish FTP connection .
+3796	r Compute the alpha and derivative of the kappa .
+6477	Renders the terminal
+12479	Return the rcfile for this application .
+6237	Draw buffered buffers
+2839	Enable or disable pullup .
+11702	Return the cosine between two vectors .
+10087	Update the deposit .
+12930	Extract the chromosome position from a VCF line .
+12126	Formats the elements of an argument set appropriately
+12419	Context manager to capture a stderr .
+3929	Gets an authorization token using a refresh token .
+8464	Deploy a script to a production .
+12239	calculate Beale
+3522	Return a hashable version of the given data .
+3515	Chartbeat top node .
+1033	Encode a base64 string .
+990	Scale a reader to a new column .
+10879	Wraps a function with a 2D grid of points .
+5269	Construct a label for the generalized graph .
+10925	Reset the damping .
+1077	Creates a new instance from an ordinal .
+12241	Computes the gradient of theta .
+5490	Discover a configuration file .
+7848	Returns a list of features .
+991	Copy the contents of one or more records to another .
+1686	Split the repository into parts .
+856	Seek to a bookmark .
+10183	Deletes the specified aggregations .
+2719	Get an instance of an action .
+13205	Parse the title .
+12088	Generate 1 - sample 1 - sample 1 - sample 1 .
+12520	Load images and labels .
+7684	Simple click .
+6863	Crossmatch a single object .
+6439	Compute Euclidean distance .
+12302	Perform validation on the given repo .
+2634	Return the current status of the engine .
+551	Checks the validity of the model .
+6871	Estimate the approximable tmid precision .
+2308	Implementation of the forward function .
+8310	Check if a string is a list
+3133	Update a list member
+1894	Send a command .
+13648	Get fuel prices for a given station .
+4871	Create child objects from a validated data dictionary .
+11643	Apply the transform to X .
+3179	Get a specific webhook .
+9331	Return the CPU count .
+4189	r Calculate the area of a window .
+5996	Plot border .
+1407	Emit a Tuple .
+11181	Acquire a lock .
+11665	Builds the FLANN indices for each bag .
+561	Check if a sprint is completed .
+10387	Build a Pybel database .
+8445	List installed repositories .
+10670	Split a compound string .
+3122	Verify the signature of a message .
+12438	Deserialize resource .
+3008	Get credentials from request .
+1811	Set the NAE value .
+575	Loads value from a json file .
+4478	Split a path into the remote storage .
+13352	Context manager to monitor the modified files .
+2957	Get the blockade ID from the cwd .
+10479	Returns a list of actions .
+6829	Pull a file from the remote repository .
+11388	Parse the AST .
+3567	Start scanning the adapter .
+10464	Verify a menu item .
+44	Parse command line arguments .
+4371	Spawn a new exception handler .
+1402	Set the topology info for this topology .
+6168	Convert a binary bin array to an integer .
+2785	Get a volume object
+5091	Generate clear catalog id
+2	convnet function .
+10032	Execute the application .
+1850	Loops memory from target .
+9117	Remove all jails .
+12872	Return the first one of the given list of files .
+2922	Clear the celery task
+3975	Reads the environment variables from a file .
+9880	Compute the distances between two values .
+10827	Create a new membership group .
+10710	Get waterheaters .
+12092	Generate IVF plot .
+6893	Run a single light curve on a list of objects .
+325	Return the rolling sharpe of returns .
+2766	Return a list of snapshots for this volume .
+10813	Search for groups .
+11017	Create a signed number string .
+3226	Get credentials from kwargs .
+5053	Fetch users for persistent course grades .
+11656	Fit the transformer on X .
+213	Creates a heatmaps from 0 to 1 to 1 .
+12070	Try to load swhlab from the given path
+5866	Validate a given organization data .
+1336	Get the name of the criteria
+6375	Return the stem of a given word .
+6245	Set the controller time .
+12729	Sets the motor axes .
+5528	Open a Mapchete .
+3834	Sends a send_offnetwork invitation request .
+8699	Write output to port .
+10257	Get all causal sinks of a function .
+9915	Update the email serializer .
+2674	Initialize templates .
+12878	Return the first result of a list of terms .
+7823	Finalize the final challenge .
+10337	Build a pandas dataframe from a set of nodes .
+349	Load the wmt_enfr dataset .
+13578	Update course metadata
+7249	Cancel a workflow .
+9741	Wait for an event to complete .
+7969	Remove the given handler from the list of threads .
+5199	Processes a received point value .
+5043	Send a list of message requests .
+1365	Get the required arguments .
+1437	Update a reduced metric
+10692	Convert RGB to Yiq .
+4298	Convert config file to stdin .
+9876	Calculate the ordinal metric .
+12230	Removes local variables from the local cache .
+10224	Given a graph return a set of all non - causal pairs in the graph .
+11015	Publish changes to GitHub .
+9266	Sort tags by date .
+1293	Demo loss .
+223	Builds the WSGI environment for the given scope .
+3669	r Calculates the error of the Rachford - Roll error .
+9292	Returns a UUID field
+5792	Generate a certificate callback .
+3898	Compile a proto file
+13374	Return the absolute path to a binary file .
+12827	Add new data .
+459	Predicts predictions for the given dataset .
+6654	Removes all cached modules from the cache .
+2505	Extract text from extractedText
+2884	Connect a callback .
+10281	Returns an iterator over the downstream successors of a subgraph .
+8089	Draws a text box
+9442	Reloads the specified cache configuration .
+2249	Memoize property .
+5339	Add a dash menu to the kibana .
+4210	Compute the CSvd of A .
+8594	Get information about a group .
+7635	r Import a lab .
+11746	Initialize the application .
+5908	Create an NDX capture .
+12264	Internal helper to send a file .
+6741	Get OS version
+3378	Fail if the optimizer is valid .
+12923	Return start tag .
+8945	Takes a URL and returns it as a temporary file .
+4330	Adds a gain to the effect .
+7335	Uploads a file to the server .
+2530	Parse creation info .
+1526	Add an error context .
+1754	Write a single register .
+3949	Populate the database with the given quantities .
+12555	Read SavReader and convert to Pandas DataFrame .
+3379	Add a probability model to the Poisson model .
+57	Project this vector onto the given shape .
+4722	Enter a trun .
+5471	Lookup a set of jobs by statuses .
+2332	Return a uniformly distributed noise .
+5833	Create aml configuration from a list of datasets .
+6463	Print usage information .
+10068	Add deposit after publish .
+2202	Ensures that an app cache directory exists .
+9596	Add a cookie .
+6727	Get the name of all running EC2 instances
+1873	Moves the value from dest to dest
+6601	Put a package into the cache .
+2897	Cancel all tasks .
+388	Given a sequence of sequences remove all adjacent sequences .
+217	Append a key to the list .
+10669	Return the default data path .
+4194	Plot the window .
+9067	Calculate the optimal value of the log - likelihood .
+8180	Add a node to the graph .
+12967	Return a random object .
+206	Add an event .
+5076	Check if course run is upgradeable
+2327	Perform undirected on a graph .
+10621	Returns a dictionary mapping element names to elements .
+9856	Get device data .
+4257	Copy a file or directory .
+5892	Add the urls to the qill admin .
+5527	Get backend version
+88	Return True if val is a float array .
+4598	Read from the given data .
+11002	Pack the parameters into a dictionary
+5346	Creates the mailing list for a project .
+2928	Write package data to a zip file .
+12337	Install a set of requirements .
+12961	Count the number of filters in this collection .
+2823	Convert LRELU layer .
+5098	Convert a graph to a dict .
+2173	Request authorization URL .
+1119	List the contents of a directory .
+9423	Load metadata from a file handle .
+2232	Register numpy extensions .
+6404	Get feature vector .
+366	Projective a projection of a point by point .
+10580	Return the value of the M
+2593	Get the last checkpoint
+4976	Render a page with error message .
+4022	Check if docker vm is running
+9997	Delete cells with given name .
+5685	Increment the day start time .
+11059	Run the server .
+7382	Return True if there is an edge within a given group
+4119	Compute two twosideds .
+2140	Disassociate a group .
+9201	Extract a list of points from a series .
+10231	Expand all nodes in the list .
+317	Calculate bootstrap statistics for a series of returns .
+11692	Set fields on a changeset
+3091	Deletes the lock .
+10599	Create a template file .
+7509	Save the configuration to a json file .
+12219	Makes all parameters of a given type .
+13817	Converts a message field pair into a dictionary .
+13528	Print the options .
+13812	Finds a method by name .
+1700	Start consuming a stream .
+7196	Return the NDWI band .
+11964	Convert a hex string to a decimal number .
+783	Get the demand for all jobs in the job queue .
+12521	Write all variables to a file .
+7111	Predict labels for X .
+4902	Creates a context for a course
+9075	Sends multiple attachments .
+2906	Assign a new thread id to the current thread .
+7058	Upload a file to S3 .
+8569	Remove a loadbalanced NIC .
+8099	Make a copy of this graph .
+106	Average pooling op .
+10855	Implementation of sphere analytical_gaussian .
+1843	Perform a JNS operation .
+7158	Add a question .
+283	Plot long holdings .
+2625	Submit a request to the EC2 instance .
+2794	Get an instance of an image .
+4342	Reverse effects .
+13743	Get the schema
+8159	Edit a record .
+13311	The site - packages path
+12829	Parse conll output .
+5653	Executes the given command .
+8460	Write the assembled templatetag .
+1101	r Return a diff between two strings .
+4539	Decorator for multi - addresses .
+6603	Return the full path of a package .
+11405	Drop duplicate fields from a record .
+2170	Decorator to mark a method as a command .
+9301	Retrieve a query from the database .
+6428	Encode a word .
+5963	Plot the data .
+184	Compare two sets of coordinates
+4608	Return an empty list for a given account .
+10242	Given a list of PMIDs return a dictionary of evidence identifiers .
+182	Returns a heatmap of the image .
+13056	Rename an endpoint .
+7875	Convert an element to a unicode string .
+13825	Parse the duration from a string .
+13355	Calculate the annual cumulative annuel
+2566	Send a message to UDP .
+3320	Refresh a lock .
+13671	Strip code from a string .
+12815	Finish the connection .
+5658	Validate no null values .
+11990	Test if two strings are equal .
+3480	Returns a new gene .
+1530	Start watching the given files .
+3089	Get the credentials for the lock .
+1007	Learns the next cell in the active columns
+5115	Creates a copy of the queue .
+10203	Register queryset .
+12276	Return a barcode .
+110	Show image .
+10985	Optimize a set of components from the initial values .
+6131	Convert frames to video format .
+9757	Stops an experiment .
+1372	Get the list of HeronLibs from local_jars .
+3266	Prepare upload bundle .
+7123	Write the configuration to a file .
+6606	Run multiple cluster jobs .
+13267	Convert GML to geojson .
+8500	Map an argument to its name .
+8541	Save the config to a file .
+13814	Converts a protobuf message into a JsonObject .
+6709	Check the local renderer .
+12654	Convert an input image to a nifti file .
+12840	Establish a connection to the database .
+7967	Feed data into parser .
+5229	Load a YAML file .
+12919	Save the model .
+2516	Set a file notice .
+5582	Create a mapchete file .
+12934	Extract the frequencies from the info .
+2118	Get the value of a resource .
+13754	Read content from a file .
+10930	Find LM updates for subblock .
+10462	Check if a menu exists .
+8354	Start metadata fields .
+5466	Returns the environment for the given action .
+9135	Retrieve a connection from a module .
+10062	Generate a link for a deposit .
+5035	Returns a queryset of pending users .
+1182	Perform a search on pattern_codes .
+12036	Flatten a nested list into a flat dictionary .
+837	Get the distances between the categories in inputPattern .
+2054	ADR instruction .
+10600	Construct the URL for the given endpoint .
+9488	Generate a simple call .
+402	Creates a function that returns a regularizer .
+3549	Read the RSSI value .
+99	Returns the angle between two vectors .
+6634	Display outdated modules .
+9618	Unplug the application .
+384	r Parse darknet annotation string .
+7689	Calculate a piano roll .
+6861	Prepare the root password
+5708	Process request .
+1512	Distribute Heron package to the given roles .
+6816	Optimize wsgi processes .
+6395	Returns a fingerprint for the given word .
+2333	Predict a dataset .
+3413	Update an optional attribute dictionary .
+11573	Clear display buffer .
+6065	Calculate the density between two outer and outer units .
+10724	Apply a function to each object .
+6508	Generate filter fields for the given model .
+7612	Get clan image .
+109	Show a grid of images .
+11876	Get current character .
+3415	Create a model from a dictionary .
+7855	Fetch metadata from the server
+5278	Create a graph of constraints for both must - links .
+3554	Stops the scan .
+11112	Load a repository .
+194	Constructs an Assertion .
+8185	Return the offset of this node .
+5284	validate the formset
+2199	Return the default platform config directory .
+7410	Count the number of samples in the sequence
+1234	Observe the current episode .
+8237	Calculate the complementary colors .
+6284	Start recording .
+9390	Return the aggregation timestamp
+1062	Format a date into a human - readable string .
+7441	Set the params .
+7866	Set a value for a key .
+7805	Verify a JID against a common name .
+2749	Get a specific droplet
+894	Map cells to their corresponding columns .
+6287	Get a track by name .
+10283	Count the number of sources in the given iterator .
+13848	Set modification time .
+13753	Prepare a path .
+10721	Construct pylint command .
+6988	Serialize a list of variable features into a single file .
+13178	Cache the result of a function .
+10406	Determine the dtype of the canonical variables .
+855	Get the current bookmark .
+5110	Simulate the simulation .
+11175	Parse a file .
+3541	Apply mutations to a file .
+8745	List floating IPs .
+5154	Get a copy of a dictionary .
+335	Compute the consistency score of the returns test .
+4013	Creates a directory if it doesn t exist .
+8581	Update a server .
+8203	Set the size
+582	Removes labels from the model
+164	Compute the distance between points and other .
+2917	Evaluate the given arguments .
+5700	Return the distribution of a table .
+9332	Create an empty memmap .
+6513	Get the gender based on name .
+9873	Creates a CherryPy server
+13766	Parses a string into its components .
+10214	Summarize the subgraph overlap between two nodes .
+11613	Produce a summary of the depth counts .
+363	Return a list of natural keys .
+7477	Count the number of genes in the input file .
+5347	Compose github list .
+1742	Make a grid from a tensor .
+12773	Context manager that attaches a marker to a frame .
+373	Apply brightness to the image .
+7799	Verify that the password is valid .
+11631	Read a Namelist file .
+8494	Print a message to stderr and exit .
+8347	Get the attrMap as a dict .
+10168	Parse the components of the line .
+10551	Update a result
+3072	Initialize the application .
+1393	Returns the topology for the given role and environment .
+13401	Remove the log menu .
+258	Compute the performance of a portfolio .
+5783	Read exactly of num_bytes .
+13048	Filter annotations by type .
+6873	Calculate out - of - transit points for a given flux .
+8829	Update a security group rule .
+6444	Return the condition of a word
+3790	r Determine the derivative of a property .
+919	Log an error .
+4069	Validate the condition .
+11481	Create a folder
+5139	Process a token .
+13464	Add a memory .
+1999	Find a reference to an expression .
+10254	Get all causal out edges of the given nbunch .
+12168	Dispatches the given event .
+4175	r Window blackman filter
+9949	Creates a new space .
+8439	Generate files for cookiecutter .
+6997	Run checkplots on a worker .
+635	Compute the number of active synapses between connected synapses .
+8873	Check if a type is an A type .
+5216	Generate a ticker for a genicker .
+2314	Compute ANM score .
+2181	Parse authorization token from url .
+3879	Handle a SET typing notification .
+1303	Post a message .
+4632	Create a new child .
+11602	Save formset .
+5242	Compares the given exchange with the given start_time and end_time .
+6399	Return a copy of the given word .
+5771	Verify an API 32 - bit signature .
+1008	Learn the phase 2 .
+11262	Yields sub - objects matching a regex pattern .
+11996	Set the options .
+13086	Get a configuration value .
+12138	Expand a pattern to a list of patterns .
+11439	Return a list of children that match a tag name
+11775	Ensemble the given learner .
+8711	Read a chunk from the buffer .
+12395	Registers a method .
+12093	A 2 - D version of 2 . 0_01_2 .
+8018	Disconnect from the server .
+13612	Run the worker .
+1436	Update count by key .
+986	Pretty print network connections .
+13269	Convert an element to a deparagraph .
+3182	Create a new list .
+9146	Print a table of names and relations .
+5879	Store an image .
+8407	Recursively expand a range .
+8624	Add one or more jobs to a user .
+13007	Initialize WindowsPath2 from args .
+9983	Replace the function name .
+940	Callback function for reapVarArgs .
+8360	Draw the image .
+7876	Bind the given resource to the given stream .
+7869	Decode attributes .
+12598	Reads an xl file .
+9692	Send data to the client .
+7044	Calculate the lightcurve flux
+332	Estimate Stochastic volatility .
+9540	Return a function that checks whether the number range is exclusive .
+11415	Remove a subfield from a record .
+6533	Get project config
+5538	Extract a subset of the input data .
+4569	Dump data to a file .
+1400	Extracts a logical plan from the topology .
+12592	Query a Reliabled dictionary
+7982	Mark the state as authenticated .
+2739	Get a firewall object
+7639	Return the annotations as a dict .
+2201	Ensures that an app config dir exists .
+10682	calculate H_mag
+7744	Called when a timeout is done .
+5283	Get the success URL .
+3745	r Calculates the distortion coefficients for a given time T .
+12485	Get the list of items from a dictionary .
+8085	The current stroke color
+12403	Extract the requirements from a changes list .
+10260	Removes all values from a Counter .
+12285	Add a repo to the repository .
+7379	Extract command from text .
+3546	Called when a discovered service is discovered .
+2176	Make a request .
+5814	Try to decode a byte string .
+2968	Start the degradation process .
+6505	Add properties to the results field
+6515	Print message to stdout .
+11242	Indent CSS file .
+2782	Delete this record .
+7152	Run one question .
+2484	Create a checksum node .
+5741	Get the result of the task .
+8837	Merge arguments into a single list .
+1672	Processes a file .
+10922	Perform linear regression on a set of directions .
+3164	Gets all messages for a workflow .
+9012	Initialize the library .
+4665	Generate a unique id for this signature .
+1127	Selection of first rule .
+13475	Start the application .
+8955	Parse glob pattern .
+2265	Return the intersection of a dict .
+8752	Check if a vif is a IISet VIF
+8169	Context manager for creating a temporary context .
+10401	Returns the final score of the final target .
+10743	Decorator for declaring a function .
+2060	Add a constraint to the problem .
+10139	Encrypts a file .
+9344	Return the next n rows .
+13537	Validate that a child rule is allowed .
+6243	Load the image .
+9677	Returns minimised bin boundary .
+13199	Format the document .
+8855	Setup the theme style .
+3782	r Set the method P to use .
+5755	Get the regressions for the given package descriptors .
+1962	wrapper for sys_rtaction
+5622	Check if a path is remote .
+8912	Include an XML - RPC interface .
+6821	Configure ModSecurity .
+8268	Generate a random color .
+7579	Return a list of the files in the workdir .
+2476	Set the license comment .
+13591	Returns the n_p .
+9150	Convert to INDRA Statements .
+13230	r Get the macros for a tex_source .
+4208	Linear interpolation .
+6000	Returns a list of regular pixels .
+1914	Enqueue a state .
+1521	Get the hostname of a remote host .
+7342	Set peony level .
+2521	Set file type .
+2565	Decorator to create a Process object .
+11756	Return a list of all propositional symbols in x .
+5213	Returns a DataFrame with the given dt
+2576	Add input dependencies to executor .
+6710	Start a shell .
+10278	Calculate neurommsig score for a gene .
+43	Sample the transition probabilities .
+9381	Set the SLA for an object .
+1399	Extract a TmasterLocation from a topology
+12819	Returns the file size in bytes
+996	Updates the baseline statistic based on predicted results .
+9514	Returns True if the interval is complete .
+8800	Run migrations .
+1931	Update a configuration variable .
+6082	Calculate the deflections of all galaxies in a grid .
+12924	Return a representation of an object .
+6773	Uninstall blacklisted packages .
+6663	Returns the certificate expiration date .
+12642	Get a boolean value from the service configuration
+4234	Look for an XML element .
+9958	Restore IPython .
+10429	Returns the number of rows in an object .
+12156	Moves a list to the end of list
+12226	Called when a prefer is received .
+9359	Return a list of paragraphs .
+5500	Get a list of tweets from a url .
+3505	Constructs a solution to a loopless problem .
+9690	Start the receiver .
+1296	Update the demo s debug information
+5564	Read the input file .
+1053	Extract a list of lines from a file .
+10509	Stop the logger .
+9865	Get current currency
+9328	Perform a GET request .
+1577	Make a URL to log files .
+2755	Get a specific SSHKey object .
+13018	Configure the plugin .
+5335	Get the params .
+11139	Return the number of files in the repository
+2709	Limit all sentences in a path .
+4992	Send content metadata to integrated channel .
+9364	Generate a random domain name .
+2205	Return the user home directory .
+1035	Encodes a string into a base64 string .
+3199	Deletes a workflow .
+7274	Starts playback .
+10250	Return True if the given node is highlighted .
+9776	Download the output files for a job .
+8532	returns True if two arguments differ
+3196	Removes a permanent .
+11428	Strip empty fields .
+11022	Returns the node associated with string_key .
+2253	Yield unique items .
+9223	Returns the number away from the given value .
+11110	Yields directories relative to path .
+10031	Execute the given configuration .
+1801	AFH
+7962	Close the connection .
+8546	Deletes a datacenter .
+2448	Set the package file name .
+3071	Get flow for a given token .
+11469	Remove a folder .
+2972	Create a BlockadeContainerConfig from a dictionary .
+338	Retrieves the next log counter .
+5859	Prune a search template .
+12593	Execute a Relabledictionary from a service .
+12583	Safely caches the result of a cached function
+11458	Remove all fields from the record .
+11322	Generate a dirlist file .
+1594	Choose targets from the given stream .
+10200	Iterate over all actions .
+8902	Check that all the related_ref_fk is valid .
+1335	Calculate the best other .
+1490	Returns the last n lines of a file .
+7313	Process the request .
+8225	Called when a key is pressed .
+2488	Creates a disjunctive node for a disjunctive license set .
+4007	Generate docker commands .
+5111	Get a list of queues from a list of queues .
+7741	Configure IO handler .
+819	Updates a row
+5320	Find the USB ports for a given device .
+7059	Delete a file from S3 .
+5114	Clear all data from the queue .
+10385	Get a list of walks of the given node .
+7153	Prompt user for multiple options .
+6057	Resize an array2d and resizes it with resized shape .
+10874	calculate Hsym asymmetry
+5176	Retrieve a single fact by name .
+6969	Returns the difference between two energy samples .
+9322	Refresh the content .
+5674	Return main database .
+1872	Set the RDTSC value .
+3788	r Set the user_methods .
+9253	Generates a string for the given issue .
+7695	Decorator for timeouts .
+9374	Download a local config file .
+4032	Return a random item .
+11397	Add CMS link .
+9467	Play a conference request .
+9566	Pack a buffer into a CompiledFormat .
+9929	Authenticate with the given credentials .
+7646	Convert a note_hz to its midi
+2948	Evaluate the expression .
+4896	Get the enterprise customer id for the given object
+5642	Compute the pseudo connections for each transit point .
+2571	Send a UDP message .
+2148	Create a job template
+12658	Append values from a list of dicts .
+11303	Invalidates all stored OEmbed objects for the given instance .
+5057	Builds a notification message
+1636	Checks for function lengths .
+4273	URL of this file .
+9504	Return distance between start and end point .
+11901	Run the server .
+12645	Set aaad cache
+6331	r Encode a word .
+8907	List all registered services .
+7623	r Compute Music contour .
+7378	Decorate a function to process the keys .
+12630	Recursively compose an error message .
+133	Extract polygons from image .
+9911	Return True if the cache expired .
+6100	Returns the intensities of a grid
+4491	Clone an osf project .
+785	Returns the number of jobs that have been cancelled .
+6544	Terminate the client .
+11346	Handle endtag element .
+9978	Find function definition .
+61	Return the intersection of two sets .
+13148	Freeze the index .
+8127	Search for images .
+12621	Return a string representation of an image .
+10226	Returns a set of all nodes that are connected to the given BEL graph .
+73	Emboss an image .
+4102	Generate the gallery documentation .
+13440	Unlock a file
+12387	we expect foo = bar
+10360	Check if two edges are consistent .
+11329	Main entry point .
+4532	Make a clone of this color list .
+1584	Reads a yaml config file .
+13631	Adapt the result to a resource .
+3212	Update cache stats .
+2927	Write the package to a zip file
+3811	Get the request header .
+11135	Copy this file to a new location .
+8941	Download a webdav file .
+4793	Return a subset of the superset .
+1973	Open a file descriptor .
+2561	Receive a result from the MPI
+1459	Add a pex to sys . path .
+4165	Extract a link from the database
+2509	Parse the license from the extr_license text .
+3363	Save a YAML model to a file .
+11084	Saves current state .
+2503	Handle licenses .
+8352	Handle character references as data .
+7890	Return a User object for the given nick_or_jid .
+12391	Optional decorator .
+7049	Calculate the mass radius for a given planet distribution .
+13637	If the first element of the first argument is None then the first argument is returned .
+8221	toggle fullscreen
+1207	Initialize sphinx extension .
+12746	Convert iterables into a numpy array .
+12803	Get a Room by id
+3786	r Returns the dependent property of T .
+3287	Return a list of log items
+12576	Set the mask for this image .
+3919	Loads the conversation .
+5525	Grab an image from bbox
+849	Returns the number of elements of the specified record .
+13331	Add a local module .
+13277	Creates a new lc_desc_path if it doesn t exist .
+6889	The parallel BLS worker .
+9908	Send duplicate email notification .
+10230	Return a list abundance .
+1938	Returns the type of the function arguments passed in .
+3822	Fetch an Easter Egg .
+5802	Converts a filetime object to a timestamp .
+3216	Get a classic link .
+4177	r Return the cosine of a window .
+5949	The name of the file .
+8209	Returns the coordinates of a point .
+5837	Calculate the TSNE of a data view .
+2152	Get attribute separator .
+8991	Return all rows before this mesh .
+6866	Plots a histogram of the bestperiods of each period
+13184	Convert a row to a dictionary .
+11949	Configure a custom object .
+3765	r Compute JouleThomson .
+13655	Find the appropriate route .
+6858	Check if a database exists .
+12799	Get the URL for a request .
+6001	Return a list of all the sub - pixels in this list .
+7261	Perform a search .
+731	Get a random value .
+792	Cancels a job .
+13344	Calculate the mean of an array .
+9892	Returns the minimum amount of the current uptime
+2163	Retrieve a list of resources .
+1278	Create markdown .
+7661	Trim an annotation .
+11699	Serve the given socket .
+11796	Generate a random value for a variable .
+5772	Verify the integrity of the given data .
+5494	Expand mentions in text .
+4500	Retrieve the next URL .
+5118	Return queue data .
+10236	Get a list of networks by their IDs .
+12094	Generate a VVC50 IV plot .
+11545	Set the PWM frequency .
+13232	r Return a dictionary of macros for a new command .
+5738	Enqueue a task
+10270	Get all unweighted upstream branches of a BEL graph .
+5672	Return a list of transfer stop pairs for this trip .
+11123	Removes a directory from the repository
+12909	Create an instance from a JSON string .
+3817	Send a protocol buffer request .
+1456	Check if a path is a valid file .
+6201	Simulates simulation of timestamps .
+11479	Upload a bitstream link to an existing item .
+10630	Return a shallow copy of the compound .
+9027	The width of the block .
+11552	Read an analog pin .
+7656	Validate a JSON object .
+2583	Loads a DataFlow kernel .
+5635	Convert docstr to markdown format
+9448	Perform a hangup call .
+8937	Get PyPI username from config file .
+6849	Check if the environment needs to be initialized .
+3111	Get the credentials for this key .
+9916	Validate that the primary address is a primary address .
+12024	Copy an old_parent into a new one .
+4995	Called when a User is created .
+8644	Updates a track .
+11526	Create a small small thumbnail .
+5090	Export selected objects to CSV
+1766	Decode an instruction .
+6328	Add words to the corpus .
+11716	Edit a configuration .
+8820	Delete a network .
+3099	Validate client secrets .
+12562	Return a list of unique nonzero objects .
+9793	Check if a path matches a pattern .
+6468	Wrap a CSI string .
+13415	Add a label to the plot .
+2302	Perform undirected on the graph .
+4269	Read EXIF data .
+5279	Makes a PMML pipeline .
+11218	Encode the secret .
+13871	Normalizes a path .
+6029	Set x and y labels for the plot
+9510	Return a new FASTA object for this sequence .
+8121	Returns the union of the bounding box .
+6030	Decorate a function to interpolate values .
+10762	Connect to sphinx searchd .
+12215	Get the locals of the frame .
+7791	Purge all items from the cache
+3512	Optimize the template .
+1580	Send this message .
+12595	Returns an AAD token for the given endpoint
+7749	Process the given statement .
+8055	Decorator to handle trusted commands .
+8708	Wait for ACK .
+2097	Cancel a job .
+2616	Initialize boto client .
+12472	Get the file extension .
+3209	Get a load balancer
+5036	Pass through to provider GradeAdminSession . get_single_email
+1911	Retrieves the bit value from the given value .
+4044	Return publications for this group .
+2601	Start the controller .
+7010	Fetch a stamp from a catalog .
+1890	Returns the minimum of constraints .
+10814	Add a user to this set .
+13853	Run this thread .
+1179	Split a string into a list of strings .
+5882	Return a list of nodes to check .
+12714	Connect to another world .
+11856	See what edges can be extended by this edge .
+7325	Simple mailmerge
+3965	Restart all installed apps .
+6563	Load a constraint from a file .
+12351	Restore an image
+5142	Make the index .
+1011	Removes all synapses and synapses from the network
+2018	Return the MODICV instruction .
+4116	Convert a line spectral frequency spectrum to a polynomial .
+3489	Set notes on sbase .
+2026	Generate a BYTE instruction .
+1511	Start the Heron Tools job .
+11070	Factory for creating a proxy .
+7045	Compute features of nonperiodic features .
+11564	Configures the servo pin
+6175	Initialize the extension
+6182	Generate a hash of the values .
+10253	Removes highlights from a graph .
+7977	Handle POST requests .
+9193	Insert a file .
+6582	Play a list of songs .
+4495	Remove a file .
+5600	Return PNG image for given data .
+3291	Get the full URL for this resource .
+5902	Start the smpd command .
+6760	Check if any of the last tracker has changed .
+8580	Creates a server
+5186	Aggregate the number of event counts in the database .
+6782	Get the previous thumbnail .
+2761	Retrieve a certificate by id .
+277	Return a plotting context
+12385	Parses text into a Query object .
+5952	Start logging .
+2267	r Returns an inverted dictionary .
+760	Append an input with numSimilar values .
+1565	Invokes spoutack for a specific message
+12716	Return a list of position rates for each position .
+5443	Validate that paths are valid .
+7356	Create a list of input peptides .
+8940	Upload to pypi .
+7576	Call a structure .
+3400	Fill the gaps in the solution .
+4605	Upgrade the account
+11222	Check if a file is compressed .
+7270	Register a new plugin
+4078	Write a Py2k header file .
+12244	Solve styblinski tang on theta .
+3035	Creates a flow from a client secret .
+8827	Update ports for a specific cluster .
+4111	Converts a polynomial to a polynomial .
+8073	Print base requirements .
+12412	Write a single chunk to the stream .
+6232	Calculate the scene bounds .
+8138	Add contrast to the image .
+13245	Download text from a URL .
+1970	Receive a signal .
+8558	Create a LAN .
+5575	Find available input formats .
+9471	Creates an XML element
+7427	Initialize refmap fastq files
+4338	Phaser function .
+9972	Read a range .
+8793	Get all the tags for a given model
+12185	Extract a single document .
+6235	Returns the current pause time .
+7818	Add handlers to handlers .
+7760	Call a set of timeout handlers .
+10746	Return a list of default fields .
+11332	Log an error message .
+4272	Create output directories .
+9294	Convert value to hash .
+7879	Adds a prefix to the namespace
+7271	Load a list of generators .
+2829	Convert an upsample .
+10605	Remove an entity from the collection .
+5271	Given a list of strings and a list of strings return the start and end indices of that string .
+12644	Get the current certificate path .
+11621	Set the script i .
+10659	Calculate mass of compounds
+12109	Reviews the list of launcher and reviews .
+493	Close the connection .
+8196	Click on a node
+1583	Generate a REQID .
+2219	Decorator to register a function type .
+8155	Create a new table .
+6596	Receive one message from the network .
+3772	r Select property .
+5483	Setup an API service .
+9984	returns True if source contains lambda function
+3721	Calculate the relative ion balance .
+781	Starts a job with retry .
+10232	Generate a list abundance expansion from a BEL graph .
+8249	Get the closest hue .
+13897	Dump the contents of a directory to a string .
+10229	Summarize the stability of a BEL graph .
+7990	Starts the transport connection .
+3926	Handle key press events .
+426	Check if a task has an unfinished task .
+12120	Generate colormap .
+4097	r Calculates the AKIC coefficient for a given set of parameters
+777	Establish a connection to the database .
+8050	Load source .
+7215	List all tasks
+6471	Update the minimum values .
+9407	Read data from a file .
+3816	Add channel services .
+1876	Move the contents of src to dest .
+984	Gets the number of active cells per column .
+3332	Configure logging .
+12416	End the message .
+13868	Gets the weekday for the given date .
+5616	Write a vector window to a file .
+5393	Creates the environment for the given inputs .
+2334	Predict probabilities of a dataset .
+9024	Write string to file .
+3709	r Calculates the voltage for a given period .
+11444	Parse an XML file .
+9203	Render a node .
+4222	Disable keyring .
+5740	Start a psq worker .
+4456	Add a limit to the group .
+3601	Create a token .
+13705	Generate a character block .
+12363	Overrides getCollection .
+7723	Get the password for this node .
+2396	Compute confusion matrix .
+2041	SELFDESTRUCT method
+5095	Get map image from url
+13078	Create a cache key for a given endpoint .
+10198	Safely anonymize the user .
+4974	Verify that the required resources are available .
+6792	Runs the command .
+1567	Invoke bolt_execute on all task hooks .
+3931	Perform an access token using a refresh token .
+11177	Parse an argument string .
+5060	Get an enterprise customer by uuid
+3105	Returns a verifier for a code .
+1614	Check if a string matches a regular expression .
+4661	Broadcast a transaction .
+4113	Returns the complex reflection coefficients .
+954	Return the name of the caller s method .
+1263	Return the current state of the screen .
+9650	Check integrity of a sakefile .
+343	Compute validation metrics .
+13553	Delete resource .
+12305	Import a module by name .
+857	Update the sequence information .
+12283	Lookup a repository by username .
+12191	Get the current socket URL .
+6589	Opens the runidx file .
+4204	Validate a polynomial .
+4511	Crop the image .
+13515	Returns the residual resistance coefficient .
+9113	Read a message from the filesystem .
+6836	Return a list of all the base boxes
+13076	Creates a decorator that creates a view for the given instance .
+1067	Return a list of header names .
+8886	Finalize the head .
+3347	Add new members to the list .
+1277	Top level step .
+7668	Trim an annotation array .
+528	Returns the neighborhood of the input center input .
+13659	Decorator for registering a route .
+8253	Convert context string to RGB values .
+9177	Yields user IDs from metadata .
+9563	Convert field to a dictionary
+12940	Returns a connection pool based on the given parameters
+3503	Add loopless reactions .
+4457	Generates the arguments for the query .
+3627	Convert a list of columns into a list of columns .
+12800	Whether this element is text .
+8021	Close websocket connection .
+5167	Search for a remote address .
+385	Convert the darknet annotations to a list of classes .
+4707	Power on the USB .
+6324	r Reads from text .
+13037	Show overview of all tags .
+10767	Submit a poll .
+2533	Validate a message .
+6172	Select the lock manager based on backend_name .
+1350	Write JSON response .
+12860	Add a period to a period
+10658	Calculate the number of compounds in mass .
+8935	Determine if a workdir is available .
+1884	Concatenate one or more constraints .
+3776	r Determine dependent property .
+246	Apply slippage penalty to the portfolio .
+13347	Retrieve the command line
+5181	Construct the base url
+691	Set the data types .
+3425	Returns a dictionary of metabolites in the model .
+1457	Validate a java classpath .
+11190	Show the contents of a dataset .
+278	Set axes style
+8698	Wait for the response .
+2354	Find an element by locator
+9428	Print the contents of the directory .
+13082	Register plugins .
+12503	Smooth an array .
+199	Draws a segmentation map .
+4071	Split a multiline string .
+5513	Returns the number of bytes per second .
+6688	Install a group .
+10865	Create a Tile with the given size .
+3294	Returns whether the lock is locked .
+5265	Convert string to snakecase .
+8956	Compile a glob
+13182	Writes observation data to csv .
+8863	Run PEP8 analysis .
+12655	Remove unprocessed files
+13297	Default JSON encoder .
+12388	Set the value of the given target .
+5407	Returns the status of the operation .
+5919	Center and fit a trajectory
+11049	Handle a field value .
+7007	Calculate the Fourier function .
+9797	Delete experiment group .
+13097	Terminate all processes .
+9218	Return a list of names that match the given name .
+4039	Add a key to the cache
+196	Create a new cloud layer .
+8423	Return a palette with hls .
+3648	Applies a consumable to an item
+315	Return the negative value of the given position .
+2166	Return the list of commands in this context .
+5414	Get the appropriate provider for the given arguments .
+4719	Set up test suite .
+12702	Returns a list of parameters for the given target .
+8210	Returns True if the given point is within the bounding box .
+4671	Unlock a file .
+2568	Construct the start message
+2653	Push a file to the remote server .
+13079	Render a template
+4312	Validate the input volumes .
+11257	Return a generator yielding values of the given keys .
+1972	Calculate total size of interp .
+4796	Check if entry contains one entry .
+371	Flip multiple axes of multiple axes .
+3391	Removes unused metabolites .
+7601	Get a list of popular votes .
+324	Return the volatility of the rolling volume .
+8700	Send data to the socket .
+2353	Wait for the region to load .
+4369	Sends a message .
+4688	Returns a shared secret .
+9182	Validate a model .
+10274	Remove all unweighted sources by key .
+2012	Return the instruction .
+4907	Synchronize content metadata .
+105	Validate a block of data .
+9116	Reset the cleanser .
+13836	Merges a message field .
+2592	Get a list of checkpoints .
+6794	Run the interactive shell
+2776	Remove multiple droplets
+3185	Retrieve a product .
+7291	Set fields for the document .
+10785	Add missing particles to st .
+7525	Draws the tree .
+13301	Returns a pandas dataframe of quantiles .
+300	Plots the average relative slippage for a given asset .
+11178	Get the separator of the element .
+5078	Returns the closest course run
+5248	Run a custom request .
+9449	Schedules a schedule for a specific call .
+5873	Deserialize an organization from a dictionary .
+10059	Sets the location .
+2435	Reset creation info .
+4640	Find next url .
+12534	Updates the contents of this DicomSet
+1934	Get the constructor arguments .
+12713	Join another world with another one .
+2882	Returns the timer event definition .
+404	Return a copy of x .
+7717	Set the state of a Booster .
+6116	Creates an unmasked array for the given shape and pixel scale .
+4176	r Return a window of size N .
+6193	Add particles to the Polymer .
+10890	Return True if any of the items in the list are contained in the given order .
+2760	Get a load balancer by id .
+6189	Simulate bromo fnames .
+1371	Returns the top level directory of the hierarchy .
+12743	Return a list of urls for this field
+4404	Creates a new lock .
+9178	Retrieve a list of licenses .
+2652	Execute a command without wait .
+12074	Update the state .
+3234	List all targets matching a rule .
+4725	Get chunk metadata .
+8102	Open a socket
+11878	Get the owner of a process .
+640	Set a configuration property .
+13296	Decodes JSON - LD text into a Python object .
+12182	Execute an API method
+1167	Dumps the registry information .
+7950	Send an element to the server .
+10742	Decorator to print cProfile .
+8591	Create a snapshot of a given volume .
+10164	Parse a line of text .
+3484	Creates a new bound for the given model
+4537	Return a color for a wheel .
+3992	Returns the nginx configuration spec for the given port specification .
+5065	Filter out the course modes in the environment
+13874	Copy a file to a local filesystem .
+4250	Get a country name by address .
+8184	Update the layout .
+5050	Create a proxy consent object from a list of children .
+10760	Construct a NumPy array from rectangular coordinates .
+1846	Execute the given CPU .
+10804	Resolve the admin type based on the current user .
+11286	Flush the given line .
+9439	Send a call notification .
+6455	Distribute an MLIPNS file .
+8834	Checks if an argument is less than or equal .
+4828	Check if the user is enrolled in the course
+1536	Get the Heron options from the environment variable .
+8405	Returns a tensor with the given value .
+13541	Create a new task admin .
+10784	Determines if a particle should be removed .
+242	Creates a tear sheet .
+1478	Generate a dict of shell support processes .
+12297	Show plugin details .
+6588	Prompt user for an integer .
+11606	Given a list of ranges return a sorted list of ranges .
+5707	Import lock form .
+2273	Read a junction .
+2578	Submit a function to DFK .
+13757	Get the file extension .
+11496	Search for a user by email .
+8533	Return True if two fields are isotropic .
+3760	r Returns the total mass fractions of all atoms .
+2264	Union of dicts .
+9914	Customize the email address .
+5088	The URL for a coupon .
+9580	Read a structure array .
+4567	Write frames to file .
+6586	Decorator for retries .
+12275	Check if a reference is valid .
+2630	Takes a list of servers and returns the result
+726	Add noise to bits .
+13711	Mark an IP as invalid .
+1347	Clone git repository locally .
+8627	Retrieve users from the database .
+3476	Associate a gene with a gene
+8486	Get a setting by name .
+3304	Run the paste server .
+1879	Imports an EXTRAC 128 - bit integer .
+11548	Guess memory usage of array memory .
+3770	r Compute mixing of the given properties .
+7176	Recursively iterate through pyi_dir .
+5453	Removes empty items from a dictionary
+6178	Apply a function to each chunk in the array .
+3655	Stop image acquisition .
+12324	Update the order
+7149	Encodes a hexadecimal string .
+9425	Opens an archive .
+9124	Download and store a belanno file .
+6840	Return the distrib family .
+8004	Submits form .
+1477	Get instance plan based on container id .
+1398	Extracts the scheduler location from a topology .
+6282	Rotate the mouse cursor .
+5810	Parse extensions .
+13735	Return an error class for the given response .
+9034	Finds the instruction in a grid .
+5336	Retrieve Kibiter version
+2180	Fetch an access token from the server .
+12393	Set the use of a configuration .
+2763	Get a snapshot .
+429	Read an image .
+12812	Called when raw data is received .
+9743	Send a reboot to a device .
+9808	Create a tar file .
+11568	Open the serial port .
+5604	Read a warped array .
+11026	Sort a list of PEM objects .
+13891	Reads a link .
+13666	Process a single command .
+1097	Decode a line from a file .
+3881	Syncs all new events .
+5841	Submits a design run .
+6482	Load a class .
+1989	Store the contents of a file .
+6169	Filter signal .
+5072	Get a value by name .
+13085	Set a configuration value .
+4850	Create transmission items for a given channel .
+12097	Deletes the model if it exists .
+6044	Construct a regular grid from a PSF shape .
+666	Sample from the distribution
+10652	Prepare all components to run .
+3762	r Return the Tt for a given CAS number .
+13428	Get information about a specific site .
+2631	Show the job status
+305	Plot monthly returns times series
+2959	Delete the state file .
+3300	Create a sub - element .
+3434	Populate the solver with a solution list .
+11676	Fit the model .
+4287	Gets the thumbnail for a file .
+9642	Set the trace for the current context
+11758	See if the clauses are true in a partial model .
+3500	Evaluate a single component .
+132	Check if a polygon is out of an image .
+9	Encodes a single observation .
+8265	Interpolate between n colors .
+5506	Take a screenshot
+13102	Get template uuid
+4742	Export environment variables .
+7510	Insert results into the database .
+10510	Capture image capture .
+9593	Switches to a frame .
+11869	Convert HSL color to RGB .
+5182	Retrieve a list of nodes .
+10529	Get all projects
+8325	Builds a tag map from default values .
+10153	Extracts an operation from a view .
+590	Allocate the spatial pooler .
+13367	Register a proxy for the given real_type
+1021	Builds a pool of training sequences .
+3499	Evaluate a reaction .
+6138	Set default simulation parameter
+12158	Sort a list of IDs .
+7012	Convert lcdict to pickle
+13703	Expand all words in a line .
+1533	Get the location of a scheduler .
+5109	Set the number of servers .
+1312	Create a device input .
+9229	Fetch closed pull requests
+3595	Get details of a given package .
+8502	Return the current configuration as a string .
+5832	Get a specific data view
+12029	Yield all sweep objects .
+4362	Sends the heartbeat message if connected .
+12887	Creates a new session
+4291	Removes all files under project directory .
+12935	Parse the allele data .
+521	Initializes the permanence of a potential .
+5773	Sign a message with a private key .
+11659	Transform X into X .
+11252	Get a datetime object from a datetime object
+12900	Get the equalisers .
+10533	Updates a project
+5356	Set a configuration parameter .
+7056	Connect to an EC2 instance .
+2744	Load account by public key
+7038	Retrieve a single dataset .
+7500	Extract spans from a maparr
+9282	Sets the filter .
+10199	Generate a unique id from an iso timestamp .
+1326	Construct a tensor from a keras model .
+13560	Decorator to wrap a function with a spinner .
+11211	Return a new datetime .
+5786	Read data from the device .
+8319	Parses the available tables .
+7841	Get the category .
+5993	Returns the minimum value of the array .
+13613	Combine multiple files .
+13089	Check if remote branch is already tracked .
+8383	Update the current delay .
+1072	Get the domain
+1653	Checks for global static files .
+8690	Send a PUT request .
+11336	Download all records
+9791	Find matching files .
+10161	Compute the hash of a hash .
+9033	Perform a walk of the current iteration .
+1522	Return True if addr is self .
+5468	Returns the event associated with the given event .
+6532	Get the local config file .
+1814	Writes the output to dest .
+5694	Creates a new table in the database
+1416	Get the execution state of a topology
+2246	Symlink a symbolic link .
+13629	Put a list of metrics .
+1419	Get the location of the scheduler
+4563	Convert value to a type .
+10272	Get all unweighted sources in the graph .
+10632	Returns the MOF for a compound .
+11777	Copy dataset replicating each example in proportion to its weight .
+7210	Get the stdout of the workflow .
+6754	Return a dict of all enabled satchells
+8410	Determine the best units for the given sequence .
+7832	Create a new child from an XML document .
+11241	Return the number of lines in a file .
+6684	Check if there is a new release
+8479	Set the potential .
+7306	Process a document .
+8998	Deserialize a JSON string
+9591	Set the window size .
+69	Draws bounding boxes on the image .
+7491	Compute the tree stats for this sample
+11491	Download an item from the server .
+13027	Detects the system OS
+7888	Log an error .
+19	Convert an array to a 1 - dimensional array .
+1966	Get the current syscall implementation .
+8239	Return a list of colors representing the triad .
+4314	Validate the input filepath .
+11240	Copy web file to local path .
+2900	Iterate over all tasks in the tree .
+4264	Build a source .
+10328	Determine the rank of the causal mechanism .
+3436	Optimize the optimization .
+6686	Check if a package is installed
+340	Log a message at level level .
+2077	Secho the message .
+9528	Derive a password from a password .
+4461	Transform a jam .
+1662	Determine if two files belong to the same module .
+11807	Encodes text using a code which is a permutation of the alphabet .
+7014	Concatenate a list of lcls .
+11973	Convert an IP address to a string .
+10152	Extract the path from a pyramid service .
+1849	Perform a LOOP operation .
+13203	Return a list of authors .
+6410	r Lehmer mean .
+11076	Loads user rights .
+2471	Set the file at the given symbol .
+11209	Check if a datetime exists in a datetime object .
+1885	Solve a given buffer .
+10136	Check if val is valid
+5179	Retrieve reports for a certificate .
+8488	Loads configuration from settings .
+8019	Send a message to a websocket
+11256	Flatten an iterable .
+6786	Given a list of components and a list of components return the order of the components that this component has .
+4001	Generate a documentation document for expanded_specs
+8910	Delegate to ows proxy .
+843	Adds a partitionId to the index .
+6677	returns md5sum of a file
+13720	Main entry point .
+13714	Perform the actual upload .
+10820	Filter the given query .
+7649	Open a JAMS file .
+4716	Set up the tcase .
+6322	Resolve the module loader class
+12104	Collate and launch a batch of jobs .
+298	Plot the daily turnover .
+6313	Print the name and its contents .
+7821	Handle a server response .
+5801	Extract certificates from system .
+4345	Builds a dictionary of statistics .
+4745	Get a single chunk .
+12270	Read a table from a file .
+4682	Returns the key type for the given account
+12466	r Run a shell command .
+2513	Get the name of a single file .
+5559	Recursively flatten a nested tree .
+280	Plot annual returns .
+12918	Delete a model from the database
+3676	r Return the Molmol of this molecule .
+1898	Get the value of an expression .
+2136	Disassociate a notification template .
+46	Project this vector onto the given shape .
+719	Return the list of modelIDs for this job .
+584	Removes records from KNN .
+11061	Send a message to Slack
+13530	Add a child to this node .
+3282	Read bytes from the stream .
+6461	Returns True if the term ends with the vowel .
+2832	Returns the PWM instance for the given platform .
+13906	Applies default values for commands
+6292	Adds the given directory to the store .
+8803	Send an event notification .
+8923	Return the base url
+342	Creates a distributed training session .
+4120	Computes the two - sided SDRs .
+12869	Get a context manager .
+2298	Return the predicted probabilities for x .
+937	Save a local checkpoint in a directory .
+9538	Return a function that checks the given regex .
+8880	Predict probabilities for X .
+2139	Associate a group with a group .
+11590	Emulate smove .
+12986	Convert the value to bytes .
+12763	Loads attachments from a source file .
+12519	Set mask .
+10038	Pick a Coda object from a string .
+4087	Decorator to turn a function into a Future .
+1060	Convert a cmp to a key .
+647	Generate random sequences .
+1544	Retrieve the logical plan for a cluster .
+4292	Validate a project .
+8340	Convert a string to an encoding .
+9493	Simulate the stack .
+1730	Match string .
+3183	Update a container .
+607	Find the requirements . txt file .
+7846	Add a new item .
+5485	Evaluate the given argument type .
+11101	Filter files by ctime .
+6153	Calculate the Fuller Bandpass filter .
+75	Detect the direction of a directed edge .
+12194	Validate the first message .
+11747	Return a list of all routes in the blueprint .
+11167	Return a list of key names for all positional arguments .
+6598	End the channel
+5518	Clone the stream .
+5000	Decorator to require at least one query parameter .
+591	Runs the node profiling .
+973	Determine if a segment is active
+2200	Ensure the data directory for an app .
+6251	Create a transformation matrix .
+12921	Return a copy of this Queryable .
+4143	Solve Ax = b
+178	Subdivide a set of points .
+6031	Converts an image from a psf and unmasked image .
+7494	Count the number of SNPs in the matrices .
+3702	r Calculate the eutectic of a chemical formula .
+750	Returns the region of the classification .
+10333	Groups a set of nodes by their annotations .
+576	Trick all actions .
+10115	Parses a grid string .
+12889	Handle a SET item .
+1376	Gets the java path .
+9770	Update a job .
+824	Calculate the most probable outcome of a prediction .
+821	Compute the value of a sliding window .
+11474	Authenticate with the server .
+7762	Generate an error message for this stanza .
+1661	Return expected function arguments .
+8566	Retrieves the members of a load balancer .
+12041	Convert a matrix to HTML .
+10516	Verify that a rolling horizontal bar is 0 .
+7534	Cluster fastq files .
+11449	Send a SMS message .
+8868	Return unique elements in seq .
+1745	Set the perms
+7652	Check if a string matches a query .
+10111	Iterate over rows of a CSV file .
+3098	Validate a token
+3090	Put the given credentials into the cache .
+6618	Return a tuple of keys and values from a tuple .
+9520	Generate a random FITS file .
+828	Get field description .
+5770	Verify an RSA key .
+3483	Write a model to a SBML file .
+13	Make a copy of an observation .
+8761	Delete a subnet .
+4985	View a program .
+4017	Returns a list of volumes mounted on the command line .
+12101	Record the info .
+11911	Get version from filename .
+4302	Create a new user
+9719	Sends a command to the remote device .
+15	Retrieves the qret of the network .
+9058	r Evaluate the gradient of the log likelihood .
+4056	Processes the JSON data .
+1858	Writes a BTC to the specified destination
+1429	Convert a dictionary of arguments into a list .
+6388	Determines if a short syllable ends in a short syllable .
+8554	Reserve an IP block .
+8746	Get the number of floating IPs for the tenant .
+12745	r Return the pid of the process .
+639	Extract a boolean value from a config property .
+2849	Read data from ftdi .
+6121	Return an elliptical annular .
+10818	returns True if user can invite or not
+11114	Remove a repository .
+7395	Show a single publication .
+10411	Compare two subgraphs .
+3342	Send status response .
+5395	Get the path to the target file .
+5646	Create a colorbar .
+8457	Returns True if new_template has changed .
+12046	Save a pickle file .
+10563	Compares two songs .
+938	Returns the path to the pickle file .
+7487	Concatenate multiple files .
+12882	The main function .
+6265	Translate a vertex format to a mesh format .
+11958	Return True if ip is a valid decimal number .
+6400	Stem the stem of a word
+2525	Get a reviewer .
+3205	Gets a single set of models .
+6823	Start maintenance .
+12601	Raise AttributeError if col_names is not a DataFrame .
+8104	Update the internal state .
+5171	Creates a client for a given server .
+3172	Retrieve customer details .
+10377	Return True if value is one sided .
+7922	Prepare a JID resource .
+6141	Checks if the input device is valid .
+11825	Return a list of random values .
+8334	Find all previous results .
+11202	Strip comments from a string .
+205	Return a copy of the segmentation map .
+5703	Returns vehicle hours for a given route type .
+1256	Set up checkpointSaver hooks .
+9564	Creates a validator for CSV validation .
+13406	Submits an entry to the log .
+2132	Compare two nodes .
+10544	Updates a task
+2372	Iterate over variable tables .
+10596	calculate thermal potential
+3872	Returns a list of all convolutions .
+6090	Decorator to apply a function to a grid
+11475	Creates a new token for the MFA .
+6724	Check if an instance exists .
+6339	Return the length of a tar archive .
+3609	Perform an asynchronous POST request .
+4886	Update the throttler scope .
+12568	Create a new dataset .
+1634	Checks for POSIX threads .
+7993	Restart the stream .
+12656	Convert a namedtuple into a dictionary .
+4235	Convert the given value to the specified type .
+11592	Emulate sunionstore .
+4263	Remove all categories from the gallery .
+306	Plot lifetimes for round trip lifetimes .
+6334	Return the distance between src and tar .
+7284	Returns True if the user has edit permission to edit the page .
+8742	Update a floating IP .
+7535	Run muscle_chunk on a sample .
+13544	Format a string for printing .
+2531	Parse spdx docs fields .
+11803	Returns the number of conflicts between two values .
+702	Returns a dictionary containing the results for each particle in the swarm .
+5477	Parse an RFC 3339 string into a datetime object .
+7397	Parse a string in LaTeX syntax .
+11433	Shift field positions by offset in delta .
+8686	Decrypt the encrypted value .
+2345	Compute the forward product .
+8277	Send a Fseq message .
+8132	Export the image .
+54	Shift all keypoints .
+9406	Clean up a workspace .
+9967	Returns the list of parameters that shareable .
+8681	Delete a private key .
+2286	Runs CGNN on GPU .
+1527	Returns True if host port is reachable .
+6584	Display station selection menu
+9158	Parse version string .
+1508	Add additional arguments to the given parser .
+3475	A dictionary of compartment information .
+4628	Returns the private key .
+10289	Enrich all reactions in a graph .
+11118	Get parent directory info .
+1996	Determine if a system registers are different .
+7997	Set the authenticated peer
+9708	Get sanitizer .
+5777	Encrypt an advapi32 .
+9923	Sends the email to the database .
+13135	Perform an autocomplete query .
+8801	Run migrations on the database .
+7715	Updates an item .
+13391	Formats a valid UUID .
+149	Clips polygons out of the image .
+3344	Read a timeout value from the given timeout value .
+9746	Receive data from a datagram .
+936	Writes the base to proto .
+463	Open tensorboard .
+5237	Get an interval from a ticker .
+3960	Enqueue local repo in task queue
+7022	Return a dict with information about the object .
+7020	Generate a HATPI LC file .
+1239	Move the given index to new_index .
+11808	Sample a list of words .
+1341	Generate example for imagenet .
+10854	Calculate the center of a triangle .
+11824	Perform genetic search .
+501	Compute a KNN from a KNN record .
+7626	r Compute the transcription of a reference .
+12407	Add a collection .
+4270	Get IPTC data .
+612	Return the description schema for the experiment .
+13872	Normalize a path .
+5286	Handles POST requests .
+13725	Register a new credentials .
+1154	Remove an item from the list .
+8529	Prints a report of the latitudes .
+2564	Start the worker threads .
+2508	Get the extracted license comment .
+3761	r Draw a 2D or 3D figure .
+7826	Decorator to define a payload class .
+13577	Publish a pastebin .
+2070	Convert columns to integer .
+8049	Parse the source .
+11772	Calculate Bayes Learner .
+5105	Generate a random sample of a poisson random value .
+799	Returns information about the specified models .
+5990	Generate a constant regularization matrix from pixel neighbors .
+292	Plot rolling Sharpe times .
+4361	Keep listening for jobs .
+9464	Add a conference request to the API .
+10177	Run the search .
+11732	Register a good class
+95	Generate a Segmentation map for an image .
+7192	Return the histogram equalization of the data .
+3187	Create a new order .
+13687	Check that two files are equal .
+6009	Load a background noise map .
+4015	Consume a consumer .
+4704	Copy data from one stream to another .
+13100	Render the template .
+11607	Render a social widget .
+6970	Determine the smoothed magnitude based on mags .
+1836	Perform a JG instruction .
+11645	Fit the model .
+3645	Delete a trade
+960	Validate an opfson value .
+6892	Serialize a list of star features .
+4987	Get course run id from course_key .
+8911	Creates an OWS security factory for a request .
+7859	Generate a result response for the given stanza .
+2993	Returns a DataFrame with all the symbols in a DataFrame .
+1982	Decorator to synchronize a function .
+489	Close the connection .
+841	Get a pattern for a category .
+12150	Return HTML for a given file .
+9781	Get a specific build .
+13468	Normalize a slice .
+4795	Assert that values are not contained in values .
+7495	Convert a single chunk to matrices .
+5192	Send a select command .
+3719	r Return the conductivity of a function .
+6268	Resolve scene loader class
+2552	Set attributes on a tag .
+4912	Checks if course items contains content items .
+7914	Returns a function that validates the given integer range .
+2899	Returns a list of tasks from a task specification .
+2915	Cancel this task .
+7776	Convert an XML string into a native object .
+47	Shift x by x and y .
+5565	Get the base levels of the zoom level .
+13665	Update an existing item
+11095	Select files by extension .
+7578	Calculate the Evanno table
+9277	Parses a packet .
+8328	Finds the last element beneath this object to be parsed .
+1995	Yields the named stream .
+9947	Creates a new empty space .
+3005	Get storage model from settings .
+8927	Upload a package .
+4744	Get the rprt for a specific dev .
+11827	Boggle boggle neighbors .
+4239	Marks the config as finished .
+3747	r Calculates the logarithmic of a liquid .
+13717	Submit a batch .
+1087	Same as a + b for a and b sequences .
+2209	Parse a requirements . txt file .
+13133	Parse a domain user list
+42	A context manager for creating deepmind rewards .
+9015	Return a row .
+1532	Get the execution state of a topology .
+8872	Matches all lines that match a subset of a subset .
+13864	Convert datetime to a timestamp .
+3914	Called when a typing message is received .
+9656	Get the node s name
+7915	Return a list of all defined definitions .
+1139	Wrap text .
+8296	Render a frame and return the result .
+8635	Get milestones for a user .
+6273	Load a resource .
+703	Returns the stream definition as a dictionary
+3585	Returns the metadata for all CoreBluetooth objects
+11950	Set global verbosity level .
+10470	Terminates an application by its bundle ID .
+12392	Read the content of the file .
+2382	Create a Draft4Validator object from a specification resolver .
+4403	Emulate memget .
+7856	Handle a response
+11576	Set the sonar data
+11913	Tagged a git tag
+13038	Parse credentials .
+313	Compute Sharpe ratio .
+4589	Slice x y onto axis
+7041	Get a list of public LC collections .
+6958	Prints a list of trilegal filenames .
+7987	Request version information from stanza .
+498	Add a record to the KNN .
+7485	Concatenate multiple files .
+9928	Try to authenticate the user .
+13073	Send a list of assets to a file .
+790	Changes the status of a job .
+6943	Convert JK to bmag .
+8326	Sets up the children
+8545	Find a specific datacenter by name
+2196	Flushes the redirect if necessary .
+5558	Flatten a tree into a flat dictionary .
+892	Return the column for a given cell .
+4400	Generate start and end dates .
+10425	Infer a missing edge from a graph .
+8602	Retrieve information about a user .
+2715	Create a new resource .
+1651	Classify include .
+11783	Add an example to the list of examples checking it first .
+9264	Filter merged pull requests .
+2155	Set runtime parameter .
+13198	Read a tex file .
+5210	Fetch data from a bdp .
+10989	reset the zscale parameter
+10522	Reverse scrollbar .
+7273	Set the rate for the player .
+6920	Returns the autocorrelation function for the given mag
+8660	Check if identifier is valid .
+8578	Returns a list of available servers .
+6024	Convolve a 2D array with the same shape .
+11706	Creates a copy of the offspring of the donor donor .
+1708	Convenience function to connect to a given command .
+13026	Combine two files .
+2687	Get the library config .
+1246	Disconnect from the socket .
+6685	Update the kernel
