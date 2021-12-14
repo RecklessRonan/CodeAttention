@@ -1,0 +1,5000 @@
+442	Returns true if there is any handlers for the given event .
+9303	Sets the success log lifetime in seconds .
+9173	Transforms menu nodes to array
+62	Attempts to unlink a file .
+3655	Returns the label for a given condition type .
+4128	Load class metadata if it exists .
+12207	Refreshes the template .
+2095	Create date ranges
+12751	Send a welcome message to a user .
+12853	Imports a package
+8991	Build an ElggEntity
+10473	Renew a single item .
+1471	Create a response factory
+12930	Attempts user confirmation .
+844	Clear empty tokens .
+9352	Return cofactor matrix
+3561	Get the type of a value .
+12404	Create a transaction
+5400	Truncate host name to first level
+8993	Return the expected probabilities for each sample .
+4571	Sets the anonymous UUID .
+2342	Get the currently logged in user id
+11861	Get the companion id .
+3358	Resize image
+4970	Removes unique id from request data .
+6494	Rank the accepted media type headers .
+12910	Sets the group
+5790	Set the column default value
+1685	Check if admin disable value .
+7031	Finds the shipment item in the shipment line .
+12570	Preview a news message .
+1508	Create url from array .
+11404	Change theme action
+11185	Add a new match
+4326	Get current interface
+4333	Build attribute value
+10641	Adds an and where clause to the query .
+9846	Encrypt a request with a public key .
+11722	Returns a list of posts
+7884	Return the log view .
+9197	Get the tag for this discussion
+3481	Include the configuration file
+11778	Starts the application .
+7452	Render RTL style .
+5011	Get logger .
+262	Deletes an existing model . If deletion is successful the browser will be redirected to the index page .
+4807	Schedule an event .
+4510	Listen to the created event .
+1051	Returns argument values from definition node .
+4334	Get the current output as a string
+3008	Returns an attribute by key
+1829	Delete this model from the database
+4093	Set a wildcard value
+5332	Generate Hijununun .
+6089	Updates a Moodboard .
+11308	Create entity from body
+6857	The accuracy of a year .
+8508	Get prepare instructions for ASIN
+5608	Called after method is executed
+1421	Create a belongs - to relationship .
+3320	Get valid values .
+1004	Parse request params
+11854	Returns the value of the specified header .
+434	Checks if a class name and prefix are in the correct prefix .
+9430	Answers the font icon tag for the extended object .
+3483	Get self with mutable content .
+7634	Upload a block to a blob .
+573	Compares two strings .
+8298	Removes the bk file if necessary
+247	Init session .
+7093	Checks the integrity of the invoice .
+1796	Adds the index route to the collection .
+3007	Sets the layout .
+9542	Run a sync action .
+9209	Finds the primary key
+10040	Load a spreadsheet .
+11618	Compress phase 2
+4707	Process multiple words under score .
+11476	Authenticate with the given adapter
+858	Sets the generated code .
+12243	Load an XSLT file .
+2557	Loads MOPDetails object from FopInfo .
+7234	Asserts that the given item class implements a SaleItemInterface .
+7085	Set conditions for default options loader
+3611	Get next scheduled event
+12455	Check if toolbar is enabled .
+4596	Returns a list of resources .
+10507	Register the log filesystem .
+4325	Get caller info
+9460	Delete the tickets .
+9960	Sets the auto filter by using numeric coordinates
+9843	Creates a JSON - encoded request object .
+4824	Removes a value from a field
+2567	Check if all args are not empty
+5	Builds a list of dependencies for a given package .
+3332	Create from content
+11438	Get default value .
+8132	Get the source context
+1448	Prepare the data for a relationship .
+8344	Runs the application .
+3160	Stores the variable in the test session
+7545	Returns the namespace of the current document
+7272	Delete records by condition
+5368	Returns the message as a MIME part .
+3726	Creates a query builder from a QueryBuilder instance .
+8613	Set the value of the AdjustmentItemList property .
+971	Returns the current access token for the current user .
+5602	Print a fail message
+3874	Remove empty page detail pages .
+11235	Throw exception if loop is too long
+9057	Adds a primary key .
+7036	Drop migration table if exists
+12300	Stores a child
+1306	Destroy the post .
+7801	Split all transactions
+41	Checks whether the given certificate belongs to the given certificate .
+3686	Merges two OR filters together .
+11757	Delete a comment .
+287	Negotiates the request .
+2634	Load action page
+8588	Set the value of the ASINPrepInstructions property .
+9000	Fix Path Separator
+10729	Returns day value .
+1556	Get the rules without search .
+1325	Creates a request object from a consumer and a token .
+4775	Load user config
+2289	Activate a recipient
+6430	Finish the login .
+6121	Returns the permission ID for the given name .
+7287	Get an invoiced date .
+8189	Extracts a variable from the context .
+7375	Clears the queue
+2579	Load customer references
+8475	Log a debug message .
+1475	Create a validator for a resource object .
+1805	Get all active groups .
+10437	Inject the template to the main page
+11179	Get item from cache
+12734	Unregister a listener
+467	Creates an exists condition .
+12462	Creates a form to create a CustomFieldsGroup entity .
+11641	Get list of columns
+6322	Parses configuration array .
+5730	Generate the HTML to display the button for this record
+393	Filter column names .
+1664	Returns the countries array .
+5202	Open the queue connection
+2262	Executes a query
+3423	Checks if groups must be selected
+3079	Gets information about the current assessment
+3696	Extract the id from the environment .
+10267	Set end color .
+5943	Fetches the object
+1574	Get or set the default api .
+10124	Write the GRidset record .
+3555	Cast meta value
+2324	Check if a given token is valid
+7650	Deletes a blob .
+4201	Add the public methods to the event
+2517	Creates a new Psr - add elements .
+2285	Get the server name
+1666	Enable TwoFactor authentication .
+165	Serializes the links array .
+12425	Get authorizer token .
+4241	Error event handler .
+4016	Get the widget class name .
+7172	Resolves the target country .
+5193	Dispatches the request to the router .
+1549	Authorize a relationship .
+11412	Batch tag users .
+6053	Retrieves all parents of a folder .
+2787	Execute the command .
+1816	Retrieves the correct content picker for TCA .
+10885	Make a request to an error stream
+11597	Set cache type
+2002	Get the version of the package
+11258	Create the invoker for the container .
+12748	Sets the validator pattern .
+8151	Returns whether an extension has been registered .
+4047	Build the widget .
+5303	Convert given hexadecimal character to unicode character
+5962	Returns a list of permissions assigned to the server group .
+12164	Create authority table
+9738	Set Fit To Height
+9139	Parse a URI
+9717	Writes the RECALCID record .
+4106	Commit current batch
+12670	Opens a stream .
+7092	Adds a new route
+8884	Build a list of packages
+10897	set a scheme
+6847	Adjusts an hour to a specified value .
+801	Clear range between tokens .
+1228	Parses an expression .
+4772	process configs for widgets
+409	Get Host Info
+9928	Checks if a value is empty .
+2294	Get the current tinymce language .
+2689	Resize the image
+7814	Processes the request
+11167	Generates API vars from Reflection
+308	Creates a rule object .
+12316	Displays a form to edit an existing Category entity .
+2801	Generates code for a non - lazy bean .
+10882	Aggregate bool values .
+12791	Create a layout instance .
+8135	Displays a block
+7000	Get or set the url
+7416	Get the maximum file size in bytes .
+4874	Set form id .
+7794	Get account number .
+5542	Clear focus on all nested frames .
+516	Mark migration as changed .
+9054	Create relation table .
+12304	Admin list page
+2152	Synchronize a user s email
+4948	Finds drafts by criteria .
+12424	Get authorization info .
+3719	Should we handle the event?
+8108	Get the email address for the review .
+1311	Checks the signature of a request .
+9092	Set a page partial for a page .
+11129	Converts arguments to string .
+1691	Compiles a color string
+197	Sets the HTTP headers for the response .
+1505	Bind pagination resolver to page resolver .
+12672	Emulate the emulation class .
+12469	Replace the namespace in the given path .
+6203	Starts the engine instance .
+3781	Determine the filter value .
+11	Mocks local repositories .
+9855	Writes BOF record .
+9900	Move forward to the next token .
+1410	Returns a resource type error message .
+699	Clone an app
+9581	Get a channel .
+7557	Returns children by tag
+558	Build query condition .
+7144	Remove author_subscription values
+7005	format day .
+3588	Gets a constraint to between a set of met values .
+3663	Get value from service container
+11394	Set kind of report_log
+3339	Get group data
+7538	Returns the root node
+7429	Displays login form
+8825	Valid credit card number
+8266	Lock the mutex
+4090	Delete a document from the index .
+2690	Get resized image info .
+1064	Collects all Conflicts within a given response .
+3911	Fetches additional files
+11532	Cascade a folder in an array .
+6438	Finalizes the session .
+9918	Get table name .
+7916	Initializes options .
+7951	Order cache rule
+5780	Set navigation nav
+284	Get fixtures config
+8948	Download a trace s metadata .
+1037	Complete an object value .
+3013	Like post like comment
+9660	Identify class by filename
+5416	Send the request to the client
+3178	Get item classes
+6040	Download an event .
+5206	Checks if an array of routes are active
+11135	Calculate the update query .
+4752	Sends OGdPRt to customer . Returns true on success .
+5805	Increment the counter
+7927	Registers a new namespace .
+10244	Short description of method getImplemented
+998	Get the type map .
+9962	Insert a new row before a given row .
+1718	Sets the language to the current user .
+988	Activate the charge
+7113	Check if a user is allowed to access a URL .
+12658	Get javascript file name
+4124	Generate proxy class file
+686	Sorts the models .
+12614	Determine if the file has any required properties .
+2632	Method to get Purge .
+3837	Get field definition
+6693	Sort an array by position .
+12182	Finds and returns the primary child of this model .
+4389	Represents the payment for the given order
+5813	Add the tag types to the frontend
+3039	Check if a call id exists
+9317	Performs a transformation
+8655	Convert GetReportCountRequest to name value pairs
+1329	Set one or more values .
+4868	Converts options to DateTime object
+12948	Removes tag values .
+415	Gets a list of content types acceptable by the client .
+3698	Get or create a new backend definition .
+6100	Make a HTTP DELETE request .
+1622	Add a column to the list of columns
+7983	Add a restore task
+7735	Processes the route and its operations .
+4222	Get the value of a property .
+7302	Get available payment transitions
+8980	Builds rate object from raw table row data .
+6690	User can access .
+1460	Order desc .
+1415	Returns a 422 resource error .
+9270	Loads the application configuration .
+5285	Set page limit .
+5163	Serialize an entity
+4626	Creates the secondary index query path .
+7765	Process class properties
+937	Get the list of keywords for this token type .
+4457	Detaches an event handler
+6163	Returns the memory usage
+8439	Completes parsing of files and folders
+1560	Get the model key for a given field .
+11839	Convert image to jpeg
+4819	Get an iterator
+4030	Get label pattern .
+3175	Short description of method getItemLabel
+7030	convert to array
+8689	Flattens an array .
+3899	Sets the data for the model .
+1517	Fetch a relationship .
+3215	User account information .
+6013	Lists available deployments .
+3502	Initialize the cURL resource .
+3850	Get the service container
+7902	Get full file name
+8284	Initialization method
+11493	Removes all cookies .
+10137	Write MSODRAWING record
+10378	Get the routes to a folder .
+8188	Returns the block names .
+12979	Registers the behaviors
+1659	Create a new suggestion
+12048	Renders an element
+11570	Loads attachment .
+3851	Set limit and offset
+5601	Draws a pass message .
+3319	Set the node type .
+286	Removes a header
+10164	Read RANGEPROTECTION record
+11377	Retrieves information about a page
+6328	Gets the columns SQL
+7442	Finds and displays a Group entity .
+1523	Executes the search query .
+6370	Creates a closure that returns a value for the given map .
+7411	Combine array keys
+4932	Render the notifications
+12393	Listen to site save event .
+5209	Convert a PHP array into a PHP array .
+7626	Checks if a container exists .
+11060	Returns the string value of this string .
+8919	Parse an authority
+4494	Returns the Apns JSON inner .
+3188	Returns the first timestamp in the range
+1754	Returns the list of supported languages .
+7277	Get the Time
+7377	Fetches a float from the store .
+11211	Check if key exists in the lookup pool
+12093	Returns domain URL .
+10416	Adds the status column to the table .
+5420	Parses a cookie line
+5833	Convert a header string to an associative array
+12155	Get initial role .
+12475	Get current theme .
+3400	Make request .
+1337	Parses the query parameters .
+113	Get the install path for a package .
+5818	Updates the tagging for the given FusionID
+9424	Writes a string to the stream .
+6480	Returns Set - Cookie header value .
+1202	Builds the menu item .
+4411	Registers the menu plugins .
+341	Validates the given models .
+11171	Generates the filter string for the query .
+2802	Parses a boolean value .
+6445	Get login url
+6086	Returns a list of Moodboard templates .
+3256	Define the application routes .
+1504	Bind API to the container .
+10887	Get the session .
+9344	Add one column
+11983	Get a setting value
+7315	Set the date to the current time .
+8221	Generate entity id based on params
+3380	Get the model of an entity
+4625	Prepares a command for execution
+8306	Asserts that the given key is a string .
+8912	Fetch primary key
+1565	Get the resource
+11145	Scans a directory
+6168	Write an assertion failure
+9409	Transform middleware .
+10289	Executes given tasks .
+1061	Finds all values added to an enum .
+5699	Finds an action by name
+4368	Returns the value at the specified key .
+9876	Write workbook .
+4405	Generates configuration .
+9924	Filters the given parameters .
+602	Tokenize SQL string
+9790	Returns the value formatted for this value .
+12860	Get dispatcher .
+4328	Parse attribute string
+6700	Sets the pre release values .
+9850	Writes a string to a stream .
+1733	Recursively get all pages .
+1649	get latins .
+6314	Sets the referenced columns
+10113	Write the page setup record
+10710	Get a single record by its primary key
+6748	Handles the request .
+11517	Generates the iOS pin icon
+11467	Initializes the controller .
+1070	Collect all conflicts between two fragments .
+6728	Save total votes .
+10373	Set the style of the file
+8654	Convert SubmitFeedRequest to name value pairs
+8289	auth routes handler
+7468	Protected colorize
+10252	Get the last name .
+3993	Encode the value from a widget .
+5735	Get matches for a team .
+10716	Delete many models .
+4217	Helper method to clear error messages .
+6919	Get all adjustments .
+2458	Undo undo action
+343	Renders sort links .
+4042	Render a readable property value .
+1351	Validates if a resource type is not allowed .
+7206	Adds a tax adjustment .
+6791	Create a Notify instance .
+6332	Creates a response for the given status code .
+5621	Chompress scheme
+4827	Retrieve a model
+12606	Get path from file .
+2268	Check if a value is unique
+5967	Returns a list of temporary server passwords .
+8708	Select method .
+5040	Set permissions .
+7825	Returns the total width of all pipes .
+3744	Get the MetaModel instance
+11065	Get icon .
+5688	Get form by image selector
+3462	Process the request
+2313	Execute resize action .
+1456	Validates a has many relationship .
+10236	Write the default content type .
+11961	Iterate over all elements in the collection
+10705	Get the entity manager
+7511	Mark linebreak
+356	Initializes command controller .
+449	Initializes the cache directory .
+9358	Get module path
+11579	Configure the logger .
+7353	Returns the provider for the given subject or subject .
+2183	Create a root menu item .
+1434	Converts a string to camel - case .
+3430	Store in the cache .
+9662	Get reader type from file extension
+2726	Manage authentication page
+11741	Get person by id
+4060	Validate the expected values .
+4470	Complete the job .
+8972	Paginate the rates .
+2607	Enable image optimization configuration
+3853	Override the output format
+633	Creates a DELETE query .
+8984	Asserts that two tables are identical .
+7617	Make a request to the API
+11677	Checks if a translation file is loaded .
+6870	Builds the payments list for a subject .
+5737	Determine which renderer should be rendered
+4815	Returns the data set as DomDocument
+11221	Make sure routes are valid
+8168	Decrement the indentation .
+10606	Adds a HTTP header .
+4239	Log debug info
+6941	Try to guess the purchase cost .
+2353	Write data to a file
+9549	Sets the PDO instance .
+747	Get type category
+2589	Add received from
+5213	Finds a binding
+5752	Get all roles .
+9217	Parse page headers .
+7481	Sets the content of the file
+9862	Write sheet format PR
+12029	Generates param filter block
+12753	Send recovery message .
+7138	Returns the valid constraints for the step .
+12228	Removes the self
+5289	Request stream .
+1442	Replace the record dummy .
+1269	Get a subscription .
+4888	Gets the display action
+3590	Checks if meta is allowed
+5457	Adds content tag to open tags .
+5363	Generates the files for the given registry
+7596	Renders the help block
+7660	Formats an address
+2195	Resend activation mail
+6610	Get records by start date range
+8440	Create a post .
+8882	Checks if a command is valid .
+7056	Determine the day of the year .
+11759	Delete reply .
+10008	Disconnect all worksheets
+1085	Parses a name token .
+12142	Get or set the configuration provider .
+12587	Init token table
+829	Checks whether a token is a string part of a token .
+8024	Destroy the semaphore .
+10991	Returns the name of the file .
+5251	Delete the object from the database
+9543	Gets all the errors .
+10184	Creates a new contact filter
+4401	Translates the payment status
+8174	Checks if the loop variable is not used .
+4974	Hydrate tree .
+3531	Send a GET request to Fortnite API .
+6604	Make an access token object .
+3840	Parse fields .
+12400	Executes the query and returns the first result
+10078	Convert string from one encoding to another .
+1751	Get Referer Info
+6236	Tries to create a Storage instance .
+8236	Check server configuration
+4121	Gets a proxy object .
+3463	Call middleware pipe .
+12274	Create a new DateTime instance from a specific format .
+8653	Convert UpdateReportAcknowledgementsRequest to name value pairs
+9341	Set a value in the session .
+1365	Boot the middleware for the application .
+7124	Get the TicketMessage from the event .
+2631	List available snippets
+1801	Creates the browser to edit the page .
+7804	Creates a new balance .
+2468	Get slug options .
+6745	Apply the accepted content encoding to the response .
+4005	Create a new MetaModel instance via the legacy factory .
+2125	Get debug markup
+561	Autoload function .
+7100	Compare two units .
+3562	Check if a mutator exists
+5884	Normalizes the order configuration .
+9532	Preload the parameter closure .
+5789	Set validation rules
+5224	Returns provider creator .
+1033	Get Promise instance
+1820	Extract vimeo id from vimeo
+7729	Add quick replies .
+11701	Get action from component
+10564	Create a variant .
+532	Resort the changelog .
+3217	Continue a chunked upload
+5164	Send an email .
+12169	Create the property values table
+12515	Check if a file exists
+12021	Generate parameter set block
+6755	Creates a copy
+9225	Preprocess data .
+3361	Returns true if the offset exists .
+12526	Cleans up stale processes
+6060	Retrieve the data for a single file .
+11615	Delete an account
+7050	Builds discounts lines .
+1968	Finds a record by its PID .
+4524	Creates a zone object from its definition .
+9752	Set posts to review
+10892	checks if number is prime
+3771	Fix legacy modules
+2489	Returns whether or not the endpoint has multiple endpoints .
+8663	Convert GetReportRequestListRequest to name value pairs
+7529	Dumps the location
+9099	Listens for incoming requests .
+8116	Check if this object can be reviewed by a given user .
+1310	Render categories menu
+5883	Sets the order for a query .
+5738	Sets the default suffix .
+8176	Displays the recovery password form .
+7584	Extract the response body from the curl response
+8847	Get all blog posts
+6885	Lookup addresses for a postcode .
+5125	Serve the active dispatcher .
+6016	Creates a DeploymentSite .
+758	Render image by Imagick code
+3953	Get attribute value
+10281	Make coordinate absolute
+2841	Render an array
+2808	Get a filtered list of requests
+759	Sets the children .
+1345	Check if request is update resource
+5009	Sets the subject .
+3337	Generates a hidden input tag .
+9104	Parse user query .
+7520	Parse a Cdata tag
+9765	Asserts that the target file exists .
+2036	Get the absolute url .
+474	Update data .
+9541	Decode JSON response .
+6504	Serialize the parameters for a given type
+2161	Run the updated layout
+519	Find migration path by namespace
+7051	Adds violation to context
+2664	Send webhook request
+10782	Adds an AND HAVING clause .
+7250	Validate the delivery address of a sale .
+12131	Handles an error .
+9678	Returns an array of all number formats
+7715	Find a start tag in a string
+12259	Run the compile function
+1217	slice function .
+5024	Finds a leaf node .
+6556	Outputs a message
+8931	Add route to controller
+8043	Called when a semaphore is created .
+3402	Applies the result callback chain to the given node .
+9703	Add a color to the palette
+7380	Fetches a value in the database and returns it .
+2386	Remove a field .
+7326	Configures the taxonomy mapping for a taxonomy .
+545	Rotate log files .
+11398	Removes a block .
+6261	Get action map
+10567	Displays a form to create a new Media entity .
+7907	Returns the label for the item .
+6967	Calculates gross lines .
+12511	Builds group parameters .
+10485	Get table mapping
+902	Checks if the given index is an anonymous class at the given index .
+6469	Parses Accept header .
+138	Update a package .
+2371	Split a CSV string into an array .
+11080	Returns a localized day name .
+10462	Returns table name .
+11738	Normalize the address .
+11125	Display a listing of all settings .
+1759	Returns a unique session hash .
+3894	Get all attribute names for a given meta model .
+5749	Wrap an array recursively
+2580	Load wsdl from params
+5155	Sets the application configuration .
+4554	Listen to the decoded event .
+2016	generate the input markup for the file upload field
+7696	Clean paragraph - point
+2630	Search action .
+12536	Tries to login the user with the given client .
+1545	Determine if the given media types match the given media types .
+4548	Get all stats
+9947	Get the dimensions of a row .
+4910	Renders a summary form
+10843	Refreshes the product attributes of a variant .
+12457	Called when the object is loaded .
+7611	Creates a new User model . If creation is successful the browser will be redirected to the view page .
+2543	Analyze response with error code and message
+10474	Returns an item .
+5408	Check if cookie is valid
+1333	Apply filters to the query builder .
+1530	Create a new resource registration request .
+2644	Gets the current customer information .
+7398	Set HTTP status code
+10450	Deletes a value from the cache .
+1579	Get self with type .
+4587	Set the staff uuid .
+12921	Get the number of remaining items
+9425	Return the frequency of the distribution .
+7677	Search for a string in a set of files
+3604	Handles a JSON request .
+5172	Sets the JSON encoder .
+3506	Converts an Alert object to an array .
+2549	Load client parameters
+2212	Get the first field of the result set
+2988	Check for resource in annotation
+6489	Adds a header value to the headers array .
+10934	Check if PHP is PHP version
+864	Register a found token .
+10919	Get array of stopwords
+5877	Tries to find an existing file by its name
+860	Clear range from given index
+2957	Set character length
+2603	Lists the dictionary
+10340	Check error code .
+5381	Returns the selected value .
+11556	Returns the namespace parameter with the given name and name .
+4701	Create ciconia object .
+6570	Get error message
+4189	Dumps the constants .
+1123	Gets descendants and self
+8903	Delete records by condition .
+4038	Get ids of all child filters
+162	Add query parameters
+4396	Refunds the pending transaction
+2021	Find published categories by pid
+6585	Perform a cURL request .
+11776	Returns the question helper .
+8562	Creates a Shipment for the given order .
+8488	Get load percentage
+412	Gets the port of the connection .
+6721	Handles token response .
+4525	Creates a zone member from its definition .
+7369	Updates the price of the supplier .
+7426	Is the source valid?
+3820	Perform create action .
+2293	Get all available themes
+2071	Get the date and time .
+5765	Index view objects .
+1083	If the next token is of the given kind return that token after advancing the lexer .
+6080	Update the properties of a media .
+2683	Get Waf settings
+11133	Calculate the type of query .
+5122	Set the authorization header .
+979	HTTP response handler .
+2058	Make redirect page mandatory
+12947	Returns if owner has tag attribute
+5436	Get the parameters signatures for a given method .
+6325	Stop buffered output .
+5677	Computes the difference between two strings .
+2738	Sets the token .
+9033	Map a datetime field .
+11274	Install the module .
+12313	Returns an array representation of the code .
+347	Removes a CSS class from the options .
+3024	Get posts from a blog .
+4782	Removes a widget configuration .
+10426	Stream body .
+3666	Convert a query parameter
+6286	Generate a password hash .
+10784	Parse a URL
+2085	Adds multiple files .
+7862	Sets the pipes of a given workflow .
+12433	Returns the maximum percent for the spam bonus .
+9975	Fill built - in formats .
+4169	Tokenize the package info argument .
+5826	Set JSON encoding .
+1728	Save changes to the database
+9831	Register a resource for a model
+4712	Escapes HTML .
+3890	Build the filter params
+4096	Build a RangeQuery
+9368	Gets the globals .
+8258	Finish authentication .
+5852	Processes the data .
+7945	delete an existing monitoring notification
+4550	Sets the assignee type LIKE .
+8881	Checks if a relative path is valid .
+12793	Create a new droplets .
+1826	Merge row data
+4669	Before generating the XSD map
+7676	returns a formatted file
+283	Find fixtures .
+5218	Static function to create the hostname
+5108	Appends DESC to a given column
+5816	Creates a new tag if it does not exist
+4219	Clears summary .
+9926	Handles arrays .
+6554	Remove a line from a file .
+12835	Generates the factory method for the fact .
+8798	Register custom directives .
+4160	Get the OAuth Login URL .
+10826	Print a table
+6376	Returns a sorted collection .
+7749	Gets all available metadata .
+12861	Build the cache file
+6024	Sets the metadata .
+6602	Make the API credentials .
+7299	Generate a message sender
+8802	Get session data
+3523	Get item by id
+5486	Submit a button that matches the given selector
+8382	Fetch the next row
+2629	Delete a dictionary item
+8200	Returns the matched token .
+2187	Fetches an alias value
+1499	Append the given value to the collection .
+4709	Initialize the text
+10488	Runs a command
+2606	Delete acl item
+11919	Get tag attributes
+2105	Generate a link to a FAQ
+5889	Gets the content of the viewer .
+5085	Builds the URL for the page .
+2368	Extract emails from a string
+10666	Set the URI of the report URI
+2880	Disable Translate Inline
+8576	Set the value of the ItemChargeAdjustmentList property .
+4947	Checks the given permission .
+10135	Process a GD image
+1486	Creates a new stack with the given decodings
+4774	Build a list of widgets .
+10022	Remove cellStyleXf by index .
+8120	Check if a record can be reviewed .
+8219	Get IP address
+3811	Transform a single condition .
+8994	Updates the session .
+8573	List Recommendations By Next Token
+7571	GET a resource
+7251	Validates the identity of the customer
+9995	Write a comment .
+5849	Compile module content
+9641	Validates the URL
+10675	2017 - 01 - 13
+11453	Get the public id
+1359	Returns a JSON API type .
+11123	Get up position
+11264	Protected repeat method
+2735	Redirects to front end
+1841	Parses a file
+4486	Broadcast a message to a given platform .
+7874	Check config .
+4985	Set a parameter for all forms
+8756	Builds shopping cart .
+12278	Move a user from a group .
+8692	Checks if a symlink exists
+3177	Check if the next section is allowed to go to the next section .
+12227	Removes the self from the DOMDocument
+7783	Registers timezone script .
+6971	Synchronizes line with result .
+5051	Helper function to trigger events until an event is found .
+2292	Get backend theme .
+6710	Parses headers array
+6467	Create a stream from a string .
+11031	Ensures the fields array for the template .
+9749	Calculates number of PPS
+1253	Create a new PHP object based on the meta value .
+10376	Determine if we should process files .
+5839	Trim a string
+3574	Update meta value .
+10152	Read HCENTER record
+8659	Convert GetFeedmissionCountRequest to name value pairs
+3684	Builds a native SQL procedure .
+1028	Resolve a field .
+282	Output a list .
+5544	Returns the raw frame .
+5300	Get all glyph names
+7447	Decrypt string .
+2693	Compiles the parameters for fastly .
+7158	Compile the value
+3788	Calculates the conditions .
+8144	Tokenize a string .
+4041	Render a listing .
+2310	Set zoom level .
+9110	Ensure theme_path is available .
+3798	Internal method to check if the model includes variants of variables .
+10314	Get count of clicks .
+6077	Upload a new versioned file with multiple chunks .
+4211	Get PHP constants
+11319	Execute a query
+9560	Renders the close button .
+7203	Adds a new discount adjustment .
+12782	Get all intersections .
+5052	Get content type
+10133	Insert a bitmap record .
+12591	Check the parameters for the query
+2123	Add multiple files
+7568	Parses CSS query string
+8292	Checks access for a url .
+12966	Short description of method getObjectTypeDescriptor .
+984	Stores a usage charge .
+4880	Get the resource for the current GridFS file .
+9321	Compile Markdown Echos .
+3958	Register additional assets
+6724	Validate required parameters .
+11563	LineBreaks text .
+4180	Notify user .
+1056	Finds all removed types .
+4209	Return information about a method .
+9990	Write image in cell
+10520	Add a string constraint
+210	Returns the name of the valid XML element .
+12020	Adds the set API method
+1159	Get the validation error message .
+5034	Hydrates an array to the target entity
+3598	Converts a HttpRequest into a Request object .
+7770	Get validation errors .
+1984	Get all image sizes .
+9484	Populate from array
+9182	Get value from cache .
+3154	Get a trace variable
+8096	Destroy the cookie .
+11706	Validates a collection based on a set of validators
+11680	Set Path .
+2727	Lists all ACLs
+134	Check if package is installed
+10540	Create a type modification string
+2502	Map the iterator to an array
+12914	Get filters as array
+8092	Decodes a number
+7069	Validates if given unit is valid .
+7840	Add phone number
+5560	Records an entry
+10831	Create a new entity from a \ SplFileInfo .
+6355	Set the timestamp
+82	Extract PEAR package to target location .
+2469	Maps all locations of a single content to locations .
+1252	Normalize element name
+760	Determine if the node is a collection .
+5700	Get the default button list
+4583	Listen to the decoded event .
+7685	Removes all non - numeric elements from a set of columns .
+1838	Find a model by it s column
+8716	Create new model instance .
+10915	find controller method
+4602	Encrypt data .
+11445	Method to get property Transporter
+875	Create token for nowdoc
+11692	Builds the requests for the ApiParser .
+391	Filter table aliases .
+12941	Stores permissions for the authority
+10449	Load a configuration file .
+9024	Checks if the given string contains any denied words
+5493	Add an expectation to the map
+51	Add a repository
+1658	Get DateTime object .
+8561	Cancel Shancelment .
+1811	Add Content Element Type
+3924	Get the value options .
+8971	Creates a rate object from JSON representation .
+2303	Add references to custom layout sections
+10085	Sets the output handler .
+8107	Returns the variables needed for the template .
+10605	Adds multiple headers at once
+12770	Authorize the given user
+7863	Draw a single character at the center
+3033	Returns a description of a session
+11268	Create a new migrator instance .
+2039	Create picture configuration item .
+12968	Renders a page
+11970	Extends the expiration time for the Lock instance .
+9914	Create a menu for a model .
+4240	Listen for config events .
+4017	Handle the field load callback
+11217	Get the method for a given route .
+1555	Build a query builder with validation rules without search .
+1962	Decode an email address
+771	Generates configuration file .
+2785	Extract failure message
+384	Validate image .
+3131	Persists the current test session .
+9122	Prepares the request stream
+2467	Set the impersonated logout
+3466	Register a controller for PUT action .
+7430	Adds a region .
+2081	Purge double opt - in tokens
+10330	Replace content for custom images .
+6707	After find callback
+6653	Remove extra data
+8288	Load the modules from the config
+11352	Get all errors
+5136	PHP shutdown handler .
+7583	Extract the info from the CurlRequest
+4657	Run docker command
+5424	Set the expected value for an exception .
+351	Get the input name for the attribute .
+6973	Builds the field value .
+12940	Asserts that the client is initialized .
+6206	Called on shutdown
+11401	Sets the start at .
+2063	Purge the search index
+768	Regenerate CSRF token .
+11441	Set a value in the registry
+7727	Set the login template for an account .
+11733	Publish a page .
+8469	Log an emergency message .
+277	Notifies users who don t want to unload
+2657	Create response object
+3857	Prepare the view for rendering
+7421	Initialize the product media gallery value with the passed attributes and returns an instance .
+3495	Adds a visitor to the collection .
+924	Get all invalid errors .
+8140	Create a template from a string
+132	Disables all installed plugins .
+8704	Applies conditions to Eloquent query builder .
+5928	Create a new category .
+12345	Displays a form to edit an existing Post entity .
+8568	Set the value of the CategoryQueryList property .
+608	Adds a token from the buffer
+10852	Echo a message
+3041	Persists all cached calls .
+8403	Load a class by class name
+7316	Sets the timezone .
+10160	Read MSODRAWING record
+5250	Save to database .
+2487	Searches for entries .
+4858	Get the pagination list
+5605	Write end of method .
+12714	Resolve method parameters
+3972	Decode the attribute value .
+12521	Render a custom field s label .
+3859	Add a filter rule
+12009	Sets the page title .
+12905	Get a list of resources .
+7311	Returns the solr date for a given year .
+983	Process the plan .
+9234	Updates an existing BlogCategory model . If update is successful the browser will be redirected to the view page .
+1949	Render related records .
+5570	Retry the request .
+7265	Selects rows from DB
+10935	Check email address .
+3205	Get the list of tags in a docblock .
+3049	Init compilation directory
+1225	Build query parameters
+3189	Returns the timestamp of the last timestamp in the range
+3768	Resolve path .
+2583	Prepare SOAP message for next request
+724	Get unique identifier .
+7038	Get the shipments .
+8084	Clear errors .
+11784	Update a page .
+3475	Get the WebSocket gateway address .
+6574	Checks if session is valid .
+11323	Get the annotation method for the given class name
+4533	Get a list of objects .
+7156	Sets subject data .
+12599	Get config value
+2700	4 . 0 upgrade .
+1066	D conflict between two types .
+7799	Get line from text
+11610	Connects the user with the given client .
+8102	Build a statement and return it .
+4535	Prepare the tenant to be persisted .
+850	Returns the index of the token at the given index .
+3074	Returns the rubrics for an AssessmentItem
+2623	Returns the days since install was started .
+2164	Convert single field
+3680	Inject all tables in the local menu
+7580	Verify that the configured URL is correct
+1964	Decode an URL
+911	Adds a blank line to the content .
+7569	Get job api service
+11372	Add service definition if found
+4526	Create zone object from definition .
+4037	Get list of templates for a given base .
+12816	Get all columns of a table
+8621	Compile all blocks
+6099	Make a PUT request to the API .
+1879	Protects folder structure .
+997	Remove a value from the store
+7875	Settle the repository if it s not exists .
+8454	Download a media file from a URL .
+3052	Get item index value
+2976	Serialize the closure .
+11929	Set Data Interface
+9884	Write the named ranges to the spreadsheet .
+3214	Disable an access token .
+11901	Assemble URL
+9272	Convert data to multipart data .
+9583	Add a cached route
+6933	Transforms the file
+2110	Set related records .
+9536	Checks if a parameter exists in the cluster
+11876	Get dump of variable
+1866	Add the sender name placeholder
+12893	Create a new OpenID .
+5406	Find the first match in the set of cookies .
+267	Loads messages from the database .
+368	Renders the table body .
+4235	Trims the given description .
+8253	Handles the account page
+6056	Update a folder .
+10616	Set the lifetime on the response .
+2270	Get table size
+7443	Displays a form to create a new Group entity .
+12416	Runs coding style report
+4708	Initialize Markdown and Markdown .
+11850	Creates a fault response .
+1585	Get self with links .
+11820	Return the default value of a column
+11134	Calculate the SELECT part of the query
+11793	Sets the CC mail .
+1991	Gets the login status based on the cookie .
+7879	Register the log viewer class .
+8633	Set the value of the OrderChargeList property .
+9343	Add row to matrix
+3955	Get the variant base
+2208	Check if a value exists
+10967	Check if connection is SSL
+10075	Convert control character to PHP code
+3450	Returns direct children of this section .
+8048	Receive data from the socket
+11012	Imports a schema file .
+2600	Look ahead .
+10527	Get IP address
+2537	get SoapClient for given msgName
+10681	Generates the URLSegment for the extended object .
+3772	Builds the language string
+1005	Convert a promise to a PSR - 7 response .
+12594	Creates a directory .
+9346	Get a single column .
+4501	Returns elements by class name
+2948	Release a PHP version
+2217	Get newsletter channels .
+8514	List Inbound Shipment By Next Token
+4704	Get an offset
+925	Get all exception errors .
+515	Executes the migrations to the specified version .
+11843	Get the coupon id .
+3780	Get the filtered attribute
+8191	Confirmation page .
+3379	Get default namespace
+6185	Clear flash messages
+10036	Get blocked contacts .
+4257	Get errors in console
+8668	Set the value of the self property .
+12964	Get the results for a month .
+10082	Register the configurator
+6487	Creates headers from the given server variables .
+9386	Retrieves a route
+9902	Checks if a cell address is within a range of cells .
+6902	Generate URL for given page .
+9956	Set protection on a cell range .
+5148	Get most recent email
+5536	Add a new page frame
+9792	Set the item type .
+938	Checks if a node is of given kind .
+5061	Calculate the width of a text .
+5615	Prints the end of a group .
+59	Adds a suggested package .
+9555	Get the upload handler .
+6708	Retrieve the reader factory .
+8923	Generate a patch document
+10847	Runs a git command .
+6631	Returns the authentication URL .
+2982	Adds a bundle .
+5954	Creates a new channel .
+5318	Wait for the process to complete
+10439	Parse next query line .
+6421	Returns a callable that satisfies the predicate .
+3093	Process action data
+2129	Loads the parameters .
+11038	Walk a node path
+1533	Check if relation is fillable
+11772	Resolve all required modules .
+10201	Write cell merge
+5779	Get first result
+1698	Load frontend user .
+539	Serializes a pagination resource .
+3069	Ends an item timer .
+1069	Collect all conflicts between a fragment and a fragment .
+6993	Generate cache key based on user role
+5934	Sets last login date .
+12768	Get a value from the store
+4221	Gets the abstraction of an array
+7869	Draw the core border
+6563	Get carrier data
+8105	Run an SQL statement
+9712	Write SUPBOOK record .
+7128	Add range .
+9477	Get top downloads
+526	Initializes the module
+6300	Render the navigation bar
+6761	Find a specific model
+8859	Perform a hard copy
+10356	Lock the session
+12823	Create contributor directory .
+8529	List financial events
+7693	Checks if sheet is an Excel sheet
+5757	Select all permissions
+5595	Create route object .
+10147	Read PALETTE record
+3576	Creates a new collection containing all attributes of this collection .
+1067	Find all conflicts found between two subsets .
+10342	Checks if a date is valid
+3896	Get the list of templates for the current page
+4065	Get the attributes that are referenced in this setting .
+6414	Creates an iterable from an iterable .
+255	This method is invoked right before the widget is executed .
+2751	Validates a custom snippet parameter .
+828	Checks if the given value is a valid variable .
+304	Resets dependent relations
+10447	Post a webhook .
+783	Report translation files
+12174	Adds a scalar argument .
+7366	Checks the privacy of a sale item .
+9736	Set the worksheet .
+12963	Checks if database exists
+9710	Write a window 1 .
+5102	Adds a select statement to the query .
+10823	Prompt user for input
+12693	Generates the slots
+3267	Open a file .
+7258	Merges the result of the sale item .
+1623	Build where condition .
+6059	Retrieves a media by its ID .
+12551	Check if the object is serialized
+3429	Determines if properties must be selected .
+11178	Returns the API for the current library .
+6490	Returns a specific selector .
+2749	Get VCL file
+7154	Check to see if a role matches the given role and action
+1353	Remove invalid fields .
+12928	Update a POI .
+4278	Read from a stream .
+315	Set vendor path
+9898	Convert a function signature .
+615	Resolves dependencies .
+7645	Gets the storage client for the stream type .
+5182	fill source .
+974	Validates the webhook signature .
+10996	Prepends a string to the file .
+1551	Checks whether the query adapter requires an inverse adapter .
+5418	Write the cookies to the jar .
+1711	Set empty end time .
+6079	Combine slide definitions .
+8323	Add pingback
+8910	Returns a callable function
+7486	Returns the index of the first occurrence of a given string
+10121	Write BIFF record BIFF record
+7910	Initializes the widget
+5255	Make paginationable
+4404	Returns the path for a given Location .
+6354	Set fake time .
+212	Initializes the client options .
+5878	Update the index
+5058	Generate a badge .
+8081	Report an error
+11974	Determine if the first parameter is valid .
+3633	List pools .
+10853	Sets the limit and offset
+2211	Fetch each item in the result set
+144	Inserts a node into the watch chains .
+8316	Start a password reset session for a given user
+10604	Set a query parameter .
+5504	Get the number of calls for a method .
+7438	Render an exception .
+8339	Get a YAML file .
+6806	Create Formatter instance .
+4267	Close directory handle
+888	Checks if the return type of a function returns true or null .
+12467	Finds and renders a FormGroup entity .
+7670	Returns the server hostname .
+9479	Respond with message
+10741	Build WHERE clause
+3419	Instantiate service container .
+5741	Prefix the data
+10070	Make a tag
+3020	Method to get information about a blog .
+5840	Crop a URL .
+10855	Get a string representation of the address
+11498	Search for a column by identifier .
+11673	Whether or not a given offset exists
+3001	Add HTML to the message
+12422	Get all messages .
+6085	Retrieve a Moodboard by its ID .
+4422	Executes the CLI action .
+8531	List financial events by next token
+9161	Parse the header line and add it to the response .
+11449	Fill the resource with attributes .
+730	Creates a new model . If creation is successful the browser will be redirected to the view page .
+8464	Get the current domain
+12470	Set the application config namespaces .
+11417	Add piwik code to template
+8628	Constructs a ListCompetitiveResponse object from XML .
+6856	Calculate the equinox date for a given year .
+1170	Creates a protected callable
+5807	After write hook
+11143	Processes the list of classes
+1349	Allow resource types .
+7043	Handle the table names for tag types .
+7054	Add Message - ID header
+4322	Build an attribute string
+9280	Delete records by where clause
+4147	Send get request and return response .
+7813	Converts a date to Gregorian date .
+6260	Get controller name and action
+5110	Appends a value to a variable
+4972	Flattens a tree structure .
+6226	Checks if the item is valid
+12908	Updates a resource .
+6678	Returns text for a range of dates
+7714	Switches to relative
+2142	Returns the session bag .
+10571	Validates if the HTTP cache is valid .
+784	Validates if the cache is valid
+11486	Resolve a non class argument
+4599	Kernel request event handler .
+2451	Adds the locale to the request .
+4717	Emit an event
+3219	Retrieves the current time delta
+7103	Generate query string
+4183	Filter by class
+751	Validates slug .
+7015	date year format
+11030	Returns name of the submit model .
+9142	Get all params
+10712	Create a new model .
+10468	Get conversion factor .
+12219	Error handler .
+4167	Returns string representation of class name
+4343	Pop the last call of the function stack .
+2281	Get the host name
+12395	Abstract constructor .
+8712	Adds a where clause to the query .
+3055	Get the last category output
+1906	Replaces wildcards with their values .
+3371	Traverses an association .
+11259	Convert PascalCase name to snake case
+7190	Copy a sale attachment .
+4317	Get the default arguments for a given method .
+12534	Get pagination information .
+4472	Retry a job
+905	Checks if the given index is an unary predicate .
+1501	Get the encoding that matches the given media type .
+622	Add with parameters
+11040	Recursive leaf path walk
+2470	Returns the maximum indexing depth for a given content type .
+4621	Build JSON Object
+10722	Add a count value
+6572	Register the migration commands
+8630	Set the value of the lowest offersingsForASIN result .
+3359	Preview image preview
+10477	Display exceptions .
+3014	Unlike a post
+2905	Add email to profile
+8543	Set the value of the ShipmentEventList property .
+11419	Get values from database
+3308	Generate the RSA signature .
+4146	Get the URL to call
+10506	Register log menu .
+12702	Gets a value from the container
+9823	Write workbook relationships
+10521	Build column const
+9375	Renders a template .
+6785	Build query string from options .
+5862	Expands all values in ruleset .
+7224	Executes the curl request .
+8596	List marketplace participants
+10699	Checks if a string is a birth date
+57	Removes a download from the given package .
+4179	Check if manager . yml file exists .
+4243	Run application shutdown
+10187	Builds the authorization header .
+5405	Set the age of cookies .
+4694	Add an ORDER BY clause
+1275	Send request to gateway
+12689	Get a configuration value .
+8286	Loads the default config
+7109	Returns the rounding increment value .
+11282	Populates this object with the supplied data .
+4997	Sets the search params
+12833	Generate config creator method
+12038	Drops a key
+651	Creates a SQL command for dropping a view .
+11246	Returns migrations .
+8914	Decode value .
+9821	Shift a column from one column to another .
+3866	Get or create a basic definition .
+701	Cleanup vendor directory .
+11187	Get a value from an array using dot notation .
+1147	Check if an attribute is a conditional rule .
+598	Join with eager loading .
+9089	Render the input body
+11086	Convert octets to octets
+10406	Remove a pair
+11841	Extract input from request parameters .
+7537	Clears this node and all its children .
+1285	Fetches resources for given resource ids
+8719	Reload a fresh model instance from the database .
+9754	Asserts that a file exists .
+2153	Update account action
+9636	Write to a file .
+12150	Checks the reserved codes for factories
+6282	Build http client
+12010	Adds a link .
+8259	Get a resource attribute
+1686	Updates the current user .
+5951	Adds a new item to the result .
+1046	Converts an error into a safe stack trace array .
+3715	Add a known attribute type
+6202	Error handler .
+11288	Get a related model .
+8334	Adds scope .
+2757	Return permissions to view terms .
+436	Call after an action
+8811	Adds a header to the request
+12707	Parses a command signature and options .
+1804	Invalidate cache tags
+993	Checks if literal value is valid
+7483	Returns true if the string starts with the given string .
+4200	Add methods to the class .
+4077	Fetches all palette combinations from database .
+542	Serialize the given models .
+9728	Creates a Period object from XML
+2553	Loads price options from request options .
+1068	Collect all Conflicts between two fields
+12804	Builds the column properties cache .
+9512	Get the permissions of the log viewer .
+12664	Adds a package to the application
+10622	Create a new instance with the whitelist for the given map .
+10125	Write the AUTOFILTERINFO record .
+2000	Fetch data from files .
+4799	Execute a query
+7255	Determine if the user is logged in .
+4467	Reloads the cache .
+8246	Returns the encoder for the given user data
+11914	Adds a new dynamic container .
+2361	Find all active timers
+2896	Capture email address
+10800	Renders the history table
+7898	Set the dynamic from address .
+4473	Send a heartbeat request
+12636	Get sandbox sign key
+9507	Show the log .
+1821	Get Pages for a page
+7289	Notifies the order .
+1368	Bind services to the container
+4503	Replaces this node with another node .
+8355	Build a model
+6861	Performs default value conversion by type
+12541	Returns a random string .
+11052	Static function to build dataset
+7381	Get route .
+3941	Returns the maximum number of children for the given condition type .
+6701	Parses a string version string .
+1709	Render backend template
+11176	Generates a random string
+9273	Filter text
+5824	Set the HTTP request method .
+1140	Computes the level of this node .
+7309	Create a new Time object from microseconds
+3253	Clears cart items .
+2326	Create a new Model from a DB result
+11963	Set a request parameter
+4511	Listen to the decoded event .
+6920	Validates an identity
+155	Executes the query and returns a scalar value .
+7808	Sets the number of retries
+1300	Get locale for cache key .
+6400	Initializes the dependency map .
+4808	Unschedules a WordPress event .
+6713	Get a single parameter .
+5307	Returns Path from Polygon .
+3570	Register hook callback .
+5388	Checks if the given value matches the allowed values
+546	Get the create table sql .
+3206	Parse response headers
+6234	Switch access - mode on existing binary file handle
+10635	Called when this object is updated
+5937	Sets the functionalities .
+2903	Download config as text
+11697	Translate a message .
+2178	Adds default values to the context .
+5177	Creates a new collection using the given callback .
+3579	Handle a meta join query .
+7565	Parses a set of conditions
+6544	Current sharding key
+7892	Set a property value
+10374	Removes a session variable
+1904	Execute the query
+11102	Converts country code to two - way country code
+5253	Find and throw an exception
+6915	Adds an attachment .
+9715	Writes Excel BIFF record format string .
+6267	Open a writer for writing
+9996	Check the delimiter character .
+11649	Retrieve database select query
+11292	returns attribute data when the attribute is unset
+1729	Regenerates the session id .
+7395	Get value by name
+4953	Call a helper method .
+2052	Creates a new picture instance from a file .
+3331	Create from resource .
+3153	Stores a trace variable in the runner context .
+12874	Save page .
+6890	Removes an assignment .
+922	Removes the two lines together .
+4538	Set the tenant ID .
+10896	Sets the host name .
+146	Move watch from one literal chain to another
+2296	Add a token to the URL
+830	Processes an exception .
+9813	Send a DELETE request to the API .
+8987	Parses a status line into HttpStatus object
+1769	Check if a field is set .
+7163	Builds the lines of the sale items view .
+445	Returns a behavior by name .
+5978	Objecttypes controller
+1357	Set relationship field .
+6925	Get findOne by country and method .
+8721	Get the translatable columns from the schema .
+9305	Set whether or not to emit events .
+7254	Checks if two states are better than the one
+1412	Returns a resource error response .
+12871	Performs a search on the specified filter
+302	Get attribute label .
+9203	Send a GET request to the API .
+11239	Runs the validation
+258	Renders a view file .
+7717	Returns the file state
+11089	Determines if a date is a Czech holiday .
+11800	Replace part of string
+4438	Create a new job instance .
+4372	Event output handler .
+10178	Removes a row
+5344	Create a new SoapClient instance .
+6854	Returns the tokens for the given payment .
+9798	Set the hyperlink to the cell
+11809	Fill the relation config for a given object .
+6187	Assign view variables
+8438	Set the post link .
+7514	Return next character
+6698	Compares this version with another one .
+4175	Get service providers .
+3067	Process a task
+11305	Validate an email address .
+7107	Rounds an amount
+2625	Adds geoIP action to HTML page
+6222	Returns the elevation for the given location and longitude .
+4291	Publishes the meta entry
+12960	Execute a query
+1637	Setup the queue .
+6452	Find all labels for the given text
+1848	Get the meta fields for a news article .
+7477	Download file .
+8669	Computes the file system differences between all configured resources .
+6606	Validate the access token response .
+5707	Get the link to this action button
+5491	Return a description of the difference between two parameters .
+11267	Loads a view file
+3263	Formats the price
+3270	Append to file
+9833	Set the workbook password .
+2087	Gets the default template path .
+11048	Adds system variable to datatree
+12293	Update a resource
+11423	Returns one or more open IDs .
+7674	load from tbs store
+6402	Registers the error handler .
+10302	Write the print settings
+9113	Initializes the controller
+7313	Sets the date of this object
+10097	Writes a cell range address in BIFF8 .
+4434	Calls a command .
+10415	Updates the table
+5584	Clicks a submit button
+9461	Append value filter
+2768	Create a new branch in the repository .
+8473	Write a warning message .
+1929	Generate the code
+8038	Finds an entry by its identifier
+9026	Determine if a string contains an email .
+9494	Format file size
+10732	Returns the second value in seconds .
+8205	Get job stats .
+9267	Add a method to a string .
+7929	Set the default group .
+4297	Clears a log
+4566	Get all form fields .
+7926	Fires an event .
+10347	Returns current timestamp
+6020	Remove media from deployment site .
+4287	Returns an array of subscriptions to the WAMP server
+11960	Reduce the collection to a single value
+4683	Stops the timer with the given key .
+2784	Indent the output
+12698	Perform archiving .
+8051	Get all events .
+3111	Get storage service
+1344	Is the request a read resource?
+7049	Builds sales lines .
+3950	Builds a child operation button .
+159	Sets the having condition
+5864	Get directory pattern
+931	Clears Tokens .
+6242	Reloads the file system .
+3945	Handle the data container event .
+2773	Fetch the tags from the working copy
+8730	Checks if the current user can select a folder .
+1427	Get the relation name for a given field .
+9557	Adds multiple parameters at once .
+11338	Get the location of the primary key .
+10781	Return absolute path to an asset
+2928	Get keys .
+4268	Opens a directory
+3457	Replay the history events
+4978	Filter a value
+610	Get an instance of a class
+2166	Convert one order field
+1338	Sets the default API name .
+7508	Sets white space .
+2618	Get site location .
+12267	Renders a CMS block
+4917	Sets multiple parameters at once .
+9483	Returns an array representation of this entity .
+2441	Decode URL .
+2338	Initialize the tl_version
+10425	Send response headers .
+4450	Get job with given jid .
+7593	Open a form tag .
+10306	Set Line Style Properties
+10798	Date To SQL
+8582	Set the value of the Any property .
+5023	Whether or not this item is allowed to select multiple items
+9951	Duplicate cell style .
+9773	Asserts that the target is readable .
+704	Set default roles .
+4442	Register a list of completed jobs
+7136	Merges another margin .
+4133	Initialize the given object .
+1171	Get a protected property
+1148	Get attribute name
+3522	Refresh an OAuth token .
+9235	Creates a new banner model . If creation is successful the browser will be redirected to the view page .
+5958	Returns the Client object matching the given ID .
+4763	Creates new user and returns true on success .
+8500	Set SSL options for the given connection .
+11142	Method to get property attributes
+7083	Get or set the request method .
+8512	List Inbound Shipment Items By Next Token retrieve the next batch item and nextToken .
+10215	Scans a DOMNode and returns it s text
+12957	Authenticates the identity .
+8958	Validate response .
+3994	Builds the language - aware widget .
+10203	Set vertical .
+5865	Report additional storage claims to a local file .
+8715	Get an access token .
+3043	Unpacks a TimeLine object into a QtiLine object .
+9733	Set ARGB color .
+6863	Register the Notifyme manager class .
+12749	Validates the given SKU .
+11503	Creates a form to delete a Comment entity .
+9647	any param matches
+4912	Sets the given variables .
+4413	If the exception is in a fallback route .
+462	Returns a string representation of a condition
+6493	Compare two Accept Media Type headers .
+9186	Merge parameters into an array
+4300	Starts the end of a group
+2108	Find options by multiple related tables
+1360	Creates a custom media .
+6864	Updates the totals of an invoice .
+1702	Get all pages that can be searched
+3128	Calculates the duration of a time range .
+7498	Creates and sends a message from a template file
+11686	Get location widgets .
+7939	Deletes a FTP Access Block .
+8964	Checks if an object matches an array criteria .
+7455	Get taxonomies .
+4238	Has log .
+9144	Generates a random string .
+6518	Creates a new Time object from a \ DateTime instance .
+2230	Get the target folders .
+2253	Get parent entries
+499	Writes an integer to the file .
+373	Get options values for the current action .
+7354	Get the URL for a subject .
+11058	Returns the data store .
+6427	Get user profile
+826	Checks whether a comment is before a struct .
+10797	Get decrypted password
+3464	Define GET route .
+9511	Delete the given log .
+9449	Check if method is allowed
+881	Fixes types of annotation .
+9015	Get the root model
+6877	Build the venue data .
+8312	Handles the password reset request .
+6562	Joins a path
+5770	Get the currently logged in administrator
+11988	Read a line from the current position
+5575	Clicks a submit button by name
+2423	Updates the hashes of a resource
+10554	Tries to find the best match for the given host
+3487	Resolve by web token JWT signature generator .
+3539	Get Adldap provider .
+12046	Get all thumbnails for a video
+2437	Set the session data
+9450	Extracts the path and regex from the path .
+10789	Sets the search facets in the session .
+6815	Build a CSV file .
+9545	Create a table .
+1979	Generate the messages
+4714	Replace text in string
+1342	Get the encoding parameters instance .
+8077	Make a DELETE request to an API endpoint .
+9257	Gets a service from the container .
+10909	Inject the given methods .
+10621	Compute a percentage
+4812	Add context value
+12759	Parses media string into an array .
+8324	Get a list of pingbacks
+7559	Select method .
+7948	Login by ID .
+562	Logs a debug message .
+12548	Get a single theme plugin by name
+1339	Adds a record to the identity map .
+8456	Executes a drush command .
+9271	Set the URI
+7570	Get application api service
+5458	Open a tag
+2059	Generate the sitemap .
+11047	Gets the value of a property .
+7146	Saves custom profile fields
+6499	Before step .
+1734	Validates the given code .
+12398	Set select clause .
+3736	Updates variant attributes .
+11210	Add a registry
+6119	Deletes a server .
+10438	Sets an attribute
+2554	Make a new pricing option for a given family
+7713	find the end tag of the document
+2545	Creates a DOMXPath object for the response .
+556	Sets the given components .
+11360	Sets the sort keys
+4337	Get output as default
+7386	Move the temporary file .
+12341	Prints error message .
+4729	Check if a word is singular
+5995	Adds a folder response to the current response .
+7199	Assigns a SaleItem recursively
+663	Get the master connection .
+3028	Set the OAuth consumer .
+2946	Set the roles .
+5872	Returns the transformation for the given orientation
+1414	Creates a 404 error response .
+10186	Deserialize an array
+9851	Hashes a password
+6788	Get the customer group from the event .
+11509	parse message from request
+5183	Parses an article
+8452	Checks if a file exists and is a download or not
+5887	Get icon name
+10832	Lists all Properties models .
+8826	Convert migration name to class name .
+7482	Changes the encoding of this string .
+10038	Rename a custom field
+8348	Sets the value
+1604	On exception handling
+11023	Run a specific task
+11480	Get the JSON response body .
+12459	Display a list of all custom fields
+6801	Install tax codes .
+10161	Read PHE record
+4749	Get addons for a given set of plans .
+1293	Retrieve the token from the response .
+3277	Returns all keys .
+11836	Add action .
+6613	Get or set settings .
+8489	Get CPU architecture
+8432	Generate the dsn
+11084	Deletes a directory
+11168	Get the API as an array
+6510	Initializes the handler .
+5351	Set a database password .
+2636	Get last version
+6746	Get the translator
+6827	Check if the given action is valid .
+9501	Watch .
+10626	Get the absolute path to the document root
+3482	Get self with content availability .
+11279	Apply data to view .
+5220	Returns true if the path contains the given path .
+1257	Create a runtime instance .
+126	Create a rule to remove a package
+11584	It is used for calculation calculation
+12367	Returns value by name
+3110	Removes a value from the assessment section
+9510	Download the log .
+1874	Adds Contao components .
+5358	Creates parameters from Operation metadata .
+11299	Returns full class name without namespace
+6664	Instantiate the provider .
+8460	Executes a command
+3564	Cast value to string
+11895	Decrypts the given data
+4553	Listen to the created event .
+2286	Get user agent
+4806	Processes the member variable comment .
+10880	Renders the previous exception page .
+3842	Adds sort element .
+11418	Creates an instance of this class .
+10311	Get the recipients .
+3437	Refresh fields .
+9417	Return the FWHM .
+9631	Set a setting value
+9968	Set a hyperlink for a cell coordinate .
+4725	Add rule .
+4456	Fetches the event queue for the given event name .
+1479	Remove a relationship from a resource .
+6167	Write the current time
+12814	Returns a list of nullable names
+2157	Generate the youtube link
+2356	Checks if the current user is a backend user .
+4206	Get the properties information for a given object .
+9619	Check the answer
+7226	Get information about the last cURL request
+8773	Register core aliases
+12287	Inits a block if condition is true .
+4110	Converts an array to a tab list .
+3682	Returns the filter factory .
+1688	Update the style sheet
+1809	Get content element group
+4383	Build an argument string
+12602	Deletes a file .
+4113	Returns block information
+7042	Get scaffold config
+3338	Converts a DateTime object to a string representation .
+8549	Set the value of the RetrichargeEventList property .
+10494	Divide this value by a given value
+2370	Highlight a string
+6447	Get the user s profile .
+1367	Boot the Blade directives
+11254	Drop all views .
+5718	Do publish and close the form
+10035	Unsubscribe from a contact .
+4352	On config event .
+10584	Create empty directory
+2127	Fix url paths
+5485	Check if image exists
+12460	Get default groups
+3176	Get a runner navigation
+10849	Fill document with mapped fields .
+200	Check if the target relation exists .
+453	Builds a DELETE query
+294	Sets an attribute
+1318	Visit a PUT request .
+12868	Resets the user s password .
+12323	Ask the user questions
+5071	Traverses the DOM - level header tags .
+3600	Create a Http Response from an Exception
+7846	Cancel one or more messages
+2192	Check if an alias is already registered
+2033	Find page with details
+9905	Update single cell reference .
+1149	Sets default options .
+8207	Put a job in the tube .
+362	Get widget options .
+481	Adds a primary key to a table .
+419	Internal method to validate CSRF token .
+2871	Get modules from Magento config
+4789	Update data in the table
+1839	Find a model by options
+6940	Remove the last item from the list .
+5379	Wrap the given text .
+8942	Query a changeset
+10216	Add items from an array .
+8078	Build the URI .
+243	Renders a single attribute .
+3753	Saves a model in the database .
+12080	Update a child resource
+8474	Write a notice message .
+805	Checks if the given token is a void return .
+1673	Is public .
+4828	Create a new bill
+11045	Read the content of the file
+5662	Merge attribute .
+12026	Generates the DocBlock for a method .
+9714	Writes Excel BIFF style record .
+10865	Sets an instance property
+10089	Adds an Attachment object to the message .
+2417	Add a row to a tree .
+7078	Check if the given sale type supports document type .
+9008	Prepare column definition
+3690	Handle a create variant action .
+8504	Confirm transport request
+12189	Get primary relation .
+8589	Set the list of report schedules .
+186	Renders theStrike element .
+6188	Render the given data
+8624	Set the value of the ShippingServiceList property .
+6828	Returns the delivery address of the shipment .
+12730	Render the current navigation
+9316	Returns a filtered image filter
+12276	Builds the templates map .
+12453	Generate sample package . xml
+3085	returns an array of referenceItemRefs by placeholder
+11199	Deletes a value from the container
+11005	Set the sandbox .
+11746	Get Device object .
+1509	Get resource url
+7385	Handles the upload action .
+7795	Set the statement body .
+6536	Try to retrieve the data from the array .
+8876	Sends the email
+4577	Get an XML object .
+2731	List active Backends
+2539	Executes a method on the SoapClient
+10734	Sets the lower value
+12580	Preview a video by name .
+11477	Bootstrap the theme .
+528	Gets repository tags .
+10270	Set the reply - to address for a mailing
+5674	Checks if two keys are matching .
+30	Appends the given packages to a bucket .
+6050	Adds a property response .
+11173	Decrypt data .
+2393	Add a file
+10995	Write a file
+6237	Get the width options .
+5468	Add authentication headers .
+3395	Attempt login .
+12180	Get the taxonomy object .
+6836	Check if the identity is valid .
+8661	Convert GetFeedmissionRequest to name value pairs
+10260	Returns the IP address .
+8313	Initiate password reset dialog
+4070	Gets the additional stylesheets .
+9369	Resolve request and response
+11945	Handles the OpenPlatform event message .
+501	Returns the name of the header checkbox .
+12969	Transforms the data from the front end .
+7775	Handles validation errors .
+11076	Returns Http Client
+11743	Removes a page from the website .
+3985	Check if route is active .
+3572	Set an attribute
+6929	Check if the shipment is correct .
+12401	Retrieve all data .
+5856	Initializes the rulesets .
+10073	Get all drawings
+11617	Fetch records .
+5403	Fix the path
+4036	Fetch the templates from the resource directories .
+3059	Select an adaptive item
+4392	Check the configuration data .
+8268	Opens the file for reading .
+11942	Validates a single argument .
+1400	Output an exception .
+3439	Returns the section object
+4567	Resolve form fields .
+7062	Updates the customer s balance .
+4139	Get OAuth parameters
+7476	Returns entities by their values .
+11281	Generates a random float .
+3254	Returns cart item object .
+955	Retrieve detailed information about the charge
+12319	return redirect url
+1813	Set the template syntax
+6156	Redirect to url .
+259	Finds the view file path .
+104	Determine if the given headers are rate limiting .
+1393	Prepare a JSON API exception .
+9419	Generate a number of random samples .
+257	Initializes the component
+1881	Checks if a file is valid .
+4264	Executes the publish callbacks .
+7782	Initializes timezone .
+6391	Read SCORES tracking for a given attempt .
+10141	Load an OLE record .
+1422	Create a model identity .
+7148	Returns the total of the cart .
+6127	Set the expire date .
+7222	Clears the tracking number .
+5728	Renders the form field
+5558	Searches for form in the current context .
+5667	Get type of value
+10523	Get parents from request .
+5396	Prints a skip message .
+5619	Prints a fail message .
+1789	Render an article .
+7505	Assign a new namespace
+8852	Get current tag
+12018	Setup the queue
+10390	Load XML from a string
+2494	Escape reserved characters .
+1106	Writes migration file .
+3700	Handle the grouping information .
+897	Fix the tokens between two tokens .
+5935	Set the groups .
+1738	Generate a single src
+8711	Where original method
+9286	creates the table
+1418	Throws a new JsonApiException .
+3312	Get the cache key .
+9849	Create a PSR - 7 signed response object .
+12494	Find data by ID
+12067	Fetches all projects .
+5612	Print a assertion .
+11222	Check routes and callbacks
+9253	Get container initializer
+2912	Format a number
+2908	Decode the subject
+3037	Set data for a call .
+12434	Checks if the bonus is interrupted .
+5624	Sets the coordinates .
+387	Sets attribute orders .
+1558	Determines whether the query requires ordering .
+3448	Unserializes an attribute .
+12626	Shortcut to POST request
+3497	Adds default visitors
+8758	Adds a tick to the tracker
+8228	Checks if limits are allowed
+5843	Checks if any additional fields are present in the schedule
+10727	Returns the year in seconds .
+9554	Set the naming .
+5633	Collect hidden files
+1931	Attach a file to the email .
+3702	Get a legend .
+12263	Render a custom field .
+3654	Purge the meta - models assets .
+12843	Add an option shortcut
+7389	Get response .
+3299	Set the headers .
+7390	Sets a 404 response
+9382	Returns HTML tag for the given class names
+1034	Complete list value .
+2288	Find an unactivated user by email
+12642	Set a value in the collection
+10175	Get the highest coordinate at a given row
+12191	Builds the exception message .
+7510	add an error
+2465	Check permission for allowed comments
+4327	Check if value is a list
+642	Creates a SQL command for creating an index .
+9118	Returns the best view that matches the given request and action
+11383	Build middleware
+408	Returns a query parameter value .
+11539	Adds a block to the source .
+6097	Sends a GET request to the API .
+4395	Returns whether the payment provider supports the given payment provider
+71	Filter the given package map .
+12739	Remove a class .
+3229	escape a string
+1599	Attempt to authenticate the guards .
+4688	Where .
+8804	Get a flash value
+157	set where condition
+9038	Executes a query .
+12906	Display a single resource .
+9535	Parses a variadic parameter .
+9982	Write a comment in XML format .
+1770	Returns the errors as a string
+248	Destroys the current session .
+8425	Get a query to find all active pages .
+11347	Renders the field with the given name .
+10987	Dump a value
+10240	Get cell value
+12382	Return the number of days in last month
+5060	Creates an instance from a URI .
+9274	Return service config
+11652	Init the REST route .
+5259	Get all models .
+5801	Get delete cell
+8641	Set the value of the ShipmentAdjustmentList property .
+10596	Init view panel row
+4916	Set the value .
+8052	Returns events as JSON
+7718	Prepare a Locale object for conversion
+2143	Generate 403 page
+2760	Fetch the branches in the working copy .
+9233	Creates a new blog post
+2851	Search for config values
+12255	Removes a compiler
+7453	Render the before tracer .
+4572	Sets the identity UUID .
+739	Saves all assignments .
+786	Returns an array of all validators .
+8554	Set the value of theoanicingEventList property .
+1615	Read session data .
+6235	Create a directory .
+5349	Install an operating system on a VPS .
+7516	Expects the next token for the given token .
+1065	Check if there are conflicting fields
+8528	ListFinancialEventGroups By Next Token
+12384	Get hits per day
+3935	Sets the searchable property .
+7456	Ensures the specified directory exists .
+5579	Click an image by ID
+9607	Projects this unit into another .
+1340	Returns true if the resource with the given identifier exists .
+7116	Watch for payments .
+2780	Builds the options array .
+669	Generate dependency data .
+1208	Move a child to a specific position .
+1940	Check if a recipient is unique .
+9216	Deletes an existing Content model . If deletion is successful the browser will be redirected to the index page .
+8860	Set the publish date
+4363	Converts a string to UTF - 8 .
+428	Initializes the controller
+9339	Get value by key
+1490	Get the decoder that is equal to the given one .
+431	Get module by ID
+6248	Returns all permissions .
+3250	Scope for current user
+4893	Compares two arrays .
+2661	Delete a request setting
+6155	Convert a value
+10142	Reads a default value from the buffer .
+9611	Returns the URL to an asset .
+6075	Set the status of a media .
+363	Renders the items .
+1869	Parses a file
+9474	Read one value from the current position
+1777	Check if the option is selected .
+6341	Initializes the static class
+9537	Gets the prefix of a given parameter .
+1	Build dependency information
+9429	Answers an array of class names for the extended object .
+2897	Replace the current database profiler
+1439	Get the stub for the model .
+2323	Returns the CSRF token .
+11966	Renders the slots .
+394	Update all data in the table
+11446	Retrieve the spooler
+1381	Validates to many relationships .
+5419	Parse header line
+8090	Generates a unique identifier
+4193	Dumps the properties info .
+5587	Returns an array of cookies
+6566	Call the API .
+9080	Parses a request element .
+3406	Load application commands .
+11131	Returns the root slashes of a pathname
+8433	Execute migration action .
+3782	Format a model to a label .
+60	Adds recommendations from a package
+891	Sets the type of content .
+12066	Invoke a RPC call
+6343	Compares two objects .
+8427	Returns a controller instance
+5821	Writes file to the container .
+4491	Register a device on a topic
+6358	Sets the timezone .
+1780	Generate the wildcard .
+8097	Validates the request .
+6230	Get permissions for a module .
+12650	Reads file contents .
+1534	Get the method for a given relation name .
+7681	overwrite the merge cell for a single cell
+10060	Set meta value
+8856	Increase the number of retries .
+8599	Convert CreateSubscriptionRequest to name value pairs
+2017	Resize an uploaded image
+1624	Releases a lock
+5778	Set the SQL statement .
+11140	Join from array
+9700	Generate the response
+11363	Tries to sign a list of mail addresses .
+4228	Build an error array
+7273	Generate a fake table name .
+322	Returns the plural form of a word .
+84	Expands a path .
+252	Unset all flash messages .
+11105	Adds a table to the query
+11471	Show response for editing .
+11158	Get video id from url
+5321	Remove the mutex
+12904	Sets the access token .
+5114	Convert encoding
+3271	Write data to a temporary file .
+9037	Override update method
+9155	Parse action annotations
+7082	Get or set the URI
+11877	Dump query result
+8609	Convert RegisterDestinationRequest to name value pairs
+3208	Encode a string
+1761	Fetches a PHP file without tags .
+1371	Make a new validator instance .
+4996	Gets the column map for this table .
+5239	return type of parameter
+2999	Sets the error emails .
+10461	Initialize the example file .
+5057	Get controller class name
+5204	Check if url is active
+5316	Returns the result as a collection .
+3032	Returns the URI of the delivery session
+1461	Order query .
+7081	Handles post copy event .
+2029	Find published fallback by hostname
+65	Normalizes a file path .
+5228	Create a new Injector
+10266	Set the rotation value .
+6961	Creates a Julian Day from a given year .
+9453	Get a collection of results .
+3618	Set the fan mode on the device .
+5591	Fetches the response from the given URL .
+10714	Update model by id
+11196	Determine if a value exists .
+5846	Writes a message to the syslog .
+10585	Creates a temporary file .
+2255	Removes nested pages .
+10890	Provide input .
+12695	Get vendor directory
+3193	Loads the data from the storage .
+11073	Sets a string value .
+2986	Generates the form .
+1684	Check admin status .
+4351	Set debug config .
+2182	Render the image size item
+9840	Encrypt JSON response with a pre - shared key .
+246	Fix the primary keys .
+7887	Parse the log .
+8170	Removes password from user .
+9301	Sets the scheduleahead time .
+7889	Create a log instance .
+1188	Returns a callable for a validator .
+4629	Prepares the query parameters
+5003	Get configuration from services .
+9082	Parses the remote host from server variables .
+12617	Removes an attribute
+7946	Returns the properties of a line .
+5334	Sign the request
+10804	Retrieves history user
+8858	Creates an absolute symlink .
+5870	Returns the basic metadata of an image file .
+26	Get remote contents .
+7373	Updates the current password .
+4007	Create a new meta model .
+8741	Get the i18n delete query .
+5916	Password reset method .
+4965	Get request parameters
+3179	Returns the qti items for the current query
+8143	Returns the Lexer instance .
+10905	Returns a list of files in the directory
+2572	Loads the session handler from the given params
+10535	Retrieves a value from the container .
+9780	Returns the length of the given value .
+7160	Builds the sale view .
+12542	Load the details page
+2614	Get website name .
+204	Moves cursor to specified position
+10508	Register the logger .
+9909	Set the position of the carousel
+10074	Initialize method .
+6109	Adds a set of specified permissions to the channel .
+4338	Removes hideIfEmpty groups from the log .
+8303	Asserts that the given key is a boolean value .
+5782	Route delete action
+9428	Update the CMS fields .
+1130	Makes the first child of a node .
+1612	Set criteria id by type
+12438	Gets a child field .
+12085	Stores the media object .
+10978	Set verification code .
+8019	Get S3Client
+3553	Set meta key and group value
+10696	Convert to array .
+4995	Get next active form name
+6968	Recalculates line amount .
+6019	Delete a deployment .
+11958	Removes a single element from the set .
+10381	Unify files .
+11921	Recursive diff of two arrays
+9447	Get the symlinks for this package .
+8001	Calculate the binary response data for a challenge .
+12857	Set BuiltIn Queue Driver
+11002	Set redirect URL
+12247	Get a node by name
+8175	Optimizes print node
+333	Adds a value to the cache .
+12531	Get the payment status .
+8694	Parses a size string
+4890	Renders a page template .
+12348	Gets the connection initializer .
+5663	Remove quotes from quoted string
+12865	Clear all quota .
+6333	Validate the checksum of a string
+7149	Calculates the given adjustment .
+5326	Start a profiling .
+4339	Sets OutputAs to Debug Bar
+12978	Detects the metadata driver .
+9737	Sets the width
+6775	Updates the key of a sale
+10806	Return config array
+9842	Create a JSON response .
+12818	Transforms a command into a message .
+9392	Return the skip rows clause
+8676	Flips the collection values .
+6917	Check if the object is empty
+2846	Returns URL for given path
+8509	Get prepare instructions for SKU
+100	Registers a set of PSR - 0 directories for a given prefix .
+11430	Run a specific route .
+9847	Encrypt an HTTP response with a public key .
+5938	Adds a functionality .
+8387	Sets the DISTINCT clause
+10392	Parses XML file
+4831	Retry the job
+10273	Update a custom property .
+4480	Set the job data .
+6361	Returns a DateInterval representation of this Duration .
+742	Called after the view has finished .
+3637	Initialize runtime directories
+506	Returns message formatter .
+2740	Block execution .
+810	Replace short names with their equivalents .
+862	Gets a value from the cache .
+2241	Get an article by ID
+11900	Is the most recent log entry
+530	Sort CHANGELOGs for a given version .
+12648	Get response result data
+288	Extracts the language from the request parameters .
+5896	Retrieve an image template by ID .
+3373	Redirects to yuml
+3348	Prepare paged params
+12208	Get single widget collection .
+3443	Returns true if the field exists .
+1358	Creates a new Media object .
+921	Fixes the annotations .
+3672	Get page candidates
+9897	Convert string to pg string
+7586	Set destination path .
+145	Propagate a decision to a decision .
+10983	Returns disk usage .
+8510	Get transport content
+12291	Find post .
+11663	Save to file
+11481	Save page .
+10573	Registers the session handler
+3200	Binary pop function
+2666	List items of a dictionary
+4552	Checks if an object exists .
+4499	Merges two arrays recursively .
+5315	Generate blocks .
+3075	Process the current tool
+1887	Returns a link to a given page .
+8117	Ensures that the content review type is changed
+8941	Expands a BBoxet .
+9068	Converts any value into a string representation .
+4073	Gets the currently authenticated user .
+8885	Send the request
+135	Ensures that the binary presaries of a package is present .
+12201	Display the media page .
+6808	Formats a number .
+1302	Returns the default locale .
+11019	Get route name
+9443	Set pack options
+1818	Set single src flags .
+1239	Returns the actual type of a value .
+3551	Parses an inline element
+12809	Check if given column is primary key
+3760	Create the conditions for the given palette .
+10708	Get many records
+5092	Assemble the query
+3507	Process the difference between two texts .
+273	Sets the response as XML .
+8913	Set WHERE param
+12107	Get a page by name
+8015	Executes the command
+6172	Set schema config .
+9240	Renders the language switcher widget
+5226	Checks if the given value is a mismatch of the given type .
+10372	Register styles .
+1150	Render the validator .
+68	Creates a directory .
+483	Creates an index .
+5643	Make all reporters
+9637	Handle an API key request .
+10927	Updates the width of a column
+127	Ensures that the packages are present in the package .
+12261	Cache custom fields group
+2997	Sets the from email address .
+4564	Handle kernel exceptions .
+4373	Build an argument string
+5701	Creates a FieldList based on the given buttons .
+3159	Stores the variables in the test session
+4354	Sets the current file .
+1618	Returns the value of the first column of the query result .
+9814	Adds entries to the blacklist .
+11802	Import an object
+12376	Compares two values .
+6181	Returns the severity for the given error code .
+10258	Get company name
+10226	Creates a no associations menu for a model .
+10221	Get conversion group units
+6627	Returns the parsed response data .
+7554	Check if the given conditions match the given conditions
+4012	Calculate pagination limits
+1482	Create a new encoder instance .
+4665	Creates a new message
+1731	Trigger the import user hook .
+5198	Saves the message to the queue
+3451	Records an event changed .
+9533	Preload command line arguments
+7968	Get the fax consumers
+6990	Translate API Doc
+12880	Validate and set the user attributes
+7232	Create new exception from currency .
+5768	Adds a new column to the set .
+12088	Determine if the given user can view the response .
+4032	Pre create an inverse image .
+849	Returns the previous token of the given kind .
+687	Recursively get all children recursively
+1596	Validate the data attributes
+10119	Write the right margin record .
+9857	Is cell valid?
+6862	Register the factory class .
+3956	Get siblings matching the given filter .
+12302	Get a child resource
+9509	Show log .
+1715	Has a field access to a given field?
+5010	Get permissions object
+6804	Install customer groups
+2753	Get Request for given path
+3599	Handles an HTTP request
+5635	Print exception message .
+10754	Returns the user s birth .
+11075	Set an array value .
+5192	Add a route to the collection
+5038	Gets an image by key
+1864	Clears legacy attributes .
+10945	Pre render hook
+8329	Adds a where exists condition .
+2232	Get das list options
+12807	Get a collection of objects by a column and a value
+3801	Returns cache container .
+27	Writes Composer packages .
+10524	Unsets a value from the container .
+2866	Get the total line count .
+6148	Set request body
+11999	Phalcon query function
+3279	Replaces a value in the database .
+7194	Get thumbnail file
+9307	Sets the JSON API security hash
+6153	Set the property type
+11344	Remove a field
+9085	Get an alias for an abstract .
+3885	Collects rules for the given filter setting .
+3268	Close file .
+6658	Convert to JSON
+6432	Remove a display field
+11819	Add App dependencies
+761	Returns the string representation of this code
+5906	List account settings .
+12488	Write output to file
+5672	Return a string representation of a float difference .
+12350	validate the api session
+5750	Sets the roles
+3504	Create error notification exception
+5931	Sets the field definition .
+5867	Returns the orientation of a file .
+5777	Generates a null value .
+6843	Call a closure .
+10277	Get default row height for row
+10822	Write a message to the console .
+11505	Get the slots from the given range .
+12256	Get Skyline App Directory
+4205	Get the parameters of a method .
+5188	Create a new page object .
+3560	Get the type of a value
+3918	Check download .
+12059	Sets deletion target
+429	Get unique id .
+9423	Returns the size of the stream
+9005	Get log levels
+5510	Specify expected arguments for a given method .
+4601	Kernel request handler
+11619	Get the current site
+5985	Set the access tokens .
+1273	Whether the current response is ambiguous .
+7016	format gg
+5076	List all items
+7822	Refresh pipelines .
+11909	Get the required parameters .
+9137	Invoke a callable .
+4809	Deactivate cron .
+8125	Answers true if the schema request is requested .
+6395	Initializes the storage .
+4199	Add the constants .
+4952	Checks the rating value .
+6688	Checks if the current request is a POST check .
+2398	Change the subscription status
+5572	Authenticate user .
+11858	Returns the handler for the paired data item .
+5760	Get permissions .
+9691	Compile katar file
+6216	Transforms realm name to slug
+8161	Blocking user .
+256	Triggered after a widget is ran .
+10434	Prepare type service configs .
+7131	Updates the prices of the supplier .
+8482	Get operating system name
+11625	Process content .
+8827	Generates a hidden form field .
+11500	Setup database adapter
+3048	Initialize the test session
+10402	Create an application .
+478	Drops a column .
+11762	Get collection static property
+8192	Try to guess the file type .
+5144	Create a photo object .
+1657	Get argument by name
+822	Fixes the semicolon after a curly brace closing brace .
+8947	Upload a trace .
+6010	Sets the DateTimeRange .
+10560	Initialises the controller
+1543	Creates a cursor for the given parameters .
+7401	Recursively get errors from form
+4924	Add a class to the current region
+1154	Call placeholders .
+2837	Returns the data as an associative array
+10844	Calculates the price of a variant .
+8567	Convert GetShipmentRequest to name value pairs
+2378	Convert special characters to HTML entities
+11306	Get data by id
+12681	Send the message .
+3492	Create a new instance with the specified headers set .
+776	Checks if the current version supports fractional seconds .
+9405	Adds a new middleware to the stack .
+9695	Apply inline style
+1927	Whether the image is semitransparent
+5393	Prints a fail message .
+11790	Clear a set of messages .
+2401	Generate a URL to a route .
+7266	Find record by ID
+12230	Removes nodes by xpath
+1790	Prepare the alias .
+11577	Displays account confirmation page .
+9684	Get storage interface
+10255	Get company type
+10984	Get current host ID
+840	Sets the page size .
+6379	Read a record from the store
+8673	Returns iterator for keys from a given index .
+5993	Adds a sort .
+4379	Dump an array
+4126	Gets the full namespace for a document alias .
+208	Prompts user for input .
+11151	Returns the ExtDirectDirectDirect API object .
+6349	Adds a limit to the iterator .
+8727	Overrides the model s attributes .
+11450	Get the uri for this resource
+9604	Compute the scalar triple product .
+8345	Set the domain prefix
+9767	Returns an expectation for the given value .
+6906	Adds a custom recipient .
+12615	Adds an attribute
+11981	Check if the resource is accessible .
+6778	Updates the vat display mode .
+5644	Gets the status of all reporters .
+3873	Get the base url for a page .
+2266	Checks if an index exists in a table
+7909	Renders the search input .
+11941	Execute an action on a request .
+3544	Check if file can be writeable .
+9269	Set the Phase value
+7986	Get models .
+371	Is color enabled?
+10003	Recursively remove a file or directory recursively .
+7692	Convert an XML element into an explicit item
+6719	Handle the authorize response .
+12808	Gets the primary key information of a table .
+7088	Get or set error action
+12444	Image manipulation .
+1885	Returns the items as a string
+941	Returns the path array .
+12686	Infer the type of the given value
+9347	Is diagonal
+8632	Sets the list of report request info .
+4088	Converts a DSL sort array to a string .
+7499	Render a string template .
+3068	Initialize service context
+444	Trigger an event .
+4	Build the list of dependencies for a given dep extension .
+1287	Fetch collection of resource
+6969	Calculates the discount line for a line .
+6607	Get all entries
+8983	Asserts that two tables are identical .
+2931	Writes setter information to file .
+2146	Generate email object .
+2504	get messages and versions from wsdl file
+11996	Generate SQL query .
+1572	Get the process associated with this request .
+10888	Adds an option .
+3141	Move an element
+6672	Restart all ratings
+10566	Ensure that the response data is JSONP .
+211	Hash plugin options
+5669	Clip a string
+3452	Returns the aggregate root for the given aggregate id .
+746	Builds the default value of the column .
+2667	Get a specific dictionary
+8618	Removes a block .
+6255	Search for pickup points
+10	Get the currently installed packages .
+2823	Delete expired requests
+7757	Process data .
+10988	Get configuration tree builder .
+1725	Check if a secret can be generated
+3697	Checks if the cache is purged .
+11512	Displays password recovery form .
+4859	Returns the list of neighbors for a callback .
+8577	Set the value of the ItemFeeList property .
+7165	Builds a discount line .
+5301	Generate CSS for all glyphs
+10654	Checks if a property is set
+11424	Get all lists .
+12389	Create unique hash for the given identity
+11095	Generate a pin .
+5103	Appends a SET clause .
+9290	Applies the serialization metadata to the given array .
+7471	Creates a new User entity .
+270	Get enabled state
+5715	Do save and redirect
+795	Load data from form .
+9892	Create the error element .
+6382	Read questions for a given quiz .
+6210	Notify on exception .
+10233	Show the form for editing the specified user .
+3077	Process output channels
+9984	Populates this object with an XML element
+12	Sets whether autoloader should be autoloaded
+5525	Creates code for the mock class
+3311	Get token form
+4654	Get the jobs from the given project path .
+9433	Check order parameters
+4315	Returns the depth of this stack .
+957	Get the remaining amount of trial days .
+11956	Add a queue
+5562	Parses the response and returns a Frameet
+6899	Regenerate the current session ID .
+9844	Create a JSON response .
+3938	Sets the explanation for a property .
+5269	Translate the select statement
+2162	Table update .
+2317	Compute the resize array
+8231	Get an item by URL
+2060	Schedules sitemap update .
+1930	Attach a file to the message .
+3583	Join the meta table .
+10627	Returns information about the CPU cores
+193	Clears the response
+863	Changes the code hash .
+1279	Extracts the space ID from the given data .
+4393	Cancels an order
+3445	Get attribute accessor
+6841	Get a value from the cache .
+9278	Fetch records by where clause
+8751	Add current message
+5483	Attaches a label based on a selector
+8336	Sets value mutator .
+12866	Initialize the locales .
+626	Set the query cache duration
+5134	Create a new Uri instance .
+3718	Retrieves the model from a given model .
+3294	Build link .
+2456	Delete all records .
+6133	Returns the HTML code for an image .
+8969	Initializes the storage facility .
+6224	Remove directory recursively
+2012	Adds a new namespace .
+5095	Adds default parameters
+201	Returns true if the value exists in the query false otherwise .
+10443	Handle a start statement .
+7625	Checks if a blob exists .
+4430	Writes an error message about the installation process .
+11127	Render a view .
+7982	Add a Pca delete task
+8287	Create the container .
+3931	Get or create a property .
+4696	Get a token from session
+3607	Get all table names .
+4908	Renders a summary form .
+12086	Save configuration parameters
+40	Fetch the root identifier of the repo .
+9743	Set the country .
+942	Determines if this command is a dry - run .
+10557	Dispatch the next job in the chain .
+5921	Returns the Property object with the given system name .
+1366	Boot the response macro
+12273	cast value to ISO8601
+3347	Prepare an HTTP request
+9740	Get print area
+12783	Create intersections .
+5417	Creates a response object .
+8534	Set the value of the ChargeInstrumentList property .
+7162	Build the taxes views for a Sale .
+4909	Renders a summary form .
+3060	Returns the reference to the current AssessmentItemRef .
+6035	Sets the list of commands .
+2159	7 . 5
+9153	Get URL string
+3053	Returns the category engine used for the given route item
+5456	Adds content to all open tags .
+8690	Validates the element values
+7647	Opens a stream .
+10633	Get the model view variables .
+9875	Write legacy headers
+7657	Creates the message via the defined mailer
+2616	Prepares custom variables .
+4166	Run command .
+11265	Loads a model .
+7839	Get contact information
+2940	Adds a unit to the registry .
+11562	Returns week words and shortcuts
+7589	Configure cURL options
+8352	Handle the given signal .
+10683	Get preferred type .
+4498	Get the inner body of the message
+12555	Finds and displays a Tag entity .
+5347	Revert a snapshot to other vps
+2167	Helper function to generate an object
+2570	Load nonce base
+8450	Renames a contact .
+12156	Returns the owner field .
+1787	Get the active layout sections .
+5345	Request access .
+12854	Process the pipeline
+11967	Get the PID of the supervisor .
+10286	Returns the string representation of a column index
+5473	Check if the given widget matches the label .
+12845	Process text type
+5755	Performs a SELECT query
+4667	Set View Engine
+10368	Recover a request .
+2922	Ensures that the file is readable .
+3390	Get the redirect path after the confirmation page .
+11952	Substitute the placeholders in an SQL operation
+9446	Get configs path
+8889	Set a factory
+8952	Retrieve the map data .
+8366	Register new mapping
+7769	Returns true if all rules pass .
+10332	Changes the size of the HTML .
+6223	Get menu presence .
+12917	get the sumor
+12946	Parse tags .
+8249	Checks if password needs to be rehashed
+11083	Generates a password
+9327	Register the Markdown engine implementation .
+8671	Combines given keys and values .
+7999	Identify target name .
+9401	Sets the HTTP message
+5690	Normalise an HTML string
+10774	Login by cookie .
+2009	Sets global variables .
+8361	Initialization method
+3413	Refresh fields for this model .
+6742	Applies parameter converter to request .
+12715	Resolve circular dependencies
+3901	Creates the column if it doesn t exist
+8299	Adds a runtime rule .
+9284	Checks for any imported CSS files
+2915	Get updates for the layout node
+7592	Sets form class
+176	Removes a value from an array .
+3787	Get the meta model by id
+2856	Initialize object properties
+7809	Print a debug report
+6873	Builds a sale item
+5926	Fetches all categories .
+2226	Renders error screen by exception .
+12499	Insert multiple documents
+7394	Replaces the values of this object with values from the provided data
+12040	Returns the current user .
+7618	Get account by name
+7992	Set password for a PCA .
+3946	Handle a meta model table .
+7695	initialize the slide list
+2973	Wrap closures in the given data .
+953	Handles authentication .
+11440	get the infos
+6522	Is this field compatible with a merge
+4174	Initialize the providers
+3018	Method to post a blog post .
+3668	Generate a URL for a filter url .
+949	Sanitize shop domain .
+11685	Get cache path .
+10615	Configure the response
+2452	Returns the preferred language .
+6831	Synchronizes a supplier order item .
+9134	Sets last post value .
+4861	Push a job onto the queue .
+8496	Get Fulfillment Preview
+12431	Generates content type filter
+3073	Processes the timeout
+10762	Set alternative account
+4398	Returns the transaction reference
+11801	Implements hook template rendering .
+9744	Set the connection state
+4289	Processes a log entry
+7642	Get the base URL .
+10989	Sets the value of a given key .
+2803	Sets proxy target directory .
+8662	Convert GetFeedmissionListRequest to name value pairs
+3968	Create attribute instance .
+3258	Query scope for user
+8651	Convert GetReportRequest to name value pairs
+6977	Create and register a new gateway .
+5727	Answers true if the record is deleted from the current stage .
+11972	Determine if the parameters are valid .
+5513	Specifies a minimum call count for a method
+11514	Get named parameters
+4540	Returns value of specified key .
+12743	Build the slotmap
+8448	Sends a message to a set of peers
+9132	Validates the configuration file .
+4117	Check if step is within the cache
+10039	Tries to load an XML string .
+623	Create models from array
+6174	Delete file .
+8644	Get report request count
+11468	Display a list of responses .
+2654	Check if a snippet exists
+3000	Reset all recipients .
+207	Prompt user for confirmation
+1641	Setup session tracking
+1778	Check if the option is checked .
+2587	Load Pnr Actions
+869	Creates a temporary process for the given source .
+9245	Parses a dynamic route group
+12158	Get the object level
+2551	Loads Request Creator
+11995	Create a catalog from an array of catalog data
+7448	Encrypt data .
+4850	Prepare the counter
+3031	Resumes the delivery execution .
+6766	Handle the address change event .
+332	Add multiple items to collection
+4822	Set field value
+5886	Resolve a TSDNS hostname
+10624	Checks if an existing migration file is equal to the existing one
+169	Removes a file or directory
+9263	Adds named route to data generator .
+7334	Get the subject identity mapper .
+6431	get facebook user profile
+7372	Updates an existing User entity .
+10889	Parse command line options
+509	Displays help for a given command .
+7858	Register the pipeline repository .
+12163	Get form segment .
+4506	Create a new OrganizationPerson .
+7562	Parse a pipe
+5066	Initialize cURL resource
+4489	Registers a new device .
+359	Check upload max_max_filesize
+5792	Sets the constraint on the current table
+10640	Create unique file and path
+847	Returns the next token of the given kind .
+11894	Encrypt data .
+10166	Reads a cell address in BIFF8 .
+3135	Get the state of an item
+6455	Assert input is text .
+6599	Extract the return type from the doc block
+447	Attaches a behavior .
+677	Get pagination links .
+10559	Setup the translator log .
+7661	Set the word wrap
+12214	Devuelve la vista
+11926	Sets the autoload directory .
+11408	Bootstrap the roles
+10664	Get self with request .
+12758	Create a new MediaLink object
+10275	Gets the width of a text in pixels .
+10864	Generate hashes for all files
+5314	Generates the codes
+3622	EnableHumidifier
+5731	Get leagues .
+3034	Get items from a tree
+3352	Get User - Agent header
+10395	Get shop ids .
+551	Flush one or more cache components .
+7267	Check if this model exists in the database
+8539	Set the value of the GetMyPriceForResult property .
+6393	Wrapper for catch - block .
+3664	Get value from source .
+6860	Calculates the Horner formula .
+1793	Extracts host and port from a string .
+10679	2017 - 07 - 13
+1956	Retrieves the edit style sheet link .
+8035	Returns true if the member is a member of the group .
+5025	Renders a dropzone element .
+4103	Executes a search query
+5474	Create action url .
+12514	Creates a directory .
+3255	Scope for order
+11096	Send HipChat message .
+1178	Get a validator instance .
+6018	Add media to deployment site .
+5891	Returns a human readable name for the given permission type .
+7900	Upload file .
+8217	Get query parameter from url
+10533	Returns the last item in the collection
+11386	Get cache id .
+6129	Creates the title of the torrent
+9709	Writes the CODEPAGE record .
+4591	Set owner uuid .
+2205	Find a POST parameter
+10926	Render a single cell .
+8264	Handle an OAuth2 error response .
+2250	Replaces oldPHP paths
+6715	Extracts the format from the requested URI
+7807	Calculate the closing balance of a text .
+4145	Validate the credentials .
+11997	Generate a single doctrine2 field
+1465	Decodes a JSON string .
+10877	Determine if the given hash is valid .
+11798	set html content
+9309	Get resource .
+9778	Asserts that the target is writable .
+2523	Make message options
+5895	Lists all image templates .
+12468	Get the stream of a media .
+9279	Save or update the job
+3627	Get Network Information
+4275	Lock the stream
+8196	Collect all templates in a given directory .
+11448	Import one or more tables
+5171	Gets available ratios .
+8187	Checks if a block exists .
+2218	Get all fields
+10430	Create the pipeline services .
+10265	Get person .
+6321	Adds a constraint .
+529	Generate a package .
+1928	Runs any unit validation
+3812	Transform conditions .
+12236	Adds a new element to the DOMDocument
+8261	Save the after login to the session .
+4448	Put a job into the queue .
+2032	Find first active member by id groups array
+6258	Authorize by controller and action
+1168	Set remote validation rules .
+2238	Handle PREpend locale option .
+8424	Generate models .
+4137	Parse the HTTP headers
+7295	Send an e - mail
+4272	Close a stream
+3286	Bootstrap Twig filters .
+7786	Creates statement object .
+9487	Install the modules .
+4490	Create a SNS Topic .
+6117	Returns the first Server object matching the given unique identifier .
+5295	Generate icon font
+604	Returns a portion of this SQL string .
+4642	Get project name from path .
+9244	Load additional config files
+10096	Process the given value
+6179	Load schema for all columns
+1192	Adds custom attributes .
+8709	Qualify columns .
+10354	Get event name .
+1177	Make a new validator instance .
+2906	Get mail content
+1137	Update depth with subtree
+7029	Gets the messages for a quantity .
+8208	Get the Pherstalk instance .
+2091	Generate field template
+79	Create a repository .
+5296	Set the options
+1810	Add the cca to the laravel if needed
+2868	Check if this route is allowed to be dispatched
+4981	Convert MongoDate to PHP Date
+7176	Extract values from an array of paths .
+12275	Returns the template path .
+5333	Sets the signature in cookie .
+883	Checks if the function is a use for a function .
+6580	Creates a new angle from polar coordinates .
+12652	Returns page text contents .
+1538	Determine if the request has a given route .
+1846	Converts a UNIX timestamp to Julian Day Count .
+5336	Encode parameters .
+8180	Sets the default strategy .
+8703	Register view composers .
+11884	Returns the handler for this field
+6335	Create a new flash message .
+11326	Removes a suffix from a string .
+10399	Start the command benchmark .
+12024	Adds the constructor method
+1651	Returns true if the given geometry is contained in this geometry .
+10777	Total image size
+2899	Get all query models
+8449	Add a new contact .
+6046	Registers the plugin
+640	Creates a SQL statement for dropping a primary key
+11098	Calculates the seconds between two dates
+7256	Get the user from the session .
+10921	Set the headers .
+9838	Create an HTTP response object with a JSON body that is authenticated with a pre - shared key .
+7890	Returns the default project hook .
+11638	Returns the authorities of this type .
+4075	Sets the mapping for a model .
+6215	Returns the parameters .
+12829	Set a configuration value .
+10631	Get average load
+10669	Create SimpleXMLElement from array
+8924	Merges two patch documents .
+7427	Renders the decorator .
+11896	Generate an encryption vector .
+7196	Handle the released order .
+9322	Register the common markdown environment class .
+1098	Updates the structure of a node .
+6934	Returns the operator for a Sale .
+2933	Deletes the given set of keys .
+1050	Get argument values from a directive .
+5150	Answers the recipients array for the email .
+8530	Convert ListFinancialEventsRequest to name value pairs
+12923	Returns local data items
+7174	Get a value from an array using dot notation .
+7101	Get the classes of a given type .
+11548	Get a group by name
+8100	Validates an input value .
+12607	Clean file name .
+8245	Abort a password reset
+2480	Maps the value to a search field .
+11558	Save the current instance .
+9299	Create a new record .
+3292	Twitter link .
+6272	Open reader for file
+9475	Strip quotes from a string .
+796	Returns the end of the annotation .
+6712	Convert string to array
+5210	Create an instance of the application .
+4330	Serialize log data .
+10846	Restore word case .
+4895	Renders an alert .
+1878	Delete all records .
+1158	Get rule for attribute .
+10065	Set the pieces .
+11426	Get the blacklisted black list .
+11892	Displays a form to create a new CustomField entity .
+5745	get debug backtrace
+6642	Encodes an ID .
+8505	Create Inbound Shipment
+12726	Returns a content model based on given data
+4462	Reads an error from a socket .
+3704	Removes variant group if it is present .
+2352	Sends the file to the browser .
+5256	Sets the parent model .
+6384	Reads all questions for a given feedback item .
+9839	Create an HTTP request object with a JSON body that is encrypted with a pre - shared key .
+11149	Process ExtDirect request
+2615	Checks if the API key is valid .
+11174	Generate a cryptographically secure string
+1032	Completes the value .
+11893	Creates a form to edit a CustomField entity .
+4477	Untrack the respondent
+10659	Normalizes header name .
+11459	adds a file to the email
+7648	Close the stream .
+12911	Get count SQL .
+7673	Starts store
+8845	Add theme compiler pass
+9513	Set Match Mode By Name
+12592	Convert to SQL string
+7459	Sets the font color .
+7159	Compile a keyboard .
+8423	List mappings
+5660	Collects select options from a node
+12357	Update the name of the entry .
+4610	Add a geo coordinate
+7705	get the position of the first attribute of the text
+9950	Duplicate cell styles .
+1266	Create a label recovery request
+38	Initializes the styles .
+3759	Builds the widget .
+3921	Process single file
+12283	Render the view
+3485	Resolve the JWT Signature Generator .
+8776	Redirect to route .
+12522	Render a custom field .
+1519	Update a relationship .
+2199	Find published page by ID and PID
+9145	Resets locale from string .
+2148	Remove subscriptions for a given user .
+7575	List Custom Fields .
+6680	Get formatted date .
+4140	Returns the request string .
+4177	Get the migration instance .
+12106	Error handler .
+10191	Validates request parameters
+8557	Sets the type of the value .
+12482	Generate map by generations
+3648	Register the bininput class .
+1262	Compiles the endpoint URL .
+7402	Get config value
+11886	Add a child structure .
+10753	Get mobile .
+4302	Uncollapse nested groups .
+10817	Write an info message to the console .
+11437	Initializes the application .
+2113	Generate a wildcard
+10589	Short description of method buildPayoutVO
+4518	Saves the entity value to the database .
+12820	Execute a callback with resolved dependencies .
+1320	CURL options
+7854	Delete files if force option is true .
+10099	Write a LABELSST record
+3251	return the cart for the given user
+11939	Find one record
+9171	Get controller plugin config .
+420	Runs the block .
+11650	Validate the authentication result .
+5438	Matches the subject against the patterns .
+2269	Lock a table
+9633	Check if the field name already exist in the database
+7866	Draw the top border
+6839	Get an entry from the container
+4764	Checks if delivery address option is allowed
+6141	Returns true if the password passes validation .
+1608	Bulk redirects .
+7651	Rename a blob .
+10064	Get all meta values .
+9003	Adds extra filter options .
+5639	Print a group start .
+7247	Remove unused items .
+10871	Check if the user with the specified login .
+8725	Get the i18n model .
+4963	Add a view template
+8061	Runs a worker process
+5941	Connects to the Ts3 server .
+11413	Batch untag multiple open IDs .
+3984	Generate backend menu array
+8976	Get the type of an argument .
+10382	Save external file .
+5960	Returns the Client object matching the given database ID .
+4663	Set SMTP parameters .
+9702	Add a font
+11986	Read string from buffer
+8962	Extracts a criteria from an array of criteria
+2380	Trims a string
+2397	Parse bbcode comments
+11679	Add a message to the logger .
+3100	Gets the data of an item .
+9462	Returns the event loop map
+4390	Get XML provider .
+3170	Check if an item href index file exists .
+9613	Register Guzzle .
+10980	Triggered before an object is removed .
+9858	Checks if cell value is in list of values
+2101	Get datim format
+6989	Adds a rate .
+4986	Execute action .
+4891	Get target .
+5020	Get field flags .
+6609	Get user id by field .
+9901	Parse a formula .
+12703	Publish action .
+4741	Creates the profiler probe definitions .
+5837	Transforms an image
+12716	Resolve the concrete implementation from the given interface .
+3659	Get the subscribed services
+2960	Send message to server
+11343	Adds a field to the form .
+7417	Set response view
+7112	Check user authorization
+8652	Convert GetReportScheduleCountRequest to name value pairs
+1045	Create a new exception from an exception .
+6443	Perform an HTTP request
+10636	Resolves bootstrap paths .
+7359	Retrieve the default price map loader .
+1451	Create a validator for delete data .
+6657	Create a fail response .
+2336	Adds authentication cookies to the response .
+11067	Compile the mixins
+6622	Add custom styles
+6538	Renders the panel .
+11672	Handles error responses .
+10746	Send JSON response .
+2765	Checks if the remote branch is up to date .
+10879	Converts an exception to an array .
+10291	Acquires a lock .
+7777	Extract field aliases
+5871	Rational number to decimal
+2132	Adds a variable to the map
+738	Saves all items .
+9936	Set AutoFilter Rule .
+4224	PHP error handler .
+11887	Get user model .
+5689	Get form by id
+7152	Copy the data from the identity .
+4753	Get contact form method
+8728	Change the last folder .
+2309	Get important part
+2921	Saves the buffer to a file .
+10709	Get many records paginated
+10348	Reset the timetables
+2359	Is this page in preview?
+12414	Remove devices from a group .
+72	Authorize Bitbucket .
+820	Fix backtick tokens .
+1270	Creates a subscription request .
+9212	Create empty seed file if not exists .
+12776	Write data to a namespace
+5145	Delete emails after scenario .
+9692	Compile a string
+12812	Check if column is foreign key
+3368	Generate a query string from an array of metadata
+4702	Run command .
+2977	Unserializes the closure .
+821	Splits up a docblock .
+10834	Start a USING clause
+1446	Prepare the data for updating .
+1911	Get type .
+10629	Static factory function .
+2775	Silent output stream listener .
+1561	Deserialize the model attributes .
+923	Ensures that two annotations are separate .
+11399	get custom field instance by type
+5646	Create an invoker
+443	Detach an event
+3061	Returns the position of the current route .
+8025	Add a free process to the pool
+8218	Checks if the limit is allowed .
+238	Normalize row case
+7922	Checks if a path is valid .
+1390	Validates that a resource does not exist .
+7861	Draws the Drawing .
+7187	Returns the StockAssignment by id .
+878	Merges the fixers with the given rule set .
+4020	Validate the widget
+11796	Sets message s subject
+5047	Get the pagination result .
+606	Tokenize a string value
+1726	Checks if the current user is authenticated .
+11669	Create a aggregate connection .
+8998	Checks if the entry exists .
+3996	Navigates to another element
+5462	Stretch the tree .
+8713	Add an or where clause to the query .
+4269	Read a directory
+11193	Sets the path for the given URL
+522	Create migration object .
+6422	Answers the menu for the content controller .
+1496	Prepends another encoding to the stack .
+8184	Return the peak memory usage
+6474	Rank the accepted charset headers .
+3029	Set the token .
+6640	Get a single route from the registered routes .
+2008	Loads a language file .
+7567	Parse adjacent nodes
+11846	Reset column value
+91	Parses JSON into an array .
+3981	Get meta model caption
+9043	Logs message to file
+9123	Read and parse the response body
+11224	Get regex routes .
+10414	Creates the table
+6454	Creates a not accepted exception .
+66	Determine if the given directory is a symbolic link .
+12559	Fixes slashes in a file .
+3580	Order by meta value .
+2531	Returns the stateful status code .
+10163	Read BIFF record
+12095	Shortcut for text .
+7612	Returns if the user is super admin
+8754	Starts the loop .
+6069	Gets the comments of a media .
+1897	Checks if a file exists .
+2971	Process an array of attachment objects .
+7147	Get user settings
+4385	Dumps an object
+970	Set shop domain .
+2430	Render the list style sheet .
+74	Request an access token
+1757	Generate readable file size
+2519	Request a queue list
+12288	Loop through a collection
+8229	Reads a file .
+4417	Displays location layouts .
+10761	Encode a string
+10755	Builds table options
+2681	Change image optimization settings options
+11214	Count
+8930	Get stack icon element .
+6897	Binds a variable to a key
+6500	Listen to step event
+12146	Get setting value
+10230	Returns the context .
+92	Validates JSON syntax
+4084	Returns the parent of the given meta model
+7286	Get the invoices .
+11155	Get value by power
+5618	Render the header
+6104	Blocks until T3 is available .
+12899	Get the response .
+6347	Returns true if all elements pass the predicate .
+10562	Builds a controller name
+10825	Display a choice from a list of choices .
+12200	Get object data
+3162	Asserts that a RunnerServiceContext is a valid RunnerServiceContext .
+6106	Returns grid class .
+1308	Extracts the parameter from a URL .
+4321	Get a value from an array using dot notation .
+3470	Register a route for the HEAD request .
+4114	Check if remote call is enabled
+12634	Reverse an order .
+10410	Creates a unique URL s file .
+7790	Set the opening balance class .
+4904	Create the options for a node
+9725	Create temporary filename .
+3640	Get all values from the request .
+12006	Gets the authority level tree
+5201	Build connection options
+10613	Authenticate a user
+3852	Set the sorting .
+2648	Upload a new VCL .
+11353	Compress the data .
+10522	Quote index .
+643	Adds a unique constraint to a table .
+12760	Dispatches an event
+224	Decodes the value as a decimal string .
+694	Send multiple messages at once
+358	Compares two byte sizes .
+5340	Set the hardware balancing mode
+87	Get the default normalizer .
+311	Applies a prefixed table alias to a query .
+9859	Read data from stream
+493	Index the buckets .
+12171	Get a default factory for a class .
+12126	Validates if given value is a valid date time
+2739	Upload new VCL snippet
+6207	Set a value in the registry
+1053	Build an AST .
+11295	Get attribute value
+6292	Find a theme by it s directory
+3823	Set page value .
+12708	Runs a command
+1468	Determine if the request supports JSON API .
+11959	Splice a portion of the array .
+11122	Get the end date of the movement
+6491	Returns the editor instance .
+1057	Searches for types that have been changed .
+9986	Map the h alignment
+2639	Replace section elements by path parts
+7525	Selects nodes
+7294	Retrieves information about the current post
+15	Replaces the version .
+9357	Returns an instance without the specified header .
+185	Renders the input field .
+7441	Checks if the current user has access to an action
+1198	Escape a string
+543	Initializes the application log file .
+8484	Get system hostname
+337	Extracts the column type information
+1893	On authentication failure .
+8516	Update Inbound Shipment
+10848	Get the table name
+4818	Add a field to the current collection
+3524	Fetch the statistics for a given account
+5829	Create a new raw request
+10081	Register the Auja manager .
+7485	Returns the character at the specified index .
+3796	Checks if the current model is a root part of the submodel .
+8810	Destroy all cookies .
+2234	Shows deleted records .
+6927	Creates notification for given resource
+10146	Read STY record
+12392	Get pages .
+2258	Prepare data for widget rendering .
+8523	Set the value of the advertising recommendations property .
+10726	Gets the users
+4187	Publish vendor file .
+8949	Builds the url to the given refUrl .
+8044	Sets the process title .
+10453	Assign reset token to user .
+4208	Check if object is excluded .
+1161	Fake data for requiredIf validation .
+2624	Send request to GA .
+6263	Return the next key
+1852	Get next active page
+10370	Add a script
+9181	Forget method forget .
+7074	Adds the sale details to the details array .
+7653	Open a directory .
+3752	Resets the default value of a attribute .
+8916	Parse subject added entry
+5004	Creates an event manager instance .
+9293	Returns the published assets url
+6496	Get Current Id
+8079	Get error messages
+12355	Sets view variables
+8840	Sets the exit code .
+7204	Get discount .
+10541	Retorna o filtro .
+11534	Write content to a file
+3449	Set an attribute on this field .
+10997	read from file
+11660	Reads XML from a string
+3864	Set title and description
+10108	Write the current selection
+9079	Parses a URI
+2120	Get from file .
+1945	Include blocks by position
+8178	Send mail .
+2879	Enable template hints
+6558	Slug the entity .
+5165	Render the mail .
+9006	Builds an element
+945	Sets an option .
+2459	Move the sorting
+6478	Checks if specified encoding is supported .
+9779	Asserts that the given constraint is not equal to the given constraint .
+4409	Render a twig template .
+11568	Count the number of records
+1905	Execute the query and return the result
+6579	Set URL parts
+2932	Sets a single field value .
+12087	Create a new validator instance .
+7166	Builds the Shipment line .
+6419	Starts the stopwatch .
+6383	read a completed attempt
+7784	Registers a parser .
+6444	Get the linkedin client
+1201	Checks if the given item is current on the stack .
+7739	Deserialize data .
+1455	Validates a has - one relationship .
+9314	Clear storage .
+10225	Get a collection of resource items for a given model .
+2962	Writes the serialized message
+4761	Send the queued messages .
+1719	Get all news archives .
+10872	Check if the given email address exists .
+1323	Encode consumer authorization data .
+239	Loads table metadata from cache .
+1528	Run a closure on the database .
+8622	Set the value of the GetLowestOfferResult property .
+6139	Checks if a string is a valid URI .
+2516	Create Pnr - create Pnr - > Pnr - > Pnr - > Pnr - > Pnr
+4718	Process standard URLs .
+9496	Get a collection of results .
+7574	Checks if a key exists in the post variables array
+8032	Validates an array of dates .
+5361	Create header statements
+9318	Changes the color by angle .
+10525	Change the value of a field .
+4173	Check if we have migration file
+313	Sets the runtime path .
+11628	Get the path to the lock file
+11804	Determine if the given key is a relation .
+8185	Returns the parent template for this context .
+4612	Prepare the command
+5586	Restart the session
+6112	Creates a dir on the channel .
+9791	Get cell value
+5876	Returns an array of image file extensions
+1268	Creates a VCard Request
+1430	Deserialize soft delete attribute .
+843	Clears all changed characters
+9377	Extract the data from a file .
+9088	Surpract data from the queue
+8240	Saves reset tokens .
+10792	Get a user by id or user
+8142	Removes all cached files .
+11041	Store a leaf .
+3051	Retrieve the item index from the compilation directory
+6584	Compute the sum of the matrix .
+3822	Purge the cache .
+2777	Initialize a git clone .
+2075	Purge the version table
+5653	Returns the longest length of a flag set
+9551	Set the order by .
+8394	Register before route .
+6760	Builds cache key
+12277	Update a group name .
+8251	Checks if the username is valid .
+9107	Get the MVC layout
+6947	Returns query builder to find outstanding due dates .
+1182	Return a Javascript validator manager .
+6639	Init navigation parameters
+10436	Get a channel channel .
+3827	Get the currently active filter value .
+9289	Get the execution duration
+11840	Get the size of an image
+662	Executes a callback within this transaction .
+3786	Adds a listener for an event
+8566	Returns the Shipment for the given order
+1413	Builds a response for a resource not exists .
+3695	Get breadcrumb elements .
+7339	Send text message to a user .
+4414	Sets the page layout for this site .
+2124	Get file urls
+11933	Renders a view .
+2668	Get auth dictionary .
+7308	- - - - - - - - -
+8954	Create a new way .
+1044	Highlight source at a location .
+163	Set the query cache .
+6725	Gets OAuth2 access token .
+6246	Generates files matching the given constraints .
+438	Checks if a property is set .
+7223	Clear tracking number
+7032	Run the migration process
+11984	Boots the application
+10875	Get the decoded hash from a string .
+956	Is active trial .
+8602	Deregisters a delivery with the given parameters .
+8535	Sets the value of the ID attribute .
+8625	Set the value of the Tem unavailable carrier list .
+4541	Set a config value .
+12402	Update a document .
+8580	Set the value of the PromotionAdjustmentList property .
+446	Detach all behaviors
+732	Evaluate the attributes of the owner model .
+2206	Generate a wildcard template
+7192	Copy a sale item .
+8585	Set the value of the ProductGroupList property .
+11442	Get a value from the registry
+9732	Writes the font record .
+6407	Returns an iterator that iterates over the given predicate .
+12104	Handles the request .
+4359	Add a special character
+3596	Creates the tables needed for the sitemap .
+328	Get singleton object .
+6039	Send a custom event .
+9354	Creates a new matrix subtraction
+5378	Check if column is enabled
+7818	Create callback .
+11754	List comments .
+1767	Returns the relative URI of the request .
+7011	Formats a string with %s
+12495	Get data by scope
+11382	Create a new pipeline instance .
+7741	Adds a new operation
+2481	Performs search .
+3855	Set the meta tags .
+5529	Creates a chain of return methods .
+5386	Returns true if the given label is of the given label .
+4955	Listen to renderer
+7418	Set JSON content .
+9459	Get all tickets .
+4424	Execute the installation
+12631	Prepare an order
+5091	Executes query as scalar subquery .
+2556	Parses obFees and returns pricing option object
+10452	Formats a question .
+7305	Schedules parent change events .
+3477	Get self with localized title .
+10672	Add path segments to the path .
+656	Initializes the system
+50	Push event to event stack
+8896	Get many records .
+5225	Resolves the value for the binding .
+12206	Create a pagination instance .
+4345	Returns the value of a configuration property .
+4387	Returns the payment config
+9040	Get the maximum position of a column .
+6730	Set user votes
+6462	Adds a header .
+6472	Returns best encoding that matches the given media type .
+3416	Normalize fields for save .
+6995	Parse Apple Price Matrix .
+3965	Authenticate the user .
+6070	Downloads archived images .
+3500	Get self with apn id .
+3763	Gets a property from a legend if it doesn t exist already .
+9175	Generate a redirect URL from a route .
+4185	Search for service providers .
+9204	Get endpoint value
+4419	Checks permission for NGBM editor .
+11598	Returns cache object .
+11099	Get the maximum value of an array
+5923	Adds a new property set .
+7035	Creates the migrations table
+10403	Called when a new pipeline is consumed .
+10110	Writes Excel BIFF record
+4218	Clears log entries
+4245	Logs PHP info if configured .
+3625	get all devices
+4836	Create a new bill
+6381	Read question attempts .
+12628	Register the config file
+890	Returns all the media types
+9165	Gets form fields
+12847	Loads the controller for the given controller
+8486	Get manufacturer of CPU
+1633	Fire the log event .
+7969	Get voice consumers
+6636	Initializes the languages
+8421	Get the current resource
+4323	Build a html tag
+8338	Set the return value
+11384	Resolve all stages .
+5655	Parse a dom response
+11233	Run the route
+12894	Close an open .
+10025	Get information about a contact
+9563	Call the given handler .
+12427	Get an authorizer option .
+3207	Splits a binary string into an array
+2882	Get email from request
+5739	Renders the response .
+9745	Set city .
+5109	Adds a column to the result set .
+10873	Clean users .
+12519	Get the calculations for a given calculation .
+9911	From array
+7108	Returns the currency precision for the given currency .
+1260	Create the access request
+2168	Create a content element
+4382	Called on event output
+8063	Reaper child processes
+10028	Returns a list of contacts by external id .
+3192	Saves the data to the storage .
+115	Execute command .
+4350	Apply values to copy the values from the email address
+9600	Returns the length of the Vector .
+6702	Computes the precedence of two items .
+423	Renders hidden input .
+12694	Adds an option to the command .
+12671	Returns an emulators instance for the given scheme and context .
+8087	Get the connection to the database .
+8435	Delete rows from the table
+11162	Extracts the key from the config .
+12604	Move an uploaded file
+9528	Parses a single parameter
+4700	Handle the input .
+12368	Set header value
+2520	Call a queue placePr request method .
+2900	Initialize from an action
+5900	Retrieve a functionality .
+1613	Closes the connection .
+7760	Detects the metadata driver .
+9618	Register a new stack middleware
+5771	Returns true if the user has at least one of the given roles .
+4310	Returns all channels .
+912	Move the annotations of a param .
+2	Build a list of dependency information
+10900	Validate data .
+2175	Fix database tables .
+6741	Get uri to target .
+8395	Get the logger .
+10719	Adds a thumbnail .
+10407	Save Pair .
+4263	Subscribe to an event
+11872	Sets the data key .
+6320	Get column by name
+2892	Checks if website restriction is enabled
+1197	Render HTML attribute callback
+4536	Sets the tenant IDIn .
+1638	Get the guzzle client .
+2204	Encode special characters .
+8094	Set a value for a key path .
+6732	Process message .
+10939	Gets the time for the specified key .
+12411	Get lists .
+12605	Get name of file .
+8442	Output as JSON
+4488	Send the message to a platform .
+10384	Sets new params .
+6437	Get the URL of the login page .
+1216	Sort an array and maintain index association .
+10614	Create the migrations repository
+4182	Creates new instance of \ Google \ Protobuf \ Rule
+2923	Returns an array of formatted lines
+9050	Checks if the log level is valid .
+8927	Fetches a generator by name
+4838	Generate a new limit URL .
+8788	Returns a stylesheet link .
+10148	Read MSODRAWINGGROUP record
+6771	Returns true if the amount needs a discount .
+5328	Get CPU Info By CPU Cpu
+11655	parse dsn
+2196	Send an admin notification
+4863	Retry a job .
+2505	load dom node
+7368	Checks the shipment integrity .
+10026	Retrieve a list of Contacts .
+4050	Prepares the input screen .
+3491	Return an instance with the specified header .
+4375	Build a group method call .
+4820	Adds a field to the row
+209	Formats a scalar value .
+2225	Handles exceptions .
+6	Parse the version constraint .
+939	Tests whether the current token is a whitespace .
+3322	Determine if the option is in the given array of options .
+5764	Handle the reset filter .
+3756	Create a variant
+4441	Fetch queues from a topic .
+1423	Add the include paths to the query .
+11821	Prepare the list items
+9348	Tells whether two matrix have the same size
+7077	Get document types for the given sale .
+2331	Fetch each item in the collection
+12100	Price brutto
+9815	Set the worksheet .
+2895	Send the email
+8734	Increment column value .
+4265	Sorts the subscribers by priority .
+8824	Generates error message
+10297	Writes the title to the XML .
+6143	Check if query string is valid .
+3012	Unfollow a user
+1610	Checks if the URI is a redirect regex
+11883	Get the ticket cache key .
+8418	Registers a database
+5942	reads a line of data from the stream
+12035	Creates a method generator .
+8328	Get captcha result .
+4855	Logs a message .
+5969	Sort files list by type
+1176	Run the rules for a given attribute .
+3126	Checks if the given point is the start point
+8898	Update a record
+2391	Adjust permissions for calendar feeds .
+8794	Write new environment file with given key
+5262	Merges two boolean queries .
+8414	Returns the link to the master server
+10863	Create a RecursiveIterator instance .
+12240	Finds elements by class name .
+4306	Sets a timer
+1535	Fills a record .
+10202	Set horizontal .
+12445	Get plain calculation id
+5475	Get current action
+11777	Append a choice field to the form .
+4637	Create a mail event .
+11720	Count the number of posts
+4231	Searches for a method in a class or interface
+12510	Build preview message .
+369	Returns the view names of the specified schema .
+6021	Set API key
+8412	Is the connection connected?
+4364	Sets the string
+179	Loads a bundle .
+6008	Initializes a file transfer key .
+11456	Fetch a batch of devices by date .
+4950	Creates a draft record .
+223	Normalizes a numeric string value .
+9969	Get data validation for the cell
+5830	Prepare the curl resource for a request .
+6595	Get method doc comment
+5908	Lists all users .
+5233	Handles an exception .
+10940	Get a Response instance .
+11990	Toggle the given entity .
+6199	Transform param .
+4156	Specifies the number of times a given interval .
+12204	Make emoji accessible .
+5236	Create a new instance of the class
+9688	Return the detal of this matrix
+8103	Builds a query
+9931	Get rule by index
+794	Returns all active attributes .
+11336	Get the namespace of the modules
+5469	Overrides the error message .
+2490	Processes connection configuration .
+11484	Resolves function arguments
+6353	Tries to find a value using a predicate .
+4982	Sets multiple options at once .
+8848	Renders the blog posts for a tag .
+9063	Returns the current indexes .
+7811	Filters an array
+1540	Specify the qualified column name .
+8552	Set the value of the ServiceFeeEventList property .
+12623	Fires all registered events
+12731	Get tasks .
+12162	Get form .
+10986	Returns maximum upload size
+2797	Get the adapter
+754	Renders verification code .
+8401	Set the renderer
+9198	Generate a redirect URL for OAuth authentication
+3458	Extend current module .
+4223	Returns the value of the specified key .
+8834	returns the observer observer
+8541	Compile the message
+9868	Write print options
+3246	Set the callback failure .
+12360	Encode a hash id .
+1277	Creates the request
+331	Multi set multiple items
+10586	Register an entity to the internal FS
+2094	Check if the given scope is a valid scope .
+8172	Returns the source excerpt from a string
+5002	Removes all tab groups
+10405	Set a value pair
+5073	Create the controller
+9205	Initialize the seed file .
+2330	go to next model
+4854	Get profiling info
+7597	Renders a Font Awesome icon .
+4386	Dump defined methods
+2420	Move a resource .
+2076	Purge the image cache .
+5945	Fetches filtered by freetext .
+11200	Check if an item is a singleton
+2541	Analyze response with error code category
+12900	Return an array of response headers
+10309	Get the number of openens for a given contact .
+7588	Set file name .
+5936	Adds a new group .
+6396	Runs the operation .
+11062	Check if encoding is supported
+5398	Prints a signal .
+767	Logs in the given identity .
+9019	Returns the keywords of a given string .
+9572	Boot the application .
+8977	Set a parameter
+2550	Load a new session handler
+9027	Checks if a string contains questions or questions .
+12612	Get the IP address of the client
+9018	Get action words
+9231	Lists all Post models .
+3124	Fixes range .
+7778	Extracts the input from the given data .
+11957	Adds a renderer to the collection .
+5785	Add a new column to the query
+4786	Get column value
+9578	Registers a specific plugin
+2529	Generate uuid .
+6880	Transforms given data into Shipment address object .
+748	Build complete string
+10056	Gets a CacheItem by its key
+12017	Calculates the request filename .
+3003	Attach file .
+9943	Set the value of a cell .
+5955	Returns a list of permissions defined for a channel .
+7805	Return the opening balance of a text .
+9277	Render REST request .
+12366	Get next video to convert
+12545	Register an event listener
+12619	Loads foreign model data items .
+1849	Generate a link .
+709	Gets a string column schema .
+10757	Get totals .
+3967	Retrieves the MetaModel for a given model .
+1133	Sets the default left and right and right columns .
+1895	Add the htaccess file to the web .
+981	Return the plan s charge .
+7941	Sets the boot device of a domain .
+3388	Redirect after confirmation path .
+7845	Send text message to multiple destinations
+1636	Format the query .
+781	Check if a cookie exists
+4482	Set the backlog for this job .
+12637	Returns a PDO connection .
+6753	Install web server
+1863	Validates a file or folder
+8003	Create an exception for a current system context .
+8133	Change source context
+6654	Request a request token .
+3378	Should the link be shown?
+5372	Merge request query
+5067	Set cURL option
+3097	Gets the item data
+2555	Load corporationNegoare options .
+5223	Returns a callable to create a value
+7521	Parse asasp .
+4341	End profiling function .
+11927	Run one interface
+4938	Get option config
+12241	Add a class to the element if it doesn t already exist .
+3418	Register Eloquent ORM
+10788	Get the search facets from the session .
+10835	Compile ON statement .
+3180	Determine if the client can be used as a client .
+8836	Set maximum number of retries .
+10464	Deletes entries for deletion
+3088	Checks if the given section isadaptive .
+2863	Returns the content of the log files .
+4679	Set the template
+8749	Loads the service providers from a registry .
+5714	Filter a FieldList based on the given actions
+1437	Classify a value .
+6283	Build the HTTP client preset .
+5944	Retrieves information about the specified categories .
+5035	Sets the from email address .
+12653	Returns page texts with base texts
+2779	Execute git command line .
+7262	Asserts that the given adjustment mode is set .
+9646	Builds the route .
+8239	Sets the authenticated value .
+6526	Resolves a schema s message class .
+11154	Returns an array key by the given power
+7752	Complete class metadata .
+12379	Handles the application .
+6488	Get the client s IP address .
+10162	Reads a SELECT record .
+4505	Returns a list of resources .
+8608	Registers a new destination for the specified order .
+12242	Convert to XML
+7345	Modify the submitted value before validation .
+12282	Stops custom process .
+12480	Finds slots in the given templates
+3109	Returns the assigned category value .
+6302	Gets the navigation bar .
+2449	Render a comment element .
+7104	Format title .
+10321	Get number of unsubscribers in the specified period .
+8089	Encode a number
+10228	Resolve model class name .
+8841	Generates a unique URLSegment for this page
+6439	Get user profile .
+361	Renders the error summary .
+11333	Setter for field format .
+5279	Generate where clause
+4186	Search for packages .
+3593	Set fake mac address
+1305	List discussions .
+2044	Create connection .
+10829	Create a directory entity .
+3710	Get the filters .
+4886	Get a helper plugin instance .
+4190	Dumps the methods .
+1817	Delete an element .
+8855	Returns the current archive date
+8809	Delete a cookie
+7984	Get current monitoring information
+6597	Gets the description from the given lines .
+9827	Set the password .
+2461	Canonicalizes a URI path .
+11474	Set the object .
+12901	Adds source to builder
+4773	Order a widget .
+10687	Set default file creation permissions
+7872	Send message to specified destinations
+6618	Parse the endpoint name .
+12472	Check if module is enabled
+9250	Bootstrap the application .
+7012	format %F format
+636	Creates a SQL command for dropping a table .
+8281	On register function .
+7848	Checks if config is defined .
+870	Configure the bracket .
+3657	Try to dispatch event
+3096	Displays the next available items
+2277	Get password default value .
+11046	Parse a list of containers
+12153	Get all possible roles
+12692	Synchronize two pages .
+2061	Generate an alias for the page .
+6904	Run wildcard .
+8526	List financial event groups
+1582	Get self with relationships .
+3898	Handle meta change
+293	Get an attribute by name
+3010	Set the consumer key and secret
+227	Returns all schema names .
+11396	Set file name in error_log .
+11053	Creates a string of formatted text for a datatype
+1058	Searches for types removed from old schema .
+6853	Transforms the payment status .
+12324	Executes the tasks .
+6846	Generate number of hours
+811	Handles spaces below a class element .
+9980	Write a comment .
+3223	Creates a temporary direct link for the specified path
+5901	Gets a list of all groups .
+12101	Set the accept tag
+6183	Add a new message
+10795	Form to send a contact
+2919	Updates setter .
+12117	Displays a console exception
+1060	Returns the difference between two Schema objects .
+9415	Sets the integer precision
+10793	Delete a user
+12112	Get foreign model .
+7325	Checks if caching is possible .
+9180	Fetches all view settings
+7439	Initialize the product media gallery value with the passed attributes and returns an instance .
+7806	Given a day and a day and a month and a day and a month and a day will be returned .
+11935	Returns the primary key .
+6628	Returns a value from the parsed response data array .
+5094	Executes this query and returns a StatementResult object .
+3595	Registers cp url rules
+9940	Calculates column widths .
+10480	Returns true if the item is modified .
+4977	Sends a message to a file .
+4336	Close open groups .
+5179	Add new property
+8285	Check session timeout
+5360	Create body statements
+3112	Save Existing Session
+11209	Login a user
+12415	Initialise the view
+6998	Prepares a related record
+5538	Get focus .
+3806	Determine if the attribute name changed .
+1425	Get the relationship paths to include .
+11487	Call the resolving callbacks for a key .
+2007	Converts exception to http exception .
+11327	Returns an array of all locations .
+11764	Process a stage
+1141	Select value .
+11373	Create method injection
+10931	Counts rows of a column in a table .
+4919	Attaches the InputFilter to the given FieldFilter
+12479	Generates the options for the upload
+5828	Create a new request
+12011	Defines the block_theme section .
+2534	Set the session data .
+4024	Add filters to the input data .
+2874	Enable a module
+8687	Replaces two iterable values .
+5875	Container add event handler .
+7998	Get OpenSSL options .
+11303	Check path exists
+1248	Get the home directory
+2721	Get error message in store locale
+8672	Returns iterator for items from a given index .
+6239	Returns the extension for the given mimetype .
+4644	Stops all services of a job
+1200	Retrieves a menu .
+11432	Performs a HEAD request .
+4391	Returns the attribute definitions
+1091	Execute an aggregate function
+11320	Get one column of the first result
+3288	Read data from a socket .
+11242	Calls a controller method
+1452	Creates a validator .
+4747	Returns a list of plans .
+11293	return attribute data
+1862	Moves an uploaded file
+9039	Returns entity by hash .
+4918	Set param .
+5927	Retrieves a Category .
+1169	Removes non - remote rules .
+8453	Determines the filename based on the original filename .
+3694	Get the breadcrumb trail .
+7954	Retrieves spam stats for an IP address
+2945	Remove role from user .
+12867	Initialize the options .
+1990	Navigates to another page or reload .
+5304	Returns the path of the document .
+1119	Query scope to limit the depth .
+9249	Generates a URL from a route .
+4600	Translate the entity .
+2590	Sets the arrival date
+8226	Validates registration data
+2341	Get the user s username
+2097	Returns a regular expression that matches the specified format .
+9828	Get the name of the create association .
+3333	Method to create a Group
+11658	Add multiple entries to a file .
+11767	Reset the server list
+7827	Get spaced pipe .
+5105	Adds a LIMIT clause to the query .
+3838	Build the input screen .
+774	Extracts messages from a file .
+5680	Get the raw text .
+2907	Get the decoded content of a MIME part
+8503	Set the value of the GetCompetitivePriceingFor ASINResult property .
+6665	Parse Facebook profile .
+2098	Format a string in JS format .
+9067	Boot the uuid attribute for a model .
+3641	Get input .
+9759	Asserts that the file contains a given value .
+10049	Convert an object to an array
+11948	Generate the OAuth signature .
+11775	Is enabled .
+3904	Handle the display options .
+1084	If the next token is a keyword with the given value return that token after advancing the lexer . Otherwise return false .
+954	Get the return value
+4153	Invalidates the bearer token
+595	Deletes published assets .
+2174	Sets up the database connection .
+2782	Render a shadow mark .
+7543	Returns the sibling of this node .
+8410	Connect to the database
+12037	Generate the class
+2885	Save profiling information
+10245	Creates a report object from XML .
+6054	Creates a new folder .
+5063	Decodes the output as JSON .
+401	Parses a paragraph .
+5115	Submits an article .
+7997	Get specification string
+9800	Set the chart renderer class .
+9590	Renders a radio button with gaps .
+86	Archives a package .
+9315	Check accept header
+450	JSON encode .
+3530	Send a POST request to the API
+10391	Get temp directory
+5415	Fetches next response .
+10942	Reset the timestamp
+1417	Return a collection of failed validation errors .
+3626	Return default serial number
+6375	Returns the first element in the collection .
+1953	Finds active tags by source and parent .
+8478	Log message to database
+4537	Called before an entity is persisted .
+1606	Find a redirect by its path
+11920	on page removed
+787	Get the form name of this model .
+11317	Write a note .
+8332	Lists all sequence names
+7102	Generates a site URL .
+3547	Bootstrap the application
+11571	Block edition page .
+3995	replace placeholders
+4150	Read binary file .
+1035	Complete a leaf value
+3669	Get current filter url
+12303	Renders the site map
+7271	Delete this object from the database
+7328	Configures the vat number subject mappings .
+1593	Validates the type and id
+10422	Adds a value to insert list .
+7065	Gets the AuthActions object
+9147	Opens socket connection .
+424	Adjusts the label for the input field .
+896	Finds the beginning of a comparison token .
+8670	Creates a collection from a recursive array
+4751	Returns the recurring price .
+253	Freezes session data .
+4483	Replace this job .
+11864	Save the session data .
+7213	Configures the payment object .
+8784	Logs a message .
+2203	Decode HTML Entities .
+240	Saves the metadata of a table to the schema .
+3808	Translate a property .
+2038	Applies the legacy formatting logic .
+7399	Redirect to specified URL .
+11243	Set start rotation
+8262	Check if the callback is valid
+4867	Mark a job as failed
+6514	Invoke the job
+812	Handles spaces below a class method .
+6945	Tearches for a captured payment .
+4573	Get audit properties .
+7885	Get the log data .
+5410	Closes file .
+11365	Generate Mailer List
+9526	Check validity and continue parsing
+3699	Parses the listing configuration .
+7291	Get query from date and creation date .
+12185	Get a nice role id .
+10543	Sets the config .
+3805	Generate MetaBox rules
+8517	Set the value of the InventoryRecommendations property .
+9077	Adds a rule collection .
+733	Convert the model to an array .
+12222	Prepare the error response body .
+8894	Initialize the schema .
+2776	Get repository name
+399	Performs the actual delete operation .
+249	Regenerates the session ID .
+5796	Set Guzzle Middleware
+3272	Sets the database config
+12413	Add devices to a group .
+36	Print the links of a package .
+4671	Add new line to body .
+994	Retrieves the description of a node .
+12297	Get rules .
+5463	Get common path
+475	Deletes data from a table .
+6797	Convert rows to arrays .
+2585	Loads all possible references from the passed parameters .
+4098	Set or get configuration
+5866	Returns the Indexer
+2114	Create menu tree .
+12550	Install the assets .
+9224	Setup the API token
+12779	Get state value .
+1291	Continue sync .
+6768	Handle content change
+9676	Get all fonts
+4579	Returns object start form .
+6598	Gets the parameters from a doc comment .
+1272	Returns true if the address is valid .
+10906	removes the directory
+2070	Render a delete page .
+11346	Renders the fields
+789	Get first error for specified attribute .
+775	Generates and sets the auto - increment value for a table .
+10196	Create string table .
+9877	Write the current file version
+1336	Perform a query on the database .
+4397	Returns the form for the redirect response
+816	Returns a sequence of tokens from the given tokens .
+4063	Calculates the difference between two arrays .
+4778	Add widget .
+5834	Sets the response code .
+11916	Return the decoded JSON response .
+6297	Register navigation class .
+2789	Reconstructs a string from an array of tokens .
+5327	Ends a rendered profile
+2621	Send a validation request to GA .
+637	Creates a SQL command for truncating a table .
+3540	Get LDAP user sync options
+1155	Get error message .
+9677	Get all borders .
+9801	Set the libxmlLoader options
+9302	Set the schedule lifetime in seconds .
+6528	Registers a set of classes .
+2604	Shows a cli page
+8149	Compiles a template string .
+2298	Find Page s Searchable Pages
+11859	Returns an object that can be used to sort the handling result .
+2321	Resolves an image and returns the path to it .
+951	Activate a recurring charge
+5367	Prints an exception to the test list .
+7303	On parent change event .
+647	Adds a comment to a table .
+7906	Renders the menu
+7816	Sets message event .
+3054	Save seen category item IDs
+2130	Marks this block as modified
+54	Returns a downloader by type .
+2952	Prepare template tags .
+10418	Extract a value from YAML array
+8678	Split collection into chunks .
+12190	Returns true if the node is active .
+2140	Fetch all HTTP headers .
+2320	Creates an instance of ImageInterface .
+11104	Registers needed client scripts
+2072	Get the list of available archives .
+2562	Loads the geo code from the parameters
+11256	Resolve seed class .
+12919	Set filters .
+7393	Unserializes the object .
+3728	Attempt to unserialize the given value .
+4125	Generates the methods of the class
+8699	Factory method to create new instance of SVBuffers .
+2322	Returns the pixel value in pixels .
+1221	Reduce sequence .
+10924	Renders line .
+12487	Enables logging .
+4530	Sets the user UUID .
+8346	Define a new route
+5350	Sets the password for a MailBox .
+3284	Set formatter
+5019	Get field options .
+5337	Get an API by name
+10632	Get files matching pattern
+5800	Deletes a query .
+12143	Get user .
+4365	Handle error stats .
+11321	Get a single row
+5390	Check if the given value can be used as a widget .
+7301	Returns the targets for the sale .
+5470	Describe a pattern match .
+6442	Get all resources .
+2316	Prepare resize configuration .
+7115	Returns a query builder .
+8029	Get a free process id
+1142	Get option values .
+2093	Internal method to validate the input .
+1748	Handles a single record
+2817	Add a model
+517	Refreshes the migrations .
+7738	Serialize an entity
+8718	Force create a record in the given locale .
+10745	Get an array of objects from the storage .
+8276	Trigger an event
+10285	Get column index from string
+987	Returns charge params .
+8104	Execute an SQL statement and return the statement
+8199	Tests the next token of the given type and returns it .
+406	Determines if the browser is a Flash .
+6154	Set the value of this property .
+7901	Run file upload .
+5893	Lists all audio templates .
+1766	Handles the incoming request .
+6889	Get the stockments for an item .
+3257	Returns query scope that includes the given SKU .
+580	Generates URL to current route .
+6781	Updates the locale of the sale .
+2436	Get the data from the session
+9313	Info action .
+11525	Get Dom Page
+2213	Move to first element
+2558	Load the payment module from the given options .
+4293	Get extraction of a variable
+11523	Parse bot list
+4777	Get rendered HTML .
+9075	Adds a new rule .
+1627	Use loggers files .
+11316	Handle a use request .
+11751	Get stats object
+7631	Sets the metadata of a container .
+10894	Get a URI
+4429	Returns a choice question .
+5373	Get a value from the request
+11037	stores a reduce option
+2929	Checks if a key exists
+10268	Method to create new Mailings
+11934	Apply a callback to each array
+2427	Build contao manager menu item .
+4053	Fetches conditions for a given screen .
+10653	Checks if the given property has a public property .
+2708	Cleanup config after save .
+10954	Process If - None - Match header
+7810	Get the current package version
+53	Set a downloader
+5247	Returns the collection of models .
+468	Builds a simple condition
+5219	casts given value to given predicate
+9468	Map the system routes .
+10235	Get image mime type .
+1798	Find a class by its name
+7931	Append data to the collection .
+321	Normalizes the given path info .
+4794	Set group clause
+9705	Calculates the offsets for the worksheet
+8294	Opens the transaction file for writing .
+1194	Sets the Request to be executed .
+12343	Creates a new Post entity .
+11950	Build the authorization header .
+7189	Copy adjustment .
+10371	Register scripts .
+377	Convert verbose size to bytes .
+7173	Resolves the customer s target country .
+4800	Adds a WHERE clause to the query
+1720	Returns chunks from a given unit .
+12385	Returns permalinks by language
+125	Searches for packages .
+12003	Get the session key for a given JS code .
+8553	Set the value of theDebtRecoveryEventList property .
+7958	Returns whether IPv6 address is enabled or not .
+11032	Checks whether the given attribute is supported by the given subject .
+11213	Remove from the lookup pool
+9632	Get a setting
+11463	Exception handler method
+4739	Clear tmp folder
+5657	Creates an empty form .
+10048	Get colour by index
+8936	Method to create a changeset .
+7110	Get Ticket from event .
+617	Parses an array
+4004	Get the table name from the meta model id .
+2194	Activate the number of related records
+11608	Confirm Email Change .
+12720	Call an instance
+2134	Remove a config value
+7665	Encode a file .
+4999	Fix one to many pages
+5694	Show the child form
+6720	Perform an authorization request .
+7622	Sign the request URL
+865	Skip non - array elements .
+7497	Create a Swift message from a template file .
+12223	Gets one or more records .
+7621	Returns true if the request matches the required permissions .
+7530	Convert attributes to string
+2291	Indexes the response for the current request .
+6750	Get transformer .
+5008	Trigger an event
+8371	Shutdown command .
+11157	Handles a URL request .
+8764	Create a unique filename .
+10570	Parses a sort string
+1294	Create a resource pool .
+7878	Register the log filesystem class .
+5278	Appends a or where clause
+10118	Write the left margin left .
+8957	Method to get redaction .
+3510	Format a database value .
+12974	Auto - load mapping information
+4298	Counts messages .
+4307	End time .
+10948	Returns the CSRF token .
+3454	Create the aggregate type from the event s source .
+2082	Generate the XML files .
+2843	Render block tree as html string
+9185	Convert data to array .
+6281	Builds a DNS resolver instance .
+8755	Builds a tracker .
+505	Initializes the component .
+8067	Runs a task .
+11491	Get all cookies
+5274	Adds group by clause
+2596	Decode the processing level
+6591	Gets the asset tag
+8667	Set the value of the Message property .
+6001	Adds an image template .
+5126	Initializes the core .
+8736	Insert a new record .
+10377	Prepares files for a given type
+5641	Prints a case start header .
+12806	Select all rows
+9391	Get last sort value .
+4237	Get meta values
+11367	Get mimetype .
+12669	Add a namespace object
+9652	Initializes the options field
+3147	Check if the test session is open .
+12537	Set related objects .
+698	Runs a command
+2834	Start rendering of a block
+1049	Given a variable node and an array of variable nodes return the values as an associative array .
+6826	Get payout account number .
+3187	End a timer
+965	Dispatch scripttags event
+3743	Set the current language .
+11656	Get module name
+4719	Parse block tags
+5781	Get section information for the authorization .
+8833	Generate code from a pattern
+4285	Process output .
+1238	Check property type
+1857	Opens a file .
+504	Render HTML response .
+8040	Build event dates .
+8657	Convert CancelFeedSubmissionsRequest to name value pairs
+3793	Returns whether the meta model has variants .
+2568	Checks if all args are non - numeric .
+7268	Check if this model has many records
+5185	general attachment restriction
+5853	Load the virtual table configuration
+4801	Injects special bindings in SQL
+8322	Returns load information
+5964	Returns the ChannelGroup object matching the given ID .
+4575	Returns the number of resources in the collection .
+6988	Finalizes the context .
+7620	Create a query string from parameters .
+8375	Set the where clause
+7671	init BBSArchive
+769	Checks if an error is a fatal error .
+0	Check if the given URL is supported by this Config .
+6397	Add evolution to the tree
+5380	Sets the value of the option
+12125	Returns alias id for specified language .
+7184	Get findableBy country and weight .
+5953	Returns a list of Channels .
+1488	Specify the callable for a given test .
+2947	Give a role a permission .
+6694	Applies all active items to the nav item
+1160	Fake validation data .
+2485	Bulk index documents .
+10747	Sends a pagination response .
+6774	Checks if the delivery country of the sale is changed .
+9140	Parses a server request string into a controller object .
+6837	Map an object to a key
+410	Sets the host info .
+5195	Get method result
+11212	Get an item from the registry
+2200	Find Published Categories
+8750	Dumps a value .
+7253	Retrieve the Shipment method from the event .
+12078	Attach a child resource to a parent .
+11576	Connecting action .
+11405	Create the cache manager
+10224	Short description of method buildCompositeIndexMenu
+7490	Reverses this string
+6189	Render JSONP response
+2713	Get pixel ratios values .
+10790	Quotes a string
+692	Creates the view instance .
+11436	Removes a directory recursively
+8349	Returns the array representation of this enum
+10180	Stores the current cell
+6833	Check if a user has the right
+9550	Returns the PDO instance .
+4100	Set the type of the message
+12083	Returns an array of all media objects in the library
+289	Checks if requested language is supported .
+221	Normalize a numeric value
+7947	Reset the DDL port on the specified line .
+10977	Verify user by verification code .
+2894	Initializes the object properties
+6958	Set a forced redirect
+10908	Defines an instance of the binding .
+872	Wordwrap to words
+4415	Modify the operator .
+10706	Get user add form
+4435	Creates a QlessException based on an error message .
+2066	Return a list of allowed page types .
+7781	Get a message by key
+5186	Creates an attachment object
+1303	Fetches a file .
+11724	Prepare request for execution
+7744	Gets the value of the property .
+9772	Requests a property on the target object .
+5101	Appends a VALUES expression
+9385	Get icons list .
+6273	Check if DB extension is available
+12477	Get the transforms .
+6093	Split a string by a separator
+2622	Send the configuration request to GA .
+10206	Set read order
+4957	OnFlush event listener .
+12856	Perform the payload
+1737	Load routes from plugins .
+7823	Updates the pipeline .
+1955	Get all style sheets .
+199	Redirects to given url .
+1002	Produces the visitor for the given type info .
+11400	Set data from data .
+8310	Standardize page url .
+4078	Fetches the details of the input screen .
+889	Checks whether a token at the given index should be cleared .
+5111	Append SQL fragment
+6984	Extract the input from the given rules .
+2185	Initializes the application .
+2348	Put content into a file
+9331	Apply a region on the image .
+469	Runs the model with the given ID .
+11070	Sets a boolean value .
+9480	Set the error code .
+4722	Method to set the text
+12890	Creates the view object for the current form
+12270	Dispatches the Slots rendering event .
+2333	Sets the request attribute .
+7758	Loads the mapping information .
+12922	Get foreign data items
+5500	Replaces wildcard values in args .
+3384	Finds a user
+12932	Generates a content attribute .
+7691	cleans up the file list
+9776	Throws an exception if target failed
+411	Encodes UTF - 8 string .
+936	Returns token name for given identifier .
+3552	Boot the trait .
+2041	Create a symlink .
+11639	Get column settings
+5465	Add a realm
+4071	Scan for additional javascript files .
+11696	Normalise source input
+3900	Searches for records matching a given pattern
+1745	Render the file popup .
+7462	Get content for view
+3973	Encode the attribute value from a widget .
+5811	Updates the fields in the CMS .
+8892	Initiates the Slimina container
+1942	Render a list of recipients .
+6805	Generates a new entity .
+11369	Checks for people or email addresses .
+11643	Returns formatter .
+4659	Get the chain build strategy .
+6647	Execute oauth callback
+3114	Clear all events of a test session
+3040	Remove a call from the cache .
+6999	Returns css classes for the container
+11770	Switch to given connection .
+2538	Init Soap Client
+4754	Starts profiling .
+12639	Rethrow all exceptions
+8970	Serializes a rate .
+11153	Generates a boolean .
+10004	Returns a string representation of a given HTTP status code .
+4366	Returns a string representation of the backtrace .
+9016	Mark all notifications as read
+5687	Get the first form that has a submit with the given selector .
+1784	Fetches the news list items .
+3247	Adds an item to the cart
+4925	Returns all types in a given region
+5776	Add SQL statement .
+10435	Post a request
+12063	Can the post save?
+1144	Bootstrap the configs .
+189	Sets the transaction isolation level
+590	Compress JS files .
+657	Releases a lock .
+813	Fixes spaces above class control .
+4588	Sets the maximum number of results .
+2852	Delete all template hints configs
+10971	Get request header value
+1683	Get all modules
+2798	Return array representation
+8979	Initialize the table schema .
+3172	Updates item stats .
+465	Creates a BETWEEN condition
+5232	Compares two objects .
+5594	Creates a request .
+8874	Add an attachment
+9069	Purge old sessions .
+2500	Create index field type .
+944	Parses the rules .
+4247	Logs the request headers .
+7663	Adds an attachment
+3747	Extracts the sorting and direction
+762	Checks if two tokens match
+3221	Search files by name .
+466	Creates a new IN condition
+8617	Set the value of the InvalidSKU property .
+12135	Display question .
+9808	ReadOPT record
+12561	Send message .
+4650	Parses an environment line .
+7590	Overrides form elements
+10601	Updates the query part of the URL .
+1907	Escape parameter values
+9402	Build command line .
+8572	Convert ListRecommendationsRequest to name value pairs
+10100	Write a single string record
+10192	Parse DSN
+10837	Build ORDER BY
+9861	Write the dimension
+10763	Set payment type
+6559	Get number type
+1179	Get validation data .
+9750	Saves the PPS
+7706	apply a Diff from start to start
+1375	Runs a set of commands with their parameters .
+1389	Validates a resource exists .
+2956	Closes the underlying device .
+12312	Writes a file to the web dir .
+8780	Get the scheme
+6027	Sets the uploaded date .
+4711	Wrap this text
+8626	Set the value of the TermsAndConditionsNotAcceptedCollection value .
+11937	Build a query from the table
+7837	Register the SMS package .
+757	renders image by GD
+12647	Set the status of the object
+9972	Set the code name .
+2254	Removes nested paths
+3456	Creates an aggregate type from a string
+2295	Get TinyM templates
+2936	Get backups .
+5199	Validates given options .
+9807	Read BLIP record
+9146	Get session by key
+12710	Resolve given instance
+3566	Add a callback to set attributes .
+2413	Add Tl style sheet
+2362	Returns the first active member with the given IDs .
+6550	Get current value
+1081	Returns a location for the given start token .
+4512	Runs the kernel view .
+7719	Transliterates a string
+1105	Applies lock between nodes .
+12956	Removes an object from the collection .
+3807	Translate a legend .
+9825	Write drawing relationships
+6313	Loads the constraint into the given table
+6557	Maps a log level to the configured style .
+364	Renders the caption
+2650	Validates a service version .
+8722	Returns the translation for the given locale .
+10630	Get memory usage info
+7730	Send API request
+1880	Check if a folder is mounted .
+1643	Returns the center coordinates
+11009	Add a plugin type
+3447	Returns an array representation of this model .
+9029	Output error message .
+12517	Moves a file or directory
+8353	Sends the signal to all processes .
+1312	Sets the connection timeout and seconds .
+8684	Converts an iterable object to an array .
+3496	Send a notification .
+1244	Creates a callable that invokes the provided provider .
+12864	Send the headers to the client
+11782	Generates source from children
+7683	Returns the main id of the file .
+5427	Get the interfaces
+2476	Logs warning .
+9111	Get theme config
+9090	Check if the form fields are multipart .
+9046	Registers a data type
+10925	Renders a single row
+5671	Creates a string difference between two strings .
+12371	Add item .
+11521	Detach an event listener
+3713	Is this field a nested type?
+7755	Deserialize an entity .
+1943	Replace insert tags .
+3727	Ensures that a connection is valid .
+4894	End capturing .
+1009	The default field resolver .
+7960	Whether or not this profile can be changed .
+11736	Setter for address .
+2163	4 . 5
+10625	Prepare table structure
+4979	Get form object
+4026	Format model to label .
+4690	Add a group by clause
+375	Gets help for an action .
+385	Get attribute orders .
+3581	Pluck meta values .
+3265	Recursive preserve line breaks
+5899	Lists all functionality .
+5580	Submits a form by its ID .
+6900	Close the session .
+8886	Parses the result returned by the gateway .
+7896	Create an uploader instance .
+597	Retrieve a single model
+6994	Prepare uploadable .
+11314	Returns the normalized URL
+5507	Define a function that will return value .
+4464	Perform the work .
+11524	Parse the bot UA
+11632	Group trans - trans .
+9407	Create a middleware callback .
+3113	Set store id for a test session
+1694	Export a single style sheet
+312	Runs the application .
+12738	Append a CSS class
+6765	Handles the update of the sale
+11681	Read from cache .
+1103	Fire the move event for the node .
+3287	Get a plugin instance .
+4215	Get the keys of an object
+1394	Create a new instance with the specified media type .
+5898	Retrieve a video template by ID .
+1341	Finds a resource by identifier .
+1758	Returns a formatted number
+1614	Internal method to send command .
+7412	Custom change mode .
+11071	Set an integer value .
+3584	Add a meta has query .
+12000	Generate doctrine query
+948	returns the api object
+5518	Invoke a method and check its expectations .
+8887	Checks default options .
+2147	Send the newsletter
+12008	Returns messages .
+7540	Get the index of this comment .
+11049	Parses the command line into an associative array
+814	Gets the new line index .
+2983	Make path relative
+314	Returns vendor path
+339	Registers required script for ActiveForm .
+9921	Find many to many relations
+11077	Get Http Adapter
+5014	Logs a bootstrap event .
+8491	Get the number of CPU cores
+5788	Overridden to execute the SQL query .
+7168	Updates the tab
+904	Is an unary succor operator .
+12775	Reads from a namespace
+3557	Set value type .
+4428	Get question .
+7010	format %N .
+11868	Destroy the session file .
+6004	Sets the categories .
+5016	Logs the start of a job .
+430	Get application base path
+11732	Generate blocks .
+5705	Should this record be displayed?
+9001	Outputs the user column .
+5050	Trigger an event
+5880	Gets a protected property of an object .
+12137	Update the question .
+3401	Retrieve the value
+4119	Adds a type .
+6908	Add a copy .
+10918	Get user entity
+11723	Collects activity information
+630	Creates an INSERT query .
+4699	Returns an array of error messages .
+621	Build a split condition
+2796	Sets the adapter options from a string .
+8405	Bootstrap the application
+6204	Default error handler
+7098	Find StockUnits for a subject .
+9414	Return the float variance
+12373	Apply a validation rule to a field .
+7061	Sets the css classes .
+856	Overrides a token at a given index .
+885	Returns the name for a value .
+7260	Creates a percent adjustment .
+3387	Send a password reset link .
+9035	Persists the thread .
+7928	Unregister a namespace .
+3225	Creates a new folder under the specified path
+12724	Reset self
+9664	Registers a new reader
+6007	Creates a char from a given hex value
+10204	Set shrink to fit
+11515	Get the named parameter .
+4407	Get the current menu plugin identifier for the current request .
+7748	Checks if the given method is public .
+2524	Loads data from AuthParams
+9467	Initializer .
+12850	Sends cache header
+6030	Sets child medias .
+10043	Set the piece
+1330	Query to many models .
+8404	Register a new application
+10053	Set chart data type
+10151	Read FOOTER record
+1256	Search for an expression
+9602	Compute the dot product of this vector and another vector .
+6317	Executes a SQL query .
+4862	Create envelope .
+1672	Removes the public folder .
+7591	Renders a badge
+3932	Set label for property .
+5077	Returns an item by ID
+8260	Saves login info
+9746	Set the quarter
+12800	Read command line headers
+6424	Get a Google Client
+4987	Sets a form .
+2484	Returns search targets as a string .
+11551	Saves a Consignment .
+2770	Get the URL of a remote .
+7121	Create query builder to find by subject identity .
+5330	Returns the pattern to escape emoji characters .
+6501	Returns the request target .
+7457	Persists all entities
+3971	Retrieve attribute options .
+8364	Sets the current language .
+11201	Returns the offset for the given number of items .
+6893	Sort assignments .
+7707	apply a diff
+8216	Returns the next available job .
+10575	Apply style to text .
+2704	Get available content type options
+12886	Sets a raw photo .
+7058	Get StockAdjustment from event .
+8150	Initializes the Twig extension runtime .
+8550	Set the value of theentalTransactionList property .
+10869	Get user by email
+4062	Helper function to determine if an empty array is equivalent .
+9854	Appends data to the buffer .
+8938	Method to update a changeset .
+683	Normalize the complex filter
+12711	Registers a service
+8012	Create an exception for a challenge message .
+2652	Upload snippet .
+1986	Load options from database
+6553	Removes the PID file
+5081	Update a resource
+3960	Parses the given attribute and returns the result .
+12420	Returns the translated string .
+3638	Display system environment info
+2463	Find sent messages by pid
+7269	returns Model of this object
+12832	Compiles the modifiers
+3420	Delete the current object .
+991	Get all rules
+4803	Renders a rich text content .
+8000	Calculate NTL - Response .
+6006	Returns the Unicode value of this character .
+11785	Pagination .
+1322	Parse HTTP headers .
+9701	Add a new xf writer
+2222	Count published events
+9784	Parses HTML block
+6363	Starts the profiler
+9719	Write MSODRAWINGGROUP record
+9751	Save images for a post
+11644	Get the current connection .
+4590	Checks if an object exists .
+7460	Looks up a user by hash .
+5160	Get attachment by field
+3236	Returns the total price .
+3372	Get Form Factory
+910	Tries to find the index of a header comment .
+10112	Writes a range protection record .
+11266	Load a library
+1073	Gets the list of field names for a given type .
+3444	Retrieve a field
+9426	Builds the command
+5706	Whether this record should be displayed
+4668	Generates the classes .
+6911	Remove an extra copy
+7003	Match url against pattern
+9614	Authenticate the given token
+9621	Encode a query string
+4649	Get the services .
+3969	Delete condition settings for a model .
+6457	Redirects to another URI
+2672	Update a dictionary item
+8073	Send a POST request to the API .
+11220	Resets all internal resources
+7555	Checks if the model matches the conditions
+11313	Build base string based on method and data
+8368	Validates the configuration array
+12610	Get parents .
+1960	Decode a domain string .
+547	Add servers to memcache .
+8042	Calculate the length of an event .
+4433	Creates a subscriber subscriber .
+5200	Set multiple options at once
+10301	Writes a layout .
+5032	Get the currently loaded page .
+9871	Write breaks .
+9845	Encrypt an HTTP request with a pre - shared key .
+5617	Get the total tree size
+7180	Get the allowed types
+9668	Write a pattern fill .
+10724	Get number of rows
+6311	get table info
+7646	Gets the file name from a URL .
+4295	Writes an alert .
+6568	Create migration file
+12407	Stores a value in the cache .
+12897	Redirects to a given path .
+568	Formats a timestamp .
+1815	Render table import wizard .
+3427	Add multiple filters at once .
+11980	Query the API .
+3446	Returns the accessor for the given language field .
+3546	Create a new user .
+4937	Recursively create nested options
+9207	Import multiple records into a table .
+9131	Loads a configuration file .
+8799	Generate a hash from the supplied value .
+874	Get all annotations of given types .
+1594	Validates resource type
+11531	Generate path to slot pages .
+7458	Marks the font as background .
+4715	Split the string using a regular expression
+6012	Adds a single comment response .
+8545	Set the value of the GuaranteeClaimList property .
+1361	Check if the string is at least one of the given media types .
+5626	Adds a request parameter .
+5555	Returns urls .
+1625	Updates all counters
+3304	Append signature to request .
+10308	Set Glow Size
+5079	Process the remap
+11865	Get session data .
+8556	Parse fields from a DOM element
+4560	Translate model properties .
+10910	Adds a new decorator
+11061	Get an array of supported encodings
+2358	Returns the username of the backend user .
+1296	Resolve field .
+10542	Create a dispatch instance from an application .
+3888	Get all attribute names
+7942	Adds secondary DNS domains to the specified domain .
+1440	Get resource name .
+3414	Fills the object with the given fields .
+5440	Add an entry pattern for a mode
+383	Returns exception name .
+3186	Add the start point for a timestamp
+3571	Add query hook .
+12704	Get title attribute
+1435	Converts a string to underscored version .
+7937	Creates a FTP Access for a domain .
+2954	Tries to find the best matching template .
+7656	Adds a ReplyTo address
+6782	Sets form parameters .
+7789	Set the transaction class name .
+5850	Builds the virtual database form .
+5167	Filter date .
+6524	Get handler method name
+12616	Sets the given attributes .
+3056	Save last category item output in session
+10341	Validate the columns .
+5096	Checks if all select queries exists
+12666	Edit the block .
+689	Add rules .
+5772	Returns the string representation of the roles .
+8210	Parse the connection configuration .
+7072	Get TicketAttachment from event .
+6486	Creates a request from superglobals .
+180	Loads a dummy bundle .
+5736	Returns parameters to show .
+9378	Get files from a directory .
+3774	Returns all type names .
+9421	Get the contents of the stream .
+8932	Loads module dependencies
+5044	Listen to route event
+6543	Returns the current element
+11913	Returns the current element
+566	Sets the script file path .
+1966	Finds a model by its primary key value
+161	Set the HAVING condition .
+11780	Convert data to entity
+3766	Add translations to input screen .
+5640	Prints the end of a group .
+6560	Splits a path .
+4670	Called after generating the map
+4058	Draw attribute icon
+5742	Returns a multipart parser for a given content type .
+7687	Construct a reference to a cell reference
+1407	Returns the model attributes .
+39	Generate a package tree .
+1680	Handle the user profile .
+8937	Read a changeset
+9880	Write workbook protection
+2564	Generates a random string
+3613	Set target temperature
+5835	Clears expired cache entries .
+7722	Add an alert
+11609	Disconnects an account .
+4673	Get template file .
+6495	Visits a page .
+8026	Removes a process from the pool
+9781	Sets a flag .
+11675	Get the homepage template .
+3830	Prepare the frontend options
+3814	Inject service container into data drivers
+2633	Render the history page
+6679	Convert a string from one format to another .
+2697	Main API method
+12149	Get reserved codes
+8296	Writes data to file
+4184	Get file model .
+2046	Get a temporary directory .
+5362	Guesses a chain of properties .
+1603	Returns the variables for this form
+6266	Reject this promise .
+9007	Sort by priority
+10385	Unify all params for a specific field .
+160	Set the HAVING condition .
+7338	Create new event .
+8017	Check if a file exists
+2512	Change the status of this entity .
+6936	Find StockSubject instances for the given subject and states .
+1071	Check for subfield conflicts .
+7873	Method to perform credit action .
+5691	Generate the HTML to submit the button
+6135	Search results .
+10062	Update meta value .
+4192	Dump the PHP doc .
+11147	Get information about a specific location .
+5174	Get a property value
+11427	Convert to object
+3397	Decodes unreserved characters .
+10778	Create a PNG image .
+6799	Install countries .
+6509	Create handlers for the given job .
+968	Cancel the plan charge .
+9151	Get options for select field
+11490	Destroy session with cookie
+7075	Adds the item details to the details array .
+5157	Check if route should be executed for given route
+9666	Write a fill to the XML .
+603	Checks if the string starts with any of the given strings .
+12423	Returns the translation objects for the given domain
+5310	Calculate the path from an ellipse .
+9164	Parses a node .
+1822	Adjust permissions for image sizes .
+2733	Main action handler .
+220	Formats a number
+4426	Ask for data .
+11269	Calculates the path between two points
+6726	Get movie votes
+4015	Make required field
+8786	Generate all commands
+2878	Enables FPC debug mode
+1674	Synchronizes the folder .
+7899	Checks if a provider alias exists .
+11429	Runs the application .
+5913	Adds a user to a group .
+5117	Delete an article .

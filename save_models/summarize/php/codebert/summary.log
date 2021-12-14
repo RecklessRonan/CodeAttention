@@ -1,0 +1,13 @@
+[0] Best ppl changed into 21.6268
+[0] Best bleu+em changed into 23.35 (bleu: 23.35, em: 0.92)
+[1] Best ppl changed into 17.4190
+[1] Best bleu+em changed into 24.63 (bleu: 24.63, em: 1.32)
+[2] Best ppl changed into 15.9882
+[3] Best ppl changed into 15.3419
+[3] Best bleu+em changed into 25.85 (bleu: 25.85, em: 2.20)
+[4] Best ppl changed into 15.3198
+[5] Best bleu+em changed into 26.08 (bleu: 26.08, em: 2.38)
+[8] Early stop as not_bleu_em_inc_cnt=3, and not_loss_dec_cnt=4
+[best-bleu] bleu-4: 24.84, em: 1.6198, codebleu: 0.0000
+[best-ppl] bleu-4: 25.09, em: 1.7197, codebleu: 0.0000
+Finish and take 16h17m
