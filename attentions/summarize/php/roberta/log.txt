@@ -1,0 +1,153 @@
+12/15/2021 12:01:18 - WARNING - configs -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, cpu count: 48
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaModel: ['lm_head.dense.weight', 'lm_head.decoder.weight', 'lm_head.layer_norm.bias', 'lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.bias']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+12/15/2021 12:01:41 - INFO - models -   Finish loading model [173.0M] parameters from roberta
+12/15/2021 12:02:10 - INFO - utils -   Read 5000 examples, avg src len: 109, avg trg len: 9, max src len: 512, max trg len: 80
+12/15/2021 12:02:10 - INFO - utils -   Sample 5k data for computing bleu/attention from /data/pretrain-attention/CodeAttention/data/summarize/php/train.jsonl
+  0%|          | 0/5000 [00:00<?, ?it/s]  1%|          | 54/5000 [00:00<00:11, 416.10it/s]  3%|▎         | 135/5000 [00:00<00:08, 552.24it/s]  4%|▍         | 216/5000 [00:00<00:07, 607.28it/s]  6%|▌         | 297/5000 [00:00<00:07, 666.23it/s]  8%|▊         | 405/5000 [00:00<00:06, 732.09it/s] 10%|▉         | 486/5000 [00:00<00:06, 728.67it/s] 11%|█▏        | 567/5000 [00:00<00:06, 724.13it/s] 13%|█▎        | 648/5000 [00:00<00:05, 726.79it/s] 15%|█▌        | 756/5000 [00:01<00:05, 767.32it/s] 17%|█▋        | 864/5000 [00:01<00:05, 781.42it/s] 19%|█▉        | 945/5000 [00:01<00:05, 784.38it/s] 21%|██        | 1053/5000 [00:01<00:04, 845.38it/s] 23%|██▎       | 1161/5000 [00:01<00:04, 849.57it/s] 25%|██▌       | 1269/5000 [00:01<00:04, 834.96it/s] 28%|██▊       | 1377/5000 [00:01<00:04, 847.38it/s] 30%|██▉       | 1485/5000 [00:01<00:04, 849.93it/s] 32%|███▏      | 1593/5000 [00:02<00:03, 875.97it/s] 34%|███▍      | 1701/5000 [00:02<00:03, 863.64it/s] 36%|███▌      | 1809/5000 [00:02<00:03, 884.61it/s] 38%|███▊      | 1917/5000 [00:02<00:03, 889.23it/s] 40%|████      | 2025/5000 [00:02<00:03, 902.41it/s] 43%|████▎     | 2133/5000 [00:02<00:03, 904.16it/s] 45%|████▍     | 2241/5000 [00:02<00:03, 886.50it/s] 47%|████▋     | 2330/5000 [00:02<00:03, 845.87it/s] 48%|████▊     | 2415/5000 [00:03<00:03, 790.56it/s] 50%|████▉     | 2495/5000 [00:03<00:03, 778.66it/s] 52%|█████▏    | 2592/5000 [00:03<00:03, 765.29it/s] 53%|█████▎    | 2673/5000 [00:03<00:03, 768.53it/s] 55%|█████▌    | 2754/5000 [00:03<00:02, 778.38it/s] 57%|█████▋    | 2862/5000 [00:03<00:02, 789.64it/s] 59%|█████▉    | 2943/5000 [00:03<00:02, 782.66it/s] 61%|██████    | 3051/5000 [00:03<00:02, 822.49it/s] 63%|██████▎   | 3159/5000 [00:03<00:02, 843.25it/s] 65%|██████▌   | 3267/5000 [00:04<00:01, 872.19it/s] 67%|██████▋   | 3355/5000 [00:04<00:02, 804.58it/s] 69%|██████▊   | 3436/5000 [00:04<00:02, 759.33it/s] 70%|███████   | 3513/5000 [00:04<00:02, 738.40it/s] 72%|███████▏  | 3591/5000 [00:04<00:01, 726.47it/s] 74%|███████▍  | 3699/5000 [00:04<00:01, 757.69it/s] 76%|███████▌  | 3775/5000 [00:04<00:01, 716.87it/s] 77%|███████▋  | 3847/5000 [00:04<00:01, 676.63it/s] 78%|███████▊  | 3915/5000 [00:05<00:01, 654.71it/s] 80%|███████▉  | 3996/5000 [00:05<00:01, 674.36it/s] 82%|████████▏ | 4077/5000 [00:05<00:01, 691.30it/s] 83%|████████▎ | 4158/5000 [00:05<00:01, 679.93it/s] 85%|████████▍ | 4239/5000 [00:05<00:01, 703.24it/s] 86%|████████▋ | 4320/5000 [00:05<00:00, 713.54it/s] 89%|████████▊ | 4428/5000 [00:05<00:00, 770.65it/s] 91%|█████████ | 4536/5000 [00:05<00:00, 802.01it/s] 93%|█████████▎| 4644/5000 [00:05<00:00, 842.25it/s] 95%|█████████▍| 4729/5000 [00:06<00:00, 744.20it/s] 96%|█████████▌| 4806/5000 [00:06<00:00, 739.49it/s] 98%|█████████▊| 4887/5000 [00:06<00:00, 752.48it/s]100%|█████████▉| 4995/5000 [00:06<00:00, 775.37it/s]100%|██████████| 5000/5000 [00:06<00:00, 777.31it/s]
+12/15/2021 12:02:17 - INFO - __main__ -   Parse AST trees
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 799.94it/s]
+source: private static function detectReturnType(\ReflectionMethod $method): ?string
+    {
+        if ($method->hasReturnType()) {
+            return (string) $method->getReturnType();
+        }
+
+        $docComment = $method->getDocComment();
+        if (false === $docComment) {
+            return null;
+        }
+
+        $returnPart = strstr($docComment, '@return');
+        if (false === $returnPart) {
+            return null;
+        }
+
+        $returnParts = explode(' ', trim(str_replace('@return', '', $returnPart)));
+        $returnType  = ltrim(trim($returnParts[0]), '\\');
+        if (empty($returnType) || strpos($returnType, '*') !== false) {
+            return null;
+        }
+
+        return $returnType;
+    }
+idx: 203991 nodes num: 2 edges num: 1
+source: private function setRootDefault($key, array $mapping)
+    {
+        if (!isset($mapping[$key]) || !is_array($mapping[$key])) {
+            $mapping[$key] = [];
+        }
+        return $mapping;
+    }
+idx: 115535 nodes num: 2 edges num: 1
+source: public function options( $component, $options ) {
+
+		if ( ! isset( $this->settings['components'][ $component ] ) || ! is_array( $this->settings['components'][ $component ] ) ) {
+			$this->settings['components'][ $component ] = array();
+		}
+
+		foreach ( $options as $option => $data ) {
+			if ( ! isset( $this->settings['components'][ $component ][ $option ] ) && isset( $data['default'] ) ) {
+				$this->settings['components'][ $component ][ $option ] = $data['default'];
+			}
+		}
+	}
+idx: 30631 nodes num: 2 edges num: 1
+source: public function setTextSnippet($var)
+    {
+        GPBUtil::checkMessage($var, \Google\Cloud\AutoMl\V1beta1\TextSnippet::class);
+        $this->writeOneof(2, $var);
+
+        return $this;
+    }
+idx: 1963 nodes num: 2 edges num: 1
+source: public function save(Picture $picture)
+    {
+        $pictureFile = $this->getPath($picture);
+
+        if(!$this->isFileActual($pictureFile, $picture))
+        {
+            $picture->save($pictureFile);
+        }
+    }
+idx: 23761 nodes num: 2 edges num: 1
+source: public function output($args) {
+		$args += ['', '', 63];
+		$this->_consoleOutput->write($this->_getState($args[0], $args[1], $args[2]));
+	}
+idx: 238806 nodes num: 2 edges num: 1
+source: protected function addServiceToBridge(Bridge $bridge, $service = null)
+    {
+        // Add a service if necessary.
+        if (! is_null($service)) {
+            $bridge->usingService($service);
+        }
+
+        return $bridge;
+    }
+idx: 211550 nodes num: 2 edges num: 1
+source: public static function detect_moodle2_format($tempdir) {
+        $dirpath = make_backup_temp_directory($tempdir, false);
+        if (!is_dir($dirpath)) {
+            throw new convert_helper_exception('tmp_backup_directory_not_found', $dirpath);
+        }
+
+        $filepath = $dirpath . '/moodle_backup.xml';
+        if (!file_exists($filepath)) {
+            return false;
+        }
+
+        $handle     = fopen($filepath, 'r');
+        $firstchars = fread($handle, 200);
+        $status     = fclose($handle);
+
+        if (strpos($firstchars,'<?xml version="1.0" encoding="UTF-8"?>') !== false and
+            strpos($firstchars,'<moodle_backup>') !== false and
+            strpos($firstchars,'<information>') !== false) {
+                return true;
+        }
+
+        return false;
+    }
+idx: 152627 nodes num: 22 edges num: 21
+source: public static function sanitize( $value ) {
+		if ( class_exists( '\Kirki\Field\Color' ) ) {
+			return \Kirki\Field\Color::sanitize( $value );
+		}
+		return esc_attr( $value );
+	}
+idx: 9155 nodes num: 2 edges num: 1
+source: public function parseOnTableColumns($item, array &$outputRow)
+    {
+        if (method_exists($item, 'presenter')) {
+            $item = $item->presenter();
+        }
+
+        $columns         = $this->columnFactory->getColumns();
+        $includedColumns = $this->columnFactory->getIncludedColumns($this->fieldFactory->getEditFields());
+        $relatedColumns  = $this->columnFactory->getRelatedColumns();
+
+        //loop over both the included and related columns
+        foreach (array_merge($includedColumns, $relatedColumns) as $field => $col) {
+            //            $attributeValue = $item->getAttribute($field);
+            $attributeValue = $item->$field;
+
+            //if this column is in our objects array, render the output with the given value
+            if (isset($columns[$field])) {
+                $outputRow[$field] = array(
+                    'raw'      => $attributeValue,
+                    'rendered' => $columns[$field]->renderOutput($attributeValue, $item),
+                );
+            }
+            //otherwise it's likely the primary key column which wasn't included (though it's needed for identification purposes)
+            else {
+                $outputRow[$field] = array(
+                    'raw'      => $attributeValue,
+                    'rendered' => $attributeValue,
+                );
+            }
+        }
+    }
+idx: 176046 nodes num: 2 edges num: 1
+tree num: 10

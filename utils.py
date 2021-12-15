@@ -9,6 +9,11 @@ import random
 import torch
 import time
 from tqdm import tqdm
+import networkx as nx
+import re
+from io import StringIO
+import tokenize
+
 
 logger = logging.getLogger(__name__)
 
@@ -130,7 +135,9 @@ class Example(object):
                  target,
                  url=None,
                  task='',
-                 sub_task=''
+                 sub_task='',
+                 ast=None,
+                 raw_code=None
                  ):
         self.idx = idx
         self.source = source
@@ -138,6 +145,8 @@ class Example(object):
         self.url = url
         self.task = task
         self.sub_task = sub_task
+        self.ast = ast
+        self.raw_code = raw_code
 
 
 class CloneExample(object):
@@ -242,6 +251,7 @@ def read_summarize_examples(filename, data_num):
                     idx=idx,
                     source=code,
                     target=nl,
+                    raw_code=js['code']
                 )
             )
             if idx + 1 == data_num:
@@ -560,3 +570,116 @@ def get_elapse_time(t0):
     else:
         minute = int((elapse_time % 3600) // 60)
         return "{}m".format(minute)
+    
+
+def remove_comments_and_docstrings(source, lang):
+    if lang in ['python']:
+        """
+        Returns 'source' minus comments and docstrings.
+        """
+        io_obj = StringIO(source)
+        out = ""
+        prev_toktype = tokenize.INDENT
+        last_lineno = -1
+        last_col = 0
+        for tok in tokenize.generate_tokens(io_obj.readline):
+            token_type = tok[0]
+            token_string = tok[1]
+            start_line, start_col = tok[2]
+            end_line, end_col = tok[3]
+            ltext = tok[4]
+            if start_line > last_lineno:
+                last_col = 0
+            if start_col > last_col:
+                out += (" " * (start_col - last_col))
+            # Remove comments:
+            if token_type == tokenize.COMMENT:
+                pass
+            # This series of conditionals removes docstrings:
+            elif token_type == tokenize.STRING:
+                if prev_toktype != tokenize.INDENT:
+                    # This is likely a docstring; double-check we're not inside an operator:
+                    if prev_toktype != tokenize.NEWLINE:
+                        if start_col > 0:
+                            out += token_string
+            else:
+                out += token_string
+            prev_toktype = token_type
+            last_col = end_col
+            last_lineno = end_line
+        temp = []
+        for x in out.split('\n'):
+            if x.strip() != "":
+                temp.append(x)
+        return '\n'.join(temp)
+    elif lang in ['ruby']:
+        return source
+    else:
+        def replacer(match):
+            s = match.group(0)
+            if s.startswith('/'):
+                return " "  # note: a space and not an empty string
+            else:
+                return s
+
+        pattern = re.compile(
+            r'//.*?$|/\*.*?\*/|\'(?:\\.|[^\\\'])*\'|"(?:\\.|[^\\"])*"',
+            re.DOTALL | re.MULTILINE
+        )
+        temp = []
+        for x in re.sub(pattern, replacer, source).split('\n'):
+            if x.strip() != "":
+                temp.append(x)
+        return '\n'.join(temp)
+    
+    
+# depth-first traverse
+def traverse(cursor, G, came_up, node_tag, node_sum, parent_dict):
+    '''
+        cursor: the pointer of tree-sitter
+        G: the graph stored in the format of networkx
+        came_up: used to denote whether the node is the first glance
+        node_tag: the tag of this node
+        node_sum. the number of distinct nodes
+        parent_dict: used to store the parent nodes of all traversed nodes
+    '''
+    if not came_up:
+        # G.add_node(node_tag, features=cursor.node.type,
+        #            label=cursor.node.type)
+        G.add_node(node_sum, features=cursor.node, label=str(node_tag) + (cursor.node.type if len(cursor.node.type) <= 5 else cursor.node.type[0:5]))
+        # G.add_node(node_tag, features=cursor.node.type, label=node_tag)
+        if node_tag in parent_dict.keys():
+            G.add_edge(parent_dict[node_tag], node_tag)
+        if cursor.goto_first_child():
+            node_sum += 1
+            parent_dict[node_sum] = node_tag
+            traverse(cursor, G, came_up=False, node_tag=node_sum, node_sum=node_sum, parent_dict=parent_dict) 
+        elif cursor.goto_next_sibling():
+            node_sum += 1            
+            parent_dict[node_sum] = parent_dict[node_tag]
+            traverse(cursor, G, came_up=False, node_tag=node_sum, node_sum=node_sum, parent_dict=parent_dict)
+        elif cursor.goto_parent():
+            node_tag = parent_dict[node_tag]
+            traverse(cursor, G, came_up=True, node_tag=node_tag, node_sum=node_sum, parent_dict=parent_dict) 
+    else:
+        if cursor.goto_next_sibling():
+            node_sum += 1
+            parent_dict[node_sum] = parent_dict[node_tag] 
+            traverse(cursor, G, came_up=False, node_tag=node_sum, node_sum=node_sum, parent_dict=parent_dict)
+        elif cursor.goto_parent():
+            node_tag = parent_dict[node_tag]
+            traverse(cursor, G, came_up=True, node_tag=node_tag, node_sum=node_sum,  parent_dict=parent_dict)
+
+
+def get_ast_nx(example, parser):
+    tree = parser.parse(bytes(example.raw_code, 'utf-8'))
+    print('source:', example.raw_code)
+    G = nx.Graph()
+    cursor = tree.walk()
+    traverse(cursor, G, came_up=False, node_tag=0, node_sum=0, parent_dict={})
+    return Example(
+        idx = example.idx,
+        source = example.source,
+        target = example.target,
+        ast = G
+    )

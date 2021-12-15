@@ -10,10 +10,12 @@ from tqdm import tqdm
 import os
 import logging
 from bertviz.util import format_attention, num_layers
+from tree_sitter import Language, Parser
+import networkx as nx
 
 from configs import add_args, set_dist, set_seed, set_hyperparas
 from models import bulid_or_load_gen_model
-from utils import get_filenames, get_elapse_time, load_and_cache_gen_data
+from utils import get_filenames, get_elapse_time, load_and_cache_gen_data, get_ast_nx
 
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
@@ -56,10 +58,19 @@ def transform_attention():
     pass
 
 
-def get_ast_distance():
-
-    pass
-
+def get_ast_distance(examples, tokenizer, parser):
+    ast_list = []
+    tree_sum = 0
+    
+    for example in tqdm(examples):
+        ast_example = get_ast_nx(example, parser)
+        ast_list.append(ast_example)
+        if nx.is_tree(ast_example.ast):
+            tree_sum += 1
+            print('idx:', ast_example.idx, 'nodes num:', ast_example.ast.number_of_nodes(), 
+                  'edges num:', ast_example.ast.number_of_edges())
+    print('tree num:', tree_sum)
+    
 
 def main():
     parser = argparse.ArgumentParser()
@@ -84,9 +95,27 @@ def main():
         args.data_dir, args.task, args.sub_task)
     examples, data = load_and_cache_gen_data(
         args, args.train_filename, pool, tokenizer, 'attention', is_sample=True)
-    ast_distance_list = get_ast_distance()
-    attention_list = get_attention(
-        args, data, examples, model, tokenizer)
+    
+    
+    Language.build_library(
+        'build/my-language.so',
+        [
+            '/data/code/tree-sitter/tree-sitter-ruby',
+            '/data/code/tree-sitter/tree-sitter-javascript',
+            '/data/code/tree-sitter/tree-sitter-go',
+            '/data/code/tree-sitter/tree-sitter-python',
+            '/data/code/tree-sitter/tree-sitter-java',
+            '/data/code/tree-sitter/tree-sitter-php',
+        ]
+    )
+    language = Language('build/my-language.so', args.sub_task)
+    parser = Parser()
+    parser.set_language(language)  
+    
+    logger.info("Parse AST trees")
+    ast_distance_list = get_ast_distance(examples[:10], tokenizer, parser)
+    # attention_list = get_attention(
+    #     args, data, examples, model, tokenizer)
 
 
 if __name__ == "__main__":
