@@ -65,6 +65,10 @@ def add_args(parser):
                         help="Max gradient norm.")
     parser.add_argument("--warmup_steps", default=100, type=int,
                         help="Linear warmup over warmup_steps.")
+    parser.add_argument("--batch_size", default=8, type=int,
+                        help="Batch size per GPU/CPU for training.")
+    parser.add_argument("--attention_batch_size", default=100, type=int,
+                        help="Batch size per GPU/CPU for computing attention.")
     args = parser.parse_args()
     return args
 

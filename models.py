@@ -30,7 +30,7 @@ def bulid_or_load_gen_model(args):
     config = AutoConfig.from_pretrained(checkpoint)
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
     if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
-        encoder = AutoModel.from_pretrained(checkpoint)
+        encoder = AutoModel.from_pretrained(checkpoint, output_attentions=True)
         decoder_layer = nn.TransformerDecoderLayer(
             d_model=config.hidden_size, nhead=config.num_attention_heads)
         decoder = nn.TransformerDecoder(decoder_layer, num_layers=6)
@@ -38,9 +38,11 @@ def bulid_or_load_gen_model(args):
                         config=config, beam_size=args.beam_size, max_length=args.max_target_length,
                         sos_id=tokenizer.cls_token_id, eos_id=tokenizer.sep_token_id)
     elif args.model_name in ['t5', 'codet5']:
-        model = T5ForConditionalGeneration.from_pretrained(checkpoint)
+        model = T5ForConditionalGeneration.from_pretrained(
+            checkpoint, output_attentions=True)
     elif args.model_name in ['bart', 'plbart']:
-        model = BartForConditionalGeneration.from_pretrained(checkpoint)
+        model = BartForConditionalGeneration.from_pretrained(
+            checkpoint, output_attentions=True)
 
     logger.info("Finish loading model [%s] parameters from %s", get_model_size(
         model), args.model_name)
@@ -99,6 +101,7 @@ class Seq2Seq(nn.Module):
 
     def forward(self, source_ids=None, source_mask=None, target_ids=None, target_mask=None, args=None):
         outputs = self.encoder(source_ids, attention_mask=source_mask)
+        encoder_attention = outputs[-1]
         encoder_output = outputs[0].permute([1, 0, 2]).contiguous()
         if target_ids is not None:
             attn_mask = -1e4 * \
@@ -119,9 +122,7 @@ class Seq2Seq(nn.Module):
             loss_fct = nn.CrossEntropyLoss(ignore_index=-1)
             loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1))[active_loss],
                             shift_labels.view(-1)[active_loss])
-
-            outputs = loss, loss * active_loss.sum(), active_loss.sum()
-            return outputs
+            return loss, loss * active_loss.sum(), active_loss.sum(), encoder_attention
         else:
             # Predict
             preds = []
@@ -160,7 +161,7 @@ class Seq2Seq(nn.Module):
                 preds.append(torch.cat(pred, 0).unsqueeze(0))
 
             preds = torch.cat(preds, 0)
-            return preds
+            return preds, encoder_attention
 
 
 class Beam(object):

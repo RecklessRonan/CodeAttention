@@ -46,8 +46,8 @@ def eval_ppl_epoch(args, eval_data, eval_examples, model, tokenizer):
 
         with torch.no_grad():
             if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
-                loss, _, _ = model(source_ids=source_ids, source_mask=source_mask,
-                                   target_ids=target_ids, target_mask=target_mask)
+                loss, _, _, _ = model(source_ids=source_ids, source_mask=source_mask,
+                                      target_ids=target_ids, target_mask=target_mask)
             else:
                 outputs = model(input_ids=source_ids, attention_mask=source_mask,
                                 labels=target_ids, decoder_attention_mask=target_mask)
@@ -81,7 +81,8 @@ def eval_bleu_epoch(args, eval_data, eval_examples, model, tokenizer, split_tag,
         source_mask = source_ids.ne(tokenizer.pad_token_id)
         with torch.no_grad():
             if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
-                preds = model(source_ids=source_ids, source_mask=source_mask)
+                preds, _ = model(source_ids=source_ids,
+                                 source_mask=source_mask)
 
                 top_preds = [pred[0].cpu().numpy() for pred in preds]
             else:
@@ -235,8 +236,8 @@ def main():
                 target_mask = target_ids.ne(tokenizer.pad_token_id)
 
                 if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
-                    loss, _, _ = model(source_ids=source_ids, source_mask=source_mask,
-                                       target_ids=target_ids, target_mask=target_mask)
+                    loss, _, _, _ = model(source_ids=source_ids, source_mask=source_mask,
+                                          target_ids=target_ids, target_mask=target_mask)
                 else:
                     outputs = model(input_ids=source_ids, attention_mask=source_mask,
                                     labels=target_ids, decoder_attention_mask=target_mask)

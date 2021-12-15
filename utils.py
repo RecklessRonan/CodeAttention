@@ -325,7 +325,8 @@ def load_and_cache_gen_data(args, filename, pool, tokenizer, split_tag, only_src
         data = torch.load(cache_fn)
     else:
         if is_sample:
-            logger.info("Sample 5k data for computing bleu from %s", filename)
+            logger.info(
+                "Sample 5k data for computing bleu/attention from %s", filename)
         else:
             logger.info("Create cache data into %s", cache_fn)
         tuple_examples = [(example, idx, tokenizer, args, split_tag)
