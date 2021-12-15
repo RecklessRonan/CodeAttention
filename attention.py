@@ -38,15 +38,27 @@ def get_attention(args, data, examples, model, tokenizer):
             if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
                 _, _, _, attention = model(source_ids=source_ids, source_mask=source_mask,
                                            target_ids=target_ids, target_mask=target_mask)
-
                 includer_layers = list(range(num_layers(attention)))
                 attention = format_attention(attention, includer_layers)
-                print(attention.shape)
-                # attention_list.append(attention.detach())
+
             else:
                 outputs = model(input_ids=source_ids, attention_mask=source_mask,
                                 labels=target_ids, decoder_attention_mask=target_mask)
+                attention = outputs.encoder_attentions
+                includer_layers = list(range(num_layers(attention)))
+                attention = format_attention(attention, includer_layers)
+
     return attention_list
+
+
+def transform_attention():
+
+    pass
+
+
+def get_ast_distance():
+
+    pass
 
 
 def main():
@@ -72,6 +84,7 @@ def main():
         args.data_dir, args.task, args.sub_task)
     examples, data = load_and_cache_gen_data(
         args, args.train_filename, pool, tokenizer, 'attention', is_sample=True)
+    ast_distance_list = get_ast_distance()
     attention_list = get_attention(
         args, data, examples, model, tokenizer)
 
