@@ -61,16 +61,16 @@ def transform_attention():
 def get_ast_distance(examples, tokenizer, parser):
     ast_list = []
     tree_sum = 0
-    
+
     for example in tqdm(examples):
         ast_example = get_ast_nx(example, parser)
         ast_list.append(ast_example)
         if nx.is_tree(ast_example.ast):
             tree_sum += 1
-            print('idx:', ast_example.idx, 'nodes num:', ast_example.ast.number_of_nodes(), 
+            print('idx:', ast_example.idx, 'nodes num:', ast_example.ast.number_of_nodes(),
                   'edges num:', ast_example.ast.number_of_edges())
     print('tree num:', tree_sum)
-    
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -95,8 +95,7 @@ def main():
         args.data_dir, args.task, args.sub_task)
     examples, data = load_and_cache_gen_data(
         args, args.train_filename, pool, tokenizer, 'attention', is_sample=True)
-    
-    
+
     Language.build_library(
         'build/my-language.so',
         [
@@ -110,8 +109,8 @@ def main():
     )
     language = Language('build/my-language.so', args.sub_task)
     parser = Parser()
-    parser.set_language(language)  
-    
+    parser.set_language(language)
+
     logger.info("Parse AST trees")
     ast_distance_list = get_ast_distance(examples[:10], tokenizer, parser)
     # attention_list = get_attention(
