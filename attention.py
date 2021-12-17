@@ -60,16 +60,10 @@ def transform_attention():
 
 def get_ast_distance(examples, tokenizer, parser):
     ast_list = []
-    tree_sum = 0
 
     for example in tqdm(examples):
         ast_example = get_ast_nx(example, parser)
         ast_list.append(ast_example)
-        if nx.is_tree(ast_example.ast):
-            tree_sum += 1
-            print('idx:', ast_example.idx, 'nodes num:', ast_example.ast.number_of_nodes(),
-                  'edges num:', ast_example.ast.number_of_edges())
-    print('tree num:', tree_sum)
 
 
 def main():
@@ -112,7 +106,7 @@ def main():
     parser.set_language(language)
 
     logger.info("Parse AST trees")
-    ast_distance_list = get_ast_distance(examples[:10], tokenizer, parser)
+    ast_distance_list = get_ast_distance(examples, tokenizer, parser)
     # attention_list = get_attention(
     #     args, data, examples, model, tokenizer)
 

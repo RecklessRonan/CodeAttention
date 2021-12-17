@@ -570,7 +570,7 @@ def get_elapse_time(t0):
     else:
         minute = int((elapse_time % 3600) // 60)
         return "{}m".format(minute)
-    
+
 
 def remove_comments_and_docstrings(source, lang):
     if lang in ['python']:
@@ -631,8 +631,8 @@ def remove_comments_and_docstrings(source, lang):
             if x.strip() != "":
                 temp.append(x)
         return '\n'.join(temp)
-    
-    
+
+
 # depth-first traverse
 def traverse(cursor, G, came_up, node_tag, node_sum, parent_dict):
     '''
@@ -640,46 +640,51 @@ def traverse(cursor, G, came_up, node_tag, node_sum, parent_dict):
         G: the graph stored in the format of networkx
         came_up: used to denote whether the node is the first glance
         node_tag: the tag of this node
-        node_sum. the number of distinct nodes
+        node_sum: the number of distinct nodes
         parent_dict: used to store the parent nodes of all traversed nodes
     '''
     if not came_up:
         # G.add_node(node_tag, features=cursor.node.type,
         #            label=cursor.node.type)
-        G.add_node(node_sum, features=cursor.node, label=str(node_tag) + (cursor.node.type if len(cursor.node.type) <= 5 else cursor.node.type[0:5]))
+        G.add_node(node_sum, features=cursor.node, label=str(
+            node_tag) + (cursor.node.type if len(cursor.node.type) <= 5 else cursor.node.type[0:5]))
         # G.add_node(node_tag, features=cursor.node.type, label=node_tag)
         if node_tag in parent_dict.keys():
             G.add_edge(parent_dict[node_tag], node_tag)
         if cursor.goto_first_child():
             node_sum += 1
             parent_dict[node_sum] = node_tag
-            traverse(cursor, G, came_up=False, node_tag=node_sum, node_sum=node_sum, parent_dict=parent_dict) 
+            traverse(cursor, G, came_up=False, node_tag=node_sum,
+                     node_sum=node_sum, parent_dict=parent_dict)
         elif cursor.goto_next_sibling():
-            node_sum += 1            
+            node_sum += 1
             parent_dict[node_sum] = parent_dict[node_tag]
-            traverse(cursor, G, came_up=False, node_tag=node_sum, node_sum=node_sum, parent_dict=parent_dict)
+            traverse(cursor, G, came_up=False, node_tag=node_sum,
+                     node_sum=node_sum, parent_dict=parent_dict)
         elif cursor.goto_parent():
             node_tag = parent_dict[node_tag]
-            traverse(cursor, G, came_up=True, node_tag=node_tag, node_sum=node_sum, parent_dict=parent_dict) 
+            traverse(cursor, G, came_up=True, node_tag=node_tag,
+                     node_sum=node_sum, parent_dict=parent_dict)
     else:
         if cursor.goto_next_sibling():
             node_sum += 1
-            parent_dict[node_sum] = parent_dict[node_tag] 
-            traverse(cursor, G, came_up=False, node_tag=node_sum, node_sum=node_sum, parent_dict=parent_dict)
+            parent_dict[node_sum] = parent_dict[node_tag]
+            traverse(cursor, G, came_up=False, node_tag=node_sum,
+                     node_sum=node_sum, parent_dict=parent_dict)
         elif cursor.goto_parent():
             node_tag = parent_dict[node_tag]
-            traverse(cursor, G, came_up=True, node_tag=node_tag, node_sum=node_sum,  parent_dict=parent_dict)
+            traverse(cursor, G, came_up=True, node_tag=node_tag,
+                     node_sum=node_sum,  parent_dict=parent_dict)
 
 
 def get_ast_nx(example, parser):
     tree = parser.parse(bytes(example.raw_code, 'utf-8'))
-    print('source:', example.raw_code)
     G = nx.Graph()
     cursor = tree.walk()
     traverse(cursor, G, came_up=False, node_tag=0, node_sum=0, parent_dict={})
     return Example(
-        idx = example.idx,
-        source = example.source,
-        target = example.target,
-        ast = G
+        idx=example.idx,
+        source=example.source,
+        target=example.target,
+        ast=G
     )
