@@ -1,6 +1,8 @@
-bash run.sh roberta summarize python
-bash run.sh codebert summarize python
-bash run.sh graphcodebert summarize python
-bash run.sh t5 summarize python
-bash run.sh codet5 summarize python
-bash run.sh bart summarize python
+bash run.sh graphcodebert summarize ruby
+bash run.sh roberta summarize ruby
+bash run.sh codebert summarize ruby
+bash run.sh t5 summarize ruby
+bash run.sh codet5 summarize ruby
+bash run.sh t5 summarize java
+
+
