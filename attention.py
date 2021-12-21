@@ -64,6 +64,8 @@ def get_ast_distance(examples, tokenizer, parser):
     for example in tqdm(examples):
         ast_example = get_ast_nx(example, parser)
         ast_list.append(ast_example)
+        
+    
 
 
 def main():
@@ -98,7 +100,7 @@ def main():
             '/data/code/tree-sitter/tree-sitter-go',
             '/data/code/tree-sitter/tree-sitter-python',
             '/data/code/tree-sitter/tree-sitter-java',
-            '/data/code/tree-sitter/tree-sitter-php',
+            # '/data/code/tree-sitter/tree-sitter-php',
         ]
     )
     language = Language('build/my-language.so', args.sub_task)
