@@ -314,7 +314,7 @@ def read_clone_examples(filename, data_num):
     return data
 
 
-def load_and_cache_gen_data(args, filename, pool, tokenizer, split_tag, only_src=False, is_sample=False):
+def load_and_cache_gen_data(args, filename, pool, tokenizer, split_tag, only_src=False, is_sample=False, is_attention=False):
     # cache the data into args.cache_path except it is sampled
     # only_src: control whether to return only source ids for bleu evaluating (dev/test)
     # return: examples (Example object), data (TensorDataset)
@@ -324,8 +324,12 @@ def load_and_cache_gen_data(args, filename, pool, tokenizer, split_tag, only_src
 
     examples = read_examples(filename, args.data_num, args.task)
 
+    if is_sample and is_attention:
+        examples = random.sample(examples, min(3000, len(examples)))
+
     if is_sample:
         examples = random.sample(examples, min(5000, len(examples)))
+
     if split_tag == 'train':
         calc_stats(examples, tokenizer, is_tokenize=True)
     else:
@@ -644,11 +648,7 @@ def traverse(cursor, G, came_up, node_tag, node_sum, parent_dict):
         parent_dict: used to store the parent nodes of all traversed nodes
     '''
     if not came_up:
-        # G.add_node(node_tag, features=cursor.node.type,
-        #            label=cursor.node.type)
-        G.add_node(node_sum, features=cursor.node, label=str(
-            node_tag) + (cursor.node.type if len(cursor.node.type) <= 5 else cursor.node.type[0:5]))
-        # G.add_node(node_tag, features=cursor.node.type, label=node_tag)
+        G.add_node(node_sum, features=cursor.node, label=node_tag)
         if node_tag in parent_dict.keys():
             G.add_edge(parent_dict[node_tag], node_tag)
         if cursor.goto_first_child():
@@ -677,14 +677,79 @@ def traverse(cursor, G, came_up, node_tag, node_sum, parent_dict):
                      node_sum=node_sum,  parent_dict=parent_dict)
 
 
-def get_ast_nx(example, parser):
-    tree = parser.parse(bytes(example.raw_code, 'utf-8'))
+def get_ast_nx(example, parser, lang):
+    new_code = remove_comments_and_docstrings(example.raw_code, lang)
+    tree = parser.parse(bytes(new_code, 'utf-8'))
     G = nx.Graph()
     cursor = tree.walk()
     traverse(cursor, G, came_up=False, node_tag=0, node_sum=0, parent_dict={})
     return Example(
         idx=example.idx,
-        source=example.source,
+        source=new_code,
         target=example.target,
         ast=G
     )
+
+
+def format_attention(attention, layers=None, heads=None):
+    """[format attention whose batch size > 1]
+
+    Args:
+        attention ([type]): [description]
+        layers ([type], optional): [description]. Defaults to None.
+        heads ([type], optional): [description]. Defaults to None.
+
+    Raises:
+        ValueError: [description]
+
+    Returns:
+        [type]: [description]
+    """
+
+    if type(layers) == int:
+        layers = [layers]
+    if layers:
+        attention = [attention[layer_index] for layer_index in layers]
+    squeezed = []
+    for layer_attention in attention:
+        # batch_size x num_heads x seq_len x seq_len
+        # print('layer_attention', layer_attention.shape)
+        if len(layer_attention.shape) != 4:
+            raise ValueError("The attention tensor does not have the correct number of dimensions. Make sure you set "
+                             "output_attentions=True when initializing your model.")
+        # num_heads x batch_size x seq_len x seq_len
+        layer_attention = layer_attention.permute((1, 0, 2, 3))
+
+        if heads:
+            layer_attention = layer_attention[heads]
+        squeezed.append(layer_attention)
+    # num_layers x num_heads x batch_size x seq_len x seq_len
+    return torch.stack(squeezed).permute((2, 0, 1, 3, 4))
+    # batch_size x num_layers x num_heads x seq_len x seq_len
+
+
+def num_layers(attention):
+    return len(attention)
+
+
+def num_heads(attention):
+    return attention[0][0].size(0)
+
+
+def format_special_chars(tokens):
+    return [t.replace('Ġ', '') for t in tokens]
+
+
+def index_to_code_token(index, code):
+    code = code.split('\n')
+    start_point = index[0]
+    end_point = index[1]
+    if start_point[0] == end_point[0]:
+        s = code[start_point[0]][start_point[1]:end_point[1]]
+    else:
+        s = ""
+        s += code[start_point[0]][start_point[1]:]
+        for i in range(start_point[0] + 1, end_point[0]):
+            s += code[i]
+        s += code[end_point[0]][:end_point[1]]
+    return s
