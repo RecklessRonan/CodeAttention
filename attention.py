@@ -20,7 +20,7 @@ from tree_sitter import Language, Parser
 import networkx as nx
 import numpy as np
 import sys
-sys.setrecursionlimit(1500)
+sys.setrecursionlimit(5000)
 
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
@@ -75,6 +75,7 @@ def number_subtoken(subtokens_list, tokens_list, tokenizer):
         tokens_list ([type]): [description]
     """
 
+    print('special tokens: ', tokenizer.additional_special_tokens)
     assert len(subtokens_list) == len(tokens_list)
     subtoken_numbers_list = []
     for i in range(len(subtokens_list)):
@@ -85,6 +86,9 @@ def number_subtoken(subtokens_list, tokens_list, tokenizer):
 
         subtoken_numbers = []
         subtokens = format_special_chars(subtokens)
+        if i == 0:
+            print('after formatting, subtokens 0:', )
+            print(subtokens)
         for j in range(len(subtokens)):
             pos = 0
 
