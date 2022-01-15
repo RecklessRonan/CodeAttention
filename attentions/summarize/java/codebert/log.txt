@@ -1,194 +1,2 @@
-01/10/2022 15:04:34 - WARNING - configs -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, cpu count: 48
-01/10/2022 15:04:34 - INFO - __main__ -   Namespace(adam_epsilon=1e-08, add_lang_ids=False, add_task_prefix=False, always_save_model=True, attention_batch_size=100, batch_size=48, beam_size=10, cache_path='save_models/summarize/java/codebert/cache_data', cpu_count=48, data_dir='/data/pretrain-attention/CodeAttention/data', data_num=-1, device=device(type='cuda'), do_eval=True, do_eval_bleu=True, do_test=True, do_train=True, gpu=0, gradient_accumulation_steps=1, local_rank=-1, lr=5e-05, max_grad_norm=1.0, max_source_length=256, max_target_length=128, model_dir='saved_models', model_name='codebert', n_gpu=1, no_cuda=False, num_train_epochs=15, output_dir='save_models/summarize/java/codebert', patience=2, res_dir='results/summarize/java/codebert', res_fn='results/summarize/java/codebert.txt', save_last_checkpoints=True, seed=1234, start_epoch=0, sub_task='java', summary_dir='tensorboard', task='summarize', warmup_steps=1000, weight_decay=0.0)
-01/10/2022 15:05:15 - INFO - models -   Finish loading model [173.0M] parameters from codebert
-01/10/2022 15:05:43 - INFO - utils -   Read 3000 examples, avg src len: 99, avg trg len: 13, max src len: 512, max trg len: 103
-01/10/2022 15:05:43 - INFO - utils -   Sample 5k data for computing bleu/attention from /data/pretrain-attention/CodeAttention/data/summarize/java/train.jsonl
-  0%|          | 0/3000 [00:00<?, ?it/s]  1%|          | 16/3000 [00:00<00:24, 121.76it/s]  2%|▏         | 48/3000 [00:00<00:18, 159.96it/s]  3%|▎         | 80/3000 [00:00<00:18, 156.04it/s]  3%|▎         | 96/3000 [00:00<00:19, 149.59it/s]  4%|▍         | 128/3000 [00:00<00:17, 162.42it/s]  5%|▍         | 144/3000 [00:00<00:17, 160.66it/s]  5%|▌         | 160/3000 [00:01<00:18, 154.34it/s]  6%|▋         | 192/3000 [00:01<00:19, 142.34it/s]  7%|▋         | 208/3000 [00:01<00:20, 136.79it/s]  8%|▊         | 240/3000 [00:01<00:17, 161.29it/s]  9%|▊         | 257/3000 [00:01<00:17, 161.23it/s]  9%|▉         | 274/3000 [00:01<00:18, 149.82it/s] 10%|▉         | 290/3000 [00:01<00:20, 134.07it/s] 10%|█         | 304/3000 [00:02<00:20, 131.70it/s] 11%|█         | 320/3000 [00:02<00:20, 130.64it/s] 11%|█         | 336/3000 [00:02<00:21, 125.18it/s] 12%|█▏        | 352/3000 [00:02<00:21, 120.79it/s] 12%|█▏        | 368/3000 [00:02<00:21, 120.92it/s] 13%|█▎        | 384/3000 [00:02<00:21, 120.74it/s] 13%|█▎        | 400/3000 [00:02<00:21, 120.61it/s] 14%|█▍        | 416/3000 [00:02<00:20, 124.71it/s] 14%|█▍        | 432/3000 [00:03<00:21, 117.42it/s] 15%|█▍        | 448/3000 [00:03<00:21, 120.94it/s] 16%|█▌        | 480/3000 [00:03<00:18, 133.25it/s] 17%|█▋        | 496/3000 [00:03<00:18, 134.04it/s] 18%|█▊        | 528/3000 [00:03<00:15, 157.09it/s] 18%|█▊        | 544/3000 [00:03<00:15, 155.73it/s] 19%|█▊        | 560/3000 [00:03<00:16, 144.58it/s] 19%|█▉        | 576/3000 [00:04<00:17, 136.58it/s] 20%|█▉        | 592/3000 [00:04<00:17, 135.75it/s] 21%|██        | 624/3000 [00:04<00:13, 170.35it/s] 22%|██▏       | 656/3000 [00:04<00:13, 173.84it/s] 23%|██▎       | 688/3000 [00:04<00:11, 193.40it/s] 24%|██▍       | 720/3000 [00:04<00:12, 182.43it/s] 25%|██▌       | 752/3000 [00:05<00:11, 191.99it/s] 26%|██▌       | 784/3000 [00:05<00:11, 197.28it/s] 27%|██▋       | 816/3000 [00:05<00:11, 193.86it/s] 28%|██▊       | 848/3000 [00:05<00:10, 197.42it/s] 29%|██▉       | 880/3000 [00:05<00:11, 189.40it/s] 30%|███       | 900/3000 [00:05<00:11, 189.66it/s] 31%|███       | 928/3000 [00:05<00:11, 181.40it/s] 32%|███▏      | 947/3000 [00:06<00:12, 164.50it/s] 32%|███▏      | 964/3000 [00:06<00:14, 141.79it/s] 33%|███▎      | 979/3000 [00:06<00:14, 143.18it/s] 33%|███▎      | 994/3000 [00:06<00:14, 140.55it/s] 34%|███▎      | 1009/3000 [00:06<00:15, 132.55it/s] 35%|███▍      | 1040/3000 [00:06<00:13, 149.22it/s] 36%|███▌      | 1072/3000 [00:07<00:12, 150.15it/s] 36%|███▋      | 1088/3000 [00:07<00:13, 144.65it/s] 37%|███▋      | 1120/3000 [00:07<00:11, 159.38it/s] 38%|███▊      | 1136/3000 [00:07<00:11, 155.50it/s] 38%|███▊      | 1152/3000 [00:07<00:12, 150.35it/s] 39%|███▉      | 1168/3000 [00:07<00:13, 139.71it/s] 39%|███▉      | 1184/3000 [00:07<00:13, 134.49it/s] 41%|████      | 1216/3000 [00:08<00:12, 146.37it/s] 42%|████▏     | 1248/3000 [00:08<00:11, 146.99it/s] 43%|████▎     | 1280/3000 [00:08<00:10, 158.43it/s] 44%|████▎     | 1312/3000 [00:08<00:10, 167.12it/s] 45%|████▍     | 1344/3000 [00:08<00:09, 180.27it/s] 45%|████▌     | 1363/3000 [00:08<00:09, 172.73it/s] 46%|████▋     | 1392/3000 [00:09<00:09, 175.03it/s] 47%|████▋     | 1424/3000 [00:09<00:09, 161.39it/s] 49%|████▊     | 1456/3000 [00:09<00:09, 162.80it/s] 49%|████▉     | 1473/3000 [00:09<00:09, 156.70it/s] 50%|████▉     | 1489/3000 [00:09<00:11, 135.58it/s] 50%|█████     | 1504/3000 [00:09<00:11, 132.95it/s] 51%|█████     | 1536/3000 [00:10<00:09, 150.01it/s] 52%|█████▏    | 1568/3000 [00:10<00:09, 151.38it/s] 53%|█████▎    | 1600/3000 [00:10<00:08, 162.82it/s] 54%|█████▍    | 1632/3000 [00:10<00:08, 161.95it/s] 55%|█████▍    | 1649/3000 [00:10<00:08, 152.32it/s] 56%|█████▌    | 1680/3000 [00:10<00:08, 164.93it/s] 57%|█████▋    | 1712/3000 [00:11<00:08, 158.90it/s] 58%|█████▊    | 1728/3000 [00:11<00:08, 144.92it/s] 58%|█████▊    | 1744/3000 [00:11<00:09, 135.97it/s] 59%|█████▉    | 1776/3000 [00:11<00:08, 143.01it/s] 60%|██████    | 1808/3000 [00:11<00:07, 153.88it/s] 61%|██████    | 1824/3000 [00:11<00:08, 140.38it/s] 62%|██████▏   | 1856/3000 [00:12<00:07, 153.67it/s] 62%|██████▏   | 1872/3000 [00:12<00:07, 148.29it/s] 63%|██████▎   | 1904/3000 [00:12<00:06, 177.21it/s] 65%|██████▍   | 1936/3000 [00:12<00:05, 182.29it/s] 66%|██████▌   | 1968/3000 [00:12<00:05, 202.50it/s] 67%|██████▋   | 2000/3000 [00:12<00:04, 223.70it/s] 68%|██████▊   | 2048/3000 [00:12<00:03, 277.08it/s] 70%|██████▉   | 2096/3000 [00:12<00:02, 323.84it/s] 71%|███████▏  | 2144/3000 [00:13<00:02, 361.99it/s] 73%|███████▎  | 2192/3000 [00:13<00:02, 359.55it/s] 75%|███████▍  | 2240/3000 [00:13<00:02, 362.91it/s] 76%|███████▋  | 2288/3000 [00:13<00:01, 371.38it/s] 78%|███████▊  | 2326/3000 [00:13<00:01, 348.23it/s] 79%|███████▊  | 2362/3000 [00:13<00:02, 248.60it/s] 80%|███████▉  | 2391/3000 [00:14<00:02, 225.23it/s] 81%|████████  | 2417/3000 [00:14<00:03, 187.19it/s] 81%|████████▏ | 2439/3000 [00:14<00:02, 192.34it/s] 82%|████████▏ | 2464/3000 [00:14<00:02, 181.90it/s] 83%|████████▎ | 2484/3000 [00:14<00:02, 179.51it/s] 83%|████████▎ | 2503/3000 [00:14<00:02, 171.27it/s] 84%|████████▍ | 2521/3000 [00:14<00:02, 170.64it/s] 85%|████████▍ | 2544/3000 [00:15<00:02, 158.29it/s] 86%|████████▌ | 2576/3000 [00:15<00:02, 171.13it/s] 87%|████████▋ | 2608/3000 [00:15<00:02, 183.22it/s] 88%|████████▊ | 2627/3000 [00:15<00:02, 181.75it/s] 88%|████████▊ | 2646/3000 [00:15<00:02, 175.30it/s] 89%|████████▉ | 2664/3000 [00:15<00:01, 169.90it/s] 90%|████████▉ | 2688/3000 [00:15<00:02, 145.02it/s] 90%|█████████ | 2704/3000 [00:16<00:02, 140.62it/s] 91%|█████████ | 2736/3000 [00:16<00:01, 153.34it/s] 92%|█████████▏| 2768/3000 [00:16<00:01, 154.10it/s] 93%|█████████▎| 2800/3000 [00:16<00:01, 162.14it/s] 94%|█████████▍| 2832/3000 [00:16<00:00, 169.18it/s] 95%|█████████▌| 2864/3000 [00:17<00:00, 157.51it/s] 96%|█████████▌| 2880/3000 [00:17<00:00, 154.09it/s] 97%|█████████▋| 2912/3000 [00:17<00:00, 154.96it/s] 98%|█████████▊| 2944/3000 [00:17<00:00, 166.00it/s] 99%|█████████▊| 2961/3000 [00:17<00:00, 164.73it/s] 99%|█████████▉| 2978/3000 [00:17<00:00, 152.93it/s]100%|█████████▉| 2994/3000 [00:17<00:00, 153.33it/s]100%|██████████| 3000/3000 [00:17<00:00, 168.19it/s]
-01/10/2022 15:06:03 - INFO - __main__ -   Parse AST trees and obtain leaf tokens
-  0%|          | 0/3000 [00:00<?, ?it/s]leaf:  3 start:  (0, 0) , end:  (0, 7) , token:  private
-leaf:  4 start:  (0, 8) , end:  (0, 14) , token:  String
-leaf:  6 start:  (0, 15) , end:  (0, 39) , token:  buildMarkupBuilderScript
-leaf:  7 start:  (0, 39) , end:  (0, 39) , token:  
-leaf:  10 start:  (0, 39) , end:  (0, 40) , token:  (
-leaf:  12 start:  (0, 40) , end:  (0, 46) , token:  String
-leaf:  13 start:  (0, 47) , end:  (0, 57) , token:  scriptData
-leaf:  14 start:  (0, 57) , end:  (0, 58) , token:  )
-leaf:  16 start:  (0, 59) , end:  (0, 60) , token:  {
-leaf:  18 start:  (1, 8) , end:  (1, 11) , token:  try
-leaf:  20 start:  (1, 12) , end:  (1, 13) , token:  {
-leaf:  22 start:  (2, 12) , end:  (2, 23) , token:  ClassLoader
-leaf:  24 start:  (2, 24) , end:  (2, 30) , token:  parent
-leaf:  25 start:  (2, 31) , end:  (2, 32) , token:  =
-leaf:  28 start:  (2, 33) , end:  (2, 59) , token:  GroovyScriptMessageBuilder
-leaf:  29 start:  (2, 59) , end:  (2, 60) , token:  .
-leaf:  30 start:  (2, 60) , end:  (2, 65) , token:  class
-leaf:  31 start:  (2, 65) , end:  (2, 66) , token:  .
-leaf:  32 start:  (2, 66) , end:  (2, 80) , token:  getClassLoader
-leaf:  34 start:  (2, 80) , end:  (2, 81) , token:  (
-leaf:  35 start:  (2, 81) , end:  (2, 82) , token:  )
-leaf:  36 start:  (2, 82) , end:  (2, 83) , token:  ;
-leaf:  38 start:  (3, 12) , end:  (3, 29) , token:  GroovyClassLoader
-leaf:  40 start:  (3, 30) , end:  (3, 36) , token:  loader
-leaf:  41 start:  (3, 37) , end:  (3, 38) , token:  =
-leaf:  43 start:  (3, 39) , end:  (3, 42) , token:  new
-leaf:  44 start:  (3, 43) , end:  (3, 60) , token:  GroovyClassLoader
-leaf:  46 start:  (3, 60) , end:  (3, 61) , token:  (
-leaf:  47 start:  (3, 61) , end:  (3, 67) , token:  parent
-leaf:  48 start:  (3, 67) , end:  (3, 68) , token:  )
-leaf:  49 start:  (3, 68) , end:  (3, 69) , token:  ;
-leaf:  52 start:  (4, 12) , end:  (4, 17) , token:  Class
-leaf:  54 start:  (4, 17) , end:  (4, 18) , token:  <
-leaf:  56 start:  (4, 18) , end:  (4, 19) , token:  ?
-leaf:  57 start:  (4, 19) , end:  (4, 20) , token:  >
-leaf:  59 start:  (4, 21) , end:  (4, 32) , token:  groovyClass
-leaf:  60 start:  (4, 33) , end:  (4, 34) , token:  =
-leaf:  62 start:  (4, 35) , end:  (4, 41) , token:  loader
-leaf:  63 start:  (4, 41) , end:  (4, 42) , token:  .
-leaf:  64 start:  (4, 42) , end:  (4, 52) , token:  parseClass
-leaf:  66 start:  (4, 52) , end:  (4, 53) , token:  (
-leaf:  70 start:  (4, 53) , end:  (4, 79) , token:  TemplateBasedScriptBuilder
-leaf:  71 start:  (4, 79) , end:  (4, 80) , token:  .
-leaf:  72 start:  (4, 80) , end:  (4, 100) , token:  fromTemplateResource
-leaf:  74 start:  (4, 100) , end:  (4, 101) , token:  (
-leaf:  75 start:  (4, 101) , end:  (4, 123) , token:  scriptTemplateResource
-leaf:  76 start:  (4, 123) , end:  (4, 124) , token:  )
-leaf:  77 start:  (5, 60) , end:  (5, 61) , token:  .
-leaf:  78 start:  (5, 61) , end:  (5, 69) , token:  withCode
-leaf:  80 start:  (5, 69) , end:  (5, 70) , token:  (
-leaf:  81 start:  (5, 70) , end:  (5, 80) , token:  scriptData
-leaf:  82 start:  (5, 80) , end:  (5, 81) , token:  )
-leaf:  83 start:  (6, 60) , end:  (6, 61) , token:  .
-leaf:  84 start:  (6, 61) , end:  (6, 66) , token:  build
-leaf:  86 start:  (6, 66) , end:  (6, 67) , token:  (
-leaf:  87 start:  (6, 67) , end:  (6, 68) , token:  )
-leaf:  88 start:  (6, 68) , end:  (6, 69) , token:  )
-leaf:  89 start:  (6, 69) , end:  (6, 70) , token:  ;
-leaf:  91 start:  (7, 12) , end:  (7, 14) , token:  if
-leaf:  93 start:  (7, 15) , end:  (7, 16) , token:  (
-leaf:  95 start:  (7, 16) , end:  (7, 27) , token:  groovyClass
-leaf:  96 start:  (7, 28) , end:  (7, 30) , token:  ==
-leaf:  97 start:  (7, 31) , end:  (7, 35) , token:  null
-leaf:  98 start:  (7, 35) , end:  (7, 36) , token:  )
-leaf:  100 start:  (7, 37) , end:  (7, 38) , token:  {
-leaf:  102 start:  (8, 16) , end:  (8, 21) , token:  throw
-leaf:  104 start:  (8, 22) , end:  (8, 25) , token:  new
-leaf:  105 start:  (8, 26) , end:  (8, 48) , token:  CitrusRuntimeException
-leaf:  107 start:  (8, 48) , end:  (8, 49) , token:  (
-leaf:  108 start:  (8, 49) , end:  (8, 80) , token:  "Could not load groovy script!"
-leaf:  109 start:  (8, 80) , end:  (8, 81) , token:  )
-leaf:  110 start:  (8, 81) , end:  (8, 82) , token:  ;
-leaf:  111 start:  (9, 12) , end:  (9, 13) , token:  }
-leaf:  113 start:  (10, 12) , end:  (10, 24) , token:  GroovyObject
-leaf:  115 start:  (10, 25) , end:  (10, 37) , token:  groovyObject
-leaf:  116 start:  (10, 38) , end:  (10, 39) , token:  =
-leaf:  118 start:  (10, 40) , end:  (10, 41) , token:  (
-leaf:  119 start:  (10, 41) , end:  (10, 53) , token:  GroovyObject
-leaf:  120 start:  (10, 53) , end:  (10, 54) , token:  )
-leaf:  122 start:  (10, 55) , end:  (10, 66) , token:  groovyClass
-leaf:  123 start:  (10, 66) , end:  (10, 67) , token:  .
-leaf:  124 start:  (10, 67) , end:  (10, 78) , token:  newInstance
-leaf:  126 start:  (10, 78) , end:  (10, 79) , token:  (
-leaf:  127 start:  (10, 79) , end:  (10, 80) , token:  )
-leaf:  128 start:  (10, 80) , end:  (10, 81) , token:  ;
-leaf:  130 start:  (11, 12) , end:  (11, 18) , token:  return
-leaf:  132 start:  (11, 19) , end:  (11, 20) , token:  (
-leaf:  133 start:  (11, 20) , end:  (11, 26) , token:  String
-leaf:  134 start:  (11, 26) , end:  (11, 27) , token:  )
-leaf:  136 start:  (11, 28) , end:  (11, 40) , token:  groovyObject
-leaf:  137 start:  (11, 40) , end:  (11, 41) , token:  .
-leaf:  138 start:  (11, 41) , end:  (11, 53) , token:  invokeMethod
-leaf:  140 start:  (11, 53) , end:  (11, 54) , token:  (
-leaf:  141 start:  (11, 54) , end:  (11, 59) , token:  "run"
-leaf:  142 start:  (11, 59) , end:  (11, 60) , token:  ,
-leaf:  144 start:  (11, 61) , end:  (11, 64) , token:  new
-leaf:  145 start:  (11, 65) , end:  (11, 71) , token:  Object
-leaf:  147 start:  (11, 71) , end:  (11, 72) , token:  [
-leaf:  148 start:  (11, 72) , end:  (11, 73) , token:  ]
-leaf:  150 start:  (11, 74) , end:  (11, 75) , token:  {
-leaf:  151 start:  (11, 75) , end:  (11, 76) , token:  }
-leaf:  152 start:  (11, 76) , end:  (11, 77) , token:  )
-leaf:  153 start:  (11, 77) , end:  (11, 78) , token:  ;
-leaf:  154 start:  (12, 8) , end:  (12, 9) , token:  }
-leaf:  156 start:  (12, 10) , end:  (12, 15) , token:  catch
-leaf:  157 start:  (12, 16) , end:  (12, 17) , token:  (
-leaf:  160 start:  (12, 17) , end:  (12, 43) , token:  CompilationFailedException
-leaf:  161 start:  (12, 44) , end:  (12, 45) , token:  e
-leaf:  162 start:  (12, 45) , end:  (12, 46) , token:  )
-leaf:  164 start:  (12, 47) , end:  (12, 48) , token:  {
-leaf:  166 start:  (13, 12) , end:  (13, 17) , token:  throw
-leaf:  168 start:  (13, 18) , end:  (13, 21) , token:  new
-leaf:  169 start:  (13, 22) , end:  (13, 44) , token:  CitrusRuntimeException
-leaf:  171 start:  (13, 44) , end:  (13, 45) , token:  (
-leaf:  172 start:  (13, 45) , end:  (13, 46) , token:  e
-leaf:  173 start:  (13, 46) , end:  (13, 47) , token:  )
-leaf:  174 start:  (13, 47) , end:  (13, 48) , token:  ;
-leaf:  175 start:  (14, 8) , end:  (14, 9) , token:  }
-leaf:  177 start:  (14, 10) , end:  (14, 15) , token:  catch
-leaf:  178 start:  (14, 16) , end:  (14, 17) , token:  (
-leaf:  181 start:  (14, 17) , end:  (14, 39) , token:  InstantiationException
-leaf:  182 start:  (14, 40) , end:  (14, 41) , token:  e
-leaf:  183 start:  (14, 41) , end:  (14, 42) , token:  )
-leaf:  185 start:  (14, 43) , end:  (14, 44) , token:  {
-leaf:  187 start:  (15, 12) , end:  (15, 17) , token:  throw
-leaf:  189 start:  (15, 18) , end:  (15, 21) , token:  new
-leaf:  190 start:  (15, 22) , end:  (15, 44) , token:  CitrusRuntimeException
-leaf:  192 start:  (15, 44) , end:  (15, 45) , token:  (
-leaf:  193 start:  (15, 45) , end:  (15, 46) , token:  e
-leaf:  194 start:  (15, 46) , end:  (15, 47) , token:  )
-leaf:  195 start:  (15, 47) , end:  (15, 48) , token:  ;
-leaf:  196 start:  (16, 8) , end:  (16, 9) , token:  }
-leaf:  198 start:  (16, 10) , end:  (16, 15) , token:  catch
-leaf:  199 start:  (16, 16) , end:  (16, 17) , token:  (
-leaf:  202 start:  (16, 17) , end:  (16, 39) , token:  IllegalAccessException
-leaf:  203 start:  (16, 40) , end:  (16, 41) , token:  e
-leaf:  204 start:  (16, 41) , end:  (16, 42) , token:  )
-leaf:  206 start:  (16, 43) , end:  (16, 44)  0%|          | 14/3000 [00:00<00:21, 138.67it/s]  1%|          | 28/3000 [00:00<00:23, 125.90it/s]  2%|▏         | 45/3000 [00:00<00:20, 143.10it/s]  2%|▏         | 60/3000 [00:00<00:21, 138.05it/s]  3%|▎         | 82/3000 [00:00<00:17, 163.57it/s]  3%|▎         | 103/3000 [00:00<00:16, 176.36it/s]  4%|▍         | 121/3000 [00:01<00:35, 82.17it/s]   4%|▍         | 135/3000 [00:01<00:32, 88.72it/s]  5%|▌         | 157/3000 [00:01<00:25, 113.60it/s]  6%|▌         | 173/3000 [00:01<00:23, 122.48it/s]  6%|▋         | 189/3000 [00:01<00:21, 127.89it/s]  7%|▋         | 205/3000 [00:01<00:20, 135.32it/s]  7%|▋         | 221/3000 [00:01<00:19, 141.13it/s]  8%|▊         | 238/3000 [00:01<00:19, 143.29it/s]  8%|▊         | 254/3000 [00:01<00:19, 141.50it/s]  9%|▉         | 273/3000 [00:02<00:17, 153.80it/s] 10%|▉         | 294/3000 [00:02<00:16, 160.91it/s] 10%|█         | 311/3000 [00:02<00:24, 109.29it/s] 11%|█         | 333/3000 [00:02<00:20, 132.03it/s] 12%|█▏        | 352/3000 [00:02<00:18, 144.69it/s] 12%|█▏        | 369/3000 [00:02<00:17, 147.09it/s] 13%|█▎        | 386/3000 [00:02<00:20, 128.69it/s] 13%|█▎        | 401/3000 [00:03<00:20, 128.37it/s] 14%|█▍        | 415/3000 [00:03<00:19, 130.78it/s] 14%|█▍        | 433/3000 [00:03<00:18, 137.20it/s] 15%|█▌        | 454/3000 [00:03<00:16, 154.61it/s] 16%|█▌        | 473/3000 [00:03<00:15, 159.16it/s] 16%|█▋        | 495/3000 [00:03<00:14, 173.07it/s] 17%|█▋        | 513/3000 [00:03<00:15, 161.54it/s] 18%|█▊        | 531/3000 [00:03<00:14, 165.75it/s] 18%|█▊        | 548/3000 [00:03<00:14, 164.71it/s] 19%|█▉        | 565/3000 [00:04<00:15, 157.85it/s] 19%|█▉        | 581/3000 [00:04<00:21, 110.81it/s] 20%|██        | 604/3000 [00:04<00:17, 135.50it/s] 21%|██        | 625/3000 [00:04<00:15, 149.87it/s] 21%|██▏       | 642/3000 [00:04<00:16, 143.49it/s] 22%|██▏       | 659/3000 [00:04<00:15, 149.55it/s] 23%|██▎       | 676/3000 [00:04<00:16, 142.19it/s] 23%|██▎       | 692/3000 [00:05<00:15, 146.54it/s] 24%|██▎       | 708/3000 [00:05<00:15, 148.64it/s] 24%|██▍       | 726/3000 [00:05<00:14, 156.49it/s] 25%|██▍       | 744/3000 [00:05<00:13, 162.15it/s] 26%|██▌       | 765/3000 [00:05<00:12, 175.39it/s] 26%|██▌       | 783/3000 [00:05<00:13, 160.28it/s] 27%|██▋       | 821/3000 [00:05<00:09, 219.85it/s] 28%|██▊       | 844/3000 [00:05<00:10, 215.09it/s] 29%|██▉       | 867/3000 [00:05<00:10, 204.39it/s] 30%|██▉       | 888/3000 [00:06<00:16, 130.88it/s] 30%|███       | 912/3000 [00:06<00:13, 151.59it/s] 31%|███       | 935/3000 [00:06<00:12, 164.68it/s] 32%|███▏      | 955/3000 [00:06<00:12, 159.69it/s] 32%|███▎      | 975/3000 [00:06<00:12, 168.67it/s] 33%|███▎      | 999/3000 [00:06<00:10, 185.68it/s] 34%|███▍      | 1019/3000 [00:06<00:10, 188.43it/s] 35%|███▍      | 1039/3000 [00:07<00:11, 171.05it/s] 35%|███▌      | 1058/3000 [00:07<00:11, 173.55it/s] 36%|███▌      | 1084/3000 [00:07<00:09, 195.27it/s] 37%|███▋      | 1110/3000 [00:07<00:08, 211.87it/s] 38%|███▊      | 1132/3000 [00:07<00:08, 207.73it/s] 39%|███▉      | 1170/3000 [00:07<00:07, 253.78it/s] 40%|████      | 1208/3000 [00:07<00:06, 287.67it/s] 41%|████▏     | 1242/3000 [00:07<00:05, 301.24it/s] 43%|████▎     | 1277/3000 [00:07<00:05, 313.99it/s] 44%|████▎     | 1309/3000 [00:08<00:10, 156.31it/s] 45%|████▍     | 1342/3000 [00:08<00:09, 183.77it/s] 46%|████▋     | 1394/3000 [00:08<00:06, 249.05it/s] 48%|████▊     | 1437/3000 [00:08<00:05, 283.95it/s] 49%|████▉     | 1477/3000 [00:08<00:04, 311.01it/s] 51%|█████     | 1524/3000 [00:08<00:04, 349.88it/s] 52%|█████▏    | 1571/3000 [00:08<00:03, 380.58it/s] 54%|█████▍    | 1613/3000 [00:09<00:03, 379.22it/s] 56%|█████▌    | 1668/3000 [00:09<00:03, 422.87it/s] 57%|█████▋    | 1713/3000 [00:09<00:03, 362.76it/s] 58%|█████▊    | 1753/3000 [00:09<00:05, 241.40it/s] 60%|█████▉    | 1796/3000 [00:09<00:04, 277.04it/s] 62%|██████▏   | 1849/3000 [00:09<00:03, 327.42it/s] 63%|██████▎   | 1894/3000 [00:09<00:03, 354.96it/s] 65%|██████▍   | 1938/3000 [00:10<00:02, 371.81it/s] 66%|██████▌   | 1980/3000 [00:10<00:02, 378.74it/s] 67%|██████▋   | 2021/3000 [00:10<00:03, 301.91it/s] 69%|██████▊   | 2056/3000 [00:10<00:03, 299.87it/s] 70%|██████▉   | 2091/3000 [00:10<00:02, 311.16it/s] 71%|███████   | 2125/3000 [00:10<00:02, 298.97it/s] 72%|███████▏  | 2157/3000 [00:10<00:03, 272.71it/s] 73%|███████▎  | 2196/3000 [00:10<00:02, 300.96it/s] 75%|███████▍  | 2244/3000 [00:11<00:02, 347.00it/s] 76%|███████▋  | 2289/3000 [00:11<00:01, 370.15it/s] 78%|███████▊  | 2328/3000 [00:11<00:02, 228.06it/s] 79%|███████▊  | 2359/3000 [00:11<00:03, 205.89it/s] 80%|████████  | 2400/3000 [00:11<00:02, 244.01it/s] 81%|████████  | 2431/3000 [00:11<00:02, 219.49it/s] 82%|████████▏ | 2458/3000 [00:12<00:02, 204.96it/s] 83%|████████▎ | 2503/3000 [00:12<00:01, 254.97it/s] 84%|████████▍ | 2534/3000 [00:12<00:01, 264.78it/s] 86%|████████▌ | 2586/3000 [00:12<00:01, 326.65it/s] 87%|████████▋ | 2623/3000 [00:12<00:01, 337.70it/s] 89%|████████▉ | 2674/3000 [00:12<00:00, 383.73it/s] 91%|█████████ | 2716/3000 [00:12<00:00, 393.02it/s] 93%|█████████▎| 2780/3000 [00:12<00:00, 461.93it/s] 94%|█████████▍| 2830/3000 [00:12<00:00, 472.27it/s] 96%|█████████▌| 2879/3000 [00:13<00:00, 433.27it/s] 98%|█████████▊| 2932/3000 [00:13<00:00, 455.52it/s] 99%|█████████▉| 2980/3000 [00:13<00:00, 239.28it/s]100%|██████████| 3000/3000 [00:13<00:00, 220.20it/s]
-01/10/2022 15:06:17 - INFO - __main__ -   Obtain subtokens and their attention
- , token:  {
-leaf:  208 start:  (17, 12) , end:  (17, 17) , token:  throw
-leaf:  210 start:  (17, 18) , end:  (17, 21) , token:  new
-leaf:  211 start:  (17, 22) , end:  (17, 44) , token:  CitrusRuntimeException
-leaf:  213 start:  (17, 44) , end:  (17, 45) , token:  (
-leaf:  214 start:  (17, 45) , end:  (17, 46) , token:  e
-leaf:  215 start:  (17, 46) , end:  (17, 47) , token:  )
-leaf:  216 start:  (17, 47) , end:  (17, 48) , token:  ;
-leaf:  217 start:  (18, 8) , end:  (18, 9) , token:  }
-leaf:  218 start:  (19, 4) , end:  (19, 5) , token:  }
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218]
-[(0, 1), (0, 8), (0, 15), (1, 2), (1, 4), (1, 5), (1, 7), (2, 3), (5, 6), (8, 9), (9, 10), (9, 11), (9, 14), (11, 12), (11, 13), (15, 16), (15, 17), (15, 218), (17, 18), (17, 19), (17, 155), (17, 176), (17, 197), (19, 20), (19, 21), (19, 37), (19, 50), (19, 90), (19, 112), (19, 129), (19, 154), (21, 22), (21, 23), (21, 36), (23, 24), (23, 25), (23, 26), (26, 27), (26, 31), (26, 32), (26, 33), (27, 28), (27, 29), (27, 30), (33, 34), (33, 35), (37, 38), (37, 39), (37, 49), (39, 40), (39, 41), (39, 42), (42, 43), (42, 44), (42, 45), (45, 46), (45, 47), (45, 48), (50, 51), (50, 58), (50, 89), (51, 52), (51, 53), (53, 54), (53, 55), (53, 57), (55, 56), (58, 59), (58, 60), (58, 61), (61, 62), (61, 63), (61, 64), (61, 65), (65, 66), (65, 67), (65, 88), (67, 68), (67, 83), (67, 84), (67, 85), (68, 69), (68, 77), (68, 78), (68, 79), (69, 70), (69, 71), (69, 72), (69, 73), (73, 74), (73, 75), (73, 76), (79, 80), (79, 81), (79, 82), (85, 86), (85, 87), (90, 91), (90, 92), (90, 99), (92, 93), (92, 94), (92, 98), (94, 95), (94, 96), (94, 97), (99, 100), (99, 101), (99, 111), (101, 102), (101, 103), (101, 110), (103, 104), (103, 105), (103, 106), (106, 107), (106, 108), (106, 109), (112, 113), (112, 114), (112, 128), (114, 115), (114, 116), (114, 117), (117, 118), (117, 119), (117, 120), (117, 121), (121, 122), (121, 123), (121, 124), (121, 125), (125, 126), (125, 127), (129, 130), (129, 131), (129, 153), (131, 132), (131, 133), (131, 134), (131, 135), (135, 136), (135, 137), (135, 138), (135, 139), (139, 140), (139, 141), (139, 142), (139, 143), (139, 152), (143, 144), (143, 145), (143, 146), (143, 149), (146, 147), (146, 148), (149, 150), (149, 151), (155, 156), (155, 157), (155, 158), (155, 162), (155, 163), (158, 159), (158, 161), (159, 160), (163, 164), (163, 165), (163, 175), (165, 166), (165, 167), (165, 174), (167, 168), (167, 169), (167, 170), (170, 171), (170, 172), (170, 173), (176, 177), (176, 178), (176, 179), (176, 183), (176, 184), (179, 180), (179, 182), (180, 181), (184, 185), (184, 186), (184, 196), (186, 187), (186, 188), (186, 195), (188, 189), (188, 190), (188, 191), (191, 192), (191, 193), (191, 194), (197, 198), (197, 199), (197, 200), (197, 204), (197, 205), (200, 201), (200, 203), (201, 202), (205, 206), (205, 207), (205, 217), (207, 208), (207, 209), (207, 216), (209, 210), (209, 211), (209, 212), (212, 213), (212, 214), (212, 215)]
-raw_code:  private String buildMarkupBuilderScript(String scriptData) {
-        try {
-            ClassLoader parent = GroovyScriptMessageBuilder.class.getClassLoader(); 
-            GroovyClassLoader loader = new GroovyClassLoader(parent);
-            Class<?> groovyClass = loader.parseClass(TemplateBasedScriptBuilder.fromTemplateResource(scriptTemplateResource)
-                                                            .withCode(scriptData)
-                                                            .build());
-            if (groovyClass == null) {
-                throw new CitrusRuntimeException("Could not load groovy script!");    
-            }
-            GroovyObject groovyObject = (GroovyObject) groovyClass.newInstance();
-            return (String) groovyObject.invokeMethod("run", new Object[] {});
-        } catch (CompilationFailedException e) {
-            throw new CitrusRuntimeException(e);
-        } catch (InstantiationException e) {
-            throw new CitrusRuntimeException(e);
-        } catch (IllegalAccessException e) {
-            throw new CitrusRuntimeException(e);
-        }
-    }
-leaves:  [3, 4, 6, 7, 10, 12, 13, 14, 16, 18, 20, 22, 24, 25, 28, 29, 30, 31, 32, 34, 35, 36, 38, 40, 41, 43, 44, 46, 47, 48, 49, 52, 54, 56, 57, 59, 60, 62, 63, 64, 66, 70, 71, 72, 74, 75, 76, 77, 78, 80, 81, 82, 83, 84, 86, 87, 88, 89, 91, 93, 95, 96, 97, 98, 100, 102, 104, 105, 107, 108, 109, 110, 111, 113, 115, 116, 118, 119, 120, 122, 123, 124, 126, 127, 128, 130, 132, 133, 134, 136, 137, 138, 140, 141, 142, 144, 145, 147, 148, 150, 151, 152, 153, 154, 156, 157, 160, 161, 162, 164, 166, 168, 169, 171, 172, 173, 174, 175, 177, 178, 181, 182, 183, 185, 187, 189, 190, 192, 193, 194, 195, 196, 198, 199, 202, 203, 204, 206, 208, 210, 211, 213, 214, 215, 216, 217, 218]
-ast list length 3000
-tokens list length 3000
-tokens 0: 
-{3: 'private', 4: 'String', 6: 'buildMarkupBuilderScript', 7: '', 10: '(', 12: 'String', 13: 'scriptData', 14: ')', 16: '{', 18: 'try', 20: '{', 22: 'ClassLoader', 24: 'parent', 25: '=', 28: 'GroovyScriptMessageBuilder', 29: '.', 30: 'class', 31: '.', 32: 'getClassLoader', 34: '(', 35: ')', 36: ';', 38: 'GroovyClassLoader', 40: 'loader', 41: '=', 43: 'new', 44: 'GroovyClassLoader', 46: '(', 47: 'parent', 48: ')', 49: ';', 52: 'Class', 54: '<', 56: '?', 57: '>', 59: 'groovyClass', 60: '=', 62: 'loader', 63: '.', 64: 'parseClass', 66: '(', 70: 'TemplateBasedScriptBuilder', 71: '.', 72: 'fromTemplateResource', 74: '(', 75: 'scriptTemplateResource', 76: ')', 77: '.', 78: 'withCode', 80: '(', 81: 'scriptData', 82: ')', 83: '.', 84: 'build', 86: '(', 87: ')', 88: ')', 89: ';', 91: 'if', 93: '(', 95: 'groovyClass', 96: '==', 97: 'null', 98: ')', 100: '{', 102: 'throw', 104: 'new', 105: 'CitrusRuntimeException', 107: '(', 108: '"Could not load groovy script!"', 109: ')', 110: ';', 111: '}', 113: 'GroovyObject', 115: 'groovyObject', 116: '=', 118: '(', 119: 'GroovyObject', 120: ')', 122: 'groovyClass', 123: '.', 124: 'newInstance', 126: '(', 127: ')', 128: ';', 130: 'return', 132: '(', 133: 'String', 134: ')', 136: 'groovyObject', 137: '.', 138: 'invokeMethod', 140: '(', 141: '"run"', 142: ',', 144: 'new', 145: 'Object', 147: '[', 148: ']', 150: '{', 151: '}', 152: ')', 153: ';', 154: '}', 156: 'catch', 157: '(', 160: 'CompilationFailedException', 161: 'e', 162: ')', 164: '{', 166: 'throw', 168: 'new', 169: 'CitrusRuntimeException', 171: '(', 172: 'e', 173: ')', 174: ';', 175: '}', 177: 'catch', 178: '(', 181: 'InstantiationException', 182: 'e', 183: ')', 185: '{', 187: 'throw', 189: 'new', 190: 'CitrusRuntimeException', 192: '(', 193: 'e', 194: ')', 195: ';', 196: '}', 198: 'catch', 199: '(', 202: 'IllegalAccessException', 203: 'e', 204: ')', 206: '{', 208: 'throw', 210: 'new', 211: 'CitrusRuntimeException', 213: '(', 214: 'e', 215: ')', 216: ';', 217: '}', 218: '}'}
-Computing attention:   0%|          | 0/30 [00:00<?, ?it/s]Computing attention:   3%|▎         | 1/30 [00:01<00:55,  1.92s/it]Computing attention:   7%|▋         | 2/30 [00:03<00:44,  1.59s/it]Computing attention:  10%|█         | 3/30 [00:04<00:42,  1.58s/it]Computing attention:  13%|█▎        | 4/30 [00:06<00:44,  1.70s/it]Computing attention:  17%|█▋        | 5/30 [00:08<00:43,  1.75s/it]Computing attention:  20%|██        | 6/30 [00:10<00:41,  1.73s/it]Computing attention:  23%|██▎       | 7/30 [00:11<00:37,  1.64s/it]Computing attention:  27%|██▋       | 8/30 [00:13<00:33,  1.54s/it]Computing attention:  30%|███       | 9/30 [00:14<00:33,  1.58s/it]Computing attention:  33%|███▎      | 10/30 [00:16<00:31,  1.57s/it]Computing attention:  37%|███▋      | 11/30 [00:17<00:30,  1.60s/it]Computing attention:  40%|████      | 12/30 [00:19<00:28,  1.58s/it]Computing attention:  43%|████▎     | 13/30 [00:20<00:26,  1.55s/it]Computing attention:  47%|████▋     | 14/30 [00:22<00:24,  1.53s/it]Computing attention:  50%|█████     | 15/30 [00:23<00:22,  1.52s/it]Computing attention:  53%|█████▎    | 16/30 [00:25<00:21,  1.53s/it]Computing attention:  57%|█████▋    | 17/30 [00:26<00:19,  1.52s/it]Computing attention:  60%|██████    | 18/30 [00:28<00:18,  1.51s/it]Computing attention:  63%|██████▎   | 19/30 [00:29<00:16,  1.50s/it]Computing attention:  67%|██████▋   | 20/30 [00:31<00:14,  1.50s/it]Computing attention:  70%|███████   | 21/30 [00:32<00:13,  1.51s/it]Computing attention:  73%|███████▎  | 22/30 [00:34<00:11,  1.49s/it]Computing attention:  77%|███████▋  | 23/30 [00:35<00:10,  1.50s/it]Computing attention:  80%|████████  | 24/30 [00:37<00:08,  1.46s/it]Computing attention:  83%|████████▎ | 25/30 [00:38<00:07,  1.46s/it]Computing attention:  87%|████████▋ | 26/30 [00:40<00:05,  1.46s/it]Computing attention:  90%|█████████ | 27/30 [00:41<00:04,  1.46s/it]Computing attention:  93%|█████████▎| 28/30 [00:43<00:02,  1.47s/it]Computing attention:  97%|█████████▋| 29/30 [00:44<00:01,  1.46s/it]Computing attention: 100%|██████████| 30/30 [00:46<00:00,  1.45s/it]Computing attention: 100%|██████████| 30/30 [00:46<00:00,  1.54s/it]
-attention_list shape:  (3000, 1, 12, 256, 256)
-subtokens_list length:  3000
-subtokens 0: 
-['<s>', 'private', 'ĠString', 'Ġbuild', 'Mark', 'up', 'Builder', 'Script', 'Ġ(', 'ĠString', 'Ġscript', 'Data', 'Ġ)', 'Ġ{', 'Ġtry', 'Ġ{', 'ĠClass', 'Loader', 'Ġparent', 'Ġ=', 'ĠGro', 'ovy', 'Script', 'Message', 'Builder', 'Ġ.', 'Ġclass', 'Ġ.', 'Ġget', 'Class', 'Loader', 'Ġ(', 'Ġ)', 'Ġ;', 'ĠGro', 'ovy', 'Class', 'Loader', 'Ġloader', 'Ġ=', 'Ġnew', 'ĠGro', 'ovy', 'Class', 'Loader', 'Ġ(', 'Ġparent', 'Ġ)', 'Ġ;', 'ĠClass', 'Ġ<', 'Ġ?', 'Ġ>', 'Ġgro', 'ovy', 'Class', 'Ġ=', 'Ġloader', 'Ġ.', 'Ġparse', 'Class', 'Ġ(', 'ĠTemplate', 'Based', 'Script', 'Builder', 'Ġ.', 'Ġfrom', 'Template', 'Resource', 'Ġ(', 'Ġscript', 'Template', 'Resource', 'Ġ)', 'Ġ.', 'Ġwith', 'Code', 'Ġ(', 'Ġscript', 'Data', 'Ġ)', 'Ġ.', 'Ġbuild', 'Ġ(', 'Ġ)', 'Ġ)', 'Ġ;', 'Ġif', 'Ġ(', 'Ġgro', 'ovy', 'Class', 'Ġ==', 'Ġnull', 'Ġ)', 'Ġ{', 'Ġthrow', 'Ġnew', 'ĠCit', 'rus', 'Runtime', 'Exception', 'Ġ(', 'Ġ"', 'Could', 'Ġnot', 'Ġload', 'Ġgro', 'ovy', 'Ġscript', '!"', 'Ġ)', 'Ġ;', 'Ġ}', 'ĠGro', 'ovy', 'Object', 'Ġgro', 'ovy', 'Object', 'Ġ=', 'Ġ(', 'ĠGro', 'ovy', 'Object', 'Ġ)', 'Ġgro', 'ovy', 'Class', 'Ġ.', 'Ġnew', 'Instance', 'Ġ(', 'Ġ)', 'Ġ;', 'Ġreturn', 'Ġ(', 'ĠString', 'Ġ)', 'Ġgro', 'ovy', 'Object', 'Ġ.', 'Ġinvoke', 'Method', 'Ġ(', 'Ġ"', 'run', '"', 'Ġ,', 'Ġnew', 'ĠObject', 'Ġ[', 'Ġ]', 'Ġ{', 'Ġ}', 'Ġ)', 'Ġ;', 'Ġ}', 'Ġcatch', 'Ġ(', 'ĠComp', 'ilation', 'F', 'ailed', 'Exception', 'Ġe', 'Ġ)', 'Ġ{', 'Ġthrow', 'Ġnew', 'ĠCit', 'rus', 'Runtime', 'Exception', 'Ġ(', 'Ġe', 'Ġ)', 'Ġ;', 'Ġ}', 'Ġcatch', 'Ġ(', 'ĠInstant', 'iation', 'Exception', 'Ġe', 'Ġ)', 'Ġ{', 'Ġthrow', 'Ġnew', 'ĠCit', 'rus', 'Runtime', 'Exception', 'Ġ(', 'Ġe', 'Ġ)', 'Ġ;', 'Ġ}', 'Ġcatch', 'Ġ(', 'ĠIllegal', 'Access', 'Exception', 'Ġe', 'Ġ)', 'Ġ{', 'Ġthrow', 'Ġnew', 'ĠCit', 'rus', 'Runtime', 'Exception', 'Ġ(', 'Ġe', 'Ġ)', 'Ġ;', 'Ġ}', 'Ġ}', '</s>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>']
-special tokens:  []
-after formatting, subtokens 0:
-['<s>', 'private', 'String', 'build', 'Mark', 'up', 'Builder', 'Script', '(', 'String', 'script', 'Data', ')', '{', 'try', '{', 'Class', 'Loader', 'parent', '=', 'Gro', 'ovy', 'Script', 'Message', 'Builder', '.', 'class', '.', 'get', 'Class', 'Loader', '(', ')', ';', 'Gro', 'ovy', 'Class', 'Loader', 'loader', '=', 'new', 'Gro', 'ovy', 'Class', 'Loader', '(', 'parent', ')', ';', 'Class', '<', '?', '>', 'gro', 'ovy', 'Class', '=', 'loader', '.', 'parse', 'Class', '(', 'Template', 'Based', 'Script', 'Builder', '.', 'from', 'Template', 'Resource', '(', 'script', 'Template', 'Resource', ')', '.', 'with', 'Code', '(', 'script', 'Data', ')', '.', 'build', '(', ')', ')', ';', 'if', '(', 'gro', 'ovy', 'Class', '==', 'null', ')', '{', 'throw', 'new', 'Cit', 'rus', 'Runtime', 'Exception', '(', '"', 'Could', 'not', 'load', 'gro', 'ovy', 'script', '!"', ')', ';', '}', 'Gro', 'ovy', 'Object', 'gro', 'ovy', 'Object', '=', '(', 'Gro', 'ovy', 'Object', ')', 'gro', 'ovy', 'Class', '.', 'new', 'Instance', '(', ')', ';', 'return', '(', 'String', ')', 'gro', 'ovy', 'Object', '.', 'invoke', 'Method', '(', '"', 'run', '"', ',', 'new', 'Object', '[', ']', '{', '}', ')', ';', '}', 'catch', '(', 'Comp', 'ilation', 'F', 'ailed', 'Exception', 'e', ')', '{', 'throw', 'new', 'Cit', 'rus', 'Runtime', 'Exception', '(', 'e', ')', ';', '}', 'catch', '(', 'Instant', 'iation', 'Exception', 'e', ')', '{', 'throw', 'new', 'Cit', 'rus', 'Runtime', 'Exception', '(', 'e', ')', ';', '}', 'catch', '(', 'Illegal', 'Access', 'Exception', 'e', ')', '{', 'throw', 'new', 'Cit', 'rus', 'Runtime', 'Exception', '(', 'e', ')', ';', '}', '}', '</s>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>']
-subtoken_numbers_list length:  3000
-subtoken_numbers_list 0: 
-[0, 0, 0, 0, 0, 0, 0]
+01/15/2022 07:26:25 - WARNING - configs -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, cpu count: 48
+01/15/2022 07:26:25 - INFO - __main__ -   Namespace(adam_epsilon=1e-08, add_lang_ids=False, add_task_prefix=False, always_save_model=True, attention_batch_size=100, batch_size=48, beam_size=10, cache_path='save_models/summarize/java/codebert/cache_data', cpu_count=48, data_dir='/data/pretrain-attention/CodeAttention/data', data_num=-1, device=device(type='cuda'), do_eval=True, do_eval_bleu=True, do_test=True, do_train=True, gpu=0, gradient_accumulation_steps=1, local_rank=-1, lr=5e-05, max_grad_norm=1.0, max_source_length=256, max_target_length=128, model_dir='saved_models', model_name='codebert', n_gpu=1, no_cuda=False, num_train_epochs=15, output_dir='save_models/summarize/java/codebert', patience=2, res_dir='results/summarize/java/codebert', res_fn='results/summarize/java/codebert.txt', save_last_checkpoints=True, seed=1234, start_epoch=0, sub_task='java', summary_dir='tensorboard', task='summarize', warmup_steps=1000, weight_decay=0.0)
