@@ -1,4 +1,4 @@
-# Copyright (c) Microsoft Corporation. 
+# Copyright (c) Microsoft Corporation.
 # Licensed under the MIT license.
 
 from evaluator.CodeBLEU.parser import DFG_python, DFG_java, DFG_ruby, DFG_go, DFG_php, DFG_javascript, DFG_csharp
@@ -102,7 +102,8 @@ def get_data_flow(code, parser):
         if d[1] not in dic:
             dic[d[1]] = d
         else:
-            dic[d[1]] = (d[0], d[1], d[2], list(set(dic[d[1]][3] + d[3])), list(set(dic[d[1]][4] + d[4])))
+            dic[d[1]] = (d[0], d[1], d[2], list(
+                set(dic[d[1]][3] + d[3])), list(set(dic[d[1]][4] + d[4])))
     DFG = []
     for d in dic:
         DFG.append(dic[d])
@@ -144,5 +145,6 @@ def normalize_dataflow(dataflow):
         if var_name not in var_dict:
             var_dict[var_name] = 'var_' + str(i)
             i += 1
-        normalized_dataflow.append((var_dict[var_name], relationship, [var_dict[x] for x in par_vars_name_list]))
+        normalized_dataflow.append((var_dict[var_name], relationship, [
+                                   var_dict[x] for x in par_vars_name_list]))
     return normalized_dataflow
