@@ -1,0 +1,23 @@
+usage: attention.py [-h] --task
+                    {summarize,refine,translate,concode,clone,defect}
+                    [--sub_task SUB_TASK] [--add_lang_ids]
+                    [--model_name {roberta,codebert,graphcodebert,bart,plbart,t5,codet5}]
+                    [--seed SEED] [--local_rank LOCAL_RANK] [--no_cuda]
+                    [--cache_path CACHE_PATH] [--res_dir RES_DIR]
+                    [--res_fn RES_FN] [--model_dir MODEL_DIR]
+                    [--summary_dir SUMMARY_DIR] [--data_num DATA_NUM]
+                    [--gpu GPU] [--data_dir DATA_DIR]
+                    [--output_dir OUTPUT_DIR] [--do_train] [--do_eval]
+                    [--do_test] [--add_task_prefix] [--save_last_checkpoints]
+                    [--always_save_model] [--do_eval_bleu]
+                    [--start_epoch START_EPOCH]
+                    [--num_train_epochs NUM_TRAIN_EPOCHS]
+                    [--patience PATIENCE]
+                    [--gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS]
+                    [--lr LR] [--beam_size BEAM_SIZE]
+                    [--weight_decay WEIGHT_DECAY]
+                    [--adam_epsilon ADAM_EPSILON]
+                    [--max_grad_norm MAX_GRAD_NORM]
+                    [--warmup_steps WARMUP_STEPS] [--batch_size BATCH_SIZE]
+                    [--attention_batch_size ATTENTION_BATCH_SIZE]
+attention.py: error: argument --model_name: invalid choice: 'coderbert' (choose from 'roberta', 'codebert', 'graphcodebert', 'bart', 'plbart', 't5', 'codet5')

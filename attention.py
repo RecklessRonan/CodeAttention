@@ -59,12 +59,12 @@ def get_attention_and_subtoken(args, data, examples, model, tokenizer):
         attention = format_attention(attention, layers=includer_layers[-1])
         attention = attention.detach().cpu().numpy()
         attention_list.append(attention)
-    attention_list = np.concatenate(attention_list, axis=0)
-    print('attention_list shape: ', attention_list.shape)
+    attention_numpy = np.concatenate(attention_list, axis=0)
+    print('attention_numpy shape: ', attention_numpy.shape)
     print('subtokens_list length: ', len(subtokens_list))
     print('subtokens 0: ')
     print(subtokens_list[0])
-    return attention_list, subtokens_list
+    return attention_numpy, subtokens_list
 
 
 def number_subtoken(subtokens_list, tokens_list, tokenizer):
@@ -89,23 +89,55 @@ def number_subtoken(subtokens_list, tokens_list, tokenizer):
         if i == 0:
             print('after formatting, subtokens 0:', )
             print(subtokens)
+        pos = 0
         for j in range(len(subtokens)):
-            pos = 0
-
-            if subtokens[j] in tokenizer.additional_special_tokens:
+            if subtokens[j] in ['<s>', '</s>', '<pad>'] or subtokens[j] in tokenizer.additional_special_tokens:
                 # the special tokens of tokenizer is not involved in AST tree, we use -1 to tag it
                 subtoken_numbers.append(-1)
             else:
-                if subtokens[j] in tokens[pos]:
-                    subtoken_numbers.append(pos)
-                else:
+                if subtokens[j] not in tokens[pos]:
                     pos += 1
+                subtoken_numbers.append(token_numbers[pos])
         subtoken_numbers_list.append(subtoken_numbers)
 
     print('subtoken_numbers_list length: ', len(subtoken_numbers_list))
     print('subtoken_numbers_list 0: ')
     print(subtoken_numbers_list[0])
     return subtoken_numbers_list
+
+
+def get_subtoken_distance(ast_list, subtoken_numbers_list, distance_metric):
+    print('get subtoken distance')
+    assert len(ast_list) == len(subtoken_numbers_list)
+    if distance_metric == 'shortest_path_length':
+        ast_distance_list = [nx.shortest_path_length(ast) for ast in ast_list]
+    elif distance_metric == 'simrank_similarity':
+        ast_distance_list = [nx.simrank_similarity(ast) for ast in ast_list]
+
+    subtoken_num = len(subtoken_numbers_list[0])
+
+    distance_list = []
+    for i in range(len(subtoken_numbers_list)):
+        distance = np.zeros((subtoken_num, subtoken_num))
+        subtoken_numbers = subtoken_numbers_list[i]
+        ast_distance = dict(ast_distance_list[i])
+        for j in range(subtoken_num):
+            if subtoken_numbers[j] in ast_distance.keys():
+                for k in range(subtoken_num):
+                    if subtoken_numbers[k] in ast_distance[subtoken_numbers[j]].keys():
+                        distance[j][k] = ast_distance[subtoken_numbers[j]
+                                                      ][subtoken_numbers[k]]
+        distance_list.append(distance)
+
+    distance_numpy = np.array(distance_list)
+    print('distance_numpy shape: ', distance_numpy.shape)
+    print('distance_numpy 0: ')
+    print(distance_numpy[0])
+    return distance_numpy
+
+
+def compare_attention_and_distance(attention_numpy, distance_numpy):
+    pass
 
 
 def get_ast_and_token(examples, parser, lang):
@@ -191,10 +223,13 @@ def main():
     parser.set_language(language)
 
     ast_list, tokens_list = get_ast_and_token(examples, parser, args.sub_task)
-    attention_list, subtokens_list = get_attention_and_subtoken(
+    attention_numpy, subtokens_list = get_attention_and_subtoken(
         args, data, examples, model, tokenizer)
     subtoken_numbers_list = number_subtoken(
         subtokens_list, tokens_list, tokenizer)
+    distance_numpy = get_subtoken_distance(
+        ast_list, subtoken_numbers_list, distance_metric='shortest_path_length')
+    compare_attention_and_distance(attention_numpy, distance_numpy)
 
 
 if __name__ == "__main__":

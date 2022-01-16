@@ -17,6 +17,17 @@ MODEL_CHECKPOINTS = {'roberta': 'roberta-base',
                      'bart': 'facebook/bart-base',
                      'plbart': 'uclanlp/plbart-base'}
 
+HUGGINGFACE_LOCALS = '/data/huggingface_models/'
+MODEL_LOCALS = {
+    'roberta': HUGGINGFACE_LOCALS + 'roberta-base',
+    'codebert':  HUGGINGFACE_LOCALS + 'codebert-base',
+    'graphcodebert':  HUGGINGFACE_LOCALS + 'graphcodebert-base',
+    't5':  HUGGINGFACE_LOCALS + 't5-base',
+    'codet5':  HUGGINGFACE_LOCALS + 'codet5-base',
+    'bart':  HUGGINGFACE_LOCALS + 'bart-base',
+    'plbart':  HUGGINGFACE_LOCALS + 'plbart-base'
+}
+
 
 def get_model_size(model):
     model_parameters = filter(lambda p: p.requires_grad, model.parameters())
@@ -25,8 +36,8 @@ def get_model_size(model):
 
 
 def bulid_or_load_gen_model(args):
-    checkpoint = MODEL_CHECKPOINTS[args.model_name]
-
+    # checkpoint = MODEL_CHECKPOINTS[args.model_name]
+    checkpoint = MODEL_LOCALS[args.model_name]
     config = AutoConfig.from_pretrained(checkpoint)
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
     if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
