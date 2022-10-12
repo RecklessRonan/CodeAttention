@@ -15,11 +15,15 @@ from tqdm import tqdm
 
 from configs import add_args, set_dist, set_seed, set_hyperparas
 from models import bulid_or_load_gen_model
-from utils import get_filenames, get_elapse_time, load_and_cache_gen_data
+from utils import get_filenames, get_elapse_time, load_and_cache_gen_data, num_layers, format_attention
 from evaluator import smooth_bleu
 from evaluator.CodeBLEU import calc_code_bleu
 from evaluator.bleu import _bleu
+import sys
+import codecs
 
+from tree_sitter import Language, Parser
+from attention import get_ast_and_token
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
@@ -45,7 +49,7 @@ def eval_ppl_epoch(args, eval_data, eval_examples, model, tokenizer):
         target_mask = target_ids.ne(tokenizer.pad_token_id)
 
         with torch.no_grad():
-            if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
+            if args.model_name in ['roberta', 'codebert', 'graphcodebert','unixcoder']:
                 loss, _, _, _ = model(source_ids=source_ids, source_mask=source_mask,
                                       target_ids=target_ids, target_mask=target_mask)
             else:
@@ -80,7 +84,7 @@ def eval_bleu_epoch(args, eval_data, eval_examples, model, tokenizer, split_tag,
         source_ids = batch[0].to(args.device)
         source_mask = source_ids.ne(tokenizer.pad_token_id)
         with torch.no_grad():
-            if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
+            if args.model_name in ['roberta', 'codebert', 'graphcodebert','unixcoder']:
                 preds, _ = model(source_ids=source_ids,
                                  source_mask=source_mask)
 
@@ -108,7 +112,7 @@ def eval_bleu_epoch(args, eval_data, eval_examples, model, tokenizer, split_tag,
         eval_acc = np.mean([int(p == g) for p, g in zip(pred_nls, golds)])
         result = {'em': eval_acc, 'bleu': 0, 'codebleu': 0}
 
-        with open(output_fn, 'w') as f, open(gold_fn, 'w') as f1, open(src_fn, 'w') as f2:
+        with open(output_fn, 'w',encoding='utf-8') as f, open(gold_fn, 'w',encoding='utf-8') as f1, open(src_fn, 'w',encoding='utf-8') as f2:
             for pred_nl, gold in zip(pred_nls, eval_examples):
                 f.write(pred_nl.strip() + '\n')
                 f1.write(target_dict[gold.target] + '\n')
@@ -116,7 +120,7 @@ def eval_bleu_epoch(args, eval_data, eval_examples, model, tokenizer, split_tag,
             logger.info("Save the predictions into %s", output_fn)
     else:
         dev_accs, predictions = [], []
-        with open(output_fn, 'w') as f, open(gold_fn, 'w') as f1, open(src_fn, 'w') as f2:
+        with open(output_fn, 'w',encoding='utf-8') as f, open(gold_fn, 'w',encoding='utf-8') as f1, open(src_fn, 'w',encoding='utf-8') as f2:
             for pred_nl, gold in zip(pred_nls, eval_examples):
                 dev_accs.append(pred_nl.strip() == gold.target.strip())
                 if args.task in ['summarize']:
@@ -133,7 +137,6 @@ def eval_bleu_epoch(args, eval_data, eval_examples, model, tokenizer, split_tag,
                         'utf8').decode() + '\n')
                     f2.write(gold.source.strip().encode(
                         'utf8').decode() + '\n')
-
         if args.task in ['summarize']:
             (goldMap, predictionMap) = smooth_bleu.computeMaps(predictions, gold_fn)
             bleu = round(smooth_bleu.bleuFromMaps(
@@ -169,7 +172,22 @@ def main():
     set_hyperparas(args)
 
     logger.info(args)
+#     Language.build_library(
+#         'build/my-language.so',
+#         [
+#             '/data/code/tree-sitter/tree-sitter-ruby',
+#             '/data/code/tree-sitter/tree-sitter-javascript',
+#             '/data/code/tree-sitter/tree-sitter-go',
+#             '/data/code/tree-sitter/tree-sitter-python',
+#             '/data/code/tree-sitter/tree-sitter-java',
+#             '/data/code/tree-sitter/tree-sitter-php',
+#         ]
+#     )
+#     language = Language('build/my-language.so', args.sub_task)
+#     parser = Parser()
+#     parser.set_language(language)
 
+    
     if args.task in ['summarize', 'translate']:
         config, model, tokenizer = bulid_or_load_gen_model(args)
 
@@ -179,7 +197,7 @@ def main():
     pool = multiprocessing.Pool(args.cpu_count)
     args.train_filename, args.dev_filename, args.test_filename = get_filenames(
         args.data_dir, args.task, args.sub_task)
-    fa = open(os.path.join(args.output_dir, 'summary.log'), 'a+')
+    fa = open(os.path.join(args.output_dir, 'summary.log'), 'a+',encoding='utf-8')
 
     if args.do_train:
         if args.local_rank in [-1, 0] and args.data_num == -1:
@@ -190,6 +208,13 @@ def main():
         # Prepare training data loader
         train_examples, train_data = load_and_cache_gen_data(
             args, args.train_filename, pool, tokenizer, 'train')
+        print("check whether sys.stdout is utf8:")
+        print(sys.stdout)
+        #ast_list, sast_list, tokens_list, tokens_type_list = get_ast_and_token(args, train_examples, parser, args.sub_task)
+        print("try utf-8 print \u2581:")
+        print(u'\u2581')
+        print("try utf-8 print \u2714:")
+        print(u'\u2714')
         train_sampler = RandomSampler(
             train_data) if args.local_rank == -1 else DistributedSampler(train_data)
         train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=args.batch_size,
@@ -235,14 +260,21 @@ def main():
                 source_mask = source_ids.ne(tokenizer.pad_token_id)
                 target_mask = target_ids.ne(tokenizer.pad_token_id)
 
-                if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
+                if args.model_name in ['roberta', 'codebert', 'graphcodebert','unixcoder']:
+#                     loss, _, _, attention = model(source_ids=source_ids, source_mask=source_mask,
+#                                           target_ids=target_ids, target_mask=target_mask)
                     loss, _, _, _ = model(source_ids=source_ids, source_mask=source_mask,
                                           target_ids=target_ids, target_mask=target_mask)
                 else:
                     outputs = model(input_ids=source_ids, attention_mask=source_mask,
                                     labels=target_ids, decoder_attention_mask=target_mask)
+                    #attention =outputs.encoder_attentions
                     loss = outputs.loss
-
+                #includer_layers = list(range(num_layers(attention)))
+                #attention = format_attention(attention, layers=includer_layers[-1])
+                #distance
+                loss += 0
+                
                 if args.n_gpu > 1:
                     loss = loss.mean()  # mean() to average on multi-gpu.
                 if args.gradient_accumulation_steps > 1:
@@ -407,7 +439,7 @@ def main():
             logger.info(result_str)
             fa.write(result_str)
             if args.res_fn:
-                with open(args.res_fn, 'a+') as f:
+                with open(args.res_fn, 'a+',encoding='utf-8') as f:
                     f.write('[Time: {}] {}\n'.format(
                         get_elapse_time(t0), file))
                     f.write(result_str)

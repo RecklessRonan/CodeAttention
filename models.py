@@ -6,7 +6,9 @@ import numpy as np
 from transformers import AutoTokenizer, AutoModel, AutoConfig, T5ForConditionalGeneration, BartForConditionalGeneration
 
 import logging
-
+import sys
+#import codecs
+#sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
 logger = logging.getLogger(__name__)
 
 MODEL_CHECKPOINTS = {'roberta': 'roberta-base',
@@ -15,7 +17,8 @@ MODEL_CHECKPOINTS = {'roberta': 'roberta-base',
                      't5': 't5-base',
                      'codet5': 'Salesforce/codet5-base',
                      'bart': 'facebook/bart-base',
-                     'plbart': 'uclanlp/plbart-base'}
+                     'plbart': 'uclanlp/plbart-base',
+                     'unixcoder':'microsoft/unixcoder-base'}
 
 HUGGINGFACE_LOCALS = '/data/huggingface_models/'
 MODEL_LOCALS = {
@@ -25,7 +28,8 @@ MODEL_LOCALS = {
     't5':  HUGGINGFACE_LOCALS + 't5-base',
     'codet5':  HUGGINGFACE_LOCALS + 'codet5-base',
     'bart':  HUGGINGFACE_LOCALS + 'bart-base',
-    'plbart':  HUGGINGFACE_LOCALS + 'plbart-base'
+    'plbart':  HUGGINGFACE_LOCALS + 'plbart-base',
+    'unixcoder':HUGGINGFACE_LOCALS + 'unixcoder-base'
 }
 
 
@@ -40,7 +44,7 @@ def bulid_or_load_gen_model(args):
     checkpoint = MODEL_LOCALS[args.model_name]
     config = AutoConfig.from_pretrained(checkpoint)
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
-    if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
+    if args.model_name in ['roberta', 'codebert', 'graphcodebert','unixcoder']:
         encoder = AutoModel.from_pretrained(checkpoint, output_attentions=True)
         decoder_layer = nn.TransformerDecoderLayer(
             d_model=config.hidden_size, nhead=config.num_attention_heads)

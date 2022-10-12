@@ -640,7 +640,7 @@ def remove_comments_and_docstrings(source, lang):
 # depth-first traverse
 def traverse(cursor, G, came_up, node_tag, node_sum, parent_dict):
     '''
-        cursor: the pointer of tree-sitter
+        cursor: the pointer of tree-sitter. An AST cursor is an object that is used to traverse an AST one node at a time
         G: the graph stored in the format of networkx
         came_up: used to denote whether the node is the first glance
         node_tag: the tag of this node
@@ -678,7 +678,7 @@ def traverse(cursor, G, came_up, node_tag, node_sum, parent_dict):
 
 
 def get_ast_nx(example, parser, lang):
-    new_code = remove_comments_and_docstrings(example.raw_code, lang)
+    new_code = example.raw_code#remove_comments_and_docstrings(example.raw_code, lang)
     tree = parser.parse(bytes(new_code, 'utf-8'))
     G = nx.Graph()
     cursor = tree.walk()
@@ -686,7 +686,7 @@ def get_ast_nx(example, parser, lang):
     return Example(
         idx=example.idx,
         source=new_code,
-        target=example.target,
+        target=example.target,#code comment like: disconnect all sources and cancel all throttled functions
         ast=G
     )
 
@@ -737,7 +737,7 @@ def num_heads(attention):
 
 
 def format_special_chars(tokens):
-    return [t.replace('Ġ', '') for t in tokens]
+    return [t.replace('Ġ', '') for t in tokens]#.replace(u"\u2581", u" ")
 
 
 def index_to_code_token(index, code):
@@ -753,3 +753,29 @@ def index_to_code_token(index, code):
             s += code[i]
         s += code[end_point[0]][:end_point[1]]
     return s
+
+def is_frequent_type(token, lang):
+    #get frequent type from model_free_frequent_type.ipynb
+    frequent_type = {}
+    frequent_type['javascript'] = ['function',
+                                   ')', 'string_fragment', 'identifier', '(', ';', '{', '}']
+    frequent_type['go'] = ['package_identifier',
+                           'type_identifier', 'field_identifier', 'if', 'return', '=']
+    frequent_type['java'] = [')', 'public', 'string_literal',
+                             'identifier', '}', 'return', 'type_identifier', 'if']
+    frequent_type['python'] = [')', 'def', 'return',
+                               'identifier', 'if', 'for', ':', ']']
+    if lang in frequent_type:
+        return token in frequent_type[lang]
+    else:
+        return True  # if lang is not provided by frequent_type, assume all token types are frequent
+
+def top_n_scores(n, score_dict):
+    ''' returns keys which match the top n scores of values from a name:score dict'''
+    lot = [(k, v)
+           for k, v in score_dict.items()]  # make list of tuple from scores dict
+    nl = []
+    while len(lot) > 0:
+        nl.append(max(lot, key=lambda x: x[1]))
+        lot.remove(nl[-1])
+    return [i[0] for i in nl[0:n]]
