@@ -2,7 +2,7 @@
 
 ## Updates
 
-- 2022/10/06: Release the paper of CAT-probing, check out our [paper](https://arxiv.org/abs/xxxx.yyyy). 👏
+- 2022/10/06: Release the paper of CAT-probing, check out our [paper](https://arxiv.org/abs/2210.04633). 👏
 - 2022/10/06: CAT-probing is accepted by **Findings of EMNLP 2022** 🎉
 
 ## Introduction
