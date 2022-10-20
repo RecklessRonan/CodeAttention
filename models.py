@@ -20,7 +20,7 @@ MODEL_CHECKPOINTS = {'roberta': 'roberta-base',
                      'plbart': 'uclanlp/plbart-base',
                      'unixcoder':'microsoft/unixcoder-base'}
 
-HUGGINGFACE_LOCALS = '/data/huggingface_models/'
+HUGGINGFACE_LOCALS = 'huggingface_models/'
 MODEL_LOCALS = {
     'roberta': HUGGINGFACE_LOCALS + 'roberta-base',
     'codebert':  HUGGINGFACE_LOCALS + 'codebert-base',

@@ -1,4 +1,4 @@
-WORKDIR="/data/pretrain-attention/CodeAttention"
+WORKDIR="/data/test_git/CodeAttention"
 export PYTHONPATH=$WORKDIR
 
 

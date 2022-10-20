@@ -172,20 +172,7 @@ def main():
     set_hyperparas(args)
 
     logger.info(args)
-#     Language.build_library(
-#         'build/my-language.so',
-#         [
-#             '/data/code/tree-sitter/tree-sitter-ruby',
-#             '/data/code/tree-sitter/tree-sitter-javascript',
-#             '/data/code/tree-sitter/tree-sitter-go',
-#             '/data/code/tree-sitter/tree-sitter-python',
-#             '/data/code/tree-sitter/tree-sitter-java',
-#             '/data/code/tree-sitter/tree-sitter-php',
-#         ]
-#     )
-#     language = Language('build/my-language.so', args.sub_task)
-#     parser = Parser()
-#     parser.set_language(language)
+
 
     
     if args.task in ['summarize', 'translate']:

@@ -473,17 +473,15 @@ def main():
         args, args.train_filename, pool, tokenizer, 'attention', is_sample=True, is_attention=True)
 
     Language.build_library(
-        'build/my-language.so',
+        'build/my-languages.so',
         [
-            '/data/code/tree-sitter/tree-sitter-ruby',
-            '/data/code/tree-sitter/tree-sitter-javascript',
-            '/data/code/tree-sitter/tree-sitter-go',
-            '/data/code/tree-sitter/tree-sitter-python',
-            '/data/code/tree-sitter/tree-sitter-java',
-            '/data/code/tree-sitter/tree-sitter-php',
+            'evaluator/CodeBLEU/parser/tree-sitter-javascript',
+            'evaluator/CodeBLEU/parser/tree-sitter-go',
+            'evaluator/CodeBLEU/parser/tree-sitter-python',
+            'evaluator/CodeBLEU/parser/tree-sitter-java',
         ]
     )
-    language = Language('build/my-language.so', args.sub_task)
+    language = Language('build/my-languages.so', args.sub_task)
     parser = Parser()
     parser.set_language(language)
 
