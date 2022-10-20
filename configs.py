@@ -118,13 +118,13 @@ def set_hyperparas(args):
         args.lr = 5e-5
         args.max_source_length = 256
         args.max_target_length = 128
-        args.num_train_epochs = 1
+        args.num_train_epochs = 15
         args.patience = 2
         args.weight_decay = 0.0
         args.warmup_steps = 1000
 
         if args.model_name in ['roberta', 'codebert', 'graphcodebert','unixcoder']:
-            args.batch_size = 1
+            args.batch_size = 48
         elif args.model_name in ['t5', 'codet5']:
             args.batch_size = 32
         elif args.model_name in ['bart', 'plbart']:
