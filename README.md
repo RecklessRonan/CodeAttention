@@ -37,7 +37,7 @@ Direct WORKDIR in run.sh and run_att.sh to your path.
 
 ## Using CAT-probing
 
-### Train
+### Finetune
 
 ```bash
 export MODEL_NAME=
