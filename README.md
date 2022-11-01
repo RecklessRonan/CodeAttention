@@ -1,5 +1,7 @@
 # CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure
 
+![License](https://img.shields.io/badge/License-MIT-blue)![Build](https://img.shields.io/badge/Build-Passing-green)
+
 ## Updates
 
 - 2022/10/12: Our code is available. 😋
