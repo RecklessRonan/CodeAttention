@@ -26,12 +26,22 @@ bash build.sh
 cd ../../../
 cp evaluator/CodeBLEU/parser/my-languages.so build/
 #make sure git-lfs installed like 'apt-get install git-lfs'
+apt-get install git-lfs
 bash get_models.sh
 ```
 
 ### Preparing data
 
-The dataset we use comes from [CodeSearchNet](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text) and you can download from [Google Drive](https://drive.google.com/drive/folders/1acPGFpw8uJMCdAj7iXkd-_Vq0LjNkaW3?usp=sharing), and add data to `CodeAttention/data`.
+The dataset we use comes from [CodeSearchNet](https://github.com/microsoft/CodeXGLUE/tree/main/Code-Text/code-to-text) .
+
+```shell
+mkdir data
+cd data
+pip install gdown
+gdown https://drive.google.com/uc?export=download&id=1t8GncfPknpumOKbgUXux-EkuYnOZ6EfW
+unzip data.zip
+rm data.zip
+```
 
 ### Preparing local path
 
