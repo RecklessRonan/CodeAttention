@@ -4,15 +4,16 @@
 
 ## Updates
 
+- 2022/12/10: Please check our [slides](https://drive.google.com/file/d/1Nb1QdwqFcmQuObRtSLZ-j3wNvp5qD89W/view?usp=share_link). 🐈
 - 2022/10/12: Our code is available. 😋
-- 2022/10/06: Release the paper of CAT-probing, check out our [paper](https://arxiv.org/abs/2210.04633). 👏
+- 2022/10/06: Release the paper of CAT-probing, check out our [paper](https://preview.aclanthology.org/emnlp-22-ingestion/2022.findings-emnlp.295/). 👏
 - 2022/10/06: CAT-probing is accepted by **Findings of EMNLP 2022** 🎉
 
 ## Introduction
 
 We proposed a metric-based probing method, namely, CAT-probing, to quantitatively evaluate how CodePTMs Attention scores relate to distances between AST nodes.
 
-More details are provided in our EMNLP'22 paper and [our paper on arXiv](https://arxiv.org/abs/2210.04633).
+More details are provided in our EMNLP'22 paper and [our paper](https://preview.aclanthology.org/emnlp-22-ingestion/2022.findings-emnlp.295/).
 
 ## Environment & Preparing
 
