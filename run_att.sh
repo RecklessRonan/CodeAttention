@@ -5,6 +5,7 @@ export PYTHONPATH=$WORKDIR
 MODEL_NAME=${1}
 TASK=${2}
 SUB_TASK=${3}
+LAYER_NUM=${4}
 
 DATA_NUM=-1
 MODEL_DIR=save_models
@@ -23,15 +24,19 @@ else
   ATTENTION_DIR=attentions/${TASK}/${SUB_TASK}/${FULL_MODEL_TAG}
 fi
 
+if [[ ${LAYER_NUM} == none ]]; then
+  LAYER_NUM=-1
+fi
+
 CACHE_DIR=${OUTPUT_DIR}/cache_data
 mkdir -p ${OUTPUT_DIR}
 mkdir -p ${CACHE_DIR}
 mkdir -p ${RES_DIR}
 mkdir -p ${ATTENTION_DIR}
-LOG=${ATTENTION_DIR}/log.txt
+LOG=${ATTENTION_DIR}/log_only_identifier.txt
 
 
-RUN_FN=${WORKDIR}/attention.py
+RUN_FN=${WORKDIR}/attention_220620.py
 
 CUDA_VISIBLE_DEVICES=0 \
 TOKENIZERS_PARALLELISM=false \
@@ -39,5 +44,5 @@ TOKENIZERS_PARALLELISM=false \
   --do_test --do_train --do_eval --do_eval_bleu --save_last_checkpoints --always_save_model \
   --task ${TASK} --sub_task ${SUB_TASK} --model_name ${MODEL_NAME} --data_num ${DATA_NUM}  \
   --output_dir ${OUTPUT_DIR}  --summary_dir ${SUMMARY_DIR} \
-  --data_dir ${WORKDIR}/data  --cache_path ${CACHE_DIR} --res_dir ${RES_DIR} --res_fn ${RES_FN} \
+  --data_dir ${WORKDIR}/data  --cache_path ${CACHE_DIR} --res_dir ${RES_DIR} --res_fn ${RES_FN} --layer_num ${LAYER_NUM}\
   2>&1 | tee ${LOG}

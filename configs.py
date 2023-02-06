@@ -14,7 +14,7 @@ def add_args(parser):
     parser.add_argument("--add_lang_ids", action='store_true')
     # plbart unfinished
     parser.add_argument("--model_name", default="roberta",
-                        type=str, choices=['roberta', 'codebert', 'graphcodebert', 'bart', 'plbart', 't5', 'codet5'])
+                        type=str, choices=['roberta', 'codebert', 'graphcodebert', 'bart', 'plbart', 't5', 'codet5','unixcoder'])
     parser.add_argument('--seed', type=int, default=1234,
                         help="random seed for initialization")  # previous one 42
     parser.add_argument("--local_rank", type=int, default=-1,
@@ -69,6 +69,15 @@ def add_args(parser):
                         help="Batch size per GPU/CPU for training.")
     parser.add_argument("--attention_batch_size", default=100, type=int,
                         help="Batch size per GPU/CPU for computing attention.")
+    parser.add_argument('--layer_num', type=int, default=-1,
+                    help="layer which attention is concerned, -1 for last layer, else for all 0-11 layers")
+    parser.add_argument('--quantile_threshold', type=float, default=0.75,
+                    help="threshold of quantile which we concern attention should be gt and distance should be lt")
+    parser.add_argument('--frequent_type',  default=1, type=int, choices=[0,1],
+                    help="whether only use frequent_type")
+    parser.add_argument('--upgraded_ast',  default=1, type=int, choices=[0,1],
+                    help="whether to use upgraded ast")
+    
     args = parser.parse_args()
     return args
 
@@ -114,7 +123,7 @@ def set_hyperparas(args):
         args.weight_decay = 0.0
         args.warmup_steps = 1000
 
-        if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
+        if args.model_name in ['roberta', 'codebert', 'graphcodebert','unixcoder']:
             args.batch_size = 48
         elif args.model_name in ['t5', 'codet5']:
             args.batch_size = 32

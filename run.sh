@@ -1,10 +1,13 @@
-WORKDIR="/data/pretrain-attention/CodeAttention"
+WORKDIR="/data/test_git/CodeAttention"
 export PYTHONPATH=$WORKDIR
 
 
 MODEL_NAME=${1}
+#codebert
 TASK=${2}
+#summarize
 SUB_TASK=${3}
+#python
 
 DATA_NUM=-1
 MODEL_DIR=save_models
