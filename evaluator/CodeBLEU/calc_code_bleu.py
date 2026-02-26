@@ -3,6 +3,7 @@
 
 # -*- coding:utf-8 -*-
 import argparse
+import os
 from evaluator.CodeBLEU import bleu, weighted_ngram_match, syntax_match, dataflow_match
 # import evaluator.CodeBLEU.weighted_ngram_match
 # import evaluator.CodeBLEU.syntax_match
@@ -27,7 +28,7 @@ def get_codebleu(refs, hyp, lang, params='0.25,0.25,0.25,0.25'):
         for j in range(len(pre_references)):
             ref_for_instance.append(pre_references[j][i])
         references.append(ref_for_instance)
-    assert len(references) == len(pre_references) * len(hypothesis)
+    assert len(references) == len(hypothesis)
 
     # calculate ngram match (BLEU)
     tokenized_hyps = [x.split() for x in hypothesis]
@@ -36,7 +37,8 @@ def get_codebleu(refs, hyp, lang, params='0.25,0.25,0.25,0.25'):
     ngram_match_score = bleu.corpus_bleu(tokenized_refs, tokenized_hyps)
 
     # calculate weighted ngram match
-    keywords = [x.strip() for x in open('/export/share/wang.y/workspace/CodeT5Full/finetune/evaluator/CodeBLEU/keywords/' + lang + '.txt', 'r', encoding='utf-8').readlines()]
+    keyword_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'keywords')
+    keywords = [x.strip() for x in open(os.path.join(keyword_dir, lang + '.txt'), 'r', encoding='utf-8').readlines()]
 
     def make_weights(reference_tokens, key_word_list):
         return {token: 1 if token in key_word_list else 0.2 for token in reference_tokens}

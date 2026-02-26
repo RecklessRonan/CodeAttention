@@ -102,17 +102,18 @@ def set_seed(args):
 
 
 def set_hyperparas(args):
+    args.adam_epsilon = 1e-8
+    args.beam_size = 10
+    args.gradient_accumulation_steps = 1
+    args.lr = 5e-5
+    args.weight_decay = 0.0
+    args.warmup_steps = 1000
+
     if args.task == 'summarize':
-        args.adam_epsilon = 1e-8
-        args.beam_size = 10
-        args.gradient_accumulation_steps = 1
-        args.lr = 5e-5
         args.max_source_length = 256
         args.max_target_length = 128
         args.num_train_epochs = 15
         args.patience = 2
-        args.weight_decay = 0.0
-        args.warmup_steps = 1000
 
         if args.model_name in ['roberta', 'codebert', 'graphcodebert']:
             args.batch_size = 48
@@ -120,3 +121,32 @@ def set_hyperparas(args):
             args.batch_size = 32
         elif args.model_name in ['bart', 'plbart']:
             args.batch_size = 48
+    elif args.task == 'translate':
+        args.max_source_length = 320
+        args.max_target_length = 256
+        args.num_train_epochs = 100
+        args.patience = 5
+    elif args.task == 'refine':
+        if args.sub_task == 'small':
+            args.max_source_length = 130
+            args.max_target_length = 120
+        else:
+            args.max_source_length = 240
+            args.max_target_length = 240
+        args.num_train_epochs = 50
+        args.patience = 5
+    elif args.task == 'concode':
+        args.max_source_length = 320
+        args.max_target_length = 150
+        args.num_train_epochs = 30
+        args.patience = 5
+    elif args.task == 'defect':
+        args.max_source_length = 512
+        args.max_target_length = 3
+        args.num_train_epochs = 10
+        args.patience = 5
+    elif args.task == 'clone':
+        args.max_source_length = 400
+        args.max_target_length = 400
+        args.num_train_epochs = 2
+        args.patience = 5

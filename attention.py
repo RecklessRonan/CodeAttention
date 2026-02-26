@@ -191,8 +191,7 @@ def main():
 
     logger.info(args)
 
-    if args.task in ['summarize', 'translate']:
-        config, model, tokenizer = bulid_or_load_gen_model(args)
+    config, model, tokenizer = bulid_or_load_gen_model(args)
 
     model_dict = os.path.join(
         args.output_dir, 'checkpoint-best-ppl/pytorch_model.bin')

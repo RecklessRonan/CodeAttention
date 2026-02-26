@@ -440,7 +440,7 @@ def load_and_cache_multi_gen_data(args, split_tag, pool, tokenizer, encode_targe
 
 def load_and_cache_clone_data(args, filename, pool, tokenizer, split_tag, is_sample=False):
     cache_fn = '{}/{}.pt'.format(args.cache_path, split_tag +
-                                 '_all' if args.data_num == -1 else '_%d' % args.data_num)
+                                 ('_all' if args.data_num == -1 else '_%d' % args.data_num))
     examples = read_examples(filename, args.data_num, args.task)
     if is_sample:
         examples = random.sample(examples, int(len(examples) * 0.1))
