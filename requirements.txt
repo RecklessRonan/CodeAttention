@@ -1,0 +1,7 @@
+torch
+transformers>=4.20,<4.40
+numpy
+tqdm
+networkx
+tree-sitter==0.20.4
+tensorboard
